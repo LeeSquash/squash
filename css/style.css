@@ -1,0 +1,46 @@
+body {
+margin:0;
+font-family: Arial, sans-serif;
+}
+
+.sidebar {
+position: fixed;
+left: 0;
+top: 0;
+width: 220px;
+height: 100%;
+background-color: #2c3e50;
+padding-top: 20px;
+}
+
+.sidebar a {
+display: block;
+color: white;
+padding: 12px;
+text-decoration: none;
+}
+
+.sidebar a:hover {
+background-color: #34495e;
+}
+
+.content {
+margin-left: 220px;
+padding: 20px;
+}
+
+/* Styling to make the 10+ pages easy to view and scroll through */
+.sheet-container {
+    margin-top: 20px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    overflow: hidden; 
+}
+
+.sheet-container iframe {
+    width: 100%;
+    height: 700px; /* Gives plenty of vertical space to view the 10+ years of tabs */
+    border: none;
+    display: block;
