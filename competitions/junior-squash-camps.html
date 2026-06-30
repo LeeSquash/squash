@@ -1,2 +1,38 @@
-<h1>Page name</h1>
-<p>Information coming soon.</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Junior Squash Camps</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Empty container where your shared sidebar will load -->
+     <div class="sidebar"></div>
+
+    <div class="content">
+        <!-- Changed headings to reflect the Junior Handicap -->
+        <h1>Junior Squash Camps</h1>
+       <p>Information coming soon.</p>
+
+        
+    </div>
+<!-- Clean, simple sidebar fetcher -->
+    <script>
+        fetch('/components/sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.innerHTML = data;
+                
+                // Finds the hidden script inside your sidebar file and turns it on
+                const scripts = sidebar.getElementsByTagName('script');
+                for (let i = 0; i < scripts.length; i++) {
+                    eval(scripts[i].innerText);
+                }
+            });
+    </script>
+</body>
+</html>
+

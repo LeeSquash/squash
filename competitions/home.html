@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Squash Results - Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Empty container where your shared sidebar will load -->
+    <div class="sidebar"></div>
+
+    <div class="content">
+        <!-- Hero Welcome -->
+        <header class="intro-header">
+            <h1>Welcome to Lee Squash! 🏸</h1>
+
+            <p class="subtitle">Your central hub for competition stats, standings, and player progress.</p>
+        </header>
+
+        <!-- Main Message -->
+        <section class="intro-body">
+            <p>Whether you are checking your current standing in the leagues, scouting your next opponent, or just keeping an eye on the club's top performers, you are in the right place.</p>
+            
+            <p>This site is built to keep our competition tracking completely transparent and up to date, drawing live data straight from our league sheets.</p>
+        </section>
+
+        <!-- How-To Guide -->
+        <section class="intro-guide">
+            <h2>How to find your stats:</h2>
+            <ul>
+                <li><strong>Explore Competitions:</strong> Use the left-hand menu to jump into any of our active or past tournaments.</li>
+                <li><strong>Track Your Progress:</strong> Inside each competition page, you will find live leaderboards, recent match results, and player form guides.</li>
+                <li><strong>Stay Updated:</strong> The data refreshes automatically, so make sure to bookmark this page and check back after every match night!</li>
+            </ul>
+        </section>
+
+        <!-- Friendly Close -->
+        <footer class="intro-footer">
+            <p>Good luck with your matches, play hard, and let's see who tops the ladder this season!</p>
+        </footer>
+    </div>
+
+ <!-- Universal Script: Bypasses IDs to guarantee connection -->
+    <script>
+        fetch('/components/sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.innerHTML = data;
+                
+                // Highlight the active page link safely
+                const pageName = window.location.pathname.split('/').pop();
+                if (pageName) {
+                    const currentLink = sidebar.querySelector(`a[href*="${pageName}"]`);
+                    if (currentLink) {
+                        currentLink.classList.add('active');
+                    }
+                }
+            });
+
+        // Universal Listener: Looks for ANY button element clicked inside the sidebar container
+        document.addEventListener('click', function(event) {
+            // Checks if you clicked a button inside the sidebar, ignoring the ID name completely
+            const isSidebarButton = event.target.closest('.sidebar button');
+            
+            if (isSidebarButton) {
+                document.body.classList.toggle('sidebar-collapsed');
+            }
+        });
+    </script>
+
+</body>
+</html>
