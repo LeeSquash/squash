@@ -7,23 +7,25 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Soft, premium athletic light-grey background */
     background-color: #f4f6f9; 
     color: #1e293b;
     display: flex;
+    transition: all 0.3s ease; /* Adds a smooth sliding animation when collapsing */
 }
 
 /* 2. Professional Sidebar Navigation */
 .sidebar {
     width: 280px;
     height: 100vh;
-    background-color: #0f172a; /* Deep charcoal/navy executive look */
+    background-color: #0f172a; 
     padding: 30px 20px;
     position: fixed;
     top: 0;
     left: 0;
     overflow-y: auto;
     box-shadow: 4px 0 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease; /* Smooth slide for the menu itself */
+    z-index: 1000;
 }
 
 /* Sidebar Links */
@@ -51,26 +53,132 @@ body {
     color: #ffffff;
 }
 
-/* 3. Main Content Container Layout */
+
+
+/* 3. Main Content Container Layout & Home Page Styling */
 .content {
-    margin-left: 280px; /* Pushes content exactly past the fixed sidebar */
-    padding: 40px;
+    margin-left: 280px;      
+    padding: 50px 40px;      
     width: calc(100% - 280px);
+    max-width: 1050px;       
+    transition: all 0.3s ease; /* Smoothly widens your content/iframes */
 }
 
+/* Home Page Specific Container Constraints */
+.intro-body,
+.intro-guide,
+.intro-footer {
+    max-width: 720px;        /* Limits the welcome text width to a comfortable reading size */
+    margin-bottom: 50px;     /* Forces deep, intentional gaps between sections */
+}
+
+/* Standalone block for your header to center the text */
+.intro-header {
+    max-width: 720px;
+    margin-bottom: 50px;
+    text-align: center;      /* This centers the main title and the subtitle */
+}
+
+.intro-footer {
+    margin-bottom: 0;        /* Reset last item margin */
+}
+
+/* Spacing fix for paragraphs inside the intro-body container */
+.intro-body p {
+    margin-bottom: 24px;     /* Adds a clean, wide gap between the two welcome paragraphs */
+}
+
+.intro-body p:last-child {
+    margin-bottom: 0;        /* Prevents extra unnecessary spacing at the end of the section */
+}
+
+/* Headings & Visual Pop */
 .content h1 {
-    font-size: 2.2rem;
-    color: #0f172a;
-    margin-bottom: 8px;
+    font-size: 2.6rem;
+    color: #0f172a;          /* Matches your deep charcoal brand colour */
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
-.content p {
-    color: #64748b;
-    font-size: 1rem;
-    margin-bottom: 30px;
-    line-height: 1.5;
+.content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 6px;
 }
+
+/* Subtle accent line under the "How to find your stats" heading */
+.content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45px;
+    height: 3px;
+    background-color: #3b82f6; /* Matches your active sidebar sports blue */
+    border-radius: 2px;
+}
+
+/* Text & Subtitle Paragraphs */
+.content p {
+    color: #64748b;          /* Professional slate grey */
+    font-size: 1.05rem;
+    line-height: 1.7;        /* Adds breathing room between lines of text */
+}
+
+/* Fixed rule: Premium dark slate blue subtitle color */
+.content .subtitle {
+    font-size: 1.25rem;
+    font-style: italic;      
+    color: #1e3a8a;          /* Elegant dark navy that complements the layout without copying the active blue */
+}
+
+/* List Styling & Key Terms Highlighting */
+.intro-guide ul {
+    list-style-type: none;   /* Removes generic, boring bullets */
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.intro-guide li {
+    color: #64748b;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    position: relative;
+    padding-left: 24px;      /* Leaves room for custom bullet icons */
+    margin-bottom: 18px;     /* Spacious gaps between list items */
+}
+
+/* Custom sleek dot indicator for lists */
+.intro-guide li::before {
+    content: "•";
+    color: #3b82f6;          /* Matches your active sidebar sports blue */
+    font-size: 1.5rem;
+    position: absolute;
+    left: 4px;
+    top: -3px;
+}
+
+/* Highlights the critical navigation anchors in the text */
+.intro-guide li strong {
+    color: #1d4ed8;          /* Deepens key terms for rapid scanning */
+    font-weight: 600;
+    background-color: #eff6ff; /* Soft pastel blue highlight background */
+    padding: 2px 6px;
+    border-radius: 4px;      /* Rounded highlight sticker effect */
+}
+
+/* Friendly Closing Note */
+.intro-footer p {
+    font-style: italic;
+    border-left: 3px solid #e2e8f0; /* Simple left border separator */
+    padding-left: 15px;
+}
+
+
+
 
 /* 4. Google Sheets Container Frame */
 .sheet-container {
@@ -87,4 +195,50 @@ body {
     height: 750px; /* Tall height so your 10+ tabs are instantly accessible */
     border: none;
     display: block;
+}
+
+
+
+/* --- Collapsible Sidebar States --- */
+
+/* Style for the toggle button at the top of the menu */
+#toggle-sidebar-btn {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    display: block;
+    transition: color 0.2s ease;
+}
+
+#toggle-sidebar-btn:hover {
+    color: #ffffff;
+}
+
+/* FIX: Shrink the sidebar down to 60px wide when collapsed class is active */
+.sidebar-collapsed .sidebar {
+    width: 60px !important;      /* !important guarantees this width overrides the default 280px */
+    padding: 20px 10px;
+}
+
+/* Hide link text and only show the first letters when collapsed */
+.sidebar-collapsed .sidebar a {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0; 
+}
+
+/* Re-reveal the first letter of each competition link clearly */
+.sidebar-collapsed .sidebar a::first-letter {
+    font-size: 1.1rem;
+}
+
+/* FIX: Align the content section beautifully alongside the 60px narrow sidebar */
+.sidebar-collapsed .content {
+    margin-left: 60px !important; /* Forces the text out from behind the narrow menu */
+    width: calc(100% - 60px);
+    max-width: 100%; 
 }
