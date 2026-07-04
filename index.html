@@ -1,29 +1,33 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Squash Results</title>
 
     <script>
-        // 1. Check if the user has already logged in before
+        // 1. Check if they have already logged in before
         if (localStorage.getItem("committee_gate_passed") !== "true") {
             
-            // 2. Prompt for the password using a standard browser box
+            // 2. Prompt for the password
             var password = prompt("Welcome to the Lee squash statistics website.  This website is restricted to competitors.  Please enter the access password:");
             
-            // 3. Validate password (set to 'holdway')
-            if (password === "holdway") {
-                // Save their status so they never see the prompt again
-                localStorage.setItem("committee_gate_passed", "true");
-            } else {
-                // Boot them out to Google if they fail or hit cancel
+            // FIX: If the box was blocked by cache/pop-up blockers, or they clicked 'Cancel', reload instead of booting to Google.
+            if (password === null || password === "") {
+                window.location.reload(); 
+            }
+            // 3. Only boot them to Google if they typed something AND it was incorrect
+            else if (password !== "holdway") {
                 alert("Incorrect password. Access denied.");
                 window.location.href = "https://google.com"; 
+            } 
+            // 4. They got it right!
+            else {
+                localStorage.setItem("committee_gate_passed", "true");
             }
         }
     </script>
 
-    <!-- 4. This redirect only triggers if the script above doesn't boot them out -->
+    <!-- 5. Redirect to the internal app -->
     <meta http-equiv="refresh" content="0;url=/squash/competitions/home.html">
 </head>
 <body>
