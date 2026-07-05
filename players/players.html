@@ -47,24 +47,21 @@
             { year: "2011/2012", gid: "1216106191" }
         ];
 
-        // 3. Keep track of data tracking totals
         let totalGamesPlayed = 0;
         let totalGamesWon = 0;
         let lifetimeScore = 0;
         let seasonsCount = 0;
         let responsesReceived = 0;
 
-        // Base URL linking to your master spreadsheet file
         const baseWorkbookUrl = "https://google.com";
 
-        // This master global function handles the incoming data packs from Google
-        window.handleGoogleTabResponse = function(response, currentYear) {
+        // Global function that catches Google's tab data
+        window.handleGoogleTabResponse = function(response) {
             responsesReceived++;
             
             if (response && response.table && response.table.rows) {
                 const rows = response.table.rows;
                 
-                // Skip the first 4 heading rows and search for the player's name
                 for (let i = 4; i < rows.length; i++) {
                     if (rows[i] && rows[i].c && rows[i].c[1]) {
                         let currentNameInSheet = rows[i].c[1].v ? rows[i].c[1].v.toString().trim() : "";
@@ -72,7 +69,7 @@
                         if (currentNameInSheet.toLowerCase() === targetPlayer.toLowerCase()) {
                             seasonsCount++;
                             
-                            // Unpack columns precisely from your structural rows
+                            // Extract numeric columns (Index 2=Games, 3=Won, 7=Score)
                             let gamesPlayed = rows[i].c[2] ? parseInt(rows[i].c[2].v) || 0 : 0;
                             let gamesWon = rows[i].c[3] ? parseInt(rows[i].c[3].v) || 0 : 0;
                             let scoreTotal = rows[i].c[7] ? parseInt(rows[i].c[7].v) || 0 : 0;
@@ -85,49 +82,3 @@
                     }
                 }
             }
-
-            // Once ALL 15 scripts have finished executing their files
-            if (responsesReceived === seasons.length) {
-                renderProfilePage();
-            }
-        };
-
-        // 4. Output the results onto your visual profile page layout
-        function renderProfilePage() {
-            if (seasonsCount > 0) {
-                document.getElementById("status-message").innerText = "✔ Live Career Profile Loaded!";
-                document.getElementById("status-message").style.color = "green";
-                
-                document.getElementById("visual-output").innerHTML = `
-                    <div class="stat-line"><strong>Total Active Seasons:</strong> ${seasonsCount} out of ${seasons.length}</div>
-                    
-                    <div class="career-box">
-                        <h3 style="margin:0 0 10px 0; color: #0044cc;">LIFETIME STATS DASHBOARD</h3>
-                        <div class="stat-line"><strong>Career Games Played:</strong> ${totalGamesPlayed}</div>
-                        <div class="stat-line"><strong>Career Games Won:</strong> ${totalGamesWon}</div>
-                        <div class="stat-line"><strong>All-Time Cumulative Score:</strong> ${lifetimeScore}</div>
-                    </div>
-                `;
-            } else {
-                document.getElementById("status-message").innerText = "❌ Player Profile Missing";
-                document.getElementById("status-message").style.color = "red";
-                document.getElementById("visual-output").innerHTML = `No historical match entries found for <strong>'${targetPlayer}'</strong>.`;
-            }
-        }
-
-        // 5. Fire off individual data script requests for every season in parallel
-        seasons.forEach((season, index) => {
-            // Assigning unique request handlers to process responses safely in the global scope
-            const uniqueHandlerName = `cb_${index}`;
-            window[uniqueHandlerName] = function(data) {
-                window.handleGoogleTabResponse(data, season.year);
-            };
-
-            const script = document.createElement('script');
-            script.src = `${baseWorkbookUrl}?gid=${season.gid}&tqx=responseHandler:${uniqueHandlerName}`;
-            document.body.appendChild(script);
-        });
-    </script>
-
-</body>
-</html>
