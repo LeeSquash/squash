@@ -1,81 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Live Database Diagnostics</title>
+    <title>Live Player Profile</title>
     <style>
         body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
-        .profile-card { background: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; max-width: 650px; }
-        h3 { color: #0066cc; margin-top: 0; }
-        pre { background: #eee; padding: 10px; overflow-x: auto; white-space: pre-wrap; font-family: monospace; }
+        .profile-card { background: white; padding: 25px; border: 1px solid #ddd; border-radius: 8px; max-width: 550px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { margin-top: 0; color: #333; }
+        h3 { margin-top: 0; font-size: 18px; }
+        .stat-line { margin: 12px 0; font-size: 16px; border-bottom: 1px dashed #eee; padding-bottom: 6px; display: flex; justify-content: space-between; }
+        .stat-value { font-weight: bold; color: #111; }
+        .career-box { background: #eef7ff; padding: 18px; border-radius: 6px; margin-top: 20px; border-left: 4px solid #0044cc; }
+        .career-box h4 { margin: 0 0 12px 0; color: #0044cc; font-size: 16px; text-transform: uppercase; }
     </style>
 </head>
 <body>
 
-    <h1>Live Player Database Diagnostic Tool</h1>
-    
     <div class="profile-card">
-        <h3 id="status-message">Connecting directly to Google Sheets...</h3>
-        <p>Testing live data stream for: <strong style="color: blue;">Dan Ngo</strong></p>
-        <pre id="visual-output">Contacting Google servers for current season data...</pre>
+        <h1 id="player-name">Loading Profile...</h1>
+        <h3 id="status-message" style="color: #666;">Connecting to tournament archive...</h3>
+        <div id="visual-output"><p>Gathering historical season logs from Google Sheets...</p></div>
     </div>
 
-    <script>
-        // Create the exact global object and method structure that Google expects to find
-        var google = {
-            visualization: {
-                Query: {
-                    setResponse: function(response) {
-                        document.getElementById("status-message").innerText = "✔ Connection Successful!";
-                        document.getElementById("status-message").style.color = "green";
-
-                        if (response && response.table && response.table.rows) {
-                            var rows = response.table.rows;
-                            var printBlock = "Total Rows Transmitted: " + rows.length + "\n\n";
-                            var foundPlayer = false;
-
-                            // Scan line by line to locate Dan Ngo
-                            for (var i = 0; i < rows.length; i++) {
-                                if (rows[i] && rows[i].c) {
-                                    // Extract raw cell values
-                                    var cellStrings = rows[i].c.map(function(cell) {
-                                        return cell ? cell.v : "BLANK";
-                                    });
-                                    
-                                    var rowTextLine = cellStrings.join(" | ");
-                                    
-                                    if (rowTextLine.toLowerCase().indexOf("dan ngo") !== -1) {
-                                        foundPlayer = true;
-                                        printBlock += "FOUND PLAYER ROW:\n" + rowTextLine + "\n\n";
-                                        printBlock += "Raw Data Column Indices:\n";
-                                        
-                                        for (var j = 0; j < rows[i].c.length; j++) {
-                                            var cellVal = rows[i].c[j] ? rows[i].c[j].v : "BLANK";
-                                            printBlock += "  Index [" + j + "]: " + cellVal + "\n";
-                                        }
-                                        break;
-                                    }
-                                }
-                            }
-                            
-                            if (!foundPlayer) {
-                                printBlock += "Connected to the sheet tab, but could not find 'Dan Ngo' anywhere in the rows.";
-                            }
-                            
-                            document.getElementById("visual-output").innerText = printBlock;
-                        } else {
-                            document.getElementById("visual-output").innerText = "Connected to Google, but returned structure was empty.";
-                        }
-                    }
-                }
-            }
-        };
-
-        // Target the current season tab using the default Google visualization endpoint
-        var targetGid = "177383862";
-        var scriptElement = document.createElement('script');
-        scriptElement.src = "https://google.com" + targetGid;
-        document.body.appendChild(scriptElement);
-    </script>
-
+    <!-- This links your HTML page to your brand new separate processing file -->
+    <script src="database.js"></script>
 </body>
 </html>
