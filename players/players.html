@@ -1,84 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Live Database Test</title>
+    <title>Live Database Diagnostics</title>
     <style>
         body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
-        .profile-card { background: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; max-width: 550px; }
-        h2 { color: #0044cc; margin-top: 0; }
-        h3 { color: green; }
-        .stat-line { margin: 10px 0; font-size: 16px; border-bottom: 1px dashed #eee; padding-bottom: 5px; }
-        .career-box { background: #eef7ff; padding: 15px; border-radius: 4px; margin-top: 15px; }
+        .profile-card { background: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; max-width: 650px; }
+        h3 { color: #0066cc; margin-top: 0; }
+        pre { background: #eee; padding: 10px; overflow-x: auto; white-space: pre-wrap; font-family: monospace; }
     </style>
 </head>
 <body>
 
-    <h1>Live Player Database Engine</h1>
+    <h1>Live Player Database Diagnostic Tool</h1>
     
     <div class="profile-card">
-        <h3 id="status-message">Connecting to Google Live Database...</h3>
-        <p>Compiling tournament history for: <strong id="current-search-target" style="color: blue;">...</strong></p>
-        
-        <div id="visual-output">Loading season logs...</div>
+        <h3 id="status-message">Connecting directly to Google Sheets...</h3>
+        <p>Testing live data stream for: <strong style="color: blue;">Dan Ngo</strong></p>
+        <pre id="visual-output">Contacting Google servers for current season data...</pre>
     </div>
 
     <script>
-        // 1. Grab player name from address bar URL parameter (?name=Dan Ngo)
-        const urlParams = new URLSearchParams(window.location.search);
-        let targetPlayer = urlParams.get('name') || "Dan Ngo";
-        document.getElementById("current-search-target").innerText = targetPlayer;
-
-        // 2. Your complete Master Season Index
-        const seasons = [
-            { year: "2026/2027", gid: "177383862" },
-            { year: "2025/2026", gid: "609811392" },
-            { year: "2024/2025", gid: "1448332020" },
-            { year: "2023/2024", gid: "485201543" },
-            { year: "2022/2023", gid: "107467510" },
-            { year: "2021/2022", gid: "1805298759" },
-            { year: "2019/2020", gid: "2015501302" },
-            { year: "2018/2019", gid: "2106645708" },
-            { year: "2017/2018", gid: "1973356220" },
-            { year: "2016/2017", gid: "1294972098" },
-            { year: "2015/2016", gid: "1434091666" },
-            { year: "2014/2015", gid: "879316616" },
-            { year: "2013/2014", gid: "1990142880" },
-            { year: "2012/2013", gid: "589272259" },
-            { year: "2011/2012", gid: "1216106191" }
-        ];
-
-        let totalGamesPlayed = 0;
-        let totalGamesWon = 0;
-        let lifetimeScore = 0;
-        let seasonsCount = 0;
-        let responsesReceived = 0;
-
+        // Use a single target season tab (Current Season: 2026/2027) to isolate the connection
+        const targetGid = "177383862";
         const baseWorkbookUrl = "https://google.com";
 
-        // Global function that catches Google's tab data
-        window.handleGoogleTabResponse = function(response) {
-            responsesReceived++;
-            
+        // Global response handler pathway
+        window.googleDiagnosticHandler = function(response) {
+            document.getElementById("status-message").innerText = "✔ Connection Successful!";
+            document.getElementById("status-message").style.color = "green";
+
             if (response && response.table && response.table.rows) {
                 const rows = response.table.rows;
+                let printBlock = "Total Rows Transmitted: " + rows.length + "\n\n";
                 
-                for (let i = 4; i < rows.length; i++) {
-                    if (rows[i] && rows[i].c && rows[i].c[1]) {
-                        let currentNameInSheet = rows[i].c[1].v ? rows[i].c[1].v.toString().trim() : "";
+                // Let's find Dan Ngo's raw uncalculated data block
+                let foundPlayer = false;
+                for (let i = 0; i < rows.length; i++) {
+                    if (rows[i] && rows[i].c) {
+                        // Extract every cell text value in this row to see the layout array
+                        let cellStrings = rows[i].c.map(cell => cell ? cell.v : "BLANK");
                         
-                        if (currentNameInSheet.toLowerCase() === targetPlayer.toLowerCase()) {
-                            seasonsCount++;
-                            
-                            // Extract numeric columns (Index 2=Games, 3=Won, 7=Score)
-                            let gamesPlayed = rows[i].c[2] ? parseInt(rows[i].c[2].v) || 0 : 0;
-                            let gamesWon = rows[i].c[3] ? parseInt(rows[i].c[3].v) || 0 : 0;
-                            let scoreTotal = rows[i].c[7] ? parseInt(rows[i].c[7].v) || 0 : 0;
-                            
-                            totalGamesPlayed += gamesPlayed;
-                            totalGamesWon += gamesWon;
-                            lifetimeScore += scoreTotal;
+                        // Check if Dan Ngo exists in this row row string
+                        let rowTextLine = cellStrings.join(" | ");
+                        if (rowTextLine.toLowerCase().includes("dan ngo")) {
+                            foundPlayer = true;
+                            printBlock += "FOUND PLAYER ROW:\n" + rowTextLine + "\n\n";
+                            printBlock += "Raw Data Column Indices:\n";
+                            rows[i].c.forEach((cell, idx) => {
+                                printBlock += "  Index [" + idx + "]: " + (cell ? cell.v : "BLANK") + "\n";
+                            });
                             break;
                         }
                     }
                 }
+                
+                if (!foundPlayer) {
+                    printBlock += "Connected to the sheet, but could not locate 'Dan Ngo' in the raw text lines.";
+                }
+                
+                document.getElementById("visual-output").innerText = printBlock;
+            } else {
+                document.getElementById("visual-output").innerText = "Error: Connected to Google, but table structure was empty.";
             }
+        };
+
+        // Fire request directly through window scope script injection
+        const scriptElement = document.createElement('script');
+        scriptElement.src = `${baseWorkbookUrl}?gid=${targetGid}&tqx=responseHandler:window.googleDiagnosticHandler`;
+        document.body.appendChild(scriptElement);
+    </script>
+
+</body>
+</html>
