@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Database Test</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+        .profile-card { background: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; max-width: 550px; }
+        h2 { color: #0044cc; margin-top: 0; }
+        h3 { color: green; }
+        .stat-line { margin: 10px 0; font-size: 16px; border-bottom: 1px dashed #eee; padding-bottom: 5px; }
+        .career-box { background: #eef7ff; padding: 15px; border-radius: 4px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <h1>Live Player Database Engine</h1>
+    
+    <div class="profile-card">
+        <h3 id="status-message">Connecting to Google Live Database...</h3>
+        <p>Compiling tournament history for: <strong id="current-search-target" style="color: blue;">...</strong></p>
+        
+        <div id="visual-output">Loading season logs...</div>
+    </div>
+
+    <script>
+        // 1. Grab player name from address bar URL parameter (?name=Dan Ngo)
+        const urlParams = new URLSearchParams(window.location.search);
+        let targetPlayer = urlParams.get('name') || "Dan Ngo";
+        document.getElementById("current-search-target").innerText = targetPlayer;
+
+        // 2. Your complete Master Season Index
+        const seasons = [
+            { year: "2026/2027", gid: "177383862" },
+            { year: "2025/2026", gid: "609811392" },
+            { year: "2024/2025", gid: "1448332020" },
+            { year: "2023/2024", gid: "485201543" },
+            { year: "2022/2023", gid: "107467510" },
+            { year: "2021/2022", gid: "1805298759" },
+            { year: "2019/2020", gid: "2015501302" },
+            { year: "2018/2019", gid: "2106645708" },
+            { year: "2017/2018", gid: "1973356220" },
+            { year: "2016/2017", gid: "1294972098" },
+            { year: "2015/2016", gid: "1434091666" },
+            { year: "2014/2015", gid: "879316616" },
+            { year: "2013/2014", gid: "1990142880" },
+            { year: "2012/2013", gid: "589272259" },
+            { year: "2011/2012", gid: "1216106191" }
+        ];
+
+        // 3. Keep track of data tracking totals
+        let totalGamesPlayed = 0;
+        let totalGamesWon = 0;
+        let lifetimeScore = 0;
+        let seasonsCount = 0;
+        let responsesReceived = 0;
+
+        // Base URL linking to your master spreadsheet file
+        const baseWorkbookUrl = "https://google.com";
+
+        // This master global function handles the incoming data packs from Google
+        window.handleGoogleTabResponse = function(response, currentYear) {
+            responsesReceived++;
+            
+            if (response && response.table && response.table.rows) {
+                const rows = response.table.rows;
+                
+                // Skip the first 4 heading rows and search for the player's name
+                for (let i = 4; i < rows.length; i++) {
+                    if (rows[i] && rows[i].c && rows[i].c[1]) {
+                        let currentNameInSheet = rows[i].c[1].v ? rows[i].c[1].v.toString().trim() : "";
+                        
+                        if (currentNameInSheet.toLowerCase() === targetPlayer.toLowerCase()) {
+                            seasonsCount++;
+                            
+                            // Unpack columns precisely from your structural rows
+                            let gamesPlayed = rows[i].c[2] ? parseInt(rows[i].c[2].v) || 0 : 0;
+                            let gamesWon = rows[i].c[3] ? parseInt(rows[i].c[3].v) || 0 : 0;
+                            let scoreTotal = rows[i].c[7] ? parseInt(rows[i].c[7].v) || 0 : 0;
+                            
+                            totalGamesPlayed += gamesPlayed;
+                            totalGamesWon += gamesWon;
+                            lifetimeScore += scoreTotal;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // Once ALL 15 scripts have finished executing their files
+            if (responsesReceived === seasons.length) {
+                renderProfilePage();
+            }
+        };
+
+        // 4. Output the results onto your visual profile page layout
+        function renderProfilePage() {
+            if (seasonsCount > 0) {
+                document.getElementById("status-message").innerText = "✔ Live Career Profile Loaded!";
+                document.getElementById("status-message").style.color = "green";
+                
+                document.getElementById("visual-output").innerHTML = `
+                    <div class="stat-line"><strong>Total Active Seasons:</strong> ${seasonsCount} out of ${seasons.length}</div>
+                    
+                    <div class="career-box">
+                        <h3 style="margin:0 0 10px 0; color: #0044cc;">LIFETIME STATS DASHBOARD</h3>
+                        <div class="stat-line"><strong>Career Games Played:</strong> ${totalGamesPlayed}</div>
+                        <div class="stat-line"><strong>Career Games Won:</strong> ${totalGamesWon}</div>
+                        <div class="stat-line"><strong>All-Time Cumulative Score:</strong> ${lifetimeScore}</div>
+                    </div>
+                `;
+            } else {
+                document.getElementById("status-message").innerText = "❌ Player Profile Missing";
+                document.getElementById("status-message").style.color = "red";
+                document.getElementById("visual-output").innerHTML = `No historical match entries found for <strong>'${targetPlayer}'</strong>.`;
+            }
+        }
+
+        // 5. Fire off individual data script requests for every season in parallel
+        seasons.forEach((season, index) => {
+            // Assigning unique request handlers to process responses safely in the global scope
+            const uniqueHandlerName = `cb_${index}`;
+            window[uniqueHandlerName] = function(data) {
+                window.handleGoogleTabResponse(data, season.year);
+            };
+
+            const script = document.createElement('script');
+            script.src = `${baseWorkbookUrl}?gid=${season.gid}&tqx=responseHandler:${uniqueHandlerName}`;
+            document.body.appendChild(script);
+        });
+    </script>
+
+</body>
+</html>
