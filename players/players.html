@@ -20,53 +20,60 @@
     </div>
 
     <script>
-        // Use a single target season tab (Current Season: 2026/2027) to isolate the connection
-        const targetGid = "177383862";
-        const baseWorkbookUrl = "https://google.com";
+        // Create the exact global object and method structure that Google expects to find
+        var google = {
+            visualization: {
+                Query: {
+                    setResponse: function(response) {
+                        document.getElementById("status-message").innerText = "✔ Connection Successful!";
+                        document.getElementById("status-message").style.color = "green";
 
-        // Global response handler pathway
-        window.googleDiagnosticHandler = function(response) {
-            document.getElementById("status-message").innerText = "✔ Connection Successful!";
-            document.getElementById("status-message").style.color = "green";
+                        if (response && response.table && response.table.rows) {
+                            var rows = response.table.rows;
+                            var printBlock = "Total Rows Transmitted: " + rows.length + "\n\n";
+                            var foundPlayer = false;
 
-            if (response && response.table && response.table.rows) {
-                const rows = response.table.rows;
-                let printBlock = "Total Rows Transmitted: " + rows.length + "\n\n";
-                
-                // Let's find Dan Ngo's raw uncalculated data block
-                let foundPlayer = false;
-                for (let i = 0; i < rows.length; i++) {
-                    if (rows[i] && rows[i].c) {
-                        // Extract every cell text value in this row to see the layout array
-                        let cellStrings = rows[i].c.map(cell => cell ? cell.v : "BLANK");
-                        
-                        // Check if Dan Ngo exists in this row row string
-                        let rowTextLine = cellStrings.join(" | ");
-                        if (rowTextLine.toLowerCase().includes("dan ngo")) {
-                            foundPlayer = true;
-                            printBlock += "FOUND PLAYER ROW:\n" + rowTextLine + "\n\n";
-                            printBlock += "Raw Data Column Indices:\n";
-                            rows[i].c.forEach((cell, idx) => {
-                                printBlock += "  Index [" + idx + "]: " + (cell ? cell.v : "BLANK") + "\n";
-                            });
-                            break;
+                            // Scan line by line to locate Dan Ngo
+                            for (var i = 0; i < rows.length; i++) {
+                                if (rows[i] && rows[i].c) {
+                                    // Extract raw cell values
+                                    var cellStrings = rows[i].c.map(function(cell) {
+                                        return cell ? cell.v : "BLANK";
+                                    });
+                                    
+                                    var rowTextLine = cellStrings.join(" | ");
+                                    
+                                    if (rowTextLine.toLowerCase().indexOf("dan ngo") !== -1) {
+                                        foundPlayer = true;
+                                        printBlock += "FOUND PLAYER ROW:\n" + rowTextLine + "\n\n";
+                                        printBlock += "Raw Data Column Indices:\n";
+                                        
+                                        for (var j = 0; j < rows[i].c.length; j++) {
+                                            var cellVal = rows[i].c[j] ? rows[i].c[j].v : "BLANK";
+                                            printBlock += "  Index [" + j + "]: " + cellVal + "\n";
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                            
+                            if (!foundPlayer) {
+                                printBlock += "Connected to the sheet tab, but could not find 'Dan Ngo' anywhere in the rows.";
+                            }
+                            
+                            document.getElementById("visual-output").innerText = printBlock;
+                        } else {
+                            document.getElementById("visual-output").innerText = "Connected to Google, but returned structure was empty.";
                         }
                     }
                 }
-                
-                if (!foundPlayer) {
-                    printBlock += "Connected to the sheet, but could not locate 'Dan Ngo' in the raw text lines.";
-                }
-                
-                document.getElementById("visual-output").innerText = printBlock;
-            } else {
-                document.getElementById("visual-output").innerText = "Error: Connected to Google, but table structure was empty.";
             }
         };
 
-        // Fire request directly through window scope script injection
-        const scriptElement = document.createElement('script');
-        scriptElement.src = `${baseWorkbookUrl}?gid=${targetGid}&tqx=responseHandler:window.googleDiagnosticHandler`;
+        // Target the current season tab using the default Google visualization endpoint
+        var targetGid = "177383862";
+        var scriptElement = document.createElement('script');
+        scriptElement.src = "https://google.com" + targetGid;
         document.body.appendChild(scriptElement);
     </script>
 
