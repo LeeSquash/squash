@@ -1,83 +1,233 @@
-// 1. Get the player name from the browser URL parameter (?name=Dan Ngo)
+// ========================================
+// PLAYER PROFILE DATA LOADER
+// Loads every season for a player from Google Sheets
+// ========================================
+
+// Get player name from URL (?name=Dan Ngo)
 const urlParams = new URLSearchParams(window.location.search);
-let targetPlayer = urlParams.get('name') || "Dan Ngo";
-document.getElementById("player-name").innerText = targetPlayer;
+const targetPlayer = urlParams.get("name");
 
-// 2. Setup the exact global pathway Google expects to find
-window.google = {
-    visualization: {
-        Query: {
-            setResponse: function(response) {
-                
-                if (response && response.table && response.table.rows) {
-                    const rows = response.table.rows;
+// Spreadsheet ID
+const SHEET_ID = "1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M";
 
-                    // Hardcoded standard column positions (A=0, B=1, C=2, etc.)
-                    const COL_NAME = 1;  // Column B
-                    const COL_GAMES = 2; // Column C
-                    const COL_WON = 3;   // Column D
-                    const COL_WEEKLY = 4;// Column E
-                    const COL_UP = 5;    // Column F
-                    const COL_WEEKS = 6; // Column G
-                    const COL_SCORE = 7; // Column H
+// All seasons
+const SEASONS = [
+    { season: "2026/27", gid: "177383862" },
+    { season: "2025/26", gid: "609811392" },
+    { season: "2024/25", gid: "1448332020" },
+    { season: "2023/24", gid: "485201543" },
+    { season: "2022/23", gid: "107467510" },
+    { season: "2021/22", gid: "1805298759" },
+    { season: "2019/20", gid: "2015501302" },
+    { season: "2018/19", gid: "2106645708" },
+    { season: "2017/18", gid: "1973356220" },
+    { season: "2016/17", gid: "1294972098" },
+    { season: "2015/16", gid: "1434091666" },
+    { season: "2014/15", gid: "879316616" }
+   
+];
 
-                    let playerFound = false;
+// HTML Elements
+const nameHeading = document.getElementById("player-name");
+const statusMsg = document.getElementById("status-message");
+const visualOutput = document.getElementById("visual-output");
 
-                    // Start scanning rows from index 2 (Row 3 of your spreadsheet)
-                    for (let i = 2; i < rows.length; i++) {
-                        if (rows[i] && rows[i].c && rows[i].c[COL_NAME]) {
-                            let sheetPlayerName = rows[i].c[COL_NAME].v ? rows[i].c[COL_NAME].v.toString().trim() : "";
+// Check URL
+if (!targetPlayer) {
 
-                            // If we find a match for the target player
-                            if (sheetPlayerName.toLowerCase() === targetPlayer.toLowerCase()) {
-                                playerFound = true;
+    nameHeading.innerText = "No Player Selected";
+    statusMsg.innerText = "❌ Missing URL Parameter";
+    statusMsg.style.color = "red";
 
-                                // Extract the stats for this single season
-                                let gamesPlayed = parseInt(rows[i].c[COL_GAMES]?.v) || 0;
-                                let gamesWon = parseInt(rows[i].c[COL_WON]?.v) || 0;
-                                let weeklyWins = parseInt(rows[i].c[COL_WEEKLY]?.v) || 0;
-                                let runnersUp = parseInt(rows[i].c[COL_UP]?.v) || 0;
-                                let weeksAttended = parseInt(rows[i].c[COL_WEEKS]?.v) || 0;
-                                let totalScore = parseInt(rows[i].c[COL_SCORE]?.v) || 0;
+    visualOutput.innerHTML =
+        "<p>Please add a player name to the URL. Example: <code>?name=Dan Ngo</code></p>";
 
-                                // Display the single-season dashboard immediately
-                                document.getElementById("status-message").innerText = "✔ Current Season Profile Loaded!";
-                                document.getElementById("status-message").style.color = "green";
-                                document.getElementById("visual-output").innerHTML = `
-                                    <div class="career-box">
-                                        <h4>Current Season Stats (2026/2027)</h4>
-                                        <div class="stat-line"><strong>Group Games Played:</strong> <span class="stat-value">${gamesPlayed}</span></div>
-                                        <div class="stat-line"><strong>Games Won:</strong> <span class="stat-value">${gamesWon}</span></div>
-                                        <div class="stat-line"><strong>Weekly Wins:</strong> <span class="stat-value">${weeklyWins}</span></div>
-                                        <div class="stat-line"><strong>Runners Up Placements:</strong> <span class="stat-value">${runnersUp}</span></div>
-                                        <div class="stat-line"><strong>Weeks Attended:</strong> <span class="stat-value">${weeksAttended}</span></div>
-                                        <div class="stat-line"><strong>Total Score:</strong> <span class="stat-value">${totalScore}</span></div>
-                                    </div>`;
-                                break; // We found the player, stop looking
-                            }
-                        }
-                    }
+} else {
 
-                    // If the loop finishes and never finds the player name
-                    if (!playerFound) {
-                        document.getElementById("status-message").innerText = "❌ Profile Record Missing";
-                        document.getElementById("status-message").style.color = "red";
-                        document.getElementById("visual-output").innerHTML = `<p>Could not find "${targetPlayer}" in the current season log.</p>`;
-                    }
+    nameHeading.innerText = targetPlayer;
+    fetchAllSeasons();
 
-                } else {
-                    document.getElementById("status-message").innerText = "❌ Error Reading Sheet Data";
-                    document.getElementById("visual-output").innerText = "Google returned an empty or unreadable table structure.";
-                }
+}
+
+// ========================================
+// Fetch every season
+// ========================================
+
+async function fetchAllSeasons() {
+
+    const playerSeasons = [];
+
+    try {
+
+        for (const seasonInfo of SEASONS) {
+
+            const csvURL =
+                `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${seasonInfo.gid}`;
+
+            const response = await fetch(csvURL);
+
+            if (!response.ok) {
+                console.warn(`Could not load ${seasonInfo.season}`);
+                continue;
             }
+
+            const rawText = await response.text();
+            const rows = parseCSV(rawText);
+
+            for (let i = 2; i < rows.length; i++) {
+
+                const columns = rows[i];
+
+                if (!columns || columns.length < 8)
+                    continue;
+
+                const playerName =
+                    columns[1].replace(/^"|"$/g, "").trim();
+
+                if (playerName.toLowerCase() === targetPlayer.trim().toLowerCase()) {
+
+                    playerSeasons.push({
+
+                        season: seasonInfo.season,
+                        place: columns[0]?.replace(/^"|"$/g, "").trim() || "-",
+                        games: columns[2]?.replace(/^"|"$/g, "").trim() || "0",
+                        wins: columns[3]?.replace(/^"|"$/g, "").trim() || "0",
+                        weeklyWins: columns[4]?.replace(/^"|"$/g, "").trim() || "0",
+                        runnersUp: columns[5]?.replace(/^"|"$/g, "").trim() || "0",
+                        weeks: columns[6]?.replace(/^"|"$/g, "").trim() || "0",
+                        score: columns[7]?.replace(/^"|"$/g, "").trim() || "0"
+
+                    });
+
+                    break;
+                }
+
+            }
+
         }
+
+        if (playerSeasons.length === 0) {
+
+            statusMsg.innerText = "❌ Profile Record Missing";
+            statusMsg.style.color = "red";
+
+            visualOutput.innerHTML =
+                `<p>No records were found for "${targetPlayer}".</p>`;
+
+            return;
+
+        }
+
+        statusMsg.innerText =
+            `✔ Loaded ${playerSeasons.length} Season${playerSeasons.length > 1 ? "s" : ""}`;
+
+        statusMsg.style.color = "green";
+
+        let html = "";
+
+        for (const season of playerSeasons) {
+
+            html += `
+                <div class="career-box">
+
+                    <h4>${season.season}</h4>
+
+                    <div class="stat-line">
+                        <strong>Final Standing:</strong>
+                        <span class="stat-value">${season.place}</span>
+                    </div>
+
+                    <div class="stat-line">
+                        <strong>Games Played:</strong>
+                        <span class="stat-value">${season.games}</span>
+                    </div>
+
+                    <div class="stat-line">
+                        <strong>Games Won:</strong>
+                        <span class="stat-value">${season.wins}</span>
+                    </div>
+
+                    <div class="stat-line">
+                        <strong>Weekly Wins:</strong>
+                        <span class="stat-value">${season.weeklyWins}</span>
+                    </div>
+
+                    <div class="stat-line">
+                        <strong>Runner Up Placements:</strong>
+                        <span class="stat-value">${season.runnersUp}</span>
+                    </div>
+
+                    <div class="stat-line">
+                        <strong>Weeks Attended:</strong>
+                        <span class="stat-value">${season.weeks}</span>
+                    </div>
+
+                    <div class="stat-line">
+                        <strong>Total Score:</strong>
+                        <span class="stat-value">${season.score}</span>
+                    </div>
+
+                </div>
+            `;
+
+        }
+
+        visualOutput.innerHTML = html;
+
     }
-};
+    catch (error) {
 
-// 3. Fire off the request ONLY for the current active season tab (gid: 177383862)
-const realSheetId = "1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M";
-const targetGid = "177383862";
+        console.error(error);
 
-const script = document.createElement('script');
-script.src = `https://google.com{realSheetId}/gviz/tq?gid=${targetGid}&tqx=responseHandler:google.visualization.Query.setResponse`;
-document.body.appendChild(script);
+        statusMsg.innerText = "❌ Error Loading Profile";
+        statusMsg.style.color = "red";
+
+        visualOutput.innerHTML =
+            "<p>There was a problem connecting to Google Sheets.</p>";
+
+    }
+
+}
+
+// ========================================
+// CSV Parser
+// ========================================
+
+function parseCSV(text) {
+
+    const lines = text.split(/\r?\n/);
+
+    return lines.map(line => {
+
+        const result = [];
+        let current = "";
+        let inQuotes = false;
+
+        for (let i = 0; i < line.length; i++) {
+
+            const char = line[i];
+
+            if (char === '"') {
+
+                inQuotes = !inQuotes;
+
+            } else if (char === "," && !inQuotes) {
+
+                result.push(current);
+                current = "";
+
+            } else {
+
+                current += char;
+
+            }
+
+        }
+
+        result.push(current);
+
+        return result;
+
+    });
+
+}
