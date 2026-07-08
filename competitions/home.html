@@ -2,59 +2,204 @@
 <html>
 <head>
     <title>Squash Results - Home</title>
-   <link rel="stylesheet" href="/squash/css/style.css">
+    <link rel="stylesheet" href="/squash/css/style.css">
 </head>
+
 <body>
 
     <!-- Empty container where your shared sidebar will load -->
     <div class="sidebar"></div>
 
+
     <div class="content">
+
         <!-- Hero Welcome -->
         <header class="intro-header">
+
             <h1>Welcome to Lee Squash! 🏸</h1>
 
-            <p class="subtitle">Your central hub for competition stats, standings, and player progress.</p>
+            <p class="subtitle">
+                Your central hub for competition stats, standings, and player progress.
+            </p>
+
         </header>
+
 
         <!-- Main Message -->
         <section class="intro-body">
-            <p>Whether you are checking your current standing in the leagues, scouting your next opponent, or just keeping an eye on the club's top performers, you are in the right place.</p>
-            
-            <p>This site is built to keep our competition tracking completely transparent and up to date, drawing live data straight from our league sheets.</p>
+
+            <p>
+                Whether you are checking your current standing in the leagues,
+                scouting your next opponent, or just keeping an eye on the club's
+                top performers, you are in the right place.
+            </p>
+
+            <p>
+                This site is built to keep our competition tracking completely
+                transparent and up to date, drawing live data straight from our
+                league sheets.
+            </p>
+
         </section>
+
+
+
+        <!-- Player Profiles -->
+        <section class="intro-guide">
+
+            <h2>Player Profiles</h2>
+
+            <p>
+                Explore your personal squash history with your player profile.
+                View your results, season performances, standings, and progress
+                across previous competitions.
+            </p>
+
+            <p>
+                Enter your name below to view your profile:
+            </p>
+
+
+            <form id="player-search-form" style="margin-top: 20px;">
+
+                <input
+                    type="text"
+                    id="player-name-input"
+                    placeholder="Enter your name"
+                    required
+                    style="
+                        padding: 10px;
+                        font-size: 16px;
+                        width: 250px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    "
+                >
+
+                <button
+                    type="submit"
+                    style="
+                        padding: 10px 18px;
+                        margin-left: 8px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        border: none;
+                    "
+                >
+                    View Profile
+                </button>
+
+            </form>
+
+
+        </section>
+
+
 
         <!-- How-To Guide -->
         <section class="intro-guide">
+
             <h2>How to find your stats:</h2>
+
             <ul>
-                <li><strong>Explore Competitions:</strong> Use the left-hand menu to jump into any of our active or past tournaments.</li>
-                <li><strong>Track Your Progress:</strong> Inside each competition page, you will find live leaderboards, recent match results, and player form guides.</li>
-                <li><strong>Stay Updated:</strong> The data refreshes automatically, so make sure to bookmark this page and check back after every match night!</li>
+
+                <li>
+                    <strong>Explore Competitions:</strong>
+                    Use the left-hand menu to jump into any of our active or past tournaments.
+                </li>
+
+                <li>
+                    <strong>Track Your Progress:</strong>
+                    Inside each competition page, you will find live leaderboards,
+                    recent match results, and player form guides.
+                </li>
+
+                <li>
+                    <strong>Stay Updated:</strong>
+                    The data refreshes automatically, so make sure to bookmark this
+                    page and check back after every match night!
+                </li>
+
             </ul>
+
         </section>
+
+
 
         <!-- Friendly Close -->
         <footer class="intro-footer">
-            <p>Good luck with your matches, play hard, and let's see who tops the ladder this season!</p>
+
+            <p>
+                Good luck with your matches, play hard, and let's see who tops the ladder this season!
+            </p>
+
         </footer>
+
+
     </div>
 
-  <!-- Clean, simple sidebar fetcher -->
+
+
+    <!-- Player Profile Search -->
     <script>
-        // FIX: Changed '/components/sidebar.html' to '/squash/components/sidebar.html'
-        fetch('/squash/components/sidebar.html')
-            .then(response => response.text())
-            .then(data => {
-                const sidebar = document.querySelector('.sidebar');
-                sidebar.innerHTML = data;
-                
-                const scripts = sidebar.getElementsByTagName('script');
-                for (let i = 0; i < scripts.length; i++) {
-                    eval(scripts[i].innerText);
+
+        document
+            .getElementById("player-search-form")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                const playerName =
+                    document
+                    .getElementById("player-name-input")
+                    .value
+                    .trim();
+
+
+                if (playerName) {
+
+                    window.location.href =
+                        "/squash/players/index.html?name=" +
+                        encodeURIComponent(playerName);
+
                 }
+
             });
+
+
     </script>
+
+
+
+    <!-- Sidebar loader -->
+    <script>
+
+        fetch('/squash/components/sidebar.html')
+
+            .then(response => response.text())
+
+            .then(data => {
+
+                const sidebar = document.querySelector('.sidebar');
+
+                sidebar.innerHTML = data;
+
+
+                const scripts =
+                    sidebar.getElementsByTagName('script');
+
+
+                for (let i = 0; i < scripts.length; i++) {
+
+                    eval(scripts[i].innerText);
+
+                }
+
+            });
+
+    </script>
+
 
 </body>
 </html>
