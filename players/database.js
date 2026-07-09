@@ -1,16 +1,18 @@
 // ========================================
-// PLAYER PROFILE DATA LOADER
+// PLAYER PROFILE DATA FETCHER
 // Loads every season for a player from Google Sheets
+// This file only fetches data.
+// Rendering is handled by profile.js
 // ========================================
 
-// Get player name from URL (?name=Dan Ngo)
 const urlParams = new URLSearchParams(window.location.search);
 const targetPlayer = urlParams.get("name");
 
-// Spreadsheet ID
-const SHEET_ID = "1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M";
+window.targetPlayer = targetPlayer;
 
-// All seasons
+const SHEET_ID =
+"1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M";
+
 const SEASONS = [
     { season: "2026/27", gid: "177383862" },
     { season: "2025/26", gid: "609811392" },
@@ -24,33 +26,25 @@ const SEASONS = [
     { season: "2016/17", gid: "1294972098" },
     { season: "2015/16", gid: "1434091666" },
     { season: "2014/15", gid: "879316616" }
-   
 ];
 
-// HTML Elements
-const nameHeading = document.getElementById("player-name");
-const statusMsg = document.getElementById("status-message");
-const visualOutput = document.getElementById("visual-output");
-
-// Check URL
-if (!targetPlayer) {
-
-    nameHeading.innerText = "No Player Selected";
-    statusMsg.innerText = "❌ Missing URL Parameter";
-    statusMsg.style.color = "red";
-
-    visualOutput.innerHTML =
-        "<p>Please add a player name to the URL. Example: <code>?name=Dan Ngo</code></p>";
-
+if (targetPlayer) {
+    fetchAllSeasons();
 } else {
 
-    nameHeading.innerText = targetPlayer;
-    fetchAllSeasons();
+    window.playerSeasons = [];
+
+    setTimeout(() => {
+        window.dispatchEvent(
+            new Event("playerDataLoaded")
+        );
+    }, 0);
 
 }
 
+
 // ========================================
-// Fetch every season
+// Fetch all seasons
 // ========================================
 
 async function fetchAllSeasons() {
@@ -59,7 +53,7 @@ async function fetchAllSeasons() {
 
     try {
 
-        for (const seasonInfo of SEASONS) {
+        const seasonRequests = SEASONS.map(async (seasonInfo) => {
 
             const csvURL =
                 `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${seasonInfo.gid}`;
@@ -67,127 +61,135 @@ async function fetchAllSeasons() {
             const response = await fetch(csvURL);
 
             if (!response.ok) {
-                console.warn(`Could not load ${seasonInfo.season}`);
-                continue;
+
+                console.warn(
+                    "Could not load " + seasonInfo.season
+                );
+
+                return null;
             }
 
             const rawText = await response.text();
+
             const rows = parseCSV(rawText);
 
-            for (let i = 2; i < rows.length; i++) {
+            // Total competitors in this season
+            const totalPlayers = rows.length - 2;
+
+
+            // Start one row earlier to include first place player
+            for (let i = 1; i < rows.length; i++) {
 
                 const columns = rows[i];
 
-                if (!columns || columns.length < 8)
+                if (!columns || columns.length < 8) {
                     continue;
-
-                const playerName =
-                    columns[1].replace(/^"|"$/g, "").trim();
-
-                if (playerName.toLowerCase() === targetPlayer.trim().toLowerCase()) {
-
-                    playerSeasons.push({
-
-                        season: seasonInfo.season,
-                        place: columns[0]?.replace(/^"|"$/g, "").trim() || "-",
-                        games: columns[2]?.replace(/^"|"$/g, "").trim() || "0",
-                        wins: columns[3]?.replace(/^"|"$/g, "").trim() || "0",
-                        weeklyWins: columns[4]?.replace(/^"|"$/g, "").trim() || "0",
-                        runnersUp: columns[5]?.replace(/^"|"$/g, "").trim() || "0",
-                        weeks: columns[6]?.replace(/^"|"$/g, "").trim() || "0",
-                        score: columns[7]?.replace(/^"|"$/g, "").trim() || "0"
-
-                    });
-
-                    break;
                 }
 
+                const playerName = clean(columns[1]);
+
+                if (
+                    playerName.toLowerCase() ===
+                    targetPlayer.trim().toLowerCase()
+                ) {
+
+                    return {
+
+                        season:
+                            seasonInfo.season,
+
+                        place:
+                            clean(columns[0]),
+
+                        games:
+                            clean(columns[2]),
+
+                        wins:
+                            clean(columns[3]),
+
+                        weeklyWins:
+                            clean(columns[4]),
+
+                        runnersUp:
+                            clean(columns[5]),
+
+                        weeks:
+                            clean(columns[6]),
+
+                        score:
+                            clean(columns[7]),
+
+                        // Used by peteroberts.js
+                        totalPlayers:
+                            totalPlayers
+                    };
+                }
             }
 
-        }
+            return null;
 
-        if (playerSeasons.length === 0) {
+        });
 
-            statusMsg.innerText = "❌ Profile Record Missing";
-            statusMsg.style.color = "red";
 
-            visualOutput.innerHTML =
-                `<p>No records were found for "${targetPlayer}".</p>`;
+        const results = await Promise.all(seasonRequests);
 
-            return;
 
-        }
+        results.forEach(result => {
 
-        statusMsg.innerText =
-            `✔ Loaded ${playerSeasons.length} Season${playerSeasons.length > 1 ? "s" : ""}`;
+            if (result) {
+                playerSeasons.push(result);
+            }
 
-        statusMsg.style.color = "green";
+        });
 
-        let html = "";
 
-        for (const season of playerSeasons) {
+        window.playerSeasons = playerSeasons;
 
-            html += `
-                <div class="career-box">
 
-                    <h4>${season.season}</h4>
+        setTimeout(() => {
 
-                    <div class="stat-line">
-                        <strong>Final Standing:</strong>
-                        <span class="stat-value">${season.place}</span>
-                    </div>
+            window.dispatchEvent(
+                new Event("playerDataLoaded")
+            );
 
-                    <div class="stat-line">
-                        <strong>Games Played:</strong>
-                        <span class="stat-value">${season.games}</span>
-                    </div>
+        }, 0);
 
-                    <div class="stat-line">
-                        <strong>Games Won:</strong>
-                        <span class="stat-value">${season.wins}</span>
-                    </div>
 
-                    <div class="stat-line">
-                        <strong>Weekly Wins:</strong>
-                        <span class="stat-value">${season.weeklyWins}</span>
-                    </div>
+    } catch(error) {
 
-                    <div class="stat-line">
-                        <strong>Runner Up Placements:</strong>
-                        <span class="stat-value">${season.runnersUp}</span>
-                    </div>
+        console.error(
+            "Database Error:",
+            error
+        );
 
-                    <div class="stat-line">
-                        <strong>Weeks Attended:</strong>
-                        <span class="stat-value">${season.weeks}</span>
-                    </div>
+        window.playerSeasons = [];
 
-                    <div class="stat-line">
-                        <strong>Total Score:</strong>
-                        <span class="stat-value">${season.score}</span>
-                    </div>
+        setTimeout(() => {
 
-                </div>
-            `;
+            window.dispatchEvent(
+                new Event("playerDataLoaded")
+            );
 
-        }
-
-        visualOutput.innerHTML = html;
-
-    }
-    catch (error) {
-
-        console.error(error);
-
-        statusMsg.innerText = "❌ Error Loading Profile";
-        statusMsg.style.color = "red";
-
-        visualOutput.innerHTML =
-            "<p>There was a problem connecting to Google Sheets.</p>";
+        }, 0);
 
     }
 
 }
+
+
+// ========================================
+// Clean CSV values
+// ========================================
+
+function clean(value) {
+
+    return value
+        ?.replace(/^"|"$/g, "")
+        .trim()
+        || "-";
+
+}
+
 
 // ========================================
 // CSV Parser
@@ -200,8 +202,11 @@ function parseCSV(text) {
     return lines.map(line => {
 
         const result = [];
+
         let current = "";
+
         let inQuotes = false;
+
 
         for (let i = 0; i < line.length; i++) {
 

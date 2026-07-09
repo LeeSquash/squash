@@ -3,27 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Live Player Profile</title>
+
     <style>
-        body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
-        .profile-card { background: white; padding: 25px; border: 1px solid #ddd; border-radius: 8px; max-width: 550px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        h1 { margin-top: 0; color: #333; }
-        h3 { margin-top: 0; font-size: 18px; }
-        .stat-line { margin: 12px 0; font-size: 16px; border-bottom: 1px dashed #eee; padding-bottom: 6px; display: flex; justify-content: space-between; }
-        .stat-value { font-weight: bold; color: #111; }
-        .career-box { background: #eef7ff; padding: 18px; border-radius: 6px; margin-top: 20px; border-left: 4px solid #0044cc; }
-        .career-box h4 { margin: 0 0 12px 0; color: #0044cc; font-size: 16px; text-transform: uppercase; }
+
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+
+        .profile-card {
+            background: white;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-width: 550px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+
+        h1 {
+            margin-top: 0;
+            color: #333;
+        }
+
+
+        h2 {
+            margin-top: 25px;
+            color: #333;
+        }
+
+
+        h3 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+
+        .stat-line {
+
+            margin: 12px 0;
+            font-size: 16px;
+            border-bottom: 1px dashed #eee;
+            padding-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+
+        .stat-value {
+
+            font-weight: bold;
+            color: #111;
+
+        }
+
+
+        .career-box {
+
+            background: #eef7ff;
+            padding: 18px;
+            border-radius: 6px;
+            margin-top: 20px;
+            border-left: 4px solid #0044cc;
+
+        }
+
+
+        .career-box h4 {
+
+            margin: 0 0 12px 0;
+            color: #0044cc;
+            font-size: 16px;
+            text-transform: uppercase;
+
+        }
+
+
     </style>
+
 </head>
+
+
 <body>
 
+
     <div class="profile-card">
-        <h1 id="player-name">Loading Profile...</h1>
-        <h3 id="status-message" style="color: #666;">Connecting to tournament archive...</h3>
-        <div id="visual-output"><p>Gathering historical season logs from Google Sheets...</p></div>
+
+
+        <h1 id="player-name">
+            Loading Profile...
+        </h1>
+
+
+        <h3 id="status-message" style="color:#666;">
+            Connecting to tournament archive...
+        </h3>
+
+
+        <div id="visual-output">
+
+            <p>
+                Gathering historical season logs from Google Sheets...
+            </p>
+
+        </div>
+
     </div>
 
-    <!-- Works perfectly on both VSC Live Server and GitHub Pages -->
-    <script src="database.js"></script>
+<script src="database.js"></script>
+<script src="points.js"></script>
+<script src="profile.js"></script>
+
 </body>
 </html>
