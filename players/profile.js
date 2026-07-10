@@ -9,7 +9,10 @@ const visualOutput = document.getElementById("visual-output");
 
 const REQUIRED_COMPETITIONS = [
     "Pete Roberts Handicap",
-    "Junior Clubnight"
+    "Junior Clubnight",
+    "SLTC",
+    "Generation Cup",
+    "Racketball Clubnight"
 ];
 
 function checkCompetitionsLoaded() {
@@ -26,10 +29,7 @@ function checkCompetitionsLoaded() {
 
 }
 
-window.addEventListener(
-    "competitionLoaded",
-    checkCompetitionsLoaded
-);
+window.addEventListener("competitionLoaded", checkCompetitionsLoaded);
 
 checkCompetitionsLoaded();
 
@@ -37,6 +37,9 @@ function buildProfile() {
 
     const playerSeasons = window.playerSeasons || [];
     const juniorClubnight = window.juniorClubnight || [];
+    const sltc = window.sltc || [];
+    const generationCup = window.generationCup || [];
+    const racketballClubnight = window.racketballClubnight || [];
     const targetPlayer = window.targetPlayer;
 
     if (!targetPlayer) {
@@ -44,21 +47,27 @@ function buildProfile() {
         nameHeading.innerText = "No Player Selected";
         statusMsg.innerText = "❌ Missing Player Name";
         statusMsg.style.color = "red";
-        visualOutput.innerHTML =
-            `<p>Please add a player name to the URL.</p>`;
+        visualOutput.innerHTML = `<p>Please add a player name to the URL.</p>`;
 
         return;
+
     }
 
-    if (playerSeasons.length === 0 && juniorClubnight.length === 0) {
+    if (
+        playerSeasons.length === 0 &&
+        juniorClubnight.length === 0 &&
+        sltc.length === 0 &&
+        generationCup.length === 0 &&
+        racketballClubnight.length === 0
+    ) {
 
         nameHeading.innerText = targetPlayer;
         statusMsg.innerText = "❌ Profile Record Missing";
         statusMsg.style.color = "red";
-        visualOutput.innerHTML =
-            `<p>No records found for this player.</p>`;
+        visualOutput.innerHTML = `<p>No records found for this player.</p>`;
 
         return;
+
     }
 
     const formattedName =
@@ -69,7 +78,7 @@ function buildProfile() {
     nameHeading.innerText = formattedName;
 
     statusMsg.innerText =
-        `✔ Loaded ${playerSeasons.length + juniorClubnight.length} Records`;
+        `✔ Loaded ${playerSeasons.length + juniorClubnight.length + sltc.length + generationCup.length + racketballClubnight.length} Records`;
 
     statusMsg.style.color = "green";
 
@@ -94,19 +103,21 @@ function buildProfile() {
 
             default:
                 return number + "th";
+
         }
 
     }
 
     let html = "";
 
+    // ========================================
+    // PETE ROBERTS HANDICAP DISPLAY
+    // ========================================
+
     if (playerSeasons.length > 0) {
 
         let totalGames = 0;
         let totalWins = 0;
-        let totalWeeklyWins = 0;
-        let totalRunnersUp = 0;
-        let totalWeeks = 0;
         let totalScore = 0;
         let bestFinish = null;
 
@@ -114,9 +125,6 @@ function buildProfile() {
 
             totalGames += Number(season.games) || 0;
             totalWins += Number(season.wins) || 0;
-            totalWeeklyWins += Number(season.weeklyWins) || 0;
-            totalRunnersUp += Number(season.runnersUp) || 0;
-            totalWeeks += Number(season.weeks) || 0;
             totalScore += Number(season.score) || 0;
 
             const place = Number(season.place);
@@ -162,6 +170,10 @@ function buildProfile() {
 
     }
 
+    // ========================================
+    // JUNIOR CLUBNIGHT DISPLAY
+    // ========================================
+
     if (juniorClubnight.length > 0) {
 
         html += `<h2>Junior Clubnight</h2>`;
@@ -180,6 +192,76 @@ function buildProfile() {
         });
 
     }
+
+
+    // ========================================
+    // SLTC DISPLAY
+    // ========================================
+
+    if (sltc.length > 0) {
+
+        html += `<h2>Squash Levels Team Challenge</h2>`;
+
+        sltc.forEach(season => {
+
+            html += `
+            <div class="career-box">
+                <h4>${season.season}</h4>
+                <div class="stat-line"><strong>Final Standing:</strong><span class="stat-value">${ordinal(Number(season.place))}</span></div>
+                <div class="stat-line"><strong>Team:</strong><span class="stat-value">${season.team}</span></div>
+                <div class="stat-line"><strong>Points:</strong><span class="stat-value">${season.points}</span></div>
+            </div>
+            `;
+
+        });
+
+    }
+
+
+    // ========================================
+    // GENERATION CUP DISPLAY
+    // ========================================
+
+    if (generationCup.length > 0) {
+
+        html += `<h2>Generation Cup</h2>`;
+
+        generationCup.forEach(season => {
+
+            html += `
+            <div class="career-box">
+                <h4>${season.season}</h4>
+                <div class="stat-line"><strong>Final Standing:</strong><span class="stat-value">${ordinal(Number(season.place))}</span></div>
+                <div class="stat-line"><strong>Points:</strong><span class="stat-value">${season.points}</span></div>
+            </div>
+            `;
+
+        });
+
+    }
+
+// ========================================
+    // RACKETBALL CLUBNIGHT DISPLAY
+    // ========================================
+
+    if (racketballClubnight.length > 0) {
+
+        html += `<h2>Racketball Clubnight</h2>`;
+
+        racketballClubnight.forEach(season => {
+
+            html += `
+            <div class="career-box">
+                <h4>${season.season}</h4>
+                <div class="stat-line"><strong>Final Standing:</strong><span class="stat-value">${ordinal(Number(season.place))}</span></div>
+                <div class="stat-line"><strong>Points:</strong><span class="stat-value">${season.points}</span></div>
+            </div>
+            `;
+
+        });
+
+    }
+
 
     visualOutput.innerHTML = html;
 
