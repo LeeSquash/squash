@@ -1,17 +1,17 @@
 // ========================================
-// PLAYER PROFILE DATA FETCHER
-// Loads every season for a player from Google Sheets
+// PETE ROBERTS DATA FETCHER
+// Loads Pete Roberts Handicap seasons.
 // This file only fetches data.
-// Rendering is handled by profile.js
+// Rendering is handled by profile.js.
 // ========================================
 
 const urlParams = new URLSearchParams(window.location.search);
 const targetPlayer = urlParams.get("name");
 
 window.targetPlayer = targetPlayer;
+window.loadedCompetitions = window.loadedCompetitions || [];
 
-const SHEET_ID =
-"1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M";
+const SHEET_ID = "1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M";
 
 const SEASONS = [
     { season: "2026/27", gid: "177383862" },
@@ -34,11 +34,11 @@ if (targetPlayer) {
 
     window.playerSeasons = [];
 
-    setTimeout(() => {
-        window.dispatchEvent(
-            new Event("playerDataLoaded")
-        );
-    }, 0);
+    window.loadedCompetitions.push("Pete Roberts Handicap");
+
+    window.dispatchEvent(
+        new Event("competitionLoaded")
+    );
 
 }
 
@@ -53,7 +53,7 @@ async function fetchAllSeasons() {
 
     try {
 
-        const seasonRequests = SEASONS.map(async (seasonInfo) => {
+        const seasonRequests = SEASONS.map(async seasonInfo => {
 
             const csvURL =
                 `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${seasonInfo.gid}`;
@@ -73,11 +73,8 @@ async function fetchAllSeasons() {
 
             const rows = parseCSV(rawText);
 
-            // Total competitors in this season
             const totalPlayers = rows.length - 2;
 
-
-            // Start one row earlier to include first place player
             for (let i = 1; i < rows.length; i++) {
 
                 const columns = rows[i];
@@ -88,40 +85,30 @@ async function fetchAllSeasons() {
 
                 const playerName = clean(columns[1]);
 
-                if (
-                    playerName.toLowerCase() ===
-                    targetPlayer.trim().toLowerCase()
-                ) {
+                if (playerName.toLowerCase() === targetPlayer.trim().toLowerCase()) {
 
                     return {
 
-                        season:
-                            seasonInfo.season,
+                        competition: "Pete Roberts Handicap",
 
-                        place:
-                            clean(columns[0]),
+                        season: seasonInfo.season,
 
-                        games:
-                            clean(columns[2]),
+                        place: clean(columns[0]),
 
-                        wins:
-                            clean(columns[3]),
+                        games: clean(columns[2]),
 
-                        weeklyWins:
-                            clean(columns[4]),
+                        wins: clean(columns[3]),
 
-                        runnersUp:
-                            clean(columns[5]),
+                        weeklyWins: clean(columns[4]),
 
-                        weeks:
-                            clean(columns[6]),
+                        runnersUp: clean(columns[5]),
 
-                        score:
-                            clean(columns[7]),
+                        weeks: clean(columns[6]),
 
-                        // Used by peteroberts.js
-                        totalPlayers:
-                            totalPlayers
+                        score: clean(columns[7]),
+
+                        totalPlayers: totalPlayers
+
                     };
                 }
             }
@@ -130,9 +117,7 @@ async function fetchAllSeasons() {
 
         });
 
-
         const results = await Promise.all(seasonRequests);
-
 
         results.forEach(result => {
 
@@ -142,17 +127,13 @@ async function fetchAllSeasons() {
 
         });
 
-
         window.playerSeasons = playerSeasons;
 
+        window.loadedCompetitions.push("Pete Roberts Handicap");
 
-        setTimeout(() => {
-
-            window.dispatchEvent(
-                new Event("playerDataLoaded")
-            );
-
-        }, 0);
+        window.dispatchEvent(
+            new Event("competitionLoaded")
+        );
 
 
     } catch(error) {
@@ -164,13 +145,11 @@ async function fetchAllSeasons() {
 
         window.playerSeasons = [];
 
-        setTimeout(() => {
+        window.loadedCompetitions.push("Pete Roberts Handicap");
 
-            window.dispatchEvent(
-                new Event("playerDataLoaded")
-            );
-
-        }, 0);
+        window.dispatchEvent(
+            new Event("competitionLoaded")
+        );
 
     }
 
@@ -207,7 +186,6 @@ function parseCSV(text) {
 
         let inQuotes = false;
 
-
         for (let i = 0; i < line.length; i++) {
 
             const char = line[i];
@@ -219,6 +197,7 @@ function parseCSV(text) {
             } else if (char === "," && !inQuotes) {
 
                 result.push(current);
+
                 current = "";
 
             } else {
