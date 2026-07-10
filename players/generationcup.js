@@ -1,8 +1,8 @@
-// =======================================
+// ========================================
 // GENERATION CUP DATA FETCHER
 // Fetches Generation Cup data only.
 // Rendering handled by profile.js.
-// =======================================
+// ========================================
 
 loadGenerationCup();
 

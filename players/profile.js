@@ -3,6 +3,8 @@
 // Takes fetched competition data and builds profile
 // ========================================
 
+import { calculatePlayerPoints, calculatePlayerLevel } from "../points/points.js";
+
 const nameHeading = document.getElementById("player-name");
 const statusMsg = document.getElementById("status-message");
 const visualOutput = document.getElementById("visual-output");
@@ -42,6 +44,9 @@ function buildProfile() {
     const racketballClubnight = window.racketballClubnight || [];
     const targetPlayer = window.targetPlayer;
 
+    const totalPoints = calculatePlayerPoints();
+    const playerLevel = calculatePlayerLevel(totalPoints);
+
     if (!targetPlayer) {
 
         nameHeading.innerText = "No Player Selected";
@@ -75,7 +80,7 @@ function buildProfile() {
             .toLowerCase()
             .replace(/\b\w/g, letter => letter.toUpperCase());
 
-    nameHeading.innerText = formattedName;
+    nameHeading.innerText = `${formattedName} - Level ${playerLevel}`;
 
     statusMsg.innerText =
         `✔ Loaded ${playerSeasons.length + juniorClubnight.length + sltc.length + generationCup.length + racketballClubnight.length} Records`;
@@ -109,6 +114,15 @@ function buildProfile() {
     }
 
     let html = "";
+
+html += `
+<div class="career-box">
+    <div class="stat-line">
+        <strong>Total Points</strong>
+        <span class="stat-value">${totalPoints}</span>
+    </div>
+</div>
+`;
 
     // ========================================
     // PETE ROBERTS HANDICAP DISPLAY
