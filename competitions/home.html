@@ -7,6 +7,9 @@
 
 <body>
 
+    <!-- The banner will automatically inject itself right here -->
+<div id="global-banner-placeholder"></div>
+
     <!-- Empty container where your shared sidebar will load -->
     <div class="sidebar"></div>
 
@@ -200,6 +203,61 @@
 
     </script>
 
+ <script>
+async function loadBanner() {
+    try {
+        // Load the banner layout
+        const response = await fetch('../components/banner.html');
+        if (!response.ok) throw new Error('Failed to load banner file.');
+
+        const html = await response.text();
+        document.getElementById('global-banner-placeholder').innerHTML = html;
+
+        // Published Google Doc
+        const googleDocUrl = 'https://docs.google.com/document/d/e/2PACX-1vRQCpu9dUkvOKZiXmf2dkNEY1BXV-cVecdRJyK17EC9Td0FAaMxqhPgd2y7_fWoRSZNYIsEyr1Cn8X1/pub';
+
+        // Fetch through the proxy (adds a timestamp so it stays fresh)
+        const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(googleDocUrl + '?t=' + Date.now());
+
+        const docResponse = await fetch(proxyUrl);
+        if (!docResponse.ok) throw new Error('Failed to reach Google Doc via proxy.');
+
+        const htmlText = await docResponse.text();
+
+        // Parse the returned HTML
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlText, 'text/html');
+
+        // Try to find the Google Docs content
+        let plainText = "";
+
+        const content = doc.querySelector('.doc-content');
+        if (content) {
+            plainText = content.innerText.trim();
+        } else {
+            plainText = doc.body.innerText.trim();
+        }
+
+        const bannerText = document.getElementById('banner-text');
+
+        if (bannerText && plainText.length > 0) {
+            bannerText.textContent = plainText;
+        } else if (bannerText) {
+            bannerText.textContent = "No announcements available.";
+        }
+
+    } catch (error) {
+        console.error('Error embedding banner:', error);
+
+        const bannerText = document.getElementById('banner-text');
+        if (bannerText) {
+            bannerText.textContent = "Check back soon for updates!";
+        }
+    }
+}
+
+window.addEventListener('DOMContentLoaded', loadBanner);
+</script>
 
 </body>
 </html>
