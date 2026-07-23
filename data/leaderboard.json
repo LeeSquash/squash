@@ -11,7 +11,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 27
+    "level": 19
   },
   {
     "name": "Jake Barnard",
@@ -25,7 +25,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 25
+    "level": 17
   },
   {
     "name": "Becca House",
@@ -39,7 +39,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 23
+    "level": 16
   },
   {
     "name": "Oliver Green",
@@ -53,7 +53,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 23
+    "level": 15
   },
   {
     "name": "Michael Frisby",
@@ -67,7 +67,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 22
+    "level": 15
   },
   {
     "name": "Steve Frankland",
@@ -81,7 +81,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 22
+    "level": 14
   },
   {
     "name": "Tom Weston",
@@ -95,7 +95,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 21
+    "level": 14
   },
   {
     "name": "Ruth Haggerty",
@@ -109,7 +109,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 20
+    "level": 13
   },
   {
     "name": "Jason Green",
@@ -123,7 +123,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 20
+    "level": 12
   },
   {
     "name": "Michael Evans",
@@ -137,21 +137,21 @@
         "racketballclubnight": 12
       }
     },
-    "level": 20
+    "level": 12
   },
   {
     "name": "Josh Man",
     "points": {
-      "total": 1686,
+      "total": 1692,
       "breakdown": {
         "peteroberts": 1659,
         "sltc": 9,
         "generationcup": 0,
         "juniorclubnight": 0,
-        "racketballclubnight": 18
+        "racketballclubnight": 24
       }
     },
-    "level": 19
+    "level": 12
   },
   {
     "name": "Matt Handy",
@@ -165,7 +165,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 18
+    "level": 11
   },
   {
     "name": "Paul Goulder",
@@ -179,7 +179,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 18
+    "level": 11
   },
   {
     "name": "Dylan Wilson",
@@ -193,7 +193,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 18
+    "level": 11
+  },
+  {
+    "name": "Eric Van Onselen",
+    "points": {
+      "total": 1542,
+      "breakdown": {
+        "peteroberts": 1417,
+        "sltc": 125,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 11
   },
   {
     "name": "Geoff Balko",
@@ -207,21 +221,21 @@
         "racketballclubnight": 75
       }
     },
-    "level": 18
+    "level": 11
   },
   {
-    "name": "Eric Van Onselen",
+    "name": "Josh Davis",
     "points": {
-      "total": 1533,
+      "total": 1527,
       "breakdown": {
-        "peteroberts": 1417,
-        "sltc": 116,
+        "peteroberts": 1527,
+        "sltc": 0,
         "generationcup": 0,
         "juniorclubnight": 0,
         "racketballclubnight": 0
       }
     },
-    "level": 18
+    "level": 11
   },
   {
     "name": "Matt Parkhouse",
@@ -235,7 +249,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 18
+    "level": 11
   },
   {
     "name": "Mark Homeyard",
@@ -249,7 +263,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 18
+    "level": 11
+  },
+  {
+    "name": "Mike Catterall",
+    "points": {
+      "total": 1359,
+      "breakdown": {
+        "peteroberts": 1218,
+        "sltc": 138,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 3
+      }
+    },
+    "level": 10
   },
   {
     "name": "Colin Light",
@@ -263,7 +291,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 17
+    "level": 10
   },
   {
     "name": "Carter Frisby",
@@ -277,7 +305,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 17
+    "level": 10
   },
   {
     "name": "David Christian",
@@ -291,7 +319,7 @@
         "racketballclubnight": 280
       }
     },
-    "level": 17
+    "level": 10
   },
   {
     "name": "Paul Barnard",
@@ -305,21 +333,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 16
-  },
-  {
-    "name": "Mike Catterall",
-    "points": {
-      "total": 1242,
-      "breakdown": {
-        "peteroberts": 1218,
-        "sltc": 24,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 16
+    "level": 10
   },
   {
     "name": "Harry Porto",
@@ -333,7 +347,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 16
+    "level": 9
   },
   {
     "name": "George Garrett",
@@ -347,7 +361,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 16
+    "level": 9
   },
   {
     "name": "George Smith",
@@ -361,7 +375,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 16
+    "level": 9
+  },
+  {
+    "name": "Sunny Creasey",
+    "points": {
+      "total": 1186,
+      "breakdown": {
+        "peteroberts": 1186,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 9
   },
   {
     "name": "Oscar Fry",
@@ -375,7 +403,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 16
+    "level": 9
   },
   {
     "name": "Sam Porter",
@@ -389,7 +417,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
+    "level": 9
   },
   {
     "name": "Darren Packham",
@@ -403,21 +431,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
-  },
-  {
-    "name": "Sunny Creasey",
-    "points": {
-      "total": 1130,
-      "breakdown": {
-        "peteroberts": 1130,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 15
+    "level": 9
   },
   {
     "name": "Baxter Madden",
@@ -431,7 +445,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
+    "level": 9
+  },
+  {
+    "name": "Will Ramsey",
+    "points": {
+      "total": 1108,
+      "breakdown": {
+        "peteroberts": 621,
+        "sltc": 12,
+        "generationcup": 189,
+        "juniorclubnight": 286,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 9
   },
   {
     "name": "Dan Green",
@@ -445,7 +473,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
+    "level": 8
   },
   {
     "name": "Robbie Hicks",
@@ -459,7 +487,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
+    "level": 8
   },
   {
     "name": "Zoe Fellows",
@@ -473,7 +501,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
+    "level": 8
   },
   {
     "name": "Sheldon Docker",
@@ -487,7 +515,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 15
+    "level": 8
   },
   {
     "name": "Tess Burton",
@@ -501,7 +529,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Will Miller",
@@ -515,7 +543,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Richard Lowton",
@@ -529,7 +557,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Luke Page",
@@ -543,7 +571,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "George Yeates",
@@ -557,7 +585,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Sam Redington",
@@ -571,7 +599,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Marcus Smith",
@@ -585,7 +613,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "George Downing",
@@ -599,7 +627,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Gregor House",
@@ -613,21 +641,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
-  },
-  {
-    "name": "Josh Davis",
-    "points": {
-      "total": 913,
-      "breakdown": {
-        "peteroberts": 913,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 14
+    "level": 8
   },
   {
     "name": "Seb Cairns-Allen",
@@ -641,7 +655,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 7
   },
   {
     "name": "Gareth Hobbs",
@@ -655,7 +669,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 7
   },
   {
     "name": "Phoebe Dobbin",
@@ -669,7 +683,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 14
+    "level": 7
   },
   {
     "name": "Will Pallister",
@@ -683,7 +697,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Sam Homeyard",
@@ -697,7 +711,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Simon Langdale",
@@ -711,7 +725,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Leo Sharp",
@@ -725,21 +739,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
-  },
-  {
-    "name": "Ted Ironside",
-    "points": {
-      "total": 832,
-      "breakdown": {
-        "peteroberts": 530,
-        "sltc": 302,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Maeve Burton",
@@ -753,7 +753,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
+  },
+  {
+    "name": "Dan Ngo",
+    "points": {
+      "total": 823,
+      "breakdown": {
+        "peteroberts": 689,
+        "sltc": 92,
+        "generationcup": 42,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 7
   },
   {
     "name": "Adam Tahri",
@@ -767,7 +781,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Greg Czura",
@@ -781,7 +795,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Billy Redington",
@@ -795,7 +809,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Jon Ramsey",
@@ -809,7 +823,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Mark Sharp",
@@ -823,7 +837,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 13
+    "level": 7
   },
   {
     "name": "Joe Davis",
@@ -837,7 +851,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 12
+    "level": 7
+  },
+  {
+    "name": "Ciaran O'Brien",
+    "points": {
+      "total": 752,
+      "breakdown": {
+        "peteroberts": 464,
+        "sltc": 288,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 7
   },
   {
     "name": "Ben Smith",
@@ -851,7 +879,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 12
+    "level": 6
   },
   {
     "name": "Isaac Mearns",
@@ -865,7 +893,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 12
+    "level": 6
   },
   {
     "name": "Samuel Steele",
@@ -879,35 +907,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 12
-  },
-  {
-    "name": "Dan Ngo",
-    "points": {
-      "total": 697,
-      "breakdown": {
-        "peteroberts": 563,
-        "sltc": 92,
-        "generationcup": 42,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 12
-  },
-  {
-    "name": "William Ramsey",
-    "points": {
-      "total": 690,
-      "breakdown": {
-        "peteroberts": 392,
-        "sltc": 12,
-        "generationcup": 0,
-        "juniorclubnight": 286,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 12
+    "level": 6
   },
   {
     "name": "George McGregor",
@@ -921,7 +921,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 12
+    "level": 6
   },
   {
     "name": "Ethel Brokenshire",
@@ -935,21 +935,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 12
-  },
-  {
-    "name": "Rory Patterson",
-    "points": {
-      "total": 654,
-      "breakdown": {
-        "peteroberts": 654,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 12
+    "level": 6
   },
   {
     "name": "Lai Man",
@@ -963,7 +949,7 @@
         "racketballclubnight": 6
       }
     },
-    "level": 12
+    "level": 6
   },
   {
     "name": "Mikey Smith",
@@ -977,7 +963,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 11
+    "level": 6
   },
   {
     "name": "Rupert Ford",
@@ -991,7 +977,35 @@
         "racketballclubnight": 0
       }
     },
-    "level": 11
+    "level": 6
+  },
+  {
+    "name": "Ely Donnachie",
+    "points": {
+      "total": 627,
+      "breakdown": {
+        "peteroberts": 442,
+        "sltc": 185,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 6
+  },
+  {
+    "name": "Dominic Buckley",
+    "points": {
+      "total": 626,
+      "breakdown": {
+        "peteroberts": 513,
+        "sltc": 113,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 6
   },
   {
     "name": "Daniel Green",
@@ -1005,21 +1019,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 11
+    "level": 6
   },
   {
-    "name": "Joshua Davis",
+    "name": "Rory Paterson",
     "points": {
-      "total": 614,
+      "total": 608,
       "breakdown": {
-        "peteroberts": 614,
+        "peteroberts": 608,
         "sltc": 0,
         "generationcup": 0,
         "juniorclubnight": 0,
         "racketballclubnight": 0
       }
     },
-    "level": 11
+    "level": 6
   },
   {
     "name": "Jessica Ellicott",
@@ -1033,7 +1047,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 11
+    "level": 6
   },
   {
     "name": "Matt  Handy",
@@ -1047,35 +1061,35 @@
         "racketballclubnight": 0
       }
     },
-    "level": 11
+    "level": 5
   },
   {
-    "name": "Ciaran O'brien",
+    "name": "Ted Ironside-Smith",
     "points": {
-      "total": 576,
+      "total": 580,
       "breakdown": {
-        "peteroberts": 464,
-        "sltc": 112,
+        "peteroberts": 236,
+        "sltc": 320,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 24
+      }
+    },
+    "level": 5
+  },
+  {
+    "name": "Ewan Wykeham-Martin",
+    "points": {
+      "total": 551,
+      "breakdown": {
+        "peteroberts": 433,
+        "sltc": 118,
         "generationcup": 0,
         "juniorclubnight": 0,
         "racketballclubnight": 0
       }
     },
-    "level": 11
-  },
-  {
-    "name": "Dominic Buckley",
-    "points": {
-      "total": 575,
-      "breakdown": {
-        "peteroberts": 513,
-        "sltc": 62,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 11
+    "level": 5
   },
   {
     "name": "Marcus Barnard",
@@ -1089,7 +1103,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Glynn Blows",
@@ -1103,7 +1117,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Freddie Binnington",
@@ -1117,7 +1131,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
+  },
+  {
+    "name": "Rory Patterson",
+    "points": {
+      "total": 517,
+      "breakdown": {
+        "peteroberts": 517,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 5
   },
   {
     "name": "Jamie Hughes",
@@ -1131,7 +1159,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
+  },
+  {
+    "name": "Thomas Jarrett",
+    "points": {
+      "total": 511,
+      "breakdown": {
+        "peteroberts": 511,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 5
   },
   {
     "name": "Doug Alexander",
@@ -1145,7 +1187,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Henry Letch",
@@ -1159,7 +1201,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Ben Gilbert",
@@ -1173,7 +1215,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Tobie Carman",
@@ -1187,21 +1229,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
-    "name": "Rory Paterson",
+    "name": "Oscar Littlefield",
     "points": {
-      "total": 471,
+      "total": 478,
       "breakdown": {
-        "peteroberts": 471,
-        "sltc": 0,
+        "peteroberts": 302,
+        "sltc": 176,
         "generationcup": 0,
         "juniorclubnight": 0,
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Billy Platt",
@@ -1215,7 +1257,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Michael Psaila",
@@ -1229,7 +1271,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 10
+    "level": 5
   },
   {
     "name": "Liam Dobbin",
@@ -1243,21 +1285,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
-  },
-  {
-    "name": "Ely Donnachie",
-    "points": {
-      "total": 451,
-      "breakdown": {
-        "peteroberts": 442,
-        "sltc": 9,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Stan Vilyukha",
@@ -1271,7 +1299,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Phoebe Griffiths",
@@ -1285,7 +1313,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
+  },
+  {
+    "name": "Tom Knight",
+    "points": {
+      "total": 445,
+      "breakdown": {
+        "peteroberts": 0,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 445
+      }
+    },
+    "level": 4
   },
   {
     "name": "Ryan Baker",
@@ -1299,7 +1341,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Ryan Hyde",
@@ -1313,7 +1355,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Georgina Miller",
@@ -1327,21 +1369,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
-  },
-  {
-    "name": "Will Ramsey",
-    "points": {
-      "total": 418,
-      "breakdown": {
-        "peteroberts": 229,
-        "sltc": 0,
-        "generationcup": 189,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Paul Martin",
@@ -1355,7 +1383,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Mikael Nepaul",
@@ -1369,7 +1397,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Owen Yeates",
@@ -1383,7 +1411,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Jon Nation",
@@ -1397,7 +1425,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Andy Bezer",
@@ -1411,7 +1439,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Jo MacManus",
@@ -1425,7 +1453,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Charlie Gandar",
@@ -1439,7 +1467,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 9
+    "level": 4
   },
   {
     "name": "Rowan Madden",
@@ -1453,7 +1481,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Ash Noel",
@@ -1467,7 +1495,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Nico Phillips",
@@ -1481,7 +1509,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Le-Tian Mo",
@@ -1495,7 +1523,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Andy Blomfield",
@@ -1509,7 +1537,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Dave Fairbrother",
@@ -1523,7 +1551,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Scott Griffiths",
@@ -1537,7 +1565,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Craig Dexter",
@@ -1551,7 +1579,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
+  },
+  {
+    "name": "Alwyn Lewis",
+    "points": {
+      "total": 358,
+      "breakdown": {
+        "peteroberts": 0,
+        "sltc": 251,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 107
+      }
+    },
+    "level": 4
   },
   {
     "name": "Matt Dougherty",
@@ -1565,7 +1607,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Elena Gandar",
@@ -1579,7 +1621,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "William Clift",
@@ -1593,21 +1635,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
-  },
-  {
-    "name": "Tom Knight",
-    "points": {
-      "total": 349,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 349
-      }
-    },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Jack Fisk",
@@ -1621,7 +1649,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Xander Frisby",
@@ -1635,7 +1663,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Oliver Smith",
@@ -1649,7 +1677,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "James Gandar",
@@ -1663,7 +1691,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Martin Scheel",
@@ -1677,7 +1705,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Jason Maddox",
@@ -1691,21 +1719,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
-  },
-  {
-    "name": "Thomas Jarrett",
-    "points": {
-      "total": 324,
-      "breakdown": {
-        "peteroberts": 324,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 8
+    "level": 4
   },
   {
     "name": "Tom Richards",
@@ -1719,7 +1733,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
+    "level": 3
   },
   {
     "name": "Pete Burton",
@@ -1733,21 +1747,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 8
-  },
-  {
-    "name": "Ewan Wykeham",
-    "points": {
-      "total": 307,
-      "breakdown": {
-        "peteroberts": 307,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 7
+    "level": 3
   },
   {
     "name": "George Pace",
@@ -1761,7 +1761,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Dylan Proctor",
@@ -1775,7 +1775,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Paul Lacey",
@@ -1789,7 +1789,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Ruth Wilkie",
@@ -1803,7 +1803,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Stephen Marcus",
@@ -1817,7 +1817,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
+  },
+  {
+    "name": "Rob Docker",
+    "points": {
+      "total": 299,
+      "breakdown": {
+        "peteroberts": 63,
+        "sltc": 72,
+        "generationcup": 116,
+        "juniorclubnight": 0,
+        "racketballclubnight": 48
+      }
+    },
+    "level": 3
   },
   {
     "name": "Greg Fry",
@@ -1831,7 +1845,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Tara Creasey",
@@ -1845,7 +1859,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Hugo Cameron",
@@ -1859,7 +1873,35 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
+  },
+  {
+    "name": "Ted Ironside",
+    "points": {
+      "total": 294,
+      "breakdown": {
+        "peteroberts": 294,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 3
+  },
+  {
+    "name": "Simon Clifford",
+    "points": {
+      "total": 294,
+      "breakdown": {
+        "peteroberts": 32,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 262
+      }
+    },
+    "level": 3
   },
   {
     "name": "Alex Kershaw",
@@ -1873,7 +1915,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Dave Robjohns",
@@ -1887,7 +1929,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Sarah Marchant",
@@ -1901,35 +1943,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
-  },
-  {
-    "name": "Alwyn Lewis",
-    "points": {
-      "total": 284,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 251,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 33
-      }
-    },
-    "level": 7
-  },
-  {
-    "name": "Simon Clifford",
-    "points": {
-      "total": 282,
-      "breakdown": {
-        "peteroberts": 32,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 250
-      }
-    },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Pip Halpin",
@@ -1943,7 +1957,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Alan Way",
@@ -1957,7 +1971,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Sharon Axelson",
@@ -1971,7 +1985,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Oliver Bezer",
@@ -1985,7 +1999,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Josh Matthews",
@@ -1999,7 +2013,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Stu Mitchell",
@@ -2013,21 +2027,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
-  },
-  {
-    "name": "Tomo",
-    "points": {
-      "total": 263,
-      "breakdown": {
-        "peteroberts": 251,
-        "sltc": 12,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Andy Cummings",
@@ -2041,7 +2041,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Niel Hillawi",
@@ -2055,7 +2055,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Tim Freeman",
@@ -2069,7 +2069,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Tom  Battersby",
@@ -2083,7 +2083,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Leo Sharpe",
@@ -2097,7 +2097,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Mark Sharpe",
@@ -2111,7 +2111,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Ciaran Capauno",
@@ -2125,7 +2125,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Emma MacNaughtan",
@@ -2139,7 +2139,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Matt Ellicott",
@@ -2153,7 +2153,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 7
+    "level": 3
   },
   {
     "name": "Kevin Flynn",
@@ -2167,21 +2167,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
-  },
-  {
-    "name": "Oscar Littlefield",
-    "points": {
-      "total": 248,
-      "breakdown": {
-        "peteroberts": 248,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Dan Belben",
@@ -2195,7 +2181,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Dave Traynor",
@@ -2209,7 +2195,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Poppy Ginis",
@@ -2223,21 +2209,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
-  },
-  {
-    "name": "Ewan Wykeham-Martin",
-    "points": {
-      "total": 244,
-      "breakdown": {
-        "peteroberts": 126,
-        "sltc": 118,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Simon Carr",
@@ -2251,7 +2223,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
+  },
+  {
+    "name": "Jonathan Thompson",
+    "points": {
+      "total": 239,
+      "breakdown": {
+        "peteroberts": 227,
+        "sltc": 12,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 3
   },
   {
     "name": "Neal Thomas",
@@ -2265,7 +2251,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Dylan Bentley",
@@ -2279,7 +2265,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Jonathon Thompson",
@@ -2293,7 +2279,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Shakila Barabhuiya",
@@ -2307,7 +2293,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Tony Broome",
@@ -2321,21 +2307,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
-  },
-  {
-    "name": "Rob Docker",
-    "points": {
-      "total": 227,
-      "breakdown": {
-        "peteroberts": 39,
-        "sltc": 72,
-        "generationcup": 116,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Ian West",
@@ -2349,7 +2321,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Jim House",
@@ -2363,7 +2335,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "George French",
@@ -2377,7 +2349,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Sam Williams",
@@ -2391,7 +2363,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Rich Thoroughgood",
@@ -2405,7 +2377,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Ewan Maclean",
@@ -2419,7 +2391,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Clinton Bennett",
@@ -2433,7 +2405,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Rhys Glide",
@@ -2447,7 +2419,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "James Dobbin",
@@ -2461,7 +2433,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Vince Dobbin",
@@ -2475,7 +2447,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 3
   },
   {
     "name": "Ryan Bloxsam",
@@ -2489,7 +2461,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 2
   },
   {
     "name": "Dave Prentice",
@@ -2503,10 +2475,10 @@
         "racketballclubnight": 0
       }
     },
-    "level": 6
+    "level": 2
   },
   {
-    "name": "Simon A",
+    "name": "Simon Adamson",
     "points": {
       "total": 200,
       "breakdown": {
@@ -2517,7 +2489,7 @@
         "racketballclubnight": 200
       }
     },
-    "level": 6
+    "level": 2
   },
   {
     "name": "Dan Anderson",
@@ -2531,7 +2503,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Alice Frisby",
@@ -2545,7 +2517,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Jamie Dickerson",
@@ -2559,7 +2531,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Dara Murray",
@@ -2573,7 +2545,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "George Prentice",
@@ -2587,7 +2559,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Reuben Gidlow",
@@ -2601,7 +2573,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Shaun Keal",
@@ -2615,7 +2587,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Harriet Delbridge",
@@ -2629,7 +2601,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "David Williams",
@@ -2643,7 +2615,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Danny Farr",
@@ -2657,21 +2629,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
-  },
-  {
-    "name": "Thomas Jarrett (TJ)",
-    "points": {
-      "total": 187,
-      "breakdown": {
-        "peteroberts": 187,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Giovanni Trevisan",
@@ -2685,7 +2643,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Phil Lillywhite",
@@ -2699,7 +2657,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Harry Wilson",
@@ -2713,49 +2671,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
-  },
-  {
-    "name": "Ely",
-    "points": {
-      "total": 176,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 176,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 5
-  },
-  {
-    "name": "Kiaran",
-    "points": {
-      "total": 176,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 176,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 5
-  },
-  {
-    "name": "Oscar",
-    "points": {
-      "total": 176,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 176,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Chris Bell",
@@ -2769,7 +2685,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Andy Slater",
@@ -2783,7 +2699,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 5
+    "level": 2
   },
   {
     "name": "Hannah Tahri",
@@ -2797,7 +2713,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Hannah Buchanan",
@@ -2811,7 +2727,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Jo Elleston",
@@ -2825,7 +2741,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Bob Bath",
@@ -2839,7 +2755,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Dave Snape",
@@ -2853,7 +2769,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Jay Darrington",
@@ -2867,7 +2783,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Lindsey Edwards",
@@ -2881,7 +2797,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Billy Reddington",
@@ -2895,7 +2811,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Jonathan Steele",
@@ -2909,7 +2825,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "John Collicutt",
@@ -2923,7 +2839,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Josh Mathews",
@@ -2937,7 +2853,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Kyle Gribbens",
@@ -2951,7 +2867,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Danielle Wheatley",
@@ -2965,10 +2881,10 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
-    "name": "Daniel Page",
+    "name": "Dan Page",
     "points": {
       "total": 136,
       "breakdown": {
@@ -2979,7 +2895,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Gary Shirley",
@@ -2993,7 +2909,7 @@
         "racketballclubnight": 75
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Jody Schoultz",
@@ -3007,7 +2923,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Sue Page",
@@ -3021,7 +2937,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "David Malcomson",
@@ -3035,7 +2951,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 4
+    "level": 2
   },
   {
     "name": "Tom Barnes",
@@ -3049,7 +2965,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Sam White",
@@ -3063,21 +2979,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
-  },
-  {
-    "name": "Dan Ng",
-    "points": {
-      "total": 126,
-      "breakdown": {
-        "peteroberts": 126,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Kate Tuck",
@@ -3091,7 +2993,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Emma Hughes",
@@ -3105,7 +3007,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Russell Parker",
@@ -3119,7 +3021,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "John Holloway",
@@ -3133,7 +3035,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Sunjina Nepaul",
@@ -3147,7 +3049,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Kris Kolandjian",
@@ -3161,7 +3063,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Drew Burley",
@@ -3175,7 +3077,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Jon Malynn",
@@ -3189,7 +3091,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Elaine Featherstone",
@@ -3203,7 +3105,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Mike Jordan",
@@ -3217,21 +3119,21 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
-    "name": "Mike Catteral",
+    "name": "George Aram",
     "points": {
-      "total": 114,
+      "total": 116,
       "breakdown": {
-        "peteroberts": 0,
-        "sltc": 114,
+        "peteroberts": 62,
+        "sltc": 0,
         "generationcup": 0,
         "juniorclubnight": 0,
-        "racketballclubnight": 0
+        "racketballclubnight": 54
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Michele Farris",
@@ -3245,7 +3147,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Hattie Broadbridge",
@@ -3259,7 +3161,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Joe Perry",
@@ -3273,7 +3175,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Harry Lowe",
@@ -3287,7 +3189,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Bert Townsend",
@@ -3301,7 +3203,7 @@
         "racketballclubnight": 0
       }
     },
-    "level": 3
+    "level": 2
   },
   {
     "name": "Josh Mordecai",
@@ -3584,20 +3486,6 @@
     "level": 1
   },
   {
-    "name": "George Arams",
-    "points": {
-      "total": 88,
-      "breakdown": {
-        "peteroberts": 34,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 54
-      }
-    },
-    "level": 1
-  },
-  {
     "name": "Max Fisher",
     "points": {
       "total": 86,
@@ -3845,20 +3733,6 @@
         "generationcup": 57,
         "juniorclubnight": 17,
         "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
-    "name": "Robert Docker",
-    "points": {
-      "total": 72,
-      "breakdown": {
-        "peteroberts": 24,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 48
       }
     },
     "level": 1
@@ -4256,6 +4130,20 @@
     "level": 1
   },
   {
+    "name": "Didier Dejean",
+    "points": {
+      "total": 57,
+      "breakdown": {
+        "peteroberts": 57,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 1
+  },
+  {
     "name": "Harvey Butchart",
     "points": {
       "total": 57,
@@ -4340,39 +4228,11 @@
     "level": 1
   },
   {
-    "name": "Sunny Creasley",
-    "points": {
-      "total": 56,
-      "breakdown": {
-        "peteroberts": 56,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
     "name": "Ed",
     "points": {
       "total": 56,
       "breakdown": {
         "peteroberts": 56,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
-    "name": "Oscar   Littlefield",
-    "points": {
-      "total": 54,
-      "breakdown": {
-        "peteroberts": 54,
         "sltc": 0,
         "generationcup": 0,
         "juniorclubnight": 0,
@@ -4467,20 +4327,6 @@
   },
   {
     "name": "Matthew Hartley",
-    "points": {
-      "total": 51,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 51,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
-    "name": "Dominic Buckly",
     "points": {
       "total": 51,
       "breakdown": {
@@ -4774,20 +4620,6 @@
     "level": 1
   },
   {
-    "name": "Ted Ironside-Smith",
-    "points": {
-      "total": 42,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 18,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 24
-      }
-    },
-    "level": 1
-  },
-  {
     "name": "Elliott Ngo",
     "points": {
       "total": 42,
@@ -5012,20 +4844,6 @@
     "level": 1
   },
   {
-    "name": "Didier",
-    "points": {
-      "total": 33,
-      "breakdown": {
-        "peteroberts": 33,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
     "name": "Scott Swatton",
     "points": {
       "total": 33,
@@ -5194,6 +5012,20 @@
     "level": 1
   },
   {
+    "name": "Jonathan Thompso",
+    "points": {
+      "total": 31,
+      "breakdown": {
+        "peteroberts": 31,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 0
+      }
+    },
+    "level": 1
+  },
+  {
     "name": "Andy Graham",
     "points": {
       "total": 31,
@@ -5283,20 +5115,6 @@
       "total": 29,
       "breakdown": {
         "peteroberts": 29,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
-    "name": "George Aram",
-    "points": {
-      "total": 28,
-      "breakdown": {
-        "peteroberts": 28,
         "sltc": 0,
         "generationcup": 0,
         "juniorclubnight": 0,
@@ -5474,20 +5292,6 @@
     "level": 1
   },
   {
-    "name": "Dids Dejean",
-    "points": {
-      "total": 24,
-      "breakdown": {
-        "peteroberts": 24,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
     "name": "Isabelle",
     "points": {
       "total": 24,
@@ -5539,6 +5343,34 @@
         "generationcup": 0,
         "juniorclubnight": 0,
         "racketballclubnight": 0
+      }
+    },
+    "level": 1
+  },
+  {
+    "name": "Ricky Nepaul",
+    "points": {
+      "total": 21,
+      "breakdown": {
+        "peteroberts": 0,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 21
+      }
+    },
+    "level": 1
+  },
+  {
+    "name": "Mark Fleury",
+    "points": {
+      "total": 21,
+      "breakdown": {
+        "peteroberts": 0,
+        "sltc": 0,
+        "generationcup": 0,
+        "juniorclubnight": 0,
+        "racketballclubnight": 21
       }
     },
     "level": 1
@@ -6104,20 +5936,6 @@
     "level": 1
   },
   {
-    "name": "Ricky Nepaul",
-    "points": {
-      "total": 12,
-      "breakdown": {
-        "peteroberts": 0,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 12
-      }
-    },
-    "level": 1
-  },
-  {
     "name": "Callum",
     "points": {
       "total": 9,
@@ -6174,15 +5992,15 @@
     "level": 1
   },
   {
-    "name": "Eric Van",
+    "name": "Jon Coolahan",
     "points": {
       "total": 9,
       "breakdown": {
         "peteroberts": 0,
-        "sltc": 9,
+        "sltc": 0,
         "generationcup": 0,
         "juniorclubnight": 0,
-        "racketballclubnight": 0
+        "racketballclubnight": 9
       }
     },
     "level": 1
@@ -6245,20 +6063,6 @@
   },
   {
     "name": "Taff",
-    "points": {
-      "total": 7,
-      "breakdown": {
-        "peteroberts": 7,
-        "sltc": 0,
-        "generationcup": 0,
-        "juniorclubnight": 0,
-        "racketballclubnight": 0
-      }
-    },
-    "level": 1
-  },
-  {
-    "name": "Jonathan Thompson",
     "points": {
       "total": 7,
       "breakdown": {
