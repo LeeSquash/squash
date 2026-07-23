@@ -1,7 +1,7 @@
 <!-- The Toggle Button -->
 <button id="toggle-sidebar-btn" aria-label="Toggle Navigation">☰</button>
 
-<!-- FIX: Added /squash/ to every competition file link path -->
+<!-- Competition Links -->
 <a href="/squash/competitions/home.html">Home</a>
 <a href="/squash/competitions/wednesday-handicap.html">Wednesday Handicap</a>
 <a href="/squash/competitions/squash-levels-team-challenge.html">Squash Levels Team Challenge</a>
@@ -10,21 +10,23 @@
 <a href="/squash/competitions/racketball-handicap.html">Racketball Handicap</a>
 <a href="/squash/competitions/junior-squash-camps.html">Junior Squash Camps</a>
 
+<!-- Leaderboard Links -->
+<a href="/squash/leaderboards/index.html">Leaderboard</a>
+
 <!-- CENTRAL SIDEBAR LOGIC (Driven from this file only) -->
 <script>
     (function() {
-        // 1. Automatically highlight the active link matching the current page name
         const pageName = window.location.pathname.split('/').pop();
+
         if (pageName) {
-            // Looks inside this file layout for the active link
             const currentLink = document.querySelector(`.sidebar a[href*="${pageName}"]`);
             if (currentLink) {
                 currentLink.classList.add('active');
             }
         }
 
-        // 2. Direct Toggle Action: Listens for clicks on the toggle button
         const toggleBtn = document.getElementById('toggle-sidebar-btn');
+
         if (toggleBtn) {
             toggleBtn.onclick = function() {
                 document.body.classList.toggle('sidebar-collapsed');
