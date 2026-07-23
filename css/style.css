@@ -242,3 +242,129 @@ body {
     width: calc(100% - 60px);
     max-width: 100%; 
 }
+/* ========================================
+   LEADERBOARD STYLING
+   ======================================== */
+
+#leaderboard-container table {
+    width: auto;
+    min-width: 650px;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+}
+
+#leaderboard-container th {
+    background-color: #0f172a;
+    color: white;
+    padding: 14px 15px;
+    text-align: center;
+}
+
+#leaderboard-container td {
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+#leaderboard-container th:nth-child(1),
+#leaderboard-container td:nth-child(1) {
+    width: 60px;
+}
+
+#leaderboard-container th:nth-child(2),
+#leaderboard-container td:nth-child(2) {
+    width: 180px;
+}
+
+#leaderboard-container th:nth-child(3),
+#leaderboard-container td:nth-child(3) {
+    width: 100px;
+}
+
+#leaderboard-container th:nth-child(4),
+#leaderboard-container td:nth-child(4) {
+    width: 120px;
+}
+
+#leaderboard-container tr:hover {
+    background-color: #f8fafc;
+}
+
+.player-button {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #1d4ed8;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.player-button:hover {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.player-details {
+    padding: 0;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.breakdown-table {
+    width: 370px !important;
+    margin: 0 auto !important;
+    table-layout: fixed !important;
+    border-collapse: collapse !important;
+}
+
+.breakdown-table tr {
+    height: 24px;
+}
+
+.breakdown-table td {
+    padding: 2px 0 !important;
+    border: none !important;
+}
+
+.breakdown-table td:first-child {
+    width: 280px !important;
+    text-align: left !important;
+    font-weight: 700;
+}
+
+.breakdown-table td:last-child {
+    width: 90px !important;
+    text-align: left !important;
+    font-weight: 600;
+}
+
+.total-row {
+    border-top: 2px solid #0f172a !important;
+}
+
+.total-row td {
+    padding-top: 6px !important;
+    font-weight: 700;
+}
+
+.player-details a {
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.player-details a:hover {
+    text-decoration: underline;
+}
