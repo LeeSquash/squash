@@ -9,6 +9,7 @@ import { calculateGenerationCupPoints } from "./generationcup.js";
 import { calculateJuniorClubnightPoints } from "./juniorclubnight.js";
 import { calculateRacketballClubnightPoints } from "./racketballclubnight.js";
 
+
 export function calculatePlayerPoints(player) {
 
     const breakdown = {
@@ -38,7 +39,7 @@ export function calculatePlayerPoints(player) {
 
     const total = Object.values(breakdown)
         .reduce(
-            (sum, points) => sum + points,
+            (sum, competition) => sum + competition.total,
             0
         );
 
