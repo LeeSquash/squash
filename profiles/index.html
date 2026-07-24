@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player Profile</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+<div class="sidebar"></div>
+
+<div class="content">
+
+    <div id="profile-output">
+        Loading profile...
+    </div>
+
+</div>
+
+<script>
+fetch('../components/sidebar.html')
+.then(response => response.text())
+.then(data => {
+
+    const sidebar = document.querySelector('.sidebar');
+
+    sidebar.innerHTML = data;
+
+    const scripts = sidebar.getElementsByTagName('script');
+
+    for (let i = 0; i < scripts.length; i++) {
+        eval(scripts[i].innerText);
+    }
+
+});
+</script>
+
+<script type="module" src="profile.js"></script>
+
+</body>
+</html>

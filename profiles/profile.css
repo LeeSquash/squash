@@ -1,0 +1,238 @@
+/* ========================================
+   PLAYER PROFILE SYSTEM STYLES
+   Controls all profile components
+   ======================================== */
+
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+}
+
+.profile-header,
+.trophy-card,
+.achievement-card,
+.competition-card {
+    background:white;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:18px;
+    margin-bottom:18px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.08);
+}
+
+
+/* ========================================
+   PROFILE HEADER
+   ======================================== */
+
+.profile-header-main {
+    display:flex;
+    align-items:baseline;
+}
+
+.player-name {
+    margin:0;
+    font-size:28px;
+    color:#333;
+}
+
+.player-level {
+    font-size:18px;
+    font-weight:normal;
+    color:#666;
+    margin-left:10px;
+}
+
+.player-points {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#eef7ff;
+    border-radius:8px;
+    padding:8px 15px;
+    margin-top:6px;
+    font-size:16px;
+}
+
+.player-points span {
+    font-size:22px;
+    font-weight:bold;
+    color:#0044cc;
+}
+
+/* ========================================
+   LEVEL BAR
+   ======================================== */
+
+.level-bar-container {
+    width:100%;
+    margin-top:15px;
+}
+
+.level-bar-background {
+    width:100%;
+    height:22px;
+    background:#dddddd;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.level-bar-fill {
+    height:22px;
+    background:#0044cc;
+    border-radius:15px;
+}
+
+.level-bar-text {
+    margin-top:6px;
+    font-size:13px;
+    color:#555;
+    text-align:center;
+}
+
+
+/* ========================================
+   TROPHIES AND ACHIEVEMENTS
+   ======================================== */
+
+.trophy-card h2,
+.achievement-card h2,
+.competition-card h2 {
+    margin-top:0;
+    color:#333;
+}
+
+.trophy-item,
+.achievement-item {
+    padding:8px;
+    border-bottom:1px solid #eee;
+}
+
+.trophy-item span {
+    display:block;
+    color:#666;
+}
+
+
+/* ========================================
+   COMPETITION CARDS
+   ======================================== */
+
+.competition-card {
+    width:100%;
+}
+
+.competition-title-line {
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+
+.competition-title-line h2 {
+    margin:0;
+    color:#333;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.competition-points {
+    margin-left:15px;
+    font-size:18px;
+    font-weight:bold;
+    color:#0044cc;
+}
+
+.competition-summary {
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:#eef7ff;
+    border-radius:8px;
+    padding:10px 15px;
+    margin-top:12px;
+}
+
+.summary-item {
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.summary-item span {
+    font-size:14px;
+    color:#555;
+}
+
+.summary-item strong {
+    font-size:18px;
+    color:#0044cc;
+}
+
+
+/* ========================================
+   SEASON CARDS
+   ======================================== */
+
+.season-container {
+    margin-top:15px;
+}
+
+.season-card {
+    background:#fafafa;
+    border-left:4px solid #0044cc;
+    border-radius:8px;
+    padding:12px;
+    margin-top:10px;
+}
+
+.season-card h3 {
+    margin-top:0;
+}
+
+.season-stats {
+    display:flex;
+    gap:15px;
+}
+
+.season-stat {
+    background:white;
+    border-radius:6px;
+    padding:8px 14px;
+    text-align:center;
+}
+
+.season-details {
+    margin-top:10px;
+}
+
+.stat-line {
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px dashed #ddd;
+    padding:6px 0;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width:700px) {
+
+    .profile-header-main {
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .competition-summary,
+    .season-stats {
+        width:100%;
+        flex-direction:column;
+    }
+
+    .summary-item,
+    .season-stat {
+        width:100%;
+    }
+
+}
