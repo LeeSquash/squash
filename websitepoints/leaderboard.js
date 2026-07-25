@@ -35,3 +35,7 @@ fs.writeFileSync(
 );
 
 console.log("Leaderboard created successfully");
+
+
+
+
