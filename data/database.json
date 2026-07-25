@@ -1,152 +1,5 @@
 {
   "players": {
-    "1": {
-      "name": "1",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2026/27",
-            "place": "Rob Docker",
-            "name": "1",
-            "team": "4",
-            "score": "7"
-          },
-          {
-            "season": "2026/27",
-            "place": "Baxter Madden",
-            "name": "1",
-            "team": "4",
-            "score": "7"
-          },
-          {
-            "season": "2026/27",
-            "place": "Sheldon Docker",
-            "name": "1",
-            "team": "4",
-            "score": "6"
-          },
-          {
-            "season": "2026/27",
-            "place": "Alwyn Lewis",
-            "name": "1",
-            "team": "3",
-            "score": "3"
-          },
-          {
-            "season": "2026/27",
-            "place": "Rupert Ford",
-            "name": "1",
-            "team": "3",
-            "score": "2"
-          },
-          {
-            "season": "2026/27",
-            "place": "Dan Green",
-            "name": "1",
-            "team": "4",
-            "score": "6"
-          },
-          {
-            "season": "2026/27",
-            "place": "Alex Kershaw",
-            "name": "1",
-            "team": "3",
-            "score": "6"
-          },
-          {
-            "season": "2026/27",
-            "place": "Ewan Wykeham-Martin",
-            "name": "1",
-            "team": "4",
-            "score": "5"
-          },
-          {
-            "season": "2026/27",
-            "place": "Josh White",
-            "name": "1",
-            "team": "4",
-            "score": "5"
-          },
-          {
-            "season": "2026/27",
-            "place": "Richard Lowton",
-            "name": "1",
-            "team": "3",
-            "score": "1"
-          },
-          {
-            "season": "2026/27",
-            "place": "Craig Dexter",
-            "name": "1",
-            "team": "3",
-            "score": "6"
-          },
-          {
-            "season": "2026/27",
-            "place": "Mark Homeyard",
-            "name": "1",
-            "team": "4",
-            "score": "5"
-          },
-          {
-            "season": "2026/27",
-            "place": "Sam Porter",
-            "name": "1",
-            "team": "4",
-            "score": "5"
-          },
-          {
-            "season": "2026/27",
-            "place": "Jon Ramsey",
-            "name": "1",
-            "team": "4",
-            "score": "4"
-          },
-          {
-            "season": "2026/27",
-            "place": "Will Ramsey",
-            "name": "1",
-            "team": "3",
-            "score": "0"
-          },
-          {
-            "season": "2026/27",
-            "place": "Jon Lott",
-            "name": "1",
-            "team": "4",
-            "score": "7"
-          },
-          {
-            "season": "2026/27",
-            "place": "Martin Scheel",
-            "name": "1",
-            "team": "3",
-            "score": "5"
-          },
-          {
-            "season": "2026/27",
-            "place": "Simon Langdale",
-            "name": "1",
-            "team": "4",
-            "score": "4"
-          },
-          {
-            "season": "2026/27",
-            "place": "Dan Ngo",
-            "name": "1",
-            "team": "4",
-            "score": "2"
-          },
-          {
-            "season": "2026/27",
-            "place": "Oliver Boniface",
-            "name": "1",
-            "team": "2",
-            "score": "2"
-          }
-        ]
-      }
-    },
     "martin scheel": {
       "name": "Martin Scheel",
       "competitions": {
@@ -176,18 +29,31 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Martin Scheel",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "5"
+          },
+          {
             "season": "2025/26",
             "place": "1",
             "name": "Martin Scheel",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2025/26",
             "place": "4",
             "name": "Martin Scheel",
             "team": "Squashy Balls",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -248,11 +114,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Will Ramsey",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "0"
+          },
+          {
             "season": "2025/26",
             "place": "6",
             "name": "Will Ramsey",
             "team": "Dads and Lads",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ],
         "generationcup": [
@@ -326,14 +203,18 @@
             "place": "5",
             "name": "George Yeates",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2025/26",
             "place": "6",
             "name": "George Yeates",
             "team": "Dads and Lads",
-            "score": "11"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "11"
           }
         ]
       }
@@ -429,11 +310,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Sam Porter",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
+          {
             "season": "2025/26",
             "place": "6",
             "name": "Sam Porter",
             "team": "Dads and Lads",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -522,7 +414,9 @@
             "place": "9",
             "name": "Matt Parkhouse",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -576,14 +470,18 @@
             "place": "2",
             "name": "Leo Sharp",
             "team": "Abshooters",
-            "score": "9"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "9"
           },
           {
             "season": "2024/25",
             "place": "1",
             "name": "Leo Sharp",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ],
         "generationcup": [
@@ -640,7 +538,9 @@
             "place": "4",
             "name": "Ben Smith",
             "team": "Squashy Balls",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -696,11 +596,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Dan Ngo",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "2"
+          },
+          {
             "season": "2025/26",
             "place": "4",
             "name": "Dan Ngo",
             "team": "Squashy Balls",
-            "score": "14"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "14"
           }
         ],
         "generationcup": [
@@ -855,11 +766,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Jon Ramsey",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "4"
+          },
+          {
             "season": "2025/26",
             "place": "6",
             "name": "Jon Ramsey",
             "team": "Dads and Lads",
-            "score": "7"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "7"
           }
         ],
         "generationcup": [
@@ -929,11 +851,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Richard Lowton",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "1"
+          },
+          {
             "season": "2025/26",
             "place": "1",
             "name": "Richard Lowton",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -989,18 +922,31 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Mark Homeyard",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
+          {
             "season": "2025/26",
             "place": "5",
             "name": "Mark Homeyard",
             "team": "Misshits",
-            "score": "7"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "7"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Mark Homeyard",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -1057,11 +1003,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Baxter Madden",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
+          {
             "season": "2024/25",
             "place": "7",
             "name": "Baxter Madden",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -1132,14 +1089,18 @@
             "place": "4",
             "name": "Michael Evans",
             "team": "Squashy Balls",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Michael Evans",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ],
         "racketballclubnight": [
@@ -1203,11 +1164,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Simon Langdale",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "4"
+          },
+          {
             "season": "2025/26",
             "place": "8",
             "name": "Simon Langdale",
             "team": "Wednesday Bar Boozers",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           }
         ]
       }
@@ -1296,7 +1268,9 @@
             "place": "2",
             "name": "Jon Nation",
             "team": "Abshooters",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -1356,14 +1330,18 @@
             "place": "4",
             "name": "Will Pallister",
             "team": "Squashy Balls",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2025/26",
             "place": "7",
             "name": "Will Pallister",
             "team": "Dobbinators",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -1434,7 +1412,9 @@
             "place": "5",
             "name": "Josh Man",
             "team": "Misshits",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ],
         "racketballclubnight": [
@@ -1498,11 +1478,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Sheldon Docker",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "6"
+          },
+          {
             "season": "2025/26",
             "place": "3",
             "name": "Sheldon Docker",
             "team": "Racket Raiders",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ],
         "generationcup": [
@@ -1665,7 +1656,9 @@
             "place": "2",
             "name": "Paul Barnard",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -1730,14 +1723,18 @@
             "place": "3",
             "name": "Will Miller",
             "team": "Racket Raiders",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           },
           {
             "season": "2024/25",
             "place": "7",
             "name": "Will Miller",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -1837,14 +1834,18 @@
             "place": "2",
             "name": "Mark Sharp",
             "team": "Abshooters",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           },
           {
             "season": "2024/25",
             "place": "1",
             "name": "Mark Sharp",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ],
         "generationcup": [
@@ -1963,11 +1964,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Dan Green",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "6"
+          },
+          {
             "season": "2025/26",
             "place": "1",
             "name": "Dan Green",
             "team": "Racket Rebels",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -2074,7 +2086,9 @@
             "place": "7",
             "name": "Matt Handy",
             "team": "Dobbinators",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           }
         ]
       }
@@ -2134,14 +2148,18 @@
             "place": "5",
             "name": "Sam Homeyard",
             "team": "Misshits",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Sam Homeyard",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -2219,7 +2237,9 @@
             "place": "9",
             "name": "Robbie Hicks",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ],
         "racketballclubnight": [
@@ -2320,7 +2340,9 @@
             "place": "5",
             "name": "Paul Holdway",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -2409,7 +2431,9 @@
             "place": "5",
             "name": "Lai Man",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ],
         "generationcup": [
@@ -2566,7 +2590,9 @@
             "place": "6",
             "name": "Owen Yeates",
             "team": "Dads and Lads",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -2611,18 +2637,31 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Ewan Wykeham-Martin",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
+          {
             "season": "2025/26",
             "place": "1",
             "name": "Ewan Wykeham-Martin",
             "team": "Racket Rebels",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2025/26",
             "place": "5",
             "name": "Ewan Wykeham-Martin",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -2680,21 +2719,27 @@
             "place": "7",
             "name": "Phoebe Dobbin",
             "team": "Dobbinators",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "3",
             "name": "Phoebe Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           },
           {
             "season": "2024/25",
             "place": "7",
             "name": "Phoebe Dobbin",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ],
         "generationcup": [
@@ -2766,11 +2811,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Rob Docker",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
+          {
             "season": "2025/26",
             "place": "3",
             "name": "Rob Docker",
             "team": "Racket Raiders",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ],
         "generationcup": [
@@ -2949,7 +3005,9 @@
             "place": "8",
             "name": "Jake Barnard",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -3016,21 +3074,27 @@
             "place": "1",
             "name": "Ciaran O'Brien",
             "team": "Racket Rebels",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2025/26",
             "place": "9",
             "name": "Ciaran O'Brien",
             "team": "Glendales",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Ciaran O'Brien",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -3090,14 +3154,18 @@
             "place": "4",
             "name": "Dominic Buckley",
             "team": "Squashy Balls",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "8",
             "name": "Dominic Buckley",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -3343,14 +3411,18 @@
             "place": "9",
             "name": "Ely Donnachie",
             "team": "Glendales",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Ely Donnachie",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -3521,7 +3593,9 @@
             "place": "3",
             "name": "Nico Phillips",
             "team": "Racket Raiders",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -3592,7 +3666,9 @@
             "place": "7",
             "name": "Geoff Balko",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ],
         "racketballclubnight": [
@@ -3640,18 +3716,31 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Alex Kershaw",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "6"
+          },
+          {
             "season": "2025/26",
             "place": "1",
             "name": "Alex Kershaw",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Alex Kershaw",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ],
         "generationcup": [
@@ -3697,14 +3786,18 @@
             "place": "7",
             "name": "Liam Dobbin",
             "team": "Dobbinators",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           },
           {
             "season": "2024/25",
             "place": "3",
             "name": "Liam Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ],
         "generationcup": [
@@ -3756,7 +3849,9 @@
             "place": "6",
             "name": "Ben Gilbert",
             "team": "Dads and Lads",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -3816,21 +3911,27 @@
             "place": "4",
             "name": "Eric Van Onselen",
             "team": "Squashy Balls",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2025/26",
             "place": "8",
             "name": "Eric Van Onselen",
             "team": "Wednesday Bar Boozers",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           },
           {
             "season": "2024/25",
             "place": "9",
             "name": "Eric Van Onselen",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -3868,14 +3969,18 @@
             "place": "1",
             "name": "Luke Page",
             "team": "Racket Rebels",
-            "score": "18"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "18"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Luke Page",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -3894,6 +3999,17 @@
             "runnersUp": "0",
             "weeks": "19",
             "score": "403"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Craig Dexter",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "6"
           }
         ]
       }
@@ -3971,7 +4087,9 @@
             "place": "6",
             "name": "Marcus Smith",
             "team": "Dads and Lads",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           }
         ]
       }
@@ -3998,14 +4116,18 @@
             "place": "8",
             "name": "Ted Ironside-Smith",
             "team": "Wednesday Bar Boozers",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Ted Ironside-Smith",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ],
         "racketballclubnight": [
@@ -4051,7 +4173,9 @@
             "place": "4",
             "name": "Oscar Littlefield",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -4100,21 +4224,27 @@
             "place": "1",
             "name": "Greg Czura",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2025/26",
             "place": "9",
             "name": "Greg Czura",
             "team": "Glendales",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Greg Czura",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -4174,14 +4304,18 @@
             "place": "10",
             "name": "Mike Catterall",
             "team": "Teamless",
-            "score": "8"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "8"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Mike Catterall",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ],
         "racketballclubnight": [
@@ -4285,7 +4419,9 @@
             "place": "5",
             "name": "Jonathan Thompson",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -4312,7 +4448,9 @@
             "place": "8",
             "name": "George French",
             "team": "Wednesday Bar Boozers",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -4379,7 +4517,9 @@
             "place": "9",
             "name": "Jamie Dickerson",
             "team": "Glendales",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           }
         ]
       }
@@ -4468,21 +4608,27 @@
             "place": "7",
             "name": "Harry Porto",
             "team": "Dobbinators",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "9",
             "name": "Harry Porto",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Harry Porto",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -4651,14 +4797,18 @@
             "place": "2",
             "name": "Oscar Fry",
             "team": "Abshooters",
-            "score": "15"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "15"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Oscar Fry",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -4932,7 +5082,9 @@
             "place": "4",
             "name": "Ryan Baker",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -4992,14 +5144,18 @@
             "place": "3",
             "name": "Seb Cairns-Allen",
             "team": "Racket Raiders",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Seb Cairns-Allen",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -5048,7 +5204,9 @@
             "place": "9",
             "name": "Harriet Delbridge",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -5684,14 +5842,18 @@
             "place": "1",
             "name": "Ewan Maclean",
             "team": "Racket Rebels",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2025/26",
             "place": "5",
             "name": "Ewan Maclean",
             "team": "Misshits",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -5805,7 +5967,9 @@
             "place": "6",
             "name": "Ethel Brokenshire",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       }
@@ -6020,7 +6184,9 @@
             "place": "5",
             "name": "Sam Williams",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -6065,7 +6231,9 @@
             "place": "5",
             "name": "George Prentice",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -6288,7 +6456,9 @@
             "place": "5",
             "name": "Dave Robjohns",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -6369,7 +6539,9 @@
             "place": "5",
             "name": "Dara Murray",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -6639,7 +6811,9 @@
             "place": "4",
             "name": "Richard Gwilliam",
             "team": "Squashy Balls",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           }
         ]
       }
@@ -6768,14 +6942,18 @@
             "place": "3",
             "name": "Le-Tian Mo",
             "team": "Racket Raiders",
-            "score": "1"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "1"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Le-Tian Mo",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -6831,7 +7009,9 @@
             "place": "1",
             "name": "Paul Martin",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       }
@@ -6858,7 +7038,9 @@
             "place": "5",
             "name": "Sam White",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -6954,21 +7136,27 @@
             "place": "2",
             "name": "David Christian",
             "team": "Abshooters",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2025/26",
             "place": "10",
             "name": "David Christian",
             "team": "Teamless",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "David Christian",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ],
         "generationcup": [
@@ -7095,7 +7283,9 @@
             "place": "9",
             "name": "Emily McCLean",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -7843,7 +8033,9 @@
             "place": "8",
             "name": "Arthur Burt",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -8945,7 +9137,9 @@
             "place": "6",
             "name": "Shaun Keal",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ],
         "generationcup": [
@@ -10279,14 +10473,18 @@
             "place": "7",
             "name": "Andy Cummings",
             "team": "Dobbinators",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2024/25",
             "place": "3",
             "name": "Andy Cummings",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -13003,11 +13201,22 @@
         ],
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Rupert Ford",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "2"
+          },
+          {
             "season": "2024/25",
             "place": "7",
             "name": "Rupert Ford",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ],
         "generationcup": [
@@ -13158,7 +13367,9 @@
             "place": "3",
             "name": "Georgina Miller",
             "team": "Racket Raiders",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           }
         ]
       }
@@ -13188,14 +13399,18 @@
             "place": "3",
             "name": "Jessica Ellicott",
             "team": "Racket Raiders",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2024/25",
             "place": "9",
             "name": "Jessica Ellicott",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ],
         "generationcup": [
@@ -13268,14 +13483,18 @@
             "place": "3",
             "name": "William Clift",
             "team": "Racket Raiders",
-            "score": "8"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "8"
           },
           {
             "season": "2024/25",
             "place": "7",
             "name": "William Clift",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ],
         "generationcup": [
@@ -13386,121 +13605,45 @@
         ]
       }
     },
-    "dan page": {
-      "name": "Dan Page",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "1",
-            "name": "Dan Page",
-            "team": "Racket Rebels",
-            "score": "12"
-          }
-        ]
-      }
-    },
-    "mike jordan": {
-      "name": "Mike Jordan",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "1",
-            "name": "Mike Jordan",
-            "team": "Racket Rebels",
-            "score": "6"
-          }
-        ]
-      }
-    },
-    "jon malynn": {
-      "name": "Jon Malynn",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Jon Malynn",
-            "team": "Abshooters",
-            "score": "13"
-          }
-        ]
-      }
-    },
-    "sean herbert": {
-      "name": "Sean Herbert",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Sean Herbert",
-            "team": "Abshooters",
-            "score": "9"
-          }
-        ]
-      }
-    },
-    "jason vigiers": {
-      "name": "Jason Vigiers",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Jason Vigiers",
-            "team": "Abshooters",
-            "score": "6"
-          }
-        ]
-      }
-    },
-    "phoebe griffiths": {
-      "name": "Phoebe Griffiths",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Phoebe Griffiths",
-            "team": "Abshooters",
-            "score": "2"
-          },
-          {
-            "season": "2024/25",
-            "place": "1",
-            "name": "Phoebe Griffiths",
-            "team": "Abshooters",
-            "score": "87"
-          }
-        ]
-      }
-    },
     "alwyn lewis": {
       "name": "Alwyn Lewis",
       "competitions": {
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Alwyn Lewis",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "3"
+          },
+          {
             "season": "2025/26",
             "place": "3",
             "name": "Alwyn Lewis",
             "team": "Racket Raiders",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2025/26",
             "place": "4",
             "name": "Alwyn Lewis",
             "team": "Squashy Balls",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Alwyn Lewis",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ],
         "racketballclubnight": [
@@ -13519,16 +13662,18 @@
         ]
       }
     },
-    "ola adigun": {
-      "name": "Ola Adigun",
+    "josh white": {
+      "name": "Josh White",
       "competitions": {
         "sltc": [
           {
-            "season": "2025/26",
-            "place": "4",
-            "name": "Ola Adigun",
-            "team": "Squashy Balls",
-            "score": "3"
+            "season": "2026/27",
+            "place": "2",
+            "name": "Josh White",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
           }
         ]
       }
@@ -13538,11 +13683,168 @@
       "competitions": {
         "sltc": [
           {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Jon Lott",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
+          {
             "season": "2025/26",
             "place": "4",
             "name": "Jon Lott",
             "team": "Squashy Balls",
-            "score": "1"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "1"
+          }
+        ]
+      }
+    },
+    "oliver boniface": {
+      "name": "Oliver Boniface",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2026/27",
+            "place": "5",
+            "name": "Oliver Boniface",
+            "team": "Dobbinators",
+            "eventsPlayed": "1",
+            "matchesPlayed": "2",
+            "points": "2"
+          },
+          {
+            "season": "2025/26",
+            "place": "7",
+            "name": "Oliver Boniface",
+            "team": "Dobbinators",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "7"
+          }
+        ]
+      }
+    },
+    "dan page": {
+      "name": "Dan Page",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Dan Page",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "12"
+          }
+        ]
+      }
+    },
+    "mike jordan": {
+      "name": "Mike Jordan",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Mike Jordan",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          }
+        ]
+      }
+    },
+    "jon malynn": {
+      "name": "Jon Malynn",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Jon Malynn",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "13"
+          }
+        ]
+      }
+    },
+    "sean herbert": {
+      "name": "Sean Herbert",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Sean Herbert",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "9"
+          }
+        ]
+      }
+    },
+    "jason vigiers": {
+      "name": "Jason Vigiers",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Jason Vigiers",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          }
+        ]
+      }
+    },
+    "phoebe griffiths": {
+      "name": "Phoebe Griffiths",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Phoebe Griffiths",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
+          },
+          {
+            "season": "2024/25",
+            "place": "1",
+            "name": "Phoebe Griffiths",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
+          }
+        ]
+      }
+    },
+    "ola adigun": {
+      "name": "Ola Adigun",
+      "competitions": {
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "4",
+            "name": "Ola Adigun",
+            "team": "Squashy Balls",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -13556,21 +13858,9 @@
             "place": "5",
             "name": "Keith Barron",
             "team": "Misshits",
-            "score": "6"
-          }
-        ]
-      }
-    },
-    "oliver boniface": {
-      "name": "Oliver Boniface",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "7",
-            "name": "Oliver Boniface",
-            "team": "Dobbinators",
-            "score": "7"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -13584,7 +13874,9 @@
             "place": "7",
             "name": "Ross Goodwin",
             "team": "Dobbinators",
-            "score": "1"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "1"
           }
         ]
       }
@@ -13598,7 +13890,9 @@
             "place": "8",
             "name": "Ruth Hagerty",
             "team": "Wednesday Bar Boozers",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -13612,7 +13906,9 @@
             "place": "1",
             "name": "Dave Fairbrother",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       }
@@ -13626,7 +13922,9 @@
             "place": "1",
             "name": "Scott Griffiths",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       }
@@ -13640,7 +13938,9 @@
             "place": "5",
             "name": "Kris Kolandjian",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -13654,7 +13954,9 @@
             "place": "5",
             "name": "Drew Burley",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -13668,7 +13970,9 @@
             "place": "3",
             "name": "Rhys Glide",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -13682,7 +13986,9 @@
             "place": "3",
             "name": "James Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -13696,7 +14002,9 @@
             "place": "3",
             "name": "Vince Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -13710,7 +14018,9 @@
             "place": "9",
             "name": "Sally Ellicott",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ],
         "generationcup": [
@@ -13738,7 +14048,9 @@
             "place": "8",
             "name": "Matthew Hartley",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -13752,7 +14064,9 @@
             "place": "8",
             "name": "Mo Mehrkar-McCubbin",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -13766,7 +14080,9 @@
             "place": "7",
             "name": "Isla Glide",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -13780,7 +14096,9 @@
             "place": "2",
             "name": "Paul Lacey",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -13794,7 +14112,9 @@
             "place": "6",
             "name": "Michele Farris",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       }
@@ -13808,7 +14128,9 @@
             "place": "6",
             "name": "Hattie Broadbridge",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       }
