@@ -1,9 +1,90 @@
 {
+  "martin scheel": {
+    "name": "Martin Scheel",
+    "summary": {
+      "level": 7,
+      "points": 752,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "peteroberts": {
+        "name": "Wednesday Handicap",
+        "points": 552,
+        "seasons": {
+          "2026/27": 396,
+          "2025/26": 156
+        },
+        "stats": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Martin Scheel",
+            "games": "33",
+            "wins": "18",
+            "weeklyWins": "",
+            "runnersUp": "2",
+            "weeks": "8",
+            "score": "144"
+          },
+          {
+            "season": "2025/26",
+            "place": "49",
+            "name": "Martin Scheel",
+            "games": "51",
+            "wins": "23",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "13",
+            "score": "196"
+          }
+        ]
+      },
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 200,
+        "seasons": {
+          "2026/27": 50,
+          "2025/26": 150
+        },
+        "stats": [
+          {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Martin Scheel",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "5"
+          },
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Martin Scheel",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          },
+          {
+            "season": "2025/26",
+            "place": "4",
+            "name": "Martin Scheel",
+            "team": "Squashy Balls",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
+          }
+        ]
+      }
+    }
+  },
   "will ramsey": {
     "name": "Will Ramsey",
     "summary": {
       "level": 9,
-      "points": 1108,
+      "points": 1156,
       "rank": null
     },
     "trophies": [],
@@ -79,17 +160,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 12,
+        "points": 60,
         "seasons": {
-          "2025/26": 12
+          "2026/27": 60,
+          "2025/26": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Will Ramsey",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "0"
+          },
           {
             "season": "2025/26",
             "place": "6",
             "name": "Will Ramsey",
             "team": "Dads and Lads",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       },
@@ -121,7 +214,7 @@
     "name": "George Yeates",
     "summary": {
       "level": 8,
-      "points": 987,
+      "points": 942,
       "rank": null
     },
     "trophies": [],
@@ -185,9 +278,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 45,
+        "points": 0,
         "seasons": {
-          "2025/26": 45
+          "2025/26": 0
         },
         "stats": [
           {
@@ -195,14 +288,18 @@
             "place": "5",
             "name": "George Yeates",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2025/26",
             "place": "6",
             "name": "George Yeates",
             "team": "Dads and Lads",
-            "score": "11"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "11"
           }
         ]
       }
@@ -280,7 +377,7 @@
     "name": "Sam Porter",
     "summary": {
       "level": 9,
-      "points": 1149,
+      "points": 1197,
       "rank": null
     },
     "trophies": [],
@@ -332,17 +429,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 12,
+        "points": 60,
         "seasons": {
-          "2025/26": 12
+          "2026/27": 60,
+          "2025/26": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Sam Porter",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
           {
             "season": "2025/26",
             "place": "6",
             "name": "Sam Porter",
             "team": "Dads and Lads",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -384,7 +493,7 @@
     "name": "Matt Parkhouse",
     "summary": {
       "level": 11,
-      "points": 1518,
+      "points": 1467,
       "rank": null
     },
     "trophies": [],
@@ -460,9 +569,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -470,7 +579,9 @@
             "place": "9",
             "name": "Matt Parkhouse",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -479,8 +590,8 @@
   "leo sharp": {
     "name": "Leo Sharp",
     "summary": {
-      "level": 7,
-      "points": 842,
+      "level": 5,
+      "points": 554,
       "rank": null
     },
     "trophies": [],
@@ -544,10 +655,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 468,
+        "points": 180,
         "seasons": {
-          "2025/26": 107,
-          "2024/25": 361
+          "2025/26": 80,
+          "2024/25": 100
         },
         "stats": [
           {
@@ -555,14 +666,18 @@
             "place": "2",
             "name": "Leo Sharp",
             "team": "Abshooters",
-            "score": "9"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "9"
           },
           {
             "season": "2024/25",
             "place": "1",
             "name": "Leo Sharp",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       },
@@ -587,7 +702,7 @@
     "name": "Ben Smith",
     "summary": {
       "level": 6,
-      "points": 744,
+      "points": 735,
       "rank": null
     },
     "trophies": [],
@@ -639,9 +754,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 59,
+        "points": 50,
         "seasons": {
-          "2025/26": 59
+          "2025/26": 50
         },
         "stats": [
           {
@@ -649,7 +764,9 @@
             "place": "4",
             "name": "Ben Smith",
             "team": "Squashy Balls",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -658,8 +775,8 @@
   "dan ngo": {
     "name": "Dan Ngo",
     "summary": {
-      "level": 7,
-      "points": 823,
+      "level": 12,
+      "points": 1730,
       "rank": null
     },
     "trophies": [],
@@ -667,9 +784,10 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 689,
+        "points": 1588,
         "seasons": {
           "2026/27": 105,
+          "2025/26": 899,
           "2024/25": 458,
           "2023/24": 126
         },
@@ -684,6 +802,17 @@
             "runnersUp": "",
             "weeks": "10",
             "score": "101"
+          },
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Dan Ngo",
+            "games": "166",
+            "wins": "81",
+            "weeklyWins": "6",
+            "runnersUp": "5",
+            "weeks": "42",
+            "score": "684"
           },
           {
             "season": "2024/25",
@@ -711,17 +840,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 92,
+        "points": 100,
         "seasons": {
-          "2025/26": 92
+          "2026/27": 50,
+          "2025/26": 50
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Dan Ngo",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "2"
+          },
           {
             "season": "2025/26",
             "place": "4",
             "name": "Dan Ngo",
             "team": "Squashy Balls",
-            "score": "14"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "14"
           }
         ]
       },
@@ -745,8 +886,8 @@
   "zoe fellows": {
     "name": "Zoe Fellows",
     "summary": {
-      "level": 8,
-      "points": 1033,
+      "level": 13,
+      "points": 1933,
       "rank": null
     },
     "trophies": [],
@@ -754,11 +895,12 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 1033,
+        "points": 1933,
         "seasons": {
           "2026/27": 56,
           "2025/26": 234,
           "2024/25": 204,
+          "2023/24": 900,
           "2022/23": 539
         },
         "stats": [
@@ -794,6 +936,17 @@
             "runnersUp": "0",
             "weeks": "22",
             "score": "303"
+          },
+          {
+            "season": "2023/24",
+            "place": "1",
+            "name": "Zoe Fellows",
+            "games": "179",
+            "wins": "78",
+            "weeklyWins": "3",
+            "runnersUp": "7",
+            "weeks": "45",
+            "score": "483"
           },
           {
             "season": "2022/23",
@@ -870,7 +1023,7 @@
     "name": "Jon Ramsey",
     "summary": {
       "level": 7,
-      "points": 786,
+      "points": 825,
       "rank": null
     },
     "trophies": [],
@@ -922,17 +1075,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 21,
+        "points": 60,
         "seasons": {
-          "2025/26": 21
+          "2026/27": 60,
+          "2025/26": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Jon Ramsey",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "4"
+          },
           {
             "season": "2025/26",
             "place": "6",
             "name": "Jon Ramsey",
             "team": "Dads and Lads",
-            "score": "7"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "7"
           }
         ]
       },
@@ -964,7 +1129,7 @@
     "name": "Richard Lowton",
     "summary": {
       "level": 8,
-      "points": 996,
+      "points": 1058,
       "rank": null
     },
     "trophies": [],
@@ -1028,17 +1193,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 118,
+        "points": 180,
         "seasons": {
-          "2025/26": 118
+          "2026/27": 80,
+          "2025/26": 100
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Richard Lowton",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "1"
+          },
           {
             "season": "2025/26",
             "place": "1",
             "name": "Richard Lowton",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -1047,8 +1224,8 @@
   "mark homeyard": {
     "name": "Mark Homeyard",
     "summary": {
-      "level": 11,
-      "points": 1515,
+      "level": 10,
+      "points": 1332,
       "rank": null
     },
     "trophies": [],
@@ -1112,25 +1289,39 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 323,
+        "points": 140,
         "seasons": {
-          "2025/26": 21,
-          "2024/25": 302
+          "2026/27": 60,
+          "2025/26": 0,
+          "2024/25": 80
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Mark Homeyard",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
           {
             "season": "2025/26",
             "place": "5",
             "name": "Mark Homeyard",
             "team": "Misshits",
-            "score": "7"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "7"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Mark Homeyard",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -1140,7 +1331,7 @@
     "name": "Baxter Madden",
     "summary": {
       "level": 9,
-      "points": 1129,
+      "points": 1166,
       "rank": null
     },
     "trophies": [],
@@ -1212,17 +1403,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 63,
+        "points": 100,
         "seasons": {
-          "2024/25": 63
+          "2026/27": 100,
+          "2024/25": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Baxter Madden",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
           {
             "season": "2024/25",
             "place": "7",
             "name": "Baxter Madden",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -1232,7 +1435,7 @@
     "name": "Michael Evans",
     "summary": {
       "level": 12,
-      "points": 1817,
+      "points": 1694,
       "rank": null
     },
     "trophies": [],
@@ -1308,10 +1511,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 173,
+        "points": 50,
         "seasons": {
-          "2025/26": 59,
-          "2024/25": 114
+          "2025/26": 50,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -1319,14 +1522,18 @@
             "place": "4",
             "name": "Michael Evans",
             "team": "Squashy Balls",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Michael Evans",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       },
@@ -1351,7 +1558,7 @@
     "name": "Simon Langdale",
     "summary": {
       "level": 7,
-      "points": 843,
+      "points": 893,
       "rank": null
     },
     "trophies": [],
@@ -1415,17 +1622,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 0,
+        "points": 50,
         "seasons": {
+          "2026/27": 50,
           "2025/26": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Simon Langdale",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "4"
+          },
           {
             "season": "2025/26",
             "place": "8",
             "name": "Simon Langdale",
             "team": "Wednesday Bar Boozers",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           }
         ]
       }
@@ -1491,7 +1710,7 @@
     "name": "Jon Nation",
     "summary": {
       "level": 4,
-      "points": 394,
+      "points": 382,
       "rank": null
     },
     "trophies": [],
@@ -1543,9 +1762,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 92,
+        "points": 80,
         "seasons": {
-          "2025/26": 92
+          "2025/26": 80
         },
         "stats": [
           {
@@ -1553,7 +1772,9 @@
             "place": "2",
             "name": "Jon Nation",
             "team": "Abshooters",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -1563,7 +1784,7 @@
     "name": "Will Pallister",
     "summary": {
       "level": 7,
-      "points": 869,
+      "points": 836,
       "rank": null
     },
     "trophies": [],
@@ -1627,9 +1848,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 83,
+        "points": 50,
         "seasons": {
-          "2025/26": 83
+          "2025/26": 50
         },
         "stats": [
           {
@@ -1637,14 +1858,18 @@
             "place": "4",
             "name": "Will Pallister",
             "team": "Squashy Balls",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2025/26",
             "place": "7",
             "name": "Will Pallister",
             "team": "Dobbinators",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -1654,7 +1879,7 @@
     "name": "Josh Man",
     "summary": {
       "level": 12,
-      "points": 1692,
+      "points": 1683,
       "rank": null
     },
     "trophies": [],
@@ -1730,9 +1955,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 9,
+        "points": 0,
         "seasons": {
-          "2025/26": 9
+          "2025/26": 0
         },
         "stats": [
           {
@@ -1740,7 +1965,9 @@
             "place": "5",
             "name": "Josh Man",
             "team": "Misshits",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       },
@@ -1772,7 +1999,7 @@
     "name": "Sheldon Docker",
     "summary": {
       "level": 8,
-      "points": 1013,
+      "points": 1062,
       "rank": null
     },
     "trophies": [],
@@ -1836,17 +2063,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 111,
+        "points": 160,
         "seasons": {
-          "2025/26": 111
+          "2026/27": 100,
+          "2025/26": 60
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Sheldon Docker",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "6"
+          },
           {
             "season": "2025/26",
             "place": "3",
             "name": "Sheldon Docker",
             "team": "Racket Raiders",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       },
@@ -1938,8 +2177,8 @@
   "paul barnard": {
     "name": "Paul Barnard",
     "summary": {
-      "level": 10,
-      "points": 1269,
+      "level": 8,
+      "points": 1047,
       "rank": null
     },
     "trophies": [],
@@ -2051,9 +2290,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 302,
+        "points": 80,
         "seasons": {
-          "2024/25": 302
+          "2024/25": 80
         },
         "stats": [
           {
@@ -2061,7 +2300,9 @@
             "place": "2",
             "name": "Paul Barnard",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -2071,7 +2312,7 @@
     "name": "Will Miller",
     "summary": {
       "level": 8,
-      "points": 1007,
+      "points": 944,
       "rank": null
     },
     "trophies": [],
@@ -2147,10 +2388,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 123,
+        "points": 60,
         "seasons": {
           "2025/26": 60,
-          "2024/25": 63
+          "2024/25": 0
         },
         "stats": [
           {
@@ -2158,14 +2399,18 @@
             "place": "3",
             "name": "Will Miller",
             "team": "Racket Raiders",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           },
           {
             "season": "2024/25",
             "place": "7",
             "name": "Will Miller",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -2254,8 +2499,8 @@
   "mark sharp": {
     "name": "Mark Sharp",
     "summary": {
-      "level": 7,
-      "points": 769,
+      "level": 4,
+      "points": 457,
       "rank": null
     },
     "trophies": [],
@@ -2295,10 +2540,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 492,
+        "points": 180,
         "seasons": {
-          "2025/26": 131,
-          "2024/25": 361
+          "2025/26": 80,
+          "2024/25": 100
         },
         "stats": [
           {
@@ -2306,14 +2551,18 @@
             "place": "2",
             "name": "Mark Sharp",
             "team": "Abshooters",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           },
           {
             "season": "2024/25",
             "place": "1",
             "name": "Mark Sharp",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       },
@@ -2337,8 +2586,8 @@
   "dan green": {
     "name": "Dan Green",
     "summary": {
-      "level": 8,
-      "points": 1077,
+      "level": 16,
+      "points": 2636,
       "rank": null
     },
     "trophies": [],
@@ -2346,13 +2595,17 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 814,
+        "points": 2456,
         "seasons": {
           "2026/27": 55,
           "2025/26": 365,
           "2024/25": 132,
           "2023/24": 87,
-          "2022/23": 175
+          "2022/23": 175,
+          "2017/18": 37,
+          "2016/17": 101,
+          "2015/16": 485,
+          "2014/15": 1019
         },
         "stats": [
           {
@@ -2409,30 +2662,78 @@
             "runnersUp": "1",
             "weeks": "10",
             "score": "142"
+          },
+          {
+            "season": "2017/18",
+            "place": "30",
+            "name": "Dan Green",
+            "games": "5",
+            "wins": "4",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "8"
+          },
+          {
+            "season": "2016/17",
+            "place": "25",
+            "name": "Dan Green",
+            "games": "11",
+            "wins": "7",
+            "weeklyWins": "1",
+            "runnersUp": "2",
+            "weeks": "3",
+            "score": "15"
+          },
+          {
+            "season": "2015/16",
+            "place": "11",
+            "name": "Dan Green",
+            "games": "139",
+            "wins": "57",
+            "weeklyWins": "2",
+            "runnersUp": "5",
+            "weeks": "35",
+            "score": "112"
+          },
+          {
+            "season": "2014/15",
+            "place": "1",
+            "name": "Dan Green",
+            "games": "128",
+            "wins": "79",
+            "weeklyWins": "13",
+            "runnersUp": "8",
+            "weeks": "42",
+            "score": "191"
           }
         ]
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 263,
+        "points": 180,
         "seasons": {
-          "2026/27": 100,
-          "2025/26": 163
+          "2026/27": 80,
+          "2025/26": 100
         },
         "stats": [
           {
             "season": "2026/27",
-            "place": "1",
+            "place": "2",
             "name": "Dan Green",
-            "team": "Something",
-            "score": "0"
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "6"
           },
           {
             "season": "2025/26",
             "place": "1",
             "name": "Dan Green",
             "team": "Racket Rebels",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -2518,7 +2819,7 @@
     "name": "Matt Handy",
     "summary": {
       "level": 11,
-      "points": 1578,
+      "points": 1563,
       "rank": null
     },
     "trophies": [],
@@ -2582,9 +2883,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 15,
+        "points": 0,
         "seasons": {
-          "2025/26": 15
+          "2025/26": 0
         },
         "stats": [
           {
@@ -2592,7 +2893,9 @@
             "place": "7",
             "name": "Matt Handy",
             "team": "Dobbinators",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           }
         ]
       }
@@ -2601,8 +2904,8 @@
   "sam homeyard": {
     "name": "Sam Homeyard",
     "summary": {
-      "level": 7,
-      "points": 865,
+      "level": 11,
+      "points": 1466,
       "rank": null
     },
     "trophies": [],
@@ -2610,10 +2913,11 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 548,
+        "points": 1386,
         "seasons": {
           "2026/27": 36,
           "2025/26": 431,
+          "2024/25": 838,
           "2023/24": 81
         },
         "stats": [
@@ -2640,6 +2944,17 @@
             "score": "467"
           },
           {
+            "season": "2024/25",
+            "place": "1",
+            "name": "Sam Homeyard",
+            "games": "114",
+            "wins": "76",
+            "weeklyWins": "9",
+            "runnersUp": "3",
+            "weeks": "29",
+            "score": "555"
+          },
+          {
             "season": "2023/24",
             "place": "49",
             "name": "Sam Homeyard",
@@ -2654,10 +2969,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 317,
+        "points": 80,
         "seasons": {
-          "2025/26": 15,
-          "2024/25": 302
+          "2025/26": 0,
+          "2024/25": 80
         },
         "stats": [
           {
@@ -2665,14 +2980,18 @@
             "place": "5",
             "name": "Sam Homeyard",
             "team": "Misshits",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Sam Homeyard",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -2714,7 +3033,7 @@
     "name": "Robbie Hicks",
     "summary": {
       "level": 8,
-      "points": 1072,
+      "points": 1021,
       "rank": null
     },
     "trophies": [],
@@ -2778,9 +3097,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -2788,7 +3107,9 @@
             "place": "9",
             "name": "Robbie Hicks",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       },
@@ -2916,7 +3237,7 @@
     "name": "Paul Holdway",
     "summary": {
       "level": 1,
-      "points": 56,
+      "points": 44,
       "rank": null
     },
     "trophies": [],
@@ -2944,9 +3265,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 12,
+        "points": 0,
         "seasons": {
-          "2025/26": 12
+          "2025/26": 0
         },
         "stats": [
           {
@@ -2954,7 +3275,9 @@
             "place": "5",
             "name": "Paul Holdway",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -2996,7 +3319,7 @@
     "name": "Lai Man",
     "summary": {
       "level": 6,
-      "points": 653,
+      "points": 641,
       "rank": null
     },
     "trophies": [],
@@ -3072,9 +3395,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 12,
+        "points": 0,
         "seasons": {
-          "2025/26": 12
+          "2025/26": 0
         },
         "stats": [
           {
@@ -3082,7 +3405,9 @@
             "place": "5",
             "name": "Lai Man",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       },
@@ -3236,7 +3561,7 @@
     "name": "Owen Yeates",
     "summary": {
       "level": 4,
-      "points": 403,
+      "points": 391,
       "rank": null
     },
     "trophies": [],
@@ -3300,9 +3625,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 12,
+        "points": 0,
         "seasons": {
-          "2025/26": 12
+          "2025/26": 0
         },
         "stats": [
           {
@@ -3310,7 +3635,9 @@
             "place": "6",
             "name": "Owen Yeates",
             "team": "Dads and Lads",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -3319,8 +3646,8 @@
   "ewan wykeham-martin": {
     "name": "Ewan Wykeham-Martin",
     "summary": {
-      "level": 5,
-      "points": 551,
+      "level": 6,
+      "points": 613,
       "rank": null
     },
     "trophies": [],
@@ -3372,24 +3699,38 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 118,
+        "points": 180,
         "seasons": {
-          "2025/26": 118
+          "2026/27": 80,
+          "2025/26": 100
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Ewan Wykeham-Martin",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
           {
             "season": "2025/26",
             "place": "1",
             "name": "Ewan Wykeham-Martin",
             "team": "Racket Rebels",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2025/26",
             "place": "5",
             "name": "Ewan Wykeham-Martin",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -3398,8 +3739,8 @@
   "phoebe dobbin": {
     "name": "Phoebe Dobbin",
     "summary": {
-      "level": 7,
-      "points": 889,
+      "level": 6,
+      "points": 664,
       "rank": null
     },
     "trophies": [],
@@ -3467,10 +3808,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 285,
+        "points": 60,
         "seasons": {
-          "2025/26": 12,
-          "2024/25": 273
+          "2025/26": 0,
+          "2024/25": 60
         },
         "stats": [
           {
@@ -3478,21 +3819,27 @@
             "place": "7",
             "name": "Phoebe Dobbin",
             "team": "Dobbinators",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "3",
             "name": "Phoebe Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           },
           {
             "season": "2024/25",
             "place": "7",
             "name": "Phoebe Dobbin",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       },
@@ -3562,8 +3909,8 @@
   "rob docker": {
     "name": "Rob Docker",
     "summary": {
-      "level": 3,
-      "points": 299,
+      "level": 4,
+      "points": 387,
       "rank": null
     },
     "trophies": [],
@@ -3603,17 +3950,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 72,
+        "points": 160,
         "seasons": {
-          "2025/26": 72
+          "2026/27": 100,
+          "2025/26": 60
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Rob Docker",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
           {
             "season": "2025/26",
             "place": "3",
             "name": "Rob Docker",
             "team": "Racket Raiders",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       },
@@ -3712,7 +4071,7 @@
     "name": "Jake Barnard",
     "summary": {
       "level": 17,
-      "points": 3019,
+      "points": 2968,
       "rank": null
     },
     "trophies": [],
@@ -3848,9 +4207,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -3858,7 +4217,9 @@
             "place": "8",
             "name": "Jake Barnard",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -3899,8 +4260,8 @@
   "ciaran o'brien": {
     "name": "Ciaran O'Brien",
     "summary": {
-      "level": 7,
-      "points": 752,
+      "level": 6,
+      "points": 614,
       "rank": null
     },
     "trophies": [],
@@ -3952,10 +4313,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 288,
+        "points": 150,
         "seasons": {
-          "2025/26": 112,
-          "2024/25": 176
+          "2025/26": 100,
+          "2024/25": 50
         },
         "stats": [
           {
@@ -3963,21 +4324,27 @@
             "place": "1",
             "name": "Ciaran O'Brien",
             "team": "Racket Rebels",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2025/26",
             "place": "9",
             "name": "Ciaran O'Brien",
             "team": "Glendales",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Ciaran O'Brien",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -3986,8 +4353,8 @@
   "dominic buckley": {
     "name": "Dominic Buckley",
     "summary": {
-      "level": 6,
-      "points": 626,
+      "level": 5,
+      "points": 563,
       "rank": null
     },
     "trophies": [],
@@ -4051,10 +4418,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 113,
+        "points": 50,
         "seasons": {
-          "2025/26": 62,
-          "2024/25": 51
+          "2025/26": 50,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -4062,14 +4429,18 @@
             "place": "4",
             "name": "Dominic Buckley",
             "team": "Squashy Balls",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "8",
             "name": "Dominic Buckley",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -4330,8 +4701,8 @@
   "ely donnachie": {
     "name": "Ely Donnachie",
     "summary": {
-      "level": 6,
-      "points": 627,
+      "level": 5,
+      "points": 492,
       "rank": null
     },
     "trophies": [],
@@ -4383,10 +4754,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 185,
+        "points": 50,
         "seasons": {
-          "2025/26": 9,
-          "2024/25": 176
+          "2025/26": 0,
+          "2024/25": 50
         },
         "stats": [
           {
@@ -4394,14 +4765,18 @@
             "place": "9",
             "name": "Ely Donnachie",
             "team": "Glendales",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Ely Donnachie",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -4539,7 +4914,7 @@
     "name": "Nico Phillips",
     "summary": {
       "level": 4,
-      "points": 373,
+      "points": 355,
       "rank": null
     },
     "trophies": [],
@@ -4615,9 +4990,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 78,
+        "points": 60,
         "seasons": {
-          "2025/26": 78
+          "2025/26": 60
         },
         "stats": [
           {
@@ -4625,7 +5000,9 @@
             "place": "3",
             "name": "Nico Phillips",
             "team": "Racket Raiders",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -4635,7 +5012,7 @@
     "name": "Geoff Balko",
     "summary": {
       "level": 11,
-      "points": 1533,
+      "points": 1470,
       "rank": null
     },
     "trophies": [],
@@ -4711,9 +5088,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 63,
+        "points": 0,
         "seasons": {
-          "2024/25": 63
+          "2024/25": 0
         },
         "stats": [
           {
@@ -4721,7 +5098,9 @@
             "place": "7",
             "name": "Geoff Balko",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       },
@@ -4753,7 +5132,7 @@
     "name": "Alex Kershaw",
     "summary": {
       "level": 3,
-      "points": 291,
+      "points": 239,
       "rank": null
     },
     "trophies": [],
@@ -4793,25 +5172,39 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 232,
+        "points": 180,
         "seasons": {
-          "2025/26": 118,
-          "2024/25": 114
+          "2026/27": 80,
+          "2025/26": 100,
+          "2024/25": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Alex Kershaw",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "6"
+          },
           {
             "season": "2025/26",
             "place": "1",
             "name": "Alex Kershaw",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Alex Kershaw",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       },
@@ -4835,8 +5228,8 @@
   "liam dobbin": {
     "name": "Liam Dobbin",
     "summary": {
-      "level": 4,
-      "points": 453,
+      "level": 3,
+      "points": 303,
       "rank": null
     },
     "trophies": [],
@@ -4876,10 +5269,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 210,
+        "points": 60,
         "seasons": {
           "2025/26": 0,
-          "2024/25": 210
+          "2024/25": 60
         },
         "stats": [
           {
@@ -4887,14 +5280,18 @@
             "place": "7",
             "name": "Liam Dobbin",
             "team": "Dobbinators",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           },
           {
             "season": "2024/25",
             "place": "3",
             "name": "Liam Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       },
@@ -4926,7 +5323,7 @@
     "name": "Ben Gilbert",
     "summary": {
       "level": 5,
-      "points": 491,
+      "points": 482,
       "rank": null
     },
     "trophies": [],
@@ -4966,9 +5363,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 9,
+        "points": 0,
         "seasons": {
-          "2025/26": 9
+          "2025/26": 0
         },
         "stats": [
           {
@@ -4976,7 +5373,9 @@
             "place": "6",
             "name": "Ben Gilbert",
             "team": "Dads and Lads",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -4986,7 +5385,7 @@
     "name": "Eric Van Onselen",
     "summary": {
       "level": 11,
-      "points": 1542,
+      "points": 1467,
       "rank": null
     },
     "trophies": [],
@@ -5050,10 +5449,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 125,
+        "points": 50,
         "seasons": {
-          "2025/26": 74,
-          "2024/25": 51
+          "2025/26": 50,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -5061,21 +5460,27 @@
             "place": "4",
             "name": "Eric Van Onselen",
             "team": "Squashy Balls",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2025/26",
             "place": "8",
             "name": "Eric Van Onselen",
             "team": "Wednesday Bar Boozers",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           },
           {
             "season": "2024/25",
             "place": "9",
             "name": "Eric Van Onselen",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -5084,8 +5489,8 @@
   "luke page": {
     "name": "Luke Page",
     "summary": {
-      "level": 8,
-      "points": 993,
+      "level": 7,
+      "points": 813,
       "rank": null
     },
     "trophies": [],
@@ -5125,10 +5530,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 330,
+        "points": 150,
         "seasons": {
-          "2025/26": 154,
-          "2024/25": 176
+          "2025/26": 100,
+          "2024/25": 50
         },
         "stats": [
           {
@@ -5136,14 +5541,18 @@
             "place": "1",
             "name": "Luke Page",
             "team": "Racket Rebels",
-            "score": "18"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "18"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Luke Page",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -5153,7 +5562,7 @@
     "name": "Craig Dexter",
     "summary": {
       "level": 4,
-      "points": 358,
+      "points": 418,
       "rank": null
     },
     "trophies": [],
@@ -5176,6 +5585,24 @@
             "runnersUp": "0",
             "weeks": "19",
             "score": "403"
+          }
+        ]
+      },
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 60,
+        "seasons": {
+          "2026/27": 60
+        },
+        "stats": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Craig Dexter",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "6"
           }
         ]
       }
@@ -5229,7 +5656,7 @@
     "name": "Marcus Smith",
     "summary": {
       "level": 8,
-      "points": 974,
+      "points": 968,
       "rank": null
     },
     "trophies": [],
@@ -5281,9 +5708,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 6,
+        "points": 0,
         "seasons": {
-          "2025/26": 6
+          "2025/26": 0
         },
         "stats": [
           {
@@ -5291,7 +5718,9 @@
             "place": "6",
             "name": "Marcus Smith",
             "team": "Dads and Lads",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           }
         ]
       }
@@ -5300,8 +5729,8 @@
   "ted ironside-smith": {
     "name": "Ted Ironside-Smith",
     "summary": {
-      "level": 5,
-      "points": 580,
+      "level": 4,
+      "points": 340,
       "rank": null
     },
     "trophies": [],
@@ -5329,10 +5758,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 320,
+        "points": 80,
         "seasons": {
-          "2025/26": 18,
-          "2024/25": 302
+          "2025/26": 0,
+          "2024/25": 80
         },
         "stats": [
           {
@@ -5340,14 +5769,18 @@
             "place": "8",
             "name": "Ted Ironside-Smith",
             "team": "Wednesday Bar Boozers",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Ted Ironside-Smith",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       },
@@ -5371,8 +5804,8 @@
   "oscar littlefield": {
     "name": "Oscar Littlefield",
     "summary": {
-      "level": 5,
-      "points": 478,
+      "level": 4,
+      "points": 352,
       "rank": null
     },
     "trophies": [],
@@ -5412,9 +5845,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 176,
+        "points": 50,
         "seasons": {
-          "2024/25": 176
+          "2024/25": 50
         },
         "stats": [
           {
@@ -5422,7 +5855,9 @@
             "place": "4",
             "name": "Oscar Littlefield",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -5431,8 +5866,8 @@
   "greg czura": {
     "name": "Greg Czura",
     "summary": {
-      "level": 7,
-      "points": 811,
+      "level": 6,
+      "points": 655,
       "rank": null
     },
     "trophies": [],
@@ -5484,10 +5919,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 306,
+        "points": 150,
         "seasons": {
-          "2025/26": 130,
-          "2024/25": 176
+          "2025/26": 100,
+          "2024/25": 50
         },
         "stats": [
           {
@@ -5495,21 +5930,27 @@
             "place": "1",
             "name": "Greg Czura",
             "team": "Racket Rebels",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2025/26",
             "place": "9",
             "name": "Greg Czura",
             "team": "Glendales",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "4",
             "name": "Greg Czura",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -5518,8 +5959,8 @@
   "mike catterall": {
     "name": "Mike Catterall",
     "summary": {
-      "level": 10,
-      "points": 1359,
+      "level": 9,
+      "points": 1221,
       "rank": null
     },
     "trophies": [],
@@ -5583,10 +6024,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 138,
+        "points": 0,
         "seasons": {
-          "2025/26": 24,
-          "2024/25": 114
+          "2025/26": 0,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -5594,14 +6035,18 @@
             "place": "10",
             "name": "Mike Catterall",
             "team": "Teamless",
-            "score": "8"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "8"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Mike Catterall",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       },
@@ -5714,7 +6159,7 @@
     "name": "Jonathan Thompson",
     "summary": {
       "level": 3,
-      "points": 239,
+      "points": 227,
       "rank": null
     },
     "trophies": [],
@@ -5754,9 +6199,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 12,
+        "points": 0,
         "seasons": {
-          "2025/26": 12
+          "2025/26": 0
         },
         "stats": [
           {
@@ -5764,7 +6209,9 @@
             "place": "5",
             "name": "Jonathan Thompson",
             "team": "Misshits",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           }
         ]
       }
@@ -5773,8 +6220,8 @@
   "george french": {
     "name": "George French",
     "summary": {
-      "level": 3,
-      "points": 216,
+      "level": 2,
+      "points": 198,
       "rank": null
     },
     "trophies": [],
@@ -5802,9 +6249,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 18,
+        "points": 0,
         "seasons": {
-          "2025/26": 18
+          "2025/26": 0
         },
         "stats": [
           {
@@ -5812,7 +6259,9 @@
             "place": "8",
             "name": "George French",
             "team": "Wednesday Bar Boozers",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -5878,7 +6327,7 @@
     "name": "Jamie Dickerson",
     "summary": {
       "level": 2,
-      "points": 196,
+      "points": 190,
       "rank": null
     },
     "trophies": [],
@@ -5906,9 +6355,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 6,
+        "points": 0,
         "seasons": {
-          "2025/26": 6
+          "2025/26": 0
         },
         "stats": [
           {
@@ -5916,7 +6365,9 @@
             "place": "9",
             "name": "Jamie Dickerson",
             "team": "Glendales",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           }
         ]
       }
@@ -5966,66 +6417,11 @@
       }
     }
   },
-  "martin scheel": {
-    "name": "Martin Scheel",
-    "summary": {
-      "level": 4,
-      "points": 333,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "peteroberts": {
-        "name": "Wednesday Handicap",
-        "points": 156,
-        "seasons": {
-          "2025/26": 156
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "49",
-            "name": "Martin Scheel",
-            "games": "51",
-            "wins": "23",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "13",
-            "score": "196"
-          }
-        ]
-      },
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 177,
-        "seasons": {
-          "2025/26": 177
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "1",
-            "name": "Martin Scheel",
-            "team": "Racket Rebels",
-            "score": "6"
-          },
-          {
-            "season": "2025/26",
-            "place": "4",
-            "name": "Martin Scheel",
-            "team": "Squashy Balls",
-            "score": "3"
-          }
-        ]
-      }
-    }
-  },
   "harry porto": {
     "name": "Harry Porto",
     "summary": {
-      "level": 9,
-      "points": 1217,
+      "level": 8,
+      "points": 932,
       "rank": null
     },
     "trophies": [],
@@ -6089,10 +6485,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 365,
+        "points": 80,
         "seasons": {
-          "2025/26": 12,
-          "2024/25": 353
+          "2025/26": 0,
+          "2024/25": 80
         },
         "stats": [
           {
@@ -6100,21 +6496,27 @@
             "place": "7",
             "name": "Harry Porto",
             "team": "Dobbinators",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "9",
             "name": "Harry Porto",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Harry Porto",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -6279,8 +6681,8 @@
   "oscar fry": {
     "name": "Oscar Fry",
     "summary": {
-      "level": 9,
-      "points": 1185,
+      "level": 8,
+      "points": 918,
       "rank": null
     },
     "trophies": [],
@@ -6344,10 +6746,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 427,
+        "points": 160,
         "seasons": {
-          "2025/26": 125,
-          "2024/25": 302
+          "2025/26": 80,
+          "2024/25": 80
         },
         "stats": [
           {
@@ -6355,14 +6757,18 @@
             "place": "2",
             "name": "Oscar Fry",
             "team": "Abshooters",
-            "score": "15"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "15"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Oscar Fry",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -6697,8 +7103,8 @@
   "ryan baker": {
     "name": "Ryan Baker",
     "summary": {
-      "level": 4,
-      "points": 444,
+      "level": 3,
+      "points": 318,
       "rank": null
     },
     "trophies": [],
@@ -6738,9 +7144,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 176,
+        "points": 50,
         "seasons": {
-          "2024/25": 176
+          "2024/25": 50
         },
         "stats": [
           {
@@ -6748,7 +7154,9 @@
             "place": "4",
             "name": "Ryan Baker",
             "team": "Racket Rebels",
-            "score": "42"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
           }
         ]
       }
@@ -6757,8 +7165,8 @@
   "seb cairns-allen": {
     "name": "Seb Cairns-Allen",
     "summary": {
-      "level": 7,
-      "points": 902,
+      "level": 6,
+      "points": 668,
       "rank": null
     },
     "trophies": [],
@@ -6822,10 +7230,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 374,
+        "points": 140,
         "seasons": {
-          "2025/26": 72,
-          "2024/25": 302
+          "2025/26": 60,
+          "2024/25": 80
         },
         "stats": [
           {
@@ -6833,14 +7241,18 @@
             "place": "3",
             "name": "Seb Cairns-Allen",
             "team": "Racket Raiders",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Seb Cairns-Allen",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -6850,7 +7262,7 @@
     "name": "Harriet Delbridge",
     "summary": {
       "level": 2,
-      "points": 191,
+      "points": 140,
       "rank": null
     },
     "trophies": [],
@@ -6902,9 +7314,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -6912,7 +7324,9 @@
             "place": "9",
             "name": "Harriet Delbridge",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -7840,8 +8254,8 @@
   "ewan maclean": {
     "name": "Ewan Maclean",
     "summary": {
-      "level": 3,
-      "points": 211,
+      "level": 2,
+      "points": 181,
       "rank": null
     },
     "trophies": [],
@@ -7905,9 +8319,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 130,
+        "points": 100,
         "seasons": {
-          "2025/26": 130
+          "2025/26": 100
         },
         "stats": [
           {
@@ -7915,14 +8329,18 @@
             "place": "1",
             "name": "Ewan Maclean",
             "team": "Racket Rebels",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2025/26",
             "place": "5",
             "name": "Ewan Maclean",
             "team": "Misshits",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -8051,8 +8469,8 @@
   "ethel brokenshire": {
     "name": "Ethel Brokenshire",
     "summary": {
-      "level": 6,
-      "points": 657,
+      "level": 5,
+      "points": 543,
       "rank": null
     },
     "trophies": [],
@@ -8092,9 +8510,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 114,
+        "points": 0,
         "seasons": {
-          "2024/25": 114
+          "2024/25": 0
         },
         "stats": [
           {
@@ -8102,7 +8520,9 @@
             "place": "6",
             "name": "Ethel Brokenshire",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       }
@@ -8143,8 +8563,8 @@
   "tobie carman": {
     "name": "Tobie Carman",
     "summary": {
-      "level": 5,
-      "points": 483,
+      "level": 10,
+      "points": 1418,
       "rank": null
     },
     "trophies": [],
@@ -8152,10 +8572,11 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 483,
+        "points": 1418,
         "seasons": {
           "2024/25": 139,
-          "2023/24": 344
+          "2023/24": 344,
+          "2022/23": 935
         },
         "stats": [
           {
@@ -8179,6 +8600,17 @@
             "runnersUp": "1",
             "weeks": "27",
             "score": "306"
+          },
+          {
+            "season": "2022/23",
+            "place": "1",
+            "name": "Tobie Carman",
+            "games": "187",
+            "wins": "101",
+            "weeklyWins": "5",
+            "runnersUp": "2",
+            "weeks": "45",
+            "score": "516"
           }
         ]
       }
@@ -8403,8 +8835,8 @@
   "sam williams": {
     "name": "Sam Williams",
     "summary": {
-      "level": 3,
-      "points": 215,
+      "level": 1,
+      "points": 95,
       "rank": null
     },
     "trophies": [],
@@ -8432,9 +8864,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -8442,7 +8874,9 @@
             "place": "5",
             "name": "Sam Williams",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -8483,8 +8917,8 @@
   "george prentice": {
     "name": "George Prentice",
     "summary": {
-      "level": 2,
-      "points": 193,
+      "level": 1,
+      "points": 73,
       "rank": null
     },
     "trophies": [],
@@ -8512,9 +8946,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -8522,7 +8956,9 @@
             "place": "5",
             "name": "George Prentice",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -8807,8 +9243,8 @@
   "dave robjohns": {
     "name": "Dave Robjohns",
     "summary": {
-      "level": 3,
-      "points": 291,
+      "level": 2,
+      "points": 171,
       "rank": null
     },
     "trophies": [],
@@ -8848,9 +9284,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -8858,7 +9294,9 @@
             "place": "5",
             "name": "Dave Robjohns",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -8963,8 +9401,8 @@
   "dara murray": {
     "name": "Dara Murray",
     "summary": {
-      "level": 2,
-      "points": 196,
+      "level": 1,
+      "points": 76,
       "rank": null
     },
     "trophies": [],
@@ -8992,9 +9430,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -9002,7 +9440,9 @@
             "place": "5",
             "name": "Dara Murray",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -9438,7 +9878,7 @@
     "name": "Richard Gwilliam",
     "summary": {
       "level": 1,
-      "points": 78,
+      "points": 72,
       "rank": null
     },
     "trophies": [],
@@ -9466,9 +9906,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 56,
+        "points": 50,
         "seasons": {
-          "2025/26": 56
+          "2025/26": 50
         },
         "stats": [
           {
@@ -9476,7 +9916,9 @@
             "place": "4",
             "name": "Richard Gwilliam",
             "team": "Squashy Balls",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           }
         ]
       }
@@ -9621,8 +10063,8 @@
   "le-tian mo": {
     "name": "Le-Tian Mo",
     "summary": {
-      "level": 4,
-      "points": 372,
+      "level": 2,
+      "points": 147,
       "rank": null
     },
     "trophies": [],
@@ -9650,10 +10092,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 365,
+        "points": 140,
         "seasons": {
-          "2025/26": 63,
-          "2024/25": 302
+          "2025/26": 60,
+          "2024/25": 80
         },
         "stats": [
           {
@@ -9661,14 +10103,18 @@
             "place": "3",
             "name": "Le-Tian Mo",
             "team": "Racket Raiders",
-            "score": "1"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "1"
           },
           {
             "season": "2024/25",
             "place": "2",
             "name": "Le-Tian Mo",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -9709,8 +10155,8 @@
   "paul martin": {
     "name": "Paul Martin",
     "summary": {
-      "level": 4,
-      "points": 417,
+      "level": 2,
+      "points": 156,
       "rank": null
     },
     "trophies": [],
@@ -9750,9 +10196,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 361,
+        "points": 100,
         "seasons": {
-          "2024/25": 361
+          "2024/25": 100
         },
         "stats": [
           {
@@ -9760,7 +10206,9 @@
             "place": "1",
             "name": "Paul Martin",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       }
@@ -9769,8 +10217,8 @@
   "sam white": {
     "name": "Sam White",
     "summary": {
-      "level": 2,
-      "points": 127,
+      "level": 1,
+      "points": 7,
       "rank": null
     },
     "trophies": [],
@@ -9798,9 +10246,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -9808,7 +10256,9 @@
             "place": "5",
             "name": "Sam White",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -9893,8 +10343,8 @@
   "david christian": {
     "name": "David Christian",
     "summary": {
-      "level": 10,
-      "points": 1300,
+      "level": 9,
+      "points": 1180,
       "rank": null
     },
     "trophies": [],
@@ -9946,10 +10396,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 200,
+        "points": 80,
         "seasons": {
-          "2025/26": 86,
-          "2024/25": 114
+          "2025/26": 80,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -9957,21 +10407,27 @@
             "place": "2",
             "name": "David Christian",
             "team": "Abshooters",
-            "score": "2"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
           },
           {
             "season": "2025/26",
             "place": "10",
             "name": "David Christian",
             "team": "Teamless",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "David Christian",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       },
@@ -10153,7 +10609,7 @@
     "name": "Emily McClean",
     "summary": {
       "level": 1,
-      "points": 58,
+      "points": 7,
       "rank": null
     },
     "trophies": [],
@@ -10181,9 +10637,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -10191,7 +10647,9 @@
             "place": "9",
             "name": "Emily McCLean",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -11340,7 +11798,7 @@
     "name": "Arthur Burt",
     "summary": {
       "level": 1,
-      "points": 63,
+      "points": 12,
       "rank": null
     },
     "trophies": [],
@@ -11368,9 +11826,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -11378,7 +11836,9 @@
             "place": "8",
             "name": "Arthur Burt",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -11635,8 +12095,8 @@
   "gregor house": {
     "name": "Gregor House",
     "summary": {
-      "level": 8,
-      "points": 925,
+      "level": 12,
+      "points": 1847,
       "rank": null
     },
     "trophies": [],
@@ -11644,13 +12104,14 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 925,
+        "points": 1847,
         "seasons": {
           "2023/24": 19,
           "2022/23": 80,
           "2018/19": 204,
           "2017/18": 69,
           "2016/17": 79,
+          "2015/16": 922,
           "2014/15": 474
         },
         "stats": [
@@ -11708,6 +12169,17 @@
             "runnersUp": "1",
             "weeks": "2",
             "score": "13"
+          },
+          {
+            "season": "2015/16",
+            "place": "1",
+            "name": "Gregor House",
+            "games": "152",
+            "wins": "86",
+            "weeklyWins": "7",
+            "runnersUp": "5",
+            "weeks": "36",
+            "score": "149"
           },
           {
             "season": "2014/15",
@@ -13185,8 +13657,8 @@
   "shaun keal": {
     "name": "Shaun Keal",
     "summary": {
-      "level": 2,
-      "points": 192,
+      "level": 1,
+      "points": 78,
       "rank": null
     },
     "trophies": [],
@@ -13214,9 +13686,9 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 114,
+        "points": 0,
         "seasons": {
-          "2024/25": 114
+          "2024/25": 0
         },
         "stats": [
           {
@@ -13224,7 +13696,9 @@
             "place": "6",
             "name": "Shaun Keal",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       },
@@ -13808,8 +14282,8 @@
   "dylan wilson": {
     "name": "Dylan Wilson",
     "summary": {
-      "level": 11,
-      "points": 1549,
+      "level": 16,
+      "points": 2585,
       "rank": null
     },
     "trophies": [],
@@ -13817,9 +14291,11 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 1549,
+        "points": 2585,
         "seasons": {
           "2022/23": 7,
+          "2021/22": 489,
+          "2019/20": 547,
           "2018/19": 258,
           "2016/17": 339,
           "2015/16": 679,
@@ -13836,6 +14312,28 @@
             "runnersUp": "0",
             "weeks": "1",
             "score": "3"
+          },
+          {
+            "season": "2021/22",
+            "place": "1",
+            "name": "Dylan Wilson",
+            "games": "45",
+            "wins": "23",
+            "weeklyWins": "2",
+            "runnersUp": "4",
+            "weeks": "12",
+            "score": "47"
+          },
+          {
+            "season": "2019/20",
+            "place": "1",
+            "name": "Dylan Wilson",
+            "games": "55",
+            "wins": "39",
+            "weeklyWins": "4",
+            "runnersUp": "2",
+            "weeks": "11",
+            "score": "75"
           },
           {
             "season": "2018/19",
@@ -14272,8 +14770,8 @@
   "carter frisby": {
     "name": "Carter Frisby",
     "summary": {
-      "level": 10,
-      "points": 1315,
+      "level": 15,
+      "points": 2380,
       "rank": null
     },
     "trophies": [],
@@ -14281,10 +14779,11 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 1315,
+        "points": 2380,
         "seasons": {
           "2021/22": 121,
           "2018/19": 443,
+          "2017/18": 1065,
           "2016/17": 597,
           "2015/16": 154
         },
@@ -14310,6 +14809,17 @@
             "runnersUp": "10",
             "weeks": "24",
             "score": "74"
+          },
+          {
+            "season": "2017/18",
+            "place": "1",
+            "name": "Carter Frisby",
+            "games": "101",
+            "wins": "63",
+            "weeklyWins": "16",
+            "runnersUp": "13",
+            "weeks": "40",
+            "score": "159"
           },
           {
             "season": "2016/17",
@@ -14852,8 +15362,8 @@
   "danny farr": {
     "name": "Danny Farr",
     "summary": {
-      "level": 2,
-      "points": 189,
+      "level": 10,
+      "points": 1340,
       "rank": null
     },
     "trophies": [],
@@ -14861,9 +15371,10 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 189,
+        "points": 1340,
         "seasons": {
-          "2019/20": 189
+          "2019/20": 189,
+          "2018/19": 1151
         },
         "stats": [
           {
@@ -14876,6 +15387,17 @@
             "runnersUp": "1",
             "weeks": "12",
             "score": "40"
+          },
+          {
+            "season": "2018/19",
+            "place": "1",
+            "name": "Danny Farr",
+            "games": "177",
+            "wins": "113",
+            "weeklyWins": "4",
+            "runnersUp": "11",
+            "weeks": "38",
+            "score": "229"
           }
         ]
       }
@@ -15112,8 +15634,8 @@
   "andy cummings": {
     "name": "Andy Cummings",
     "summary": {
-      "level": 3,
-      "points": 261,
+      "level": 1,
+      "points": 96,
       "rank": null
     },
     "trophies": [],
@@ -15153,10 +15675,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 225,
+        "points": 60,
         "seasons": {
-          "2025/26": 15,
-          "2024/25": 210
+          "2025/26": 0,
+          "2024/25": 60
         },
         "stats": [
           {
@@ -15164,14 +15686,18 @@
             "place": "7",
             "name": "Andy Cummings",
             "team": "Dobbinators",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2024/25",
             "place": "3",
             "name": "Andy Cummings",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -15472,8 +15998,8 @@
   "tom weston": {
     "name": "Tom Weston",
     "summary": {
-      "level": 14,
-      "points": 2084,
+      "level": 18,
+      "points": 3077,
       "rank": null
     },
     "trophies": [],
@@ -15481,10 +16007,11 @@
     "competitions": {
       "peteroberts": {
         "name": "Wednesday Handicap",
-        "points": 2084,
+        "points": 3077,
         "seasons": {
           "2018/19": 381,
           "2017/18": 754,
+          "2016/17": 993,
           "2015/16": 606,
           "2014/15": 343
         },
@@ -15510,6 +16037,17 @@
             "runnersUp": "7",
             "weeks": "32",
             "score": "140"
+          },
+          {
+            "season": "2016/17",
+            "place": "1",
+            "name": "Tom Weston",
+            "games": "97",
+            "wins": "69",
+            "weeklyWins": "16",
+            "runnersUp": "8",
+            "weeks": "39",
+            "score": "178"
           },
           {
             "season": "2015/16",
@@ -16604,62 +17142,6 @@
             "runnersUp": "1",
             "weeks": "1",
             "score": "8"
-          }
-        ]
-      }
-    }
-  },
-  "daniel green": {
-    "name": "Daniel Green",
-    "summary": {
-      "level": 6,
-      "points": 623,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "peteroberts": {
-        "name": "Wednesday Handicap",
-        "points": 623,
-        "seasons": {
-          "2017/18": 37,
-          "2016/17": 101,
-          "2015/16": 485
-        },
-        "stats": [
-          {
-            "season": "2017/18",
-            "place": "30",
-            "name": "Daniel Green",
-            "games": "5",
-            "wins": "4",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "8"
-          },
-          {
-            "season": "2016/17",
-            "place": "25",
-            "name": "Daniel Green",
-            "games": "11",
-            "wins": "7",
-            "weeklyWins": "1",
-            "runnersUp": "2",
-            "weeks": "3",
-            "score": "15"
-          },
-          {
-            "season": "2015/16",
-            "place": "11",
-            "name": "Daniel Green",
-            "games": "139",
-            "wins": "57",
-            "weeklyWins": "2",
-            "runnersUp": "5",
-            "weeks": "35",
-            "score": "112"
           }
         ]
       }
@@ -19459,7 +19941,7 @@
     "name": "Rupert Ford",
     "summary": {
       "level": 6,
-      "points": 630,
+      "points": 667,
       "rank": null
     },
     "trophies": [],
@@ -19499,17 +19981,29 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 63,
+        "points": 100,
         "seasons": {
-          "2024/25": 63
+          "2026/27": 100,
+          "2024/25": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Rupert Ford",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "2"
+          },
           {
             "season": "2024/25",
             "place": "7",
             "name": "Rupert Ford",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       },
@@ -19777,7 +20271,9 @@
             "place": "3",
             "name": "Georgina Miller",
             "team": "Racket Raiders",
-            "score": "0"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
           }
         ]
       }
@@ -19786,8 +20282,8 @@
   "jessica ellicott": {
     "name": "Jessica Ellicott",
     "summary": {
-      "level": 6,
-      "points": 605,
+      "level": 5,
+      "points": 536,
       "rank": null
     },
     "trophies": [],
@@ -19819,10 +20315,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 129,
+        "points": 60,
         "seasons": {
-          "2025/26": 78,
-          "2024/25": 51
+          "2025/26": 60,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -19830,14 +20326,18 @@
             "place": "3",
             "name": "Jessica Ellicott",
             "team": "Racket Raiders",
-            "score": "6"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           },
           {
             "season": "2024/25",
             "place": "9",
             "name": "Jessica Ellicott",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       },
@@ -19919,8 +20419,8 @@
   "william clift": {
     "name": "William Clift",
     "summary": {
-      "level": 4,
-      "points": 352,
+      "level": 3,
+      "points": 265,
       "rank": null
     },
     "trophies": [],
@@ -19952,10 +20452,10 @@
       },
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 147,
+        "points": 60,
         "seasons": {
-          "2025/26": 84,
-          "2024/25": 63
+          "2025/26": 60,
+          "2024/25": 0
         },
         "stats": [
           {
@@ -19963,14 +20463,18 @@
             "place": "3",
             "name": "William Clift",
             "team": "Racket Raiders",
-            "score": "8"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "8"
           },
           {
             "season": "2024/25",
             "place": "7",
             "name": "William Clift",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       },
@@ -20181,187 +20685,11 @@
       }
     }
   },
-  "dan page": {
-    "name": "Dan Page",
-    "summary": {
-      "level": 2,
-      "points": 136,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 136,
-        "seasons": {
-          "2025/26": 136
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "1",
-            "name": "Dan Page",
-            "team": "Racket Rebels",
-            "score": "12"
-          }
-        ]
-      }
-    }
-  },
-  "mike jordan": {
-    "name": "Mike Jordan",
-    "summary": {
-      "level": 2,
-      "points": 118,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 118,
-        "seasons": {
-          "2025/26": 118
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "1",
-            "name": "Mike Jordan",
-            "team": "Racket Rebels",
-            "score": "6"
-          }
-        ]
-      }
-    }
-  },
-  "jon malynn": {
-    "name": "Jon Malynn",
-    "summary": {
-      "level": 2,
-      "points": 119,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 119,
-        "seasons": {
-          "2025/26": 119
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Jon Malynn",
-            "team": "Abshooters",
-            "score": "13"
-          }
-        ]
-      }
-    }
-  },
-  "sean herbert": {
-    "name": "Sean Herbert",
-    "summary": {
-      "level": 2,
-      "points": 107,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 107,
-        "seasons": {
-          "2025/26": 107
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Sean Herbert",
-            "team": "Abshooters",
-            "score": "9"
-          }
-        ]
-      }
-    }
-  },
-  "jason vigiers": {
-    "name": "Jason Vigiers",
-    "summary": {
-      "level": 1,
-      "points": 98,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 98,
-        "seasons": {
-          "2025/26": 98
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Jason Vigiers",
-            "team": "Abshooters",
-            "score": "6"
-          }
-        ]
-      }
-    }
-  },
-  "phoebe griffiths": {
-    "name": "Phoebe Griffiths",
-    "summary": {
-      "level": 4,
-      "points": 447,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 447,
-        "seasons": {
-          "2025/26": 86,
-          "2024/25": 361
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Phoebe Griffiths",
-            "team": "Abshooters",
-            "score": "2"
-          },
-          {
-            "season": "2024/25",
-            "place": "1",
-            "name": "Phoebe Griffiths",
-            "team": "Abshooters",
-            "score": "87"
-          }
-        ]
-      }
-    }
-  },
   "alwyn lewis": {
     "name": "Alwyn Lewis",
     "summary": {
-      "level": 4,
-      "points": 358,
+      "level": 3,
+      "points": 317,
       "rank": null
     },
     "trophies": [],
@@ -20369,32 +20697,48 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 251,
+        "points": 210,
         "seasons": {
-          "2025/26": 137,
-          "2024/25": 114
+          "2026/27": 100,
+          "2025/26": 110,
+          "2024/25": 0
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Alwyn Lewis",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "3",
+            "points": "3"
+          },
           {
             "season": "2025/26",
             "place": "3",
             "name": "Alwyn Lewis",
             "team": "Racket Raiders",
-            "score": "4"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
           },
           {
             "season": "2025/26",
             "place": "4",
             "name": "Alwyn Lewis",
             "team": "Squashy Balls",
-            "score": "5"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
           },
           {
             "season": "2024/25",
             "place": "6",
             "name": "Alwyn Lewis",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       },
@@ -20422,11 +20766,11 @@
       }
     }
   },
-  "ola adigun": {
-    "name": "Ola Adigun",
+  "josh white": {
+    "name": "Josh White",
     "summary": {
       "level": 1,
-      "points": 59,
+      "points": 80,
       "rank": null
     },
     "trophies": [],
@@ -20434,17 +20778,19 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 59,
+        "points": 80,
         "seasons": {
-          "2025/26": 59
+          "2026/27": 80
         },
         "stats": [
           {
-            "season": "2025/26",
-            "place": "4",
-            "name": "Ola Adigun",
-            "team": "Squashy Balls",
-            "score": "3"
+            "season": "2026/27",
+            "place": "2",
+            "name": "Josh White",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
           }
         ]
       }
@@ -20453,8 +20799,8 @@
   "jon lott": {
     "name": "Jon Lott",
     "summary": {
-      "level": 1,
-      "points": 53,
+      "level": 2,
+      "points": 100,
       "rank": null
     },
     "trophies": [],
@@ -20462,17 +20808,289 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 53,
+        "points": 100,
         "seasons": {
-          "2025/26": 53
+          "2026/27": 50,
+          "2025/26": 50
         },
         "stats": [
+          {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Jon Lott",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
           {
             "season": "2025/26",
             "place": "4",
             "name": "Jon Lott",
             "team": "Squashy Balls",
-            "score": "1"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "1"
+          }
+        ]
+      }
+    }
+  },
+  "oliver boniface": {
+    "name": "Oliver Boniface",
+    "summary": {
+      "level": 1,
+      "points": 0,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 0,
+        "seasons": {
+          "2026/27": 0,
+          "2025/26": 0
+        },
+        "stats": [
+          {
+            "season": "2026/27",
+            "place": "5",
+            "name": "Oliver Boniface",
+            "team": "Dobbinators",
+            "eventsPlayed": "1",
+            "matchesPlayed": "2",
+            "points": "2"
+          },
+          {
+            "season": "2025/26",
+            "place": "7",
+            "name": "Oliver Boniface",
+            "team": "Dobbinators",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "7"
+          }
+        ]
+      }
+    }
+  },
+  "dan page": {
+    "name": "Dan Page",
+    "summary": {
+      "level": 2,
+      "points": 100,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 100,
+        "seasons": {
+          "2025/26": 100
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Dan Page",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "12"
+          }
+        ]
+      }
+    }
+  },
+  "mike jordan": {
+    "name": "Mike Jordan",
+    "summary": {
+      "level": 2,
+      "points": 100,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 100,
+        "seasons": {
+          "2025/26": 100
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Mike Jordan",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          }
+        ]
+      }
+    }
+  },
+  "jon malynn": {
+    "name": "Jon Malynn",
+    "summary": {
+      "level": 1,
+      "points": 80,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 80,
+        "seasons": {
+          "2025/26": 80
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Jon Malynn",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "13"
+          }
+        ]
+      }
+    }
+  },
+  "sean herbert": {
+    "name": "Sean Herbert",
+    "summary": {
+      "level": 1,
+      "points": 80,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 80,
+        "seasons": {
+          "2025/26": 80
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Sean Herbert",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "9"
+          }
+        ]
+      }
+    }
+  },
+  "jason vigiers": {
+    "name": "Jason Vigiers",
+    "summary": {
+      "level": 1,
+      "points": 80,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 80,
+        "seasons": {
+          "2025/26": 80
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Jason Vigiers",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          }
+        ]
+      }
+    }
+  },
+  "phoebe griffiths": {
+    "name": "Phoebe Griffiths",
+    "summary": {
+      "level": 2,
+      "points": 180,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 180,
+        "seasons": {
+          "2025/26": 80,
+          "2024/25": 100
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Phoebe Griffiths",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "2"
+          },
+          {
+            "season": "2024/25",
+            "place": "1",
+            "name": "Phoebe Griffiths",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
+          }
+        ]
+      }
+    }
+  },
+  "ola adigun": {
+    "name": "Ola Adigun",
+    "summary": {
+      "level": 1,
+      "points": 50,
+      "rank": null
+    },
+    "trophies": [],
+    "achievements": [],
+    "competitions": {
+      "sltc": {
+        "name": "SL Team Challenge",
+        "points": 50,
+        "seasons": {
+          "2025/26": 50
+        },
+        "stats": [
+          {
+            "season": "2025/26",
+            "place": "4",
+            "name": "Ola Adigun",
+            "team": "Squashy Balls",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -20482,7 +21100,7 @@
     "name": "Keith Barron",
     "summary": {
       "level": 1,
-      "points": 18,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20490,9 +21108,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 18,
+        "points": 0,
         "seasons": {
-          "2025/26": 18
+          "2025/26": 0
         },
         "stats": [
           {
@@ -20500,35 +21118,9 @@
             "place": "5",
             "name": "Keith Barron",
             "team": "Misshits",
-            "score": "6"
-          }
-        ]
-      }
-    }
-  },
-  "ollie bonnieface": {
-    "name": "Ollie Bonnieface",
-    "summary": {
-      "level": 1,
-      "points": 21,
-      "rank": null
-    },
-    "trophies": [],
-    "achievements": [],
-    "competitions": {
-      "sltc": {
-        "name": "SL Team Challenge",
-        "points": 21,
-        "seasons": {
-          "2025/26": 21
-        },
-        "stats": [
-          {
-            "season": "2025/26",
-            "place": "7",
-            "name": "Ollie Bonnieface",
-            "team": "Dobbinators",
-            "score": "7"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
           }
         ]
       }
@@ -20538,7 +21130,7 @@
     "name": "Ross Goodwin",
     "summary": {
       "level": 1,
-      "points": 3,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20546,9 +21138,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 3,
+        "points": 0,
         "seasons": {
-          "2025/26": 3
+          "2025/26": 0
         },
         "stats": [
           {
@@ -20556,7 +21148,9 @@
             "place": "7",
             "name": "Ross Goodwin",
             "team": "Dobbinators",
-            "score": "1"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "1"
           }
         ]
       }
@@ -20566,7 +21160,7 @@
     "name": "Ruth Hagerty",
     "summary": {
       "level": 1,
-      "points": 9,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20574,9 +21168,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 9,
+        "points": 0,
         "seasons": {
-          "2025/26": 9
+          "2025/26": 0
         },
         "stats": [
           {
@@ -20584,7 +21178,9 @@
             "place": "8",
             "name": "Ruth Hagerty",
             "team": "Wednesday Bar Boozers",
-            "score": "3"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
           }
         ]
       }
@@ -20593,8 +21189,8 @@
   "dave fairbrother": {
     "name": "Dave Fairbrother",
     "summary": {
-      "level": 4,
-      "points": 361,
+      "level": 2,
+      "points": 100,
       "rank": null
     },
     "trophies": [],
@@ -20602,9 +21198,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 361,
+        "points": 100,
         "seasons": {
-          "2024/25": 361
+          "2024/25": 100
         },
         "stats": [
           {
@@ -20612,7 +21208,9 @@
             "place": "1",
             "name": "Dave Fairbrother",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       }
@@ -20621,8 +21219,8 @@
   "scott griffiths": {
     "name": "Scott Griffiths",
     "summary": {
-      "level": 4,
-      "points": 361,
+      "level": 2,
+      "points": 100,
       "rank": null
     },
     "trophies": [],
@@ -20630,9 +21228,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 361,
+        "points": 100,
         "seasons": {
-          "2024/25": 361
+          "2024/25": 100
         },
         "stats": [
           {
@@ -20640,7 +21238,9 @@
             "place": "1",
             "name": "Scott Griffiths",
             "team": "Abshooters",
-            "score": "87"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
           }
         ]
       }
@@ -20649,8 +21249,8 @@
   "kris kolandjian": {
     "name": "Kris Kolandjian",
     "summary": {
-      "level": 2,
-      "points": 120,
+      "level": 1,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20658,9 +21258,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20668,7 +21268,9 @@
             "place": "5",
             "name": "Kris Kolandjian",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -20677,8 +21279,8 @@
   "drew burley": {
     "name": "Drew Burley",
     "summary": {
-      "level": 2,
-      "points": 120,
+      "level": 1,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20686,9 +21288,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 120,
+        "points": 0,
         "seasons": {
-          "2024/25": 120
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20696,7 +21298,9 @@
             "place": "5",
             "name": "Drew Burley",
             "team": "Balls to the Walls",
-            "score": "40"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "40"
           }
         ]
       }
@@ -20705,8 +21309,8 @@
   "rhys glide": {
     "name": "Rhys Glide",
     "summary": {
-      "level": 3,
-      "points": 210,
+      "level": 1,
+      "points": 60,
       "rank": null
     },
     "trophies": [],
@@ -20714,9 +21318,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 210,
+        "points": 60,
         "seasons": {
-          "2024/25": 210
+          "2024/25": 60
         },
         "stats": [
           {
@@ -20724,7 +21328,9 @@
             "place": "3",
             "name": "Rhys Glide",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -20733,8 +21339,8 @@
   "james dobbin": {
     "name": "James Dobbin",
     "summary": {
-      "level": 3,
-      "points": 210,
+      "level": 1,
+      "points": 60,
       "rank": null
     },
     "trophies": [],
@@ -20742,9 +21348,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 210,
+        "points": 60,
         "seasons": {
-          "2024/25": 210
+          "2024/25": 60
         },
         "stats": [
           {
@@ -20752,7 +21358,9 @@
             "place": "3",
             "name": "James Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -20761,8 +21369,8 @@
   "vince dobbin": {
     "name": "Vince Dobbin",
     "summary": {
-      "level": 3,
-      "points": 210,
+      "level": 1,
+      "points": 60,
       "rank": null
     },
     "trophies": [],
@@ -20770,9 +21378,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 210,
+        "points": 60,
         "seasons": {
-          "2024/25": 210
+          "2024/25": 60
         },
         "stats": [
           {
@@ -20780,7 +21388,9 @@
             "place": "3",
             "name": "Vince Dobbin",
             "team": "Dobbinators",
-            "score": "50"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
           }
         ]
       }
@@ -20789,8 +21399,8 @@
   "sally ellicott": {
     "name": "Sally Ellicott",
     "summary": {
-      "level": 2,
-      "points": 108,
+      "level": 1,
+      "points": 57,
       "rank": null
     },
     "trophies": [],
@@ -20798,9 +21408,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20808,7 +21418,9 @@
             "place": "9",
             "name": "Sally Ellicott",
             "team": "Royal Navy",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       },
@@ -20840,7 +21452,7 @@
     "name": "Matthew Hartley",
     "summary": {
       "level": 1,
-      "points": 51,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20848,9 +21460,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20858,7 +21470,9 @@
             "place": "8",
             "name": "Matthew Hartley",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -20868,7 +21482,7 @@
     "name": "Mo Mehrkar-McCubbin",
     "summary": {
       "level": 1,
-      "points": 51,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20876,9 +21490,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 51,
+        "points": 0,
         "seasons": {
-          "2024/25": 51
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20886,7 +21500,9 @@
             "place": "8",
             "name": "Mo Mehrkar-McCubbin",
             "team": "Team Fish",
-            "score": "17"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ]
       }
@@ -20896,7 +21512,7 @@
     "name": "Isla Glide",
     "summary": {
       "level": 1,
-      "points": 63,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20904,9 +21520,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 63,
+        "points": 0,
         "seasons": {
-          "2024/25": 63
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20914,7 +21530,9 @@
             "place": "7",
             "name": "Isla Glide",
             "team": "Court Crusaders",
-            "score": "21"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
           }
         ]
       }
@@ -20923,8 +21541,8 @@
   "paul lacey": {
     "name": "Paul Lacey",
     "summary": {
-      "level": 3,
-      "points": 302,
+      "level": 1,
+      "points": 80,
       "rank": null
     },
     "trophies": [],
@@ -20932,9 +21550,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 302,
+        "points": 80,
         "seasons": {
-          "2024/25": 302
+          "2024/25": 80
         },
         "stats": [
           {
@@ -20942,7 +21560,9 @@
             "place": "2",
             "name": "Paul Lacey",
             "team": "Misshits",
-            "score": "74"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
           }
         ]
       }
@@ -20951,8 +21571,8 @@
   "michele farris": {
     "name": "Michele Farris",
     "summary": {
-      "level": 2,
-      "points": 114,
+      "level": 1,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20960,9 +21580,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 114,
+        "points": 0,
         "seasons": {
-          "2024/25": 114
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20970,7 +21590,9 @@
             "place": "6",
             "name": "Michele Farris",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       }
@@ -20979,8 +21601,8 @@
   "hattie broadbridge": {
     "name": "Hattie Broadbridge",
     "summary": {
-      "level": 2,
-      "points": 114,
+      "level": 1,
+      "points": 0,
       "rank": null
     },
     "trophies": [],
@@ -20988,9 +21610,9 @@
     "competitions": {
       "sltc": {
         "name": "SL Team Challenge",
-        "points": 114,
+        "points": 0,
         "seasons": {
-          "2024/25": 114
+          "2024/25": 0
         },
         "stats": [
           {
@@ -20998,7 +21620,9 @@
             "place": "6",
             "name": "Hattie Broadbridge",
             "team": "Across The Generations",
-            "score": "38"
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
           }
         ]
       }

@@ -33,7 +33,8 @@
         }
       }
     },
-    "level": 19
+    "level": 19,
+    "sltc": null
   },
   {
     "name": "Tom Weston",
@@ -68,7 +69,8 @@
         }
       }
     },
-    "level": 18
+    "level": 18,
+    "sltc": null
   },
   {
     "name": "Jake Barnard",
@@ -110,7 +112,8 @@
         }
       }
     },
-    "level": 17
+    "level": 17,
+    "sltc": null
   },
   {
     "name": "Dan Green",
@@ -152,7 +155,16 @@
         }
       }
     },
-    "level": 16
+    "level": 16,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Dan Green",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "6"
+    }
   },
   {
     "name": "Dylan Wilson",
@@ -189,7 +201,8 @@
         }
       }
     },
-    "level": 16
+    "level": 16,
+    "sltc": null
   },
   {
     "name": "Becca House",
@@ -231,7 +244,8 @@
         }
       }
     },
-    "level": 16
+    "level": 16,
+    "sltc": null
   },
   {
     "name": "Oliver Green",
@@ -265,7 +279,8 @@
         }
       }
     },
-    "level": 15
+    "level": 15,
+    "sltc": null
   },
   {
     "name": "Carter Frisby",
@@ -300,7 +315,8 @@
         }
       }
     },
-    "level": 15
+    "level": 15,
+    "sltc": null
   },
   {
     "name": "Michael Frisby",
@@ -336,7 +352,8 @@
         }
       }
     },
-    "level": 15
+    "level": 15,
+    "sltc": null
   },
   {
     "name": "Steve Frankland",
@@ -375,7 +392,8 @@
         }
       }
     },
-    "level": 14
+    "level": 14,
+    "sltc": null
   },
   {
     "name": "Zoe Fellows",
@@ -410,7 +428,8 @@
         }
       }
     },
-    "level": 13
+    "level": 13,
+    "sltc": null
   },
   {
     "name": "Ruth Haggerty",
@@ -445,7 +464,8 @@
         }
       }
     },
-    "level": 13
+    "level": 13,
+    "sltc": null
   },
   {
     "name": "Gregor House",
@@ -482,7 +502,8 @@
         }
       }
     },
-    "level": 12
+    "level": 12,
+    "sltc": null
   },
   {
     "name": "Jason Green",
@@ -518,7 +539,8 @@
         }
       }
     },
-    "level": 12
+    "level": 12,
+    "sltc": null
   },
   {
     "name": "Dan Ngo",
@@ -557,7 +579,16 @@
         }
       }
     },
-    "level": 12
+    "level": 12,
+    "sltc": {
+      "season": "2026/27",
+      "place": "4",
+      "name": "Dan Ngo",
+      "team": "Squashy Balls",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "2"
+    }
   },
   {
     "name": "Michael Evans",
@@ -597,7 +628,8 @@
         }
       }
     },
-    "level": 12
+    "level": 12,
+    "sltc": null
   },
   {
     "name": "Josh Man",
@@ -637,7 +669,8 @@
         }
       }
     },
-    "level": 12
+    "level": 12,
+    "sltc": null
   },
   {
     "name": "Matt Handy",
@@ -673,7 +706,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Paul Goulder",
@@ -708,7 +742,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Josh Davis",
@@ -744,7 +779,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Geoff Balko",
@@ -784,7 +820,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Matt Parkhouse",
@@ -821,7 +858,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Eric Van Onselen",
@@ -858,7 +896,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Sam Homeyard",
@@ -895,7 +934,8 @@
         }
       }
     },
-    "level": 11
+    "level": 11,
+    "sltc": null
   },
   {
     "name": "Tobie Carman",
@@ -928,7 +968,8 @@
         }
       }
     },
-    "level": 10
+    "level": 10,
+    "sltc": null
   },
   {
     "name": "Colin Light",
@@ -963,7 +1004,8 @@
         }
       }
     },
-    "level": 10
+    "level": 10,
+    "sltc": null
   },
   {
     "name": "Danny Farr",
@@ -995,7 +1037,8 @@
         }
       }
     },
-    "level": 10
+    "level": 10,
+    "sltc": null
   },
   {
     "name": "Mark Homeyard",
@@ -1033,7 +1076,16 @@
         }
       }
     },
-    "level": 10
+    "level": 10,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Mark Homeyard",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Mike Catterall",
@@ -1072,7 +1124,8 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": null
   },
   {
     "name": "George Garrett",
@@ -1106,7 +1159,8 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": null
   },
   {
     "name": "George Smith",
@@ -1143,7 +1197,8 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": null
   },
   {
     "name": "Sam Porter",
@@ -1179,7 +1234,16 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Sam Porter",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Sunny Creasey",
@@ -1218,7 +1282,8 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": null
   },
   {
     "name": "David Christian",
@@ -1260,7 +1325,8 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": null
   },
   {
     "name": "Baxter Madden",
@@ -1299,7 +1365,16 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Baxter Madden",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "7"
+    }
   },
   {
     "name": "Will Ramsey",
@@ -1341,7 +1416,16 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Will Ramsey",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "0"
+    }
   },
   {
     "name": "Darren Packham",
@@ -1374,7 +1458,8 @@
         }
       }
     },
-    "level": 9
+    "level": 9,
+    "sltc": null
   },
   {
     "name": "Sheldon Docker",
@@ -1414,7 +1499,16 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Sheldon Docker",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "6"
+    }
   },
   {
     "name": "Richard Lowton",
@@ -1451,7 +1545,16 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Richard Lowton",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "1"
+    }
   },
   {
     "name": "Paul Barnard",
@@ -1491,7 +1594,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Robbie Hicks",
@@ -1529,7 +1633,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Tess Burton",
@@ -1568,7 +1673,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Sam Redington",
@@ -1601,7 +1707,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Marcus Smith",
@@ -1636,7 +1743,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Will Miller",
@@ -1675,7 +1783,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "George Yeates",
@@ -1711,7 +1820,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Harry Porto",
@@ -1748,7 +1858,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "George Downing",
@@ -1782,7 +1893,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Oscar Fry",
@@ -1819,7 +1931,8 @@
         }
       }
     },
-    "level": 8
+    "level": 8,
+    "sltc": null
   },
   {
     "name": "Simon Langdale",
@@ -1856,7 +1969,16 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": {
+      "season": "2026/27",
+      "place": "4",
+      "name": "Simon Langdale",
+      "team": "Squashy Balls",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "4"
+    }
   },
   {
     "name": "Gareth Hobbs",
@@ -1889,7 +2011,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Will Pallister",
@@ -1925,7 +2048,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Maeve Burton",
@@ -1959,7 +2083,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Jon Ramsey",
@@ -1998,7 +2123,16 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Jon Ramsey",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "4"
+    }
   },
   {
     "name": "Adam Tahri",
@@ -2031,7 +2165,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Luke Page",
@@ -2066,7 +2201,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Billy Redington",
@@ -2098,7 +2234,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Joe Davis",
@@ -2131,7 +2268,8 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": null
   },
   {
     "name": "Martin Scheel",
@@ -2166,7 +2304,16 @@
         }
       }
     },
-    "level": 7
+    "level": 7,
+    "sltc": {
+      "season": "2026/27",
+      "place": "4",
+      "name": "Martin Scheel",
+      "team": "Squashy Balls",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "5"
+    }
   },
   {
     "name": "Ben Smith",
@@ -2201,7 +2348,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Isaac Mearns",
@@ -2242,7 +2390,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Samuel Steele",
@@ -2278,7 +2427,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Seb Cairns-Allen",
@@ -2315,7 +2465,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Rupert Ford",
@@ -2354,7 +2505,16 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Rupert Ford",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "2"
+    }
   },
   {
     "name": "George McGregor",
@@ -2386,7 +2546,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Phoebe Dobbin",
@@ -2428,7 +2589,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Greg Czura",
@@ -2464,7 +2626,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Mikey Smith",
@@ -2496,7 +2659,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Lai Man",
@@ -2538,7 +2702,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Ciaran O'Brien",
@@ -2574,7 +2739,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Ewan Wykeham-Martin",
@@ -2610,7 +2776,16 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Ewan Wykeham-Martin",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Rory Paterson",
@@ -2643,7 +2818,8 @@
         }
       }
     },
-    "level": 6
+    "level": 6,
+    "sltc": null
   },
   {
     "name": "Matt  Handy",
@@ -2674,7 +2850,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Dominic Buckley",
@@ -2711,7 +2888,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Leo Sharp",
@@ -2751,7 +2929,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Ethel Brokenshire",
@@ -2785,7 +2964,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Marcus Barnard",
@@ -2817,7 +2997,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Jessica Ellicott",
@@ -2855,7 +3036,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Glynn Blows",
@@ -2889,7 +3071,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Freddie Binnington",
@@ -2921,7 +3104,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Rory Patterson",
@@ -2953,7 +3137,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Jamie Hughes",
@@ -2985,7 +3170,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Thomas Jarrett",
@@ -3018,7 +3204,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Doug Alexander",
@@ -3051,7 +3238,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Henry Letch",
@@ -3082,7 +3270,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Ely Donnachie",
@@ -3118,7 +3307,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Ben Gilbert",
@@ -3152,7 +3342,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Billy Platt",
@@ -3184,7 +3375,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Michael Psaila",
@@ -3217,7 +3409,8 @@
         }
       }
     },
-    "level": 5
+    "level": 5,
+    "sltc": null
   },
   {
     "name": "Mark Sharp",
@@ -3254,7 +3447,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Stan Vilyukha",
@@ -3286,7 +3480,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Tom Knight",
@@ -3318,7 +3513,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Ryan Hyde",
@@ -3350,7 +3546,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Georgina Miller",
@@ -3384,7 +3581,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Craig Dexter",
@@ -3417,7 +3615,16 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Craig Dexter",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "6"
+    }
   },
   {
     "name": "Mikael Nepaul",
@@ -3450,7 +3657,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Andy Bezer",
@@ -3484,7 +3692,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Owen Yeates",
@@ -3520,7 +3729,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Rob Docker",
@@ -3559,7 +3769,16 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Rob Docker",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "7"
+    }
   },
   {
     "name": "Jon Nation",
@@ -3594,7 +3813,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Jo MacManus",
@@ -3626,7 +3846,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Charlie Gandar",
@@ -3659,7 +3880,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Rowan Madden",
@@ -3691,7 +3913,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Ash Noel",
@@ -3723,7 +3946,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Andy Blomfield",
@@ -3754,7 +3978,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Matt Dougherty",
@@ -3788,7 +4013,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Nico Phillips",
@@ -3826,7 +4052,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Elena Gandar",
@@ -3860,7 +4087,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Oscar Littlefield",
@@ -3894,7 +4122,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Jack Fisk",
@@ -3927,7 +4156,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Xander Frisby",
@@ -3960,7 +4190,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Ted Ironside-Smith",
@@ -3996,7 +4227,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Oliver Smith",
@@ -4028,7 +4260,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "James Gandar",
@@ -4061,7 +4294,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Jason Maddox",
@@ -4092,7 +4326,8 @@
         }
       }
     },
-    "level": 4
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Ryan Baker",
@@ -4126,7 +4361,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Tom Richards",
@@ -4158,7 +4394,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Alwyn Lewis",
@@ -4194,7 +4431,16 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Alwyn Lewis",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "3"
+    }
   },
   {
     "name": "Pete Burton",
@@ -4228,7 +4474,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "George Pace",
@@ -4264,7 +4511,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Dylan Proctor",
@@ -4298,7 +4546,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Liam Dobbin",
@@ -4336,7 +4585,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Ruth Wilkie",
@@ -4369,7 +4619,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Stephen Marcus",
@@ -4402,7 +4653,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Greg Fry",
@@ -4436,7 +4688,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Tara Creasey",
@@ -4469,7 +4722,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Hugo Cameron",
@@ -4503,7 +4757,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Ted Ironside",
@@ -4536,7 +4791,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Simon Clifford",
@@ -4570,7 +4826,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Sarah Marchant",
@@ -4601,7 +4858,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Pip Halpin",
@@ -4633,7 +4891,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Alan Way",
@@ -4666,7 +4925,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Sharon Axelson",
@@ -4698,7 +4958,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Oliver Bezer",
@@ -4730,7 +4991,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Josh Matthews",
@@ -4761,7 +5023,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Stu Mitchell",
@@ -4794,7 +5057,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "William Clift",
@@ -4831,7 +5095,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Niel Hillawi",
@@ -4864,7 +5129,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Tim Freeman",
@@ -4895,7 +5161,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Tom  Battersby",
@@ -4926,7 +5193,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Leo Sharpe",
@@ -4957,7 +5225,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Mark Sharpe",
@@ -4988,7 +5257,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Ciaran Capauno",
@@ -5020,7 +5290,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Emma MacNaughtan",
@@ -5052,7 +5323,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Matt Ellicott",
@@ -5083,7 +5355,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Kevin Flynn",
@@ -5116,7 +5389,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Dan Belben",
@@ -5149,7 +5423,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Dave Traynor",
@@ -5184,7 +5459,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Poppy Ginis",
@@ -5216,7 +5492,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Simon Carr",
@@ -5250,7 +5527,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Alex Kershaw",
@@ -5288,7 +5566,16 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Alex Kershaw",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "6"
+    }
   },
   {
     "name": "Neal Thomas",
@@ -5322,7 +5609,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Dylan Bentley",
@@ -5353,7 +5641,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Jonathon Thompson",
@@ -5384,7 +5673,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Shakila Barabhuiya",
@@ -5415,7 +5705,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Tony Broome",
@@ -5447,7 +5738,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Jonathan Thompson",
@@ -5481,7 +5773,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Ian West",
@@ -5513,7 +5806,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Jim House",
@@ -5547,7 +5841,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Rich Thoroughgood",
@@ -5578,7 +5873,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Clinton Bennett",
@@ -5610,7 +5906,8 @@
         }
       }
     },
-    "level": 3
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Ryan Bloxsam",
@@ -5641,7 +5938,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Dave Prentice",
@@ -5673,7 +5971,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Simon Adamson",
@@ -5704,7 +6003,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Dan Anderson",
@@ -5735,7 +6035,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Alice Frisby",
@@ -5766,7 +6067,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "George French",
@@ -5799,7 +6101,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Reuben Gidlow",
@@ -5831,7 +6134,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jamie Dickerson",
@@ -5864,7 +6168,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "David Williams",
@@ -5895,7 +6200,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Giovanni Trevisan",
@@ -5926,7 +6232,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Phil Lillywhite",
@@ -5958,7 +6265,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Ewan Maclean",
@@ -5994,7 +6302,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Phoebe Griffiths",
@@ -6026,7 +6335,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Harry Wilson",
@@ -6057,7 +6367,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Dave Robjohns",
@@ -6091,7 +6402,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Chris Bell",
@@ -6122,7 +6434,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Andy Slater",
@@ -6153,7 +6466,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Hannah Tahri",
@@ -6184,7 +6498,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Paul Martin",
@@ -6218,7 +6533,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Hannah Buchanan",
@@ -6249,7 +6565,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Le-Tian Mo",
@@ -6283,7 +6600,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jo Elleston",
@@ -6314,7 +6632,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Bob Bath",
@@ -6345,7 +6664,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Dave Snape",
@@ -6376,7 +6696,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jay Darrington",
@@ -6407,7 +6728,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Lindsey Edwards",
@@ -6438,7 +6760,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Billy Reddington",
@@ -6469,7 +6792,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jonathan Steele",
@@ -6501,7 +6825,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "John Collicutt",
@@ -6532,7 +6857,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Harriet Delbridge",
@@ -6567,7 +6893,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Josh Mathews",
@@ -6598,7 +6925,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Kyle Gribbens",
@@ -6629,7 +6957,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Danielle Wheatley",
@@ -6663,7 +6992,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Gary Shirley",
@@ -6697,7 +7027,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jody Schoultz",
@@ -6729,7 +7060,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Sue Page",
@@ -6760,7 +7092,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "David Malcomson",
@@ -6791,7 +7124,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Tom Barnes",
@@ -6822,7 +7156,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Kate Tuck",
@@ -6853,7 +7188,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Emma Hughes",
@@ -6885,7 +7221,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Russell Parker",
@@ -6917,7 +7254,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "John Holloway",
@@ -6949,7 +7287,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Sunjina Nepaul",
@@ -6982,7 +7321,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Elaine Featherstone",
@@ -7013,7 +7353,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "George Aram",
@@ -7047,7 +7388,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Joe Perry",
@@ -7078,7 +7420,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Harry Lowe",
@@ -7109,7 +7452,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Bert Townsend",
@@ -7140,7 +7484,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Josh Mordecai",
@@ -7171,7 +7516,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Ethan",
@@ -7202,7 +7548,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Phoebe Christian",
@@ -7235,7 +7582,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jay Robinson",
@@ -7266,7 +7614,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Lucy Finch",
@@ -7297,7 +7646,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Laura Lucking",
@@ -7329,7 +7679,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Edward Gandar",
@@ -7361,7 +7712,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Craig Edney",
@@ -7392,7 +7744,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Jon Lott",
@@ -7424,7 +7777,16 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": {
+      "season": "2026/27",
+      "place": "4",
+      "name": "Jon Lott",
+      "team": "Squashy Balls",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "7"
+    }
   },
   {
     "name": "Dan Page",
@@ -7455,7 +7817,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Mike Jordan",
@@ -7486,7 +7849,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Dave Fairbrother",
@@ -7517,7 +7881,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Scott Griffiths",
@@ -7548,7 +7913,8 @@
         }
       }
     },
-    "level": 2
+    "level": 2,
+    "sltc": null
   },
   {
     "name": "Fiona Mabin",
@@ -7579,7 +7945,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Tom Brown",
@@ -7610,7 +7977,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy Cummings",
@@ -7645,7 +8013,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jenson Man",
@@ -7679,7 +8048,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Scott Wiltshire",
@@ -7711,7 +8081,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sarah Barnard",
@@ -7742,7 +8113,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sam Williams",
@@ -7775,7 +8147,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jack Coles",
@@ -7806,7 +8179,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Stan Mavin",
@@ -7839,7 +8213,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ethan Hammond",
@@ -7870,7 +8245,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Max Mort",
@@ -7902,7 +8278,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Max Fisher",
@@ -7933,7 +8310,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ciaran Capau",
@@ -7964,7 +8342,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Tegan Hyde",
@@ -7995,7 +8374,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Marianne Damoiseau",
@@ -8026,7 +8406,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Hannah Buzzard",
@@ -8057,7 +8438,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Josh White",
@@ -8088,7 +8470,16 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Josh White",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Jon Malynn",
@@ -8119,7 +8510,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sean Herbert",
@@ -8150,7 +8542,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jason Vigiers",
@@ -8181,7 +8574,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Paul Lacey",
@@ -8212,7 +8606,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Pete McFarlane",
@@ -8243,7 +8638,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Shaun Keal",
@@ -8278,7 +8674,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Heather Griggs",
@@ -8309,7 +8706,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ian Thompson",
@@ -8340,7 +8738,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "David Malcolmson",
@@ -8373,7 +8772,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Steve Baseley",
@@ -8405,7 +8805,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Dara Murray",
@@ -8438,7 +8839,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Morgan Pearce",
@@ -8470,7 +8872,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Lottie Serle",
@@ -8501,7 +8904,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Noah Malcomson",
@@ -8532,7 +8936,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Davd Malcomson",
@@ -8563,7 +8968,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy",
@@ -8595,7 +9001,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ergin",
@@ -8626,7 +9033,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Harriet Ellicott",
@@ -8660,7 +9068,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "George Prentice",
@@ -8693,7 +9102,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ed Roberts",
@@ -8724,7 +9134,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Nick Cade",
@@ -8755,7 +9166,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Richard Gwilliam",
@@ -8788,7 +9200,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Olivia Fry",
@@ -8819,7 +9232,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alex Wilson",
@@ -8850,7 +9264,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Neil Hughes",
@@ -8882,7 +9297,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Pete Birch",
@@ -8913,7 +9329,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Harry Gilbert",
@@ -8944,7 +9361,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Paul Clark",
@@ -8976,7 +9394,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jamie Louch",
@@ -9007,7 +9426,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jamie Stephenson",
@@ -9038,7 +9458,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jacob Harris",
@@ -9069,7 +9490,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Felix Crinion-Keal",
@@ -9100,7 +9522,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Shandon Marcus",
@@ -9131,7 +9554,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Tim Hodgett",
@@ -9162,7 +9586,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ian Battersby",
@@ -9193,7 +9618,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alex Wheatley",
@@ -9224,7 +9650,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Chris Bates",
@@ -9255,7 +9682,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Isaac Mearnes",
@@ -9286,7 +9714,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sarah Robinson",
@@ -9317,7 +9746,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Neil Moore",
@@ -9348,7 +9778,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Adrian Allsopp",
@@ -9380,7 +9811,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jacob Clark",
@@ -9411,7 +9843,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rhys Glide",
@@ -9442,7 +9875,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "James Dobbin",
@@ -9473,7 +9907,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Vince Dobbin",
@@ -9504,7 +9939,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Katie Ford",
@@ -9535,7 +9971,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Matt",
@@ -9566,7 +10003,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Didier Dejean",
@@ -9599,7 +10037,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Harvey Butchart",
@@ -9630,7 +10069,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sally Ellicott",
@@ -9664,7 +10104,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Seb Pilling",
@@ -9695,7 +10136,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Isaac Pilling",
@@ -9726,7 +10168,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Denish Rai",
@@ -9757,7 +10200,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Omari",
@@ -9788,7 +10232,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ed",
@@ -9819,7 +10264,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Judy Redgrove",
@@ -9851,7 +10297,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mike Lester",
@@ -9882,7 +10329,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Wes Clift",
@@ -9913,7 +10361,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Chad",
@@ -9944,7 +10393,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Brodie Wheatley",
@@ -9977,7 +10427,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy Miller",
@@ -10008,7 +10459,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ola Adigun",
@@ -10039,7 +10491,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kathryn",
@@ -10070,7 +10523,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kristian Kott",
@@ -10101,7 +10555,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Luke Noyce",
@@ -10132,7 +10587,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Paul Janota",
@@ -10163,7 +10619,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy Staveley",
@@ -10194,7 +10651,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Coops",
@@ -10225,7 +10683,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Noah Malcolmson",
@@ -10256,7 +10715,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Bernard Perry",
@@ -10288,7 +10748,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kyri Elia",
@@ -10319,7 +10780,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kayleigh Westover",
@@ -10350,7 +10812,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Harry Jestico",
@@ -10381,7 +10844,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Lenny Westover",
@@ -10412,7 +10876,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Paul Holdway",
@@ -10445,7 +10910,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Arnau Martin",
@@ -10477,7 +10943,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Neil Weston",
@@ -10509,7 +10976,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Christian",
@@ -10540,7 +11008,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andrea Yeates",
@@ -10571,7 +11040,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sharda Hayes",
@@ -10602,7 +11072,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mark Pace",
@@ -10633,7 +11104,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Elliott Ngo",
@@ -10664,7 +11136,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jane",
@@ -10695,7 +11168,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Stanislav Vilyuka",
@@ -10726,7 +11200,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mark Gilbert",
@@ -10757,7 +11232,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sunjina Nepal",
@@ -10788,7 +11264,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Caine Jerone",
@@ -10819,7 +11296,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Steph",
@@ -10850,7 +11328,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andrew",
@@ -10881,7 +11360,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rob Britton",
@@ -10912,7 +11392,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ruben Brains",
@@ -10943,7 +11424,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Phil Binnington",
@@ -10974,7 +11456,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Fi Barnes",
@@ -11005,7 +11488,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mick Kirbywest",
@@ -11036,7 +11520,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jordan Booker",
@@ -11068,7 +11553,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Darren Schofield",
@@ -11100,7 +11586,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Steve Van Hamell",
@@ -11131,7 +11618,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Scott Swatton",
@@ -11162,7 +11650,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Lisa Cameron",
@@ -11193,7 +11682,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jon Collicutt",
@@ -11224,7 +11714,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Drew Ross",
@@ -11255,7 +11746,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rob Clark",
@@ -11286,7 +11778,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mo Kawai",
@@ -11317,7 +11810,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Tom Sykes",
@@ -11348,7 +11842,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mike Jenkins",
@@ -11379,7 +11874,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Diana Hernadez",
@@ -11410,7 +11906,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kevin Guadarama",
@@ -11441,7 +11938,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Chris Hobley",
@@ -11472,7 +11970,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jodi Barker",
@@ -11503,7 +12002,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jonathan Thompso",
@@ -11534,7 +12034,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy Graham",
@@ -11565,7 +12066,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Chris Horne",
@@ -11596,7 +12098,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Pete Juckes",
@@ -11628,7 +12131,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ben Kershaw",
@@ -11659,7 +12163,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Harry Laver",
@@ -11690,7 +12195,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Josh Davies",
@@ -11721,7 +12227,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Clare Allsopp",
@@ -11752,7 +12259,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Nathan Taylor-Wilson",
@@ -11783,7 +12291,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kieran Gedney",
@@ -11814,7 +12323,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Richard Whitfield",
@@ -11845,7 +12355,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Finn Ashford",
@@ -11876,7 +12387,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Chris (Steve's Friend)",
@@ -11907,7 +12419,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alex Gorton",
@@ -11938,7 +12451,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Brodey Wheatley",
@@ -11969,7 +12483,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "James Hamer",
@@ -12000,7 +12515,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Fraser Woffenden",
@@ -12031,7 +12547,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Peter Woffenden",
@@ -12062,7 +12579,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Emily Fanson",
@@ -12094,7 +12612,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Xander Ehrhardt",
@@ -12125,7 +12644,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Isabelle",
@@ -12157,7 +12677,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sam Beale",
@@ -12188,7 +12709,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Chris Burgess",
@@ -12219,7 +12741,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ricky Nepaul",
@@ -12251,7 +12774,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mark Fleury",
@@ -12282,7 +12806,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Keith Tyson",
@@ -12314,7 +12839,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sam Churchill",
@@ -12345,7 +12871,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rhys Jones",
@@ -12376,7 +12903,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Richard Harding",
@@ -12407,7 +12935,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "George Holloway",
@@ -12438,7 +12967,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ethan Goodwin",
@@ -12469,7 +12999,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Nigel Watts",
@@ -12500,7 +13031,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ola",
@@ -12531,7 +13063,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Scottie",
@@ -12562,7 +13095,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Tom Nevitt",
@@ -12593,7 +13127,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kunle",
@@ -12624,7 +13159,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jeremy",
@@ -12655,7 +13191,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Carl Titterington",
@@ -12686,7 +13223,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Dan Widdowson",
@@ -12717,7 +13255,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Eric Van Leftelen",
@@ -12748,7 +13287,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Logain Christian",
@@ -12779,7 +13319,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jack Waterman",
@@ -12810,7 +13351,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kevin Lamport",
@@ -12841,7 +13383,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Scott Hamilton",
@@ -12872,7 +13415,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ryan Edney",
@@ -12904,7 +13448,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Beth Merrifield",
@@ -12935,7 +13480,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alfie Tier",
@@ -12966,7 +13512,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Paul Holmes",
@@ -12997,7 +13544,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rory Hobkinson",
@@ -13028,7 +13576,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Steve Blundell",
@@ -13059,7 +13608,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Arthur Burt",
@@ -13092,7 +13642,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Lee Gerald",
@@ -13123,7 +13674,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Shem Marcus",
@@ -13154,7 +13706,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Esme Yeates",
@@ -13185,7 +13738,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Danny Proctor",
@@ -13216,7 +13770,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "John",
@@ -13247,7 +13802,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy Bell",
@@ -13278,7 +13834,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Keith Harvey",
@@ -13309,7 +13866,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Will",
@@ -13340,7 +13898,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Charlie Fisher",
@@ -13371,7 +13930,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sue Grealish",
@@ -13402,7 +13962,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Freddie Fairhall",
@@ -13433,7 +13994,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ewan Thoroughgood",
@@ -13464,7 +14026,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Huw",
@@ -13495,7 +14058,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Matt Ketcher",
@@ -13526,7 +14090,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Callum",
@@ -13557,7 +14122,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jago",
@@ -13588,7 +14154,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "John Schnable",
@@ -13619,7 +14186,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jon Coolahan",
@@ -13650,7 +14218,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Cannon Palmer",
@@ -13681,7 +14250,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Dylan Garcia-Tobin",
@@ -13712,7 +14282,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "John Page",
@@ -13743,7 +14314,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Sam White",
@@ -13776,7 +14348,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ioan Davis",
@@ -13807,7 +14380,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Taff",
@@ -13838,7 +14412,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Emily McClean",
@@ -13871,7 +14446,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Diane",
@@ -13902,7 +14478,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kate",
@@ -13933,7 +14510,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mark",
@@ -13964,7 +14542,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Coby",
@@ -13995,7 +14574,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ashleigh Axelson",
@@ -14026,7 +14606,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kate Christian",
@@ -14057,7 +14638,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Brett",
@@ -14088,7 +14670,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ben Donnelly",
@@ -14119,7 +14702,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Joseph",
@@ -14150,7 +14734,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Lawrie Thoroughgood",
@@ -14181,7 +14766,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Billy",
@@ -14212,7 +14798,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Henry",
@@ -14243,7 +14830,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Marc Fleury",
@@ -14274,7 +14862,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rob Clarke",
@@ -14305,7 +14894,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alex Winman",
@@ -14336,7 +14926,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Jen",
@@ -14367,7 +14958,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Justin Shaw",
@@ -14398,7 +14990,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Andy Osborne",
@@ -14429,7 +15022,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Airidas Rutkauskas",
@@ -14460,7 +15054,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Megan Anderton",
@@ -14491,7 +15086,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mick Miller",
@@ -14522,7 +15118,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Edwin Irala",
@@ -14553,7 +15150,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Gabriel Garcia",
@@ -14584,7 +15182,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alex Baker",
@@ -14615,7 +15214,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kian Whelan",
@@ -14646,7 +15246,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Phil Webb",
@@ -14677,7 +15278,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Dan",
@@ -14708,7 +15310,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Rhys Hobbs",
@@ -14739,7 +15342,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mike Baldwin",
@@ -14770,7 +15374,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Tom",
@@ -14801,7 +15406,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Alec",
@@ -14832,7 +15438,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Eddie",
@@ -14863,7 +15470,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Oliver Boniface",
@@ -14895,7 +15503,16 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": {
+      "season": "2026/27",
+      "place": "5",
+      "name": "Oliver Boniface",
+      "team": "Dobbinators",
+      "eventsPlayed": "1",
+      "matchesPlayed": "2",
+      "points": "2"
+    }
   },
   {
     "name": "Keith Barron",
@@ -14926,7 +15543,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ross Goodwin",
@@ -14957,7 +15575,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Ruth Hagerty",
@@ -14988,7 +15607,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Kris Kolandjian",
@@ -15019,7 +15639,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Drew Burley",
@@ -15050,7 +15671,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Matthew Hartley",
@@ -15081,7 +15703,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Mo Mehrkar-McCubbin",
@@ -15112,7 +15735,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Isla Glide",
@@ -15143,7 +15767,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Michele Farris",
@@ -15174,7 +15799,8 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   },
   {
     "name": "Hattie Broadbridge",
@@ -15205,6 +15831,7 @@
         }
       }
     },
-    "level": 1
+    "level": 1,
+    "sltc": null
   }
 ]
