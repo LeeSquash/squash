@@ -1,4 +1,5 @@
 // ========================================
+// FILE LOCATION: /squash/websitepoints/leaderboard.js
 // WEBSITE POINTS LEADERBOARD BUILDER
 // Calculates all players points and levels
 // ========================================
@@ -19,10 +20,21 @@ Object.values(database.players).forEach(player => {
 
     const level = calculateLevel(points.total);
 
+    const sltcSeason =
+        player.competitions?.sltc?.find(
+            season => season.season === "2026/27"
+        );
+
     leaderboard.push({
+
         name: player.name,
+
         points: points,
-        level: level
+
+        level: level,
+
+        sltc: sltcSeason || null
+
     });
 
 });
@@ -35,7 +47,3 @@ fs.writeFileSync(
 );
 
 console.log("Leaderboard created successfully");
-
-
-
-

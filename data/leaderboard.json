@@ -30,6 +30,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -66,6 +70,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -75,12 +83,12 @@
   {
     "name": "Jake Barnard",
     "points": {
-      "total": 2968,
+      "total": 2975,
       "breakdown": {
         "peteroberts": {
-          "total": 2968,
+          "total": 2975,
           "seasons": {
-            "2026/27": 19,
+            "2026/27": 26,
             "2025/26": 50,
             "2024/25": 386,
             "2023/24": 7,
@@ -109,6 +117,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -118,12 +130,12 @@
   {
     "name": "Dan Green",
     "points": {
-      "total": 2636,
+      "total": 2690,
       "breakdown": {
         "peteroberts": {
-          "total": 2456,
+          "total": 2510,
           "seasons": {
-            "2026/27": 55,
+            "2026/27": 109,
             "2025/26": 365,
             "2024/25": 132,
             "2023/24": 87,
@@ -150,6 +162,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -198,6 +214,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -241,6 +261,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -274,6 +298,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -312,6 +340,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -347,6 +379,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -389,6 +425,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -396,50 +436,14 @@
     "sltc": null
   },
   {
-    "name": "Zoe Fellows",
-    "points": {
-      "total": 1933,
-      "breakdown": {
-        "peteroberts": {
-          "total": 1933,
-          "seasons": {
-            "2026/27": 56,
-            "2025/26": 234,
-            "2024/25": 204,
-            "2023/24": 900,
-            "2022/23": 539
-          }
-        },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 13,
-    "sltc": null
-  },
-  {
     "name": "Ruth Haggerty",
     "points": {
-      "total": 1863,
+      "total": 2155,
       "breakdown": {
         "peteroberts": {
-          "total": 1863,
+          "total": 1882,
           "seasons": {
-            "2026/27": 50,
+            "2026/27": 69,
             "2025/26": 383,
             "2024/25": 267,
             "2023/24": 455,
@@ -461,6 +465,99 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 273,
+          "seasons": {
+            "alltime": 273
+          }
+        }
+      }
+    },
+    "level": 14,
+    "sltc": null
+  },
+  {
+    "name": "Michael Evans",
+    "points": {
+      "total": 2134,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1651,
+          "seasons": {
+            "2026/27": 94,
+            "2025/26": 413,
+            "2024/25": 478,
+            "2023/24": 555,
+            "2022/23": 111
+          }
+        },
+        "sltc": {
+          "total": 50,
+          "seasons": {
+            "2025/26": 50,
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 12,
+          "seasons": {
+            "2026/27": 12
+          }
+        },
+        "boxleagues": {
+          "total": 421,
+          "seasons": {
+            "alltime": 421
+          }
+        }
+      }
+    },
+    "level": 14,
+    "sltc": null
+  },
+  {
+    "name": "Zoe Fellows",
+    "points": {
+      "total": 1940,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1940,
+          "seasons": {
+            "2026/27": 63,
+            "2025/26": 234,
+            "2024/25": 204,
+            "2023/24": 900,
+            "2022/23": 539
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -470,11 +567,12 @@
   {
     "name": "Gregor House",
     "points": {
-      "total": 1847,
+      "total": 1871,
       "breakdown": {
         "peteroberts": {
-          "total": 1847,
+          "total": 1871,
           "seasons": {
+            "2026/27": 24,
             "2023/24": 19,
             "2022/23": 80,
             "2018/19": 204,
@@ -499,10 +597,14 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
-    "level": 12,
+    "level": 13,
     "sltc": null
   },
   {
@@ -536,6 +638,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -545,12 +651,12 @@
   {
     "name": "Dan Ngo",
     "points": {
-      "total": 1730,
+      "total": 1754,
       "breakdown": {
         "peteroberts": {
-          "total": 1588,
+          "total": 1612,
           "seasons": {
-            "2026/27": 105,
+            "2026/27": 129,
             "2025/26": 899,
             "2024/25": 458,
             "2023/24": 126
@@ -576,6 +682,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -591,18 +701,17 @@
     }
   },
   {
-    "name": "Michael Evans",
+    "name": "Eric Van Onselen",
     "points": {
-      "total": 1694,
+      "total": 1752,
       "breakdown": {
         "peteroberts": {
-          "total": 1632,
+          "total": 1417,
           "seasons": {
-            "2026/27": 75,
-            "2025/26": 413,
-            "2024/25": 478,
-            "2023/24": 555,
-            "2022/23": 111
+            "2025/26": 369,
+            "2024/25": 426,
+            "2023/24": 437,
+            "2022/23": 185
           }
         },
         "sltc": {
@@ -621,9 +730,13 @@
           "seasons": {}
         },
         "racketballclubnight": {
-          "total": 12,
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 285,
           "seasons": {
-            "2026/27": 12
+            "alltime": 285
           }
         }
       }
@@ -632,14 +745,65 @@
     "sltc": null
   },
   {
-    "name": "Josh Man",
+    "name": "Sam Porter",
     "points": {
-      "total": 1683,
+      "total": 1737,
       "breakdown": {
         "peteroberts": {
-          "total": 1659,
+          "total": 1243,
           "seasons": {
-            "2026/27": 87,
+            "2026/27": 270,
+            "2025/26": 755,
+            "2024/25": 218
+          }
+        },
+        "sltc": {
+          "total": 60,
+          "seasons": {
+            "2026/27": 60,
+            "2025/26": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 434,
+          "seasons": {
+            "alltime": 434
+          }
+        }
+      }
+    },
+    "level": 12,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Sam Porter",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
+  },
+  {
+    "name": "Josh Man",
+    "points": {
+      "total": 1722,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1698,
+          "seasons": {
+            "2026/27": 126,
             "2025/26": 654,
             "2024/25": 340,
             "2023/24": 303,
@@ -666,10 +830,58 @@
             "2026/27": 18,
             "2025/26": 6
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 12,
+    "sltc": null
+  },
+  {
+    "name": "Sam Homeyard",
+    "points": {
+      "total": 1603,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1417,
+          "seasons": {
+            "2026/27": 67,
+            "2025/26": 431,
+            "2024/25": 838,
+            "2023/24": 81
+          }
+        },
+        "sltc": {
+          "total": 80,
+          "seasons": {
+            "2025/26": 0,
+            "2024/25": 80
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 106,
+          "seasons": {
+            "alltime": 106
+          }
+        }
+      }
+    },
+    "level": 11,
     "sltc": null
   },
   {
@@ -701,6 +913,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -737,6 +953,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -776,6 +996,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -785,7 +1009,7 @@
   {
     "name": "Geoff Balko",
     "points": {
-      "total": 1470,
+      "total": 1520,
       "breakdown": {
         "peteroberts": {
           "total": 1395,
@@ -817,6 +1041,12 @@
             "2026/27": 75,
             "2025/26": 0
           }
+        },
+        "boxleagues": {
+          "total": 50,
+          "seasons": {
+            "alltime": 50
+          }
         }
       }
     },
@@ -826,12 +1056,12 @@
   {
     "name": "Matt Parkhouse",
     "points": {
-      "total": 1467,
+      "total": 1516,
       "breakdown": {
         "peteroberts": {
-          "total": 1467,
+          "total": 1516,
           "seasons": {
-            "2026/27": 119,
+            "2026/27": 168,
             "2025/26": 459,
             "2024/25": 51,
             "2023/24": 426,
@@ -855,6 +1085,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -862,23 +1096,127 @@
     "sltc": null
   },
   {
-    "name": "Eric Van Onselen",
+    "name": "Baxter Madden",
     "points": {
-      "total": 1467,
+      "total": 1500,
       "breakdown": {
         "peteroberts": {
-          "total": 1417,
+          "total": 530,
           "seasons": {
-            "2025/26": 369,
-            "2024/25": 426,
-            "2023/24": 437,
-            "2022/23": 185
+            "2026/27": 275,
+            "2025/26": 255
           }
         },
         "sltc": {
-          "total": 50,
+          "total": 100,
           "seasons": {
-            "2025/26": 50,
+            "2026/27": 100,
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 745,
+          "seasons": {
+            "2026/27": 187,
+            "2025/26": 400,
+            "2024/25": 158
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 125,
+          "seasons": {
+            "alltime": 125
+          }
+        }
+      }
+    },
+    "level": 11,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Baxter Madden",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "7"
+    }
+  },
+  {
+    "name": "David Christian",
+    "points": {
+      "total": 1481,
+      "breakdown": {
+        "peteroberts": {
+          "total": 554,
+          "seasons": {
+            "2024/25": 7,
+            "2023/24": 178,
+            "2022/23": 369
+          }
+        },
+        "sltc": {
+          "total": 80,
+          "seasons": {
+            "2025/26": 80,
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 266,
+          "seasons": {
+            "2025/26": 194,
+            "2024/25": 72
+          }
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 280,
+          "seasons": {
+            "2026/27": 143,
+            "2025/26": 137
+          }
+        },
+        "boxleagues": {
+          "total": 301,
+          "seasons": {
+            "alltime": 301
+          }
+        }
+      }
+    },
+    "level": 11,
+    "sltc": null
+  },
+  {
+    "name": "Mike Catterall",
+    "points": {
+      "total": 1462,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1225,
+          "seasons": {
+            "2026/27": 7,
+            "2025/26": 259,
+            "2024/25": 247,
+            "2023/24": 435,
+            "2022/23": 277
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2025/26": 0,
             "2024/25": 0
           }
         },
@@ -891,46 +1229,16 @@
           "seasons": {}
         },
         "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 11,
-    "sltc": null
-  },
-  {
-    "name": "Sam Homeyard",
-    "points": {
-      "total": 1466,
-      "breakdown": {
-        "peteroberts": {
-          "total": 1386,
+          "total": 3,
           "seasons": {
-            "2026/27": 36,
-            "2025/26": 431,
-            "2024/25": 838,
-            "2023/24": 81
+            "2025/26": 3
           }
         },
-        "sltc": {
-          "total": 80,
+        "boxleagues": {
+          "total": 234,
           "seasons": {
-            "2025/26": 0,
-            "2024/25": 80
+            "alltime": 234
           }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
         }
       }
     },
@@ -965,11 +1273,66 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 10,
     "sltc": null
+  },
+  {
+    "name": "Mark Homeyard",
+    "points": {
+      "total": 1353,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1213,
+          "seasons": {
+            "2026/27": 96,
+            "2025/26": 483,
+            "2024/25": 603,
+            "2023/24": 31
+          }
+        },
+        "sltc": {
+          "total": 140,
+          "seasons": {
+            "2026/27": 60,
+            "2025/26": 0,
+            "2024/25": 80
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 10,
+    "sltc": {
+      "season": "2026/27",
+      "place": "3",
+      "name": "Mark Homeyard",
+      "team": "Tin Men",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Colin Light",
@@ -999,6 +1362,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -1034,6 +1401,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -1041,71 +1412,78 @@
     "sltc": null
   },
   {
-    "name": "Mark Homeyard",
+    "name": "Sheldon Docker",
     "points": {
-      "total": 1332,
+      "total": 1302,
       "breakdown": {
         "peteroberts": {
-          "total": 1192,
+          "total": 247,
           "seasons": {
-            "2026/27": 75,
-            "2025/26": 483,
-            "2024/25": 603,
-            "2023/24": 31
+            "2026/27": 122,
+            "2025/26": 125
           }
         },
         "sltc": {
-          "total": 140,
+          "total": 160,
           "seasons": {
-            "2026/27": 60,
-            "2025/26": 0,
-            "2024/25": 80
+            "2026/27": 100,
+            "2025/26": 60
           }
         },
         "generationcup": {
-          "total": 0,
-          "seasons": {}
+          "total": 116,
+          "seasons": {
+            "2025/26": 116
+          }
         },
         "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
+          "total": 559,
+          "seasons": {
+            "2026/27": 139,
+            "2025/26": 420
+          }
         },
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 220,
+          "seasons": {
+            "alltime": 220
+          }
         }
       }
     },
     "level": 10,
     "sltc": {
       "season": "2026/27",
-      "place": "3",
-      "name": "Mark Homeyard",
-      "team": "Tin Men",
+      "place": "1",
+      "name": "Sheldon Docker",
+      "team": "Independants",
       "eventsPlayed": "1",
       "matchesPlayed": "4",
-      "points": "5"
+      "points": "6"
     }
   },
   {
-    "name": "Mike Catterall",
+    "name": "Luke Page",
     "points": {
-      "total": 1221,
+      "total": 1213,
       "breakdown": {
         "peteroberts": {
-          "total": 1218,
+          "total": 695,
           "seasons": {
-            "2025/26": 259,
-            "2024/25": 247,
-            "2023/24": 435,
-            "2022/23": 277
+            "2026/27": 32,
+            "2025/26": 423,
+            "2024/25": 240
           }
         },
         "sltc": {
-          "total": 0,
+          "total": 150,
           "seasons": {
-            "2025/26": 0,
-            "2024/25": 0
+            "2025/26": 100,
+            "2024/25": 50
           }
         },
         "generationcup": {
@@ -1117,9 +1495,13 @@
           "seasons": {}
         },
         "racketballclubnight": {
-          "total": 3,
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 368,
           "seasons": {
-            "2025/26": 3
+            "alltime": 368
           }
         }
       }
@@ -1154,6 +1536,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -1194,6 +1580,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -1201,59 +1591,14 @@
     "sltc": null
   },
   {
-    "name": "Sam Porter",
-    "points": {
-      "total": 1197,
-      "breakdown": {
-        "peteroberts": {
-          "total": 1137,
-          "seasons": {
-            "2026/27": 164,
-            "2025/26": 755,
-            "2024/25": 218
-          }
-        },
-        "sltc": {
-          "total": 60,
-          "seasons": {
-            "2026/27": 60,
-            "2025/26": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 9,
-    "sltc": {
-      "season": "2026/27",
-      "place": "3",
-      "name": "Sam Porter",
-      "team": "Tin Men",
-      "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "5"
-    }
-  },
-  {
     "name": "Sunny Creasey",
     "points": {
-      "total": 1186,
+      "total": 1203,
       "breakdown": {
         "peteroberts": {
-          "total": 1186,
+          "total": 1203,
           "seasons": {
-            "2026/27": 7,
+            "2026/27": 24,
             "2025/26": 12,
             "2024/25": 32,
             "2023/24": 24,
@@ -1279,112 +1624,25 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 9,
     "sltc": null
-  },
-  {
-    "name": "David Christian",
-    "points": {
-      "total": 1180,
-      "breakdown": {
-        "peteroberts": {
-          "total": 554,
-          "seasons": {
-            "2024/25": 7,
-            "2023/24": 178,
-            "2022/23": 369
-          }
-        },
-        "sltc": {
-          "total": 80,
-          "seasons": {
-            "2025/26": 80,
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 266,
-          "seasons": {
-            "2025/26": 194,
-            "2024/25": 72
-          }
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 280,
-          "seasons": {
-            "2026/27": 143,
-            "2025/26": 137
-          }
-        }
-      }
-    },
-    "level": 9,
-    "sltc": null
-  },
-  {
-    "name": "Baxter Madden",
-    "points": {
-      "total": 1166,
-      "breakdown": {
-        "peteroberts": {
-          "total": 389,
-          "seasons": {
-            "2026/27": 134,
-            "2025/26": 255
-          }
-        },
-        "sltc": {
-          "total": 100,
-          "seasons": {
-            "2026/27": 100,
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 677,
-          "seasons": {
-            "2026/27": 119,
-            "2025/26": 400,
-            "2024/25": 158
-          }
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 9,
-    "sltc": {
-      "season": "2026/27",
-      "place": "1",
-      "name": "Baxter Madden",
-      "team": "Independants",
-      "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "7"
-    }
   },
   {
     "name": "Will Ramsey",
     "points": {
-      "total": 1156,
+      "total": 1161,
       "breakdown": {
         "peteroberts": {
-          "total": 621,
+          "total": 615,
           "seasons": {
-            "2026/27": 229,
+            "2026/27": 223,
             "2025/26": 385,
             "2024/25": 7
           }
@@ -1404,13 +1662,18 @@
           }
         },
         "juniorclubnight": {
-          "total": 286,
+          "total": 297,
           "seasons": {
+            "2026/27": 11,
             "2025/26": 202,
             "2024/25": 84
           }
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -1455,6 +1718,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -1462,63 +1729,14 @@
     "sltc": null
   },
   {
-    "name": "Sheldon Docker",
-    "points": {
-      "total": 1062,
-      "breakdown": {
-        "peteroberts": {
-          "total": 218,
-          "seasons": {
-            "2026/27": 93,
-            "2025/26": 125
-          }
-        },
-        "sltc": {
-          "total": 160,
-          "seasons": {
-            "2026/27": 100,
-            "2025/26": 60
-          }
-        },
-        "generationcup": {
-          "total": 116,
-          "seasons": {
-            "2025/26": 116
-          }
-        },
-        "juniorclubnight": {
-          "total": 568,
-          "seasons": {
-            "2026/27": 148,
-            "2025/26": 420
-          }
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 8,
-    "sltc": {
-      "season": "2026/27",
-      "place": "1",
-      "name": "Sheldon Docker",
-      "team": "Independants",
-      "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "6"
-    }
-  },
-  {
     "name": "Richard Lowton",
     "points": {
-      "total": 1058,
+      "total": 1109,
       "breakdown": {
         "peteroberts": {
-          "total": 878,
+          "total": 929,
           "seasons": {
-            "2026/27": 84,
+            "2026/27": 135,
             "2025/26": 317,
             "2024/25": 301,
             "2023/24": 176
@@ -1542,10 +1760,14 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
-    "level": 8,
+    "level": 9,
     "sltc": {
       "season": "2026/27",
       "place": "2",
@@ -1557,14 +1779,57 @@
     }
   },
   {
-    "name": "Paul Barnard",
+    "name": "George Yeates",
     "points": {
-      "total": 1047,
+      "total": 1090,
       "breakdown": {
         "peteroberts": {
-          "total": 967,
+          "total": 889,
           "seasons": {
-            "2026/27": 62,
+            "2026/27": 151,
+            "2025/26": 157,
+            "2023/24": 264,
+            "2022/23": 317
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2025/26": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 201,
+          "seasons": {
+            "alltime": 201
+          }
+        }
+      }
+    },
+    "level": 9,
+    "sltc": null
+  },
+  {
+    "name": "Paul Barnard",
+    "points": {
+      "total": 1066,
+      "breakdown": {
+        "peteroberts": {
+          "total": 986,
+          "seasons": {
+            "2026/27": 81,
             "2025/26": 172,
             "2024/25": 505,
             "2023/24": 17,
@@ -1591,11 +1856,112 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 8,
     "sltc": null
+  },
+  {
+    "name": "Will Miller",
+    "points": {
+      "total": 1029,
+      "breakdown": {
+        "peteroberts": {
+          "total": 561,
+          "seasons": {
+            "2026/27": 97,
+            "2025/26": 427,
+            "2024/25": 37
+          }
+        },
+        "sltc": {
+          "total": 60,
+          "seasons": {
+            "2025/26": 60,
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 330,
+          "seasons": {
+            "2025/26": 109,
+            "2024/25": 221
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 78,
+          "seasons": {
+            "alltime": 78
+          }
+        }
+      }
+    },
+    "level": 8,
+    "sltc": null
+  },
+  {
+    "name": "Ewan Wykeham-Martin",
+    "points": {
+      "total": 1022,
+      "breakdown": {
+        "peteroberts": {
+          "total": 447,
+          "seasons": {
+            "2026/27": 75,
+            "2025/26": 307,
+            "2024/25": 65
+          }
+        },
+        "sltc": {
+          "total": 180,
+          "seasons": {
+            "2026/27": 80,
+            "2025/26": 100
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 395,
+          "seasons": {
+            "alltime": 395
+          }
+        }
+      }
+    },
+    "level": 8,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Ewan Wykeham-Martin",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Robbie Hicks",
@@ -1630,6 +1996,10 @@
           "seasons": {
             "2025/26": 0
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -1670,6 +2040,50 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 8,
+    "sltc": null
+  },
+  {
+    "name": "George Downing",
+    "points": {
+      "total": 1007,
+      "breakdown": {
+        "peteroberts": {
+          "total": 1007,
+          "seasons": {
+            "2026/27": 81,
+            "2017/18": 125,
+            "2016/17": 356,
+            "2015/16": 348,
+            "2014/15": 97
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -1702,6 +2116,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -1740,44 +2158,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 8,
-    "sltc": null
-  },
-  {
-    "name": "Will Miller",
-    "points": {
-      "total": 944,
-      "breakdown": {
-        "peteroberts": {
-          "total": 554,
-          "seasons": {
-            "2026/27": 90,
-            "2025/26": 427,
-            "2024/25": 37
-          }
         },
-        "sltc": {
-          "total": 60,
-          "seasons": {
-            "2025/26": 60,
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 330,
-          "seasons": {
-            "2025/26": 109,
-            "2024/25": 221
-          }
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -1787,22 +2169,23 @@
     "sltc": null
   },
   {
-    "name": "George Yeates",
+    "name": "Simon Langdale",
     "points": {
-      "total": 942,
+      "total": 954,
       "breakdown": {
         "peteroberts": {
-          "total": 942,
+          "total": 904,
           "seasons": {
-            "2026/27": 204,
-            "2025/26": 157,
-            "2023/24": 264,
-            "2022/23": 317
+            "2026/27": 190,
+            "2025/26": 283,
+            "2024/25": 332,
+            "2023/24": 99
           }
         },
         "sltc": {
-          "total": 0,
+          "total": 50,
           "seasons": {
+            "2026/27": 50,
             "2025/26": 0
           }
         },
@@ -1817,6 +2200,58 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 8,
+    "sltc": {
+      "season": "2026/27",
+      "place": "4",
+      "name": "Simon Langdale",
+      "team": "Squashy Balls",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "4"
+    }
+  },
+  {
+    "name": "Doug Alexander",
+    "points": {
+      "total": 944,
+      "breakdown": {
+        "peteroberts": {
+          "total": 511,
+          "seasons": {
+            "2025/26": 102,
+            "2024/25": 87,
+            "2023/24": 322
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 433,
+          "seasons": {
+            "alltime": 433
+          }
         }
       }
     },
@@ -1855,39 +2290,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 8,
-    "sltc": null
-  },
-  {
-    "name": "George Downing",
-    "points": {
-      "total": 926,
-      "breakdown": {
-        "peteroberts": {
-          "total": 926,
-          "seasons": {
-            "2017/18": 125,
-            "2016/17": 356,
-            "2015/16": 348,
-            "2014/15": 97
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -1928,6 +2332,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -1935,29 +2343,31 @@
     "sltc": null
   },
   {
-    "name": "Simon Langdale",
+    "name": "Jon Ramsey",
     "points": {
-      "total": 893,
+      "total": 894,
       "breakdown": {
         "peteroberts": {
-          "total": 843,
+          "total": 645,
           "seasons": {
-            "2026/27": 129,
-            "2025/26": 283,
-            "2024/25": 332,
-            "2023/24": 99
+            "2026/27": 188,
+            "2025/26": 448,
+            "2024/25": 9
           }
         },
         "sltc": {
-          "total": 50,
+          "total": 60,
           "seasons": {
-            "2026/27": 50,
+            "2026/27": 60,
             "2025/26": 0
           }
         },
         "generationcup": {
-          "total": 0,
-          "seasons": {}
+          "total": 189,
+          "seasons": {
+            "2025/26": 138,
+            "2024/25": 51
+          }
         },
         "juniorclubnight": {
           "total": 0,
@@ -1966,15 +2376,19 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 7,
     "sltc": {
       "season": "2026/27",
-      "place": "4",
-      "name": "Simon Langdale",
-      "team": "Squashy Balls",
+      "place": "3",
+      "name": "Jon Ramsey",
+      "team": "Tin Men",
       "eventsPlayed": "1",
       "matchesPlayed": "4",
       "points": "4"
@@ -2008,6 +2422,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2017,12 +2435,12 @@
   {
     "name": "Will Pallister",
     "points": {
-      "total": 836,
+      "total": 860,
       "breakdown": {
         "peteroberts": {
-          "total": 786,
+          "total": 810,
           "seasons": {
-            "2026/27": 75,
+            "2026/27": 99,
             "2025/26": 177,
             "2023/24": 120,
             "2022/23": 414
@@ -2045,39 +2463,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 7,
-    "sltc": null
-  },
-  {
-    "name": "Maeve Burton",
-    "points": {
-      "total": 825,
-      "breakdown": {
-        "peteroberts": {
-          "total": 825,
-          "seasons": {
-            "2026/27": 175,
-            "2025/26": 170,
-            "2024/25": 320,
-            "2023/24": 160
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -2087,31 +2474,25 @@
     "sltc": null
   },
   {
-    "name": "Jon Ramsey",
+    "name": "Craig Dexter",
     "points": {
-      "total": 825,
+      "total": 841,
       "breakdown": {
         "peteroberts": {
-          "total": 576,
+          "total": 358,
           "seasons": {
-            "2026/27": 119,
-            "2025/26": 448,
-            "2024/25": 9
+            "2025/26": 358
           }
         },
         "sltc": {
           "total": 60,
           "seasons": {
-            "2026/27": 60,
-            "2025/26": 0
+            "2026/27": 60
           }
         },
         "generationcup": {
-          "total": 189,
-          "seasons": {
-            "2025/26": 138,
-            "2024/25": 51
-          }
+          "total": 0,
+          "seasons": {}
         },
         "juniorclubnight": {
           "total": 0,
@@ -2120,6 +2501,12 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 423,
+          "seasons": {
+            "alltime": 423
+          }
         }
       }
     },
@@ -2127,11 +2514,11 @@
     "sltc": {
       "season": "2026/27",
       "place": "3",
-      "name": "Jon Ramsey",
+      "name": "Craig Dexter",
       "team": "Tin Men",
       "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "4"
+      "matchesPlayed": "3",
+      "points": "6"
     }
   },
   {
@@ -2162,6 +2549,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2169,22 +2560,22 @@
     "sltc": null
   },
   {
-    "name": "Luke Page",
+    "name": "Martin Scheel",
     "points": {
-      "total": 813,
+      "total": 793,
       "breakdown": {
         "peteroberts": {
-          "total": 663,
+          "total": 593,
           "seasons": {
-            "2025/26": 423,
-            "2024/25": 240
+            "2026/27": 437,
+            "2025/26": 156
           }
         },
         "sltc": {
-          "total": 150,
+          "total": 200,
           "seasons": {
-            "2025/26": 100,
-            "2024/25": 50
+            "2026/27": 50,
+            "2025/26": 150
           }
         },
         "generationcup": {
@@ -2198,11 +2589,23 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 7,
-    "sltc": null
+    "sltc": {
+      "season": "2026/27",
+      "place": "4",
+      "name": "Martin Scheel",
+      "team": "Squashy Balls",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "5"
+    }
   },
   {
     "name": "Billy Redington",
@@ -2229,6 +2632,183 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 7,
+    "sltc": null
+  },
+  {
+    "name": "Lai Man",
+    "points": {
+      "total": 786,
+      "breakdown": {
+        "peteroberts": {
+          "total": 619,
+          "seasons": {
+            "2026/27": 78,
+            "2025/26": 160,
+            "2024/25": 72,
+            "2023/24": 78,
+            "2022/23": 231
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2025/26": 0
+          }
+        },
+        "generationcup": {
+          "total": 45,
+          "seasons": {
+            "2025/26": 45
+          }
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 6,
+          "seasons": {
+            "2026/27": 6,
+            "2025/26": 0
+          }
+        },
+        "boxleagues": {
+          "total": 116,
+          "seasons": {
+            "alltime": 116
+          }
+        }
+      }
+    },
+    "level": 7,
+    "sltc": null
+  },
+  {
+    "name": "Jessica Ellicott",
+    "points": {
+      "total": 778,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 60,
+          "seasons": {
+            "2025/26": 60,
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 280,
+          "seasons": {
+            "2025/26": 30,
+            "2024/25": 250
+          }
+        },
+        "juniorclubnight": {
+          "total": 196,
+          "seasons": {
+            "2025/26": 95,
+            "2024/25": 101
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 242,
+          "seasons": {
+            "alltime": 242
+          }
+        }
+      }
+    },
+    "level": 7,
+    "sltc": null
+  },
+  {
+    "name": "Ben Smith",
+    "points": {
+      "total": 776,
+      "breakdown": {
+        "peteroberts": {
+          "total": 726,
+          "seasons": {
+            "2026/27": 155,
+            "2025/26": 405,
+            "2024/25": 166
+          }
+        },
+        "sltc": {
+          "total": 50,
+          "seasons": {
+            "2025/26": 50
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 7,
+    "sltc": null
+  },
+  {
+    "name": "Maeve Burton",
+    "points": {
+      "total": 775,
+      "breakdown": {
+        "peteroberts": {
+          "total": 775,
+          "seasons": {
+            "2026/27": 125,
+            "2025/26": 170,
+            "2024/25": 320,
+            "2023/24": 160
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -2265,90 +2845,14 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 7,
-    "sltc": null
-  },
-  {
-    "name": "Martin Scheel",
-    "points": {
-      "total": 752,
-      "breakdown": {
-        "peteroberts": {
-          "total": 552,
-          "seasons": {
-            "2026/27": 396,
-            "2025/26": 156
-          }
         },
-        "sltc": {
-          "total": 200,
-          "seasons": {
-            "2026/27": 50,
-            "2025/26": 150
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
       }
     },
     "level": 7,
-    "sltc": {
-      "season": "2026/27",
-      "place": "4",
-      "name": "Martin Scheel",
-      "team": "Squashy Balls",
-      "eventsPlayed": "1",
-      "matchesPlayed": "3",
-      "points": "5"
-    }
-  },
-  {
-    "name": "Ben Smith",
-    "points": {
-      "total": 735,
-      "breakdown": {
-        "peteroberts": {
-          "total": 685,
-          "seasons": {
-            "2026/27": 114,
-            "2025/26": 405,
-            "2024/25": 166
-          }
-        },
-        "sltc": {
-          "total": 50,
-          "seasons": {
-            "2025/26": 50
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 6,
     "sltc": null
   },
   {
@@ -2387,6 +2891,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 6,
+    "sltc": null
+  },
+  {
+    "name": "Pete Nisbet",
+    "points": {
+      "total": 715,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 715,
+          "seasons": {
+            "alltime": 715
+          }
         }
       }
     },
@@ -2396,7 +2940,7 @@
   {
     "name": "Samuel Steele",
     "points": {
-      "total": 709,
+      "total": 698,
       "breakdown": {
         "peteroberts": {
           "total": 0,
@@ -2414,9 +2958,9 @@
           }
         },
         "juniorclubnight": {
-          "total": 568,
+          "total": 557,
           "seasons": {
-            "2026/27": 174,
+            "2026/27": 163,
             "2025/26": 291,
             "2024/25": 103
           }
@@ -2424,11 +2968,67 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 6,
     "sltc": null
+  },
+  {
+    "name": "Rupert Ford",
+    "points": {
+      "total": 674,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 100,
+          "seasons": {
+            "2026/27": 100,
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 254,
+          "seasons": {
+            "2025/26": 194,
+            "2024/25": 60
+          }
+        },
+        "juniorclubnight": {
+          "total": 320,
+          "seasons": {
+            "2026/27": 108,
+            "2025/26": 137,
+            "2024/25": 75
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 6,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Rupert Ford",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "2"
+    }
   },
   {
     "name": "Seb Cairns-Allen",
@@ -2462,59 +3062,15 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 6,
     "sltc": null
-  },
-  {
-    "name": "Rupert Ford",
-    "points": {
-      "total": 667,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
-        },
-        "sltc": {
-          "total": 100,
-          "seasons": {
-            "2026/27": 100,
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 254,
-          "seasons": {
-            "2025/26": 194,
-            "2024/25": 60
-          }
-        },
-        "juniorclubnight": {
-          "total": 313,
-          "seasons": {
-            "2026/27": 101,
-            "2025/26": 137,
-            "2024/25": 75
-          }
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 6,
-    "sltc": {
-      "season": "2026/27",
-      "place": "1",
-      "name": "Rupert Ford",
-      "team": "Independants",
-      "eventsPlayed": "1",
-      "matchesPlayed": "3",
-      "points": "2"
-    }
   },
   {
     "name": "George McGregor",
@@ -2541,6 +3097,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -2586,6 +3146,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2623,6 +3187,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2656,6 +3224,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2663,42 +3235,37 @@
     "sltc": null
   },
   {
-    "name": "Lai Man",
+    "name": "Rory Paterson",
     "points": {
-      "total": 641,
+      "total": 642,
       "breakdown": {
         "peteroberts": {
-          "total": 590,
+          "total": 642,
           "seasons": {
-            "2026/27": 49,
-            "2025/26": 160,
-            "2024/25": 72,
-            "2023/24": 78,
-            "2022/23": 231
+            "2026/27": 145,
+            "2025/26": 360,
+            "2022/23": 137
           }
         },
         "sltc": {
           "total": 0,
-          "seasons": {
-            "2025/26": 0
-          }
+          "seasons": {}
         },
         "generationcup": {
-          "total": 45,
-          "seasons": {
-            "2025/26": 45
-          }
+          "total": 0,
+          "seasons": {}
         },
         "juniorclubnight": {
           "total": 0,
           "seasons": {}
         },
         "racketballclubnight": {
-          "total": 6,
-          "seasons": {
-            "2026/27": 6,
-            "2025/26": 0
-          }
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2708,12 +3275,12 @@
   {
     "name": "Ciaran O'Brien",
     "points": {
-      "total": 614,
+      "total": 609,
       "breakdown": {
         "peteroberts": {
-          "total": 464,
+          "total": 459,
           "seasons": {
-            "2026/27": 17,
+            "2026/27": 12,
             "2025/26": 355,
             "2024/25": 92
           }
@@ -2736,6 +3303,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -2743,66 +3314,70 @@
     "sltc": null
   },
   {
-    "name": "Ewan Wykeham-Martin",
+    "name": "Leo Sharp",
     "points": {
-      "total": 613,
+      "total": 606,
       "breakdown": {
         "peteroberts": {
-          "total": 433,
+          "total": 165,
           "seasons": {
-            "2026/27": 61,
-            "2025/26": 307,
-            "2024/25": 65
+            "2026/27": 133,
+            "2025/26": 32
           }
         },
         "sltc": {
           "total": 180,
           "seasons": {
-            "2026/27": 80,
-            "2025/26": 100
+            "2025/26": 80,
+            "2024/25": 100
           }
         },
         "generationcup": {
-          "total": 0,
-          "seasons": {}
+          "total": 153,
+          "seasons": {
+            "2024/25": 153
+          }
         },
         "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
+          "total": 41,
+          "seasons": {
+            "2025/26": 25,
+            "2024/25": 16
+          }
         },
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 67,
+          "seasons": {
+            "alltime": 67
+          }
         }
       }
     },
     "level": 6,
-    "sltc": {
-      "season": "2026/27",
-      "place": "2",
-      "name": "Ewan Wykeham-Martin",
-      "team": "Racket Rebels",
-      "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "5"
-    }
+    "sltc": null
   },
   {
-    "name": "Rory Paterson",
+    "name": "Ben Gilbert",
     "points": {
-      "total": 608,
+      "total": 593,
       "breakdown": {
         "peteroberts": {
-          "total": 608,
+          "total": 521,
           "seasons": {
-            "2026/27": 111,
-            "2025/26": 360,
-            "2022/23": 137
+            "2026/27": 39,
+            "2025/26": 419,
+            "2024/25": 63
           }
         },
         "sltc": {
           "total": 0,
-          "seasons": {}
+          "seasons": {
+            "2025/26": 0
+          }
         },
         "generationcup": {
           "total": 0,
@@ -2815,10 +3390,16 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 72,
+          "seasons": {
+            "alltime": 72
+          }
         }
       }
     },
-    "level": 6,
+    "level": 5,
     "sltc": null
   },
   {
@@ -2845,6 +3426,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -2885,45 +3470,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 5,
-    "sltc": null
-  },
-  {
-    "name": "Leo Sharp",
-    "points": {
-      "total": 554,
-      "breakdown": {
-        "peteroberts": {
-          "total": 180,
-          "seasons": {
-            "2026/27": 148,
-            "2025/26": 32
-          }
         },
-        "sltc": {
-          "total": 180,
-          "seasons": {
-            "2025/26": 80,
-            "2024/25": 100
-          }
-        },
-        "generationcup": {
-          "total": 153,
-          "seasons": {
-            "2024/25": 153
-          }
-        },
-        "juniorclubnight": {
-          "total": 41,
-          "seasons": {
-            "2025/26": 25,
-            "2024/25": 16
-          }
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -2931,6 +3479,60 @@
     },
     "level": 5,
     "sltc": null
+  },
+  {
+    "name": "Rob Docker",
+    "points": {
+      "total": 547,
+      "breakdown": {
+        "peteroberts": {
+          "total": 75,
+          "seasons": {
+            "2026/27": 51,
+            "2025/26": 24
+          }
+        },
+        "sltc": {
+          "total": 160,
+          "seasons": {
+            "2026/27": 100,
+            "2025/26": 60
+          }
+        },
+        "generationcup": {
+          "total": 116,
+          "seasons": {
+            "2025/26": 116
+          }
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 48,
+          "seasons": {
+            "2026/27": 48
+          }
+        },
+        "boxleagues": {
+          "total": 148,
+          "seasons": {
+            "alltime": 148
+          }
+        }
+      }
+    },
+    "level": 5,
+    "sltc": {
+      "season": "2026/27",
+      "place": "1",
+      "name": "Rob Docker",
+      "team": "Independants",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "7"
+    }
   },
   {
     "name": "Ethel Brokenshire",
@@ -2959,6 +3561,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -2994,6 +3600,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3001,36 +3611,38 @@
     "sltc": null
   },
   {
-    "name": "Jessica Ellicott",
+    "name": "Ely Donnachie",
     "points": {
-      "total": 536,
+      "total": 529,
       "breakdown": {
         "peteroberts": {
-          "total": 0,
-          "seasons": {}
+          "total": 479,
+          "seasons": {
+            "2026/27": 49,
+            "2025/26": 321,
+            "2024/25": 109
+          }
         },
         "sltc": {
-          "total": 60,
+          "total": 50,
           "seasons": {
-            "2025/26": 60,
-            "2024/25": 0
+            "2025/26": 0,
+            "2024/25": 50
           }
         },
         "generationcup": {
-          "total": 280,
-          "seasons": {
-            "2025/26": 30,
-            "2024/25": 250
-          }
+          "total": 0,
+          "seasons": {}
         },
         "juniorclubnight": {
-          "total": 196,
-          "seasons": {
-            "2025/26": 95,
-            "2024/25": 101
-          }
+          "total": 0,
+          "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3068,6 +3680,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3101,6 +3717,53 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 5,
+    "sltc": null
+  },
+  {
+    "name": "Ewan Maclean",
+    "points": {
+      "total": 518,
+      "breakdown": {
+        "peteroberts": {
+          "total": 81,
+          "seasons": {
+            "2025/26": 7,
+            "2024/25": 2,
+            "2023/24": 31,
+            "2022/23": 41
+          }
+        },
+        "sltc": {
+          "total": 100,
+          "seasons": {
+            "2025/26": 100
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 337,
+          "seasons": {
+            "alltime": 337
+          }
         }
       }
     },
@@ -3134,6 +3797,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3165,6 +3832,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3201,38 +3872,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 5,
-    "sltc": null
-  },
-  {
-    "name": "Doug Alexander",
-    "points": {
-      "total": 511,
-      "breakdown": {
-        "peteroberts": {
-          "total": 511,
-          "seasons": {
-            "2025/26": 102,
-            "2024/25": 87,
-            "2023/24": 322
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3267,6 +3908,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3274,24 +3919,19 @@
     "sltc": null
   },
   {
-    "name": "Ely Donnachie",
+    "name": "Nick Cade",
     "points": {
-      "total": 492,
+      "total": 467,
       "breakdown": {
         "peteroberts": {
-          "total": 442,
+          "total": 72,
           "seasons": {
-            "2026/27": 12,
-            "2025/26": 321,
-            "2024/25": 109
+            "2024/25": 72
           }
         },
         "sltc": {
-          "total": 50,
-          "seasons": {
-            "2025/26": 0,
-            "2024/25": 50
-          }
+          "total": 0,
+          "seasons": {}
         },
         "generationcup": {
           "total": 0,
@@ -3304,41 +3944,12 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 5,
-    "sltc": null
-  },
-  {
-    "name": "Ben Gilbert",
-    "points": {
-      "total": 482,
-      "breakdown": {
-        "peteroberts": {
-          "total": 482,
+        },
+        "boxleagues": {
+          "total": 395,
           "seasons": {
-            "2025/26": 419,
-            "2024/25": 63
+            "alltime": 395
           }
-        },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2025/26": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
         }
       }
     },
@@ -3372,6 +3983,51 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 5,
+    "sltc": null
+  },
+  {
+    "name": "Georgina Miller",
+    "points": {
+      "total": 465,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 60,
+          "seasons": {
+            "2025/26": 60
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 360,
+          "seasons": {
+            "2025/26": 161,
+            "2024/25": 199
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 45,
+          "seasons": {
+            "alltime": 45
+          }
         }
       }
     },
@@ -3406,6 +4062,48 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 5,
+    "sltc": null
+  },
+  {
+    "name": "Jason Maddox",
+    "points": {
+      "total": 460,
+      "breakdown": {
+        "peteroberts": {
+          "total": 330,
+          "seasons": {
+            "2023/24": 330
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 130,
+          "seasons": {
+            "alltime": 130
+          }
         }
       }
     },
@@ -3444,6 +4142,88 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 4,
+    "sltc": null
+  },
+  {
+    "name": "Victoria Gorton",
+    "points": {
+      "total": 455,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 455,
+          "seasons": {
+            "alltime": 455
+          }
+        }
+      }
+    },
+    "level": 4,
+    "sltc": null
+  },
+  {
+    "name": "Shaun Keal",
+    "points": {
+      "total": 452,
+      "breakdown": {
+        "peteroberts": {
+          "total": 12,
+          "seasons": {
+            "2022/23": 12
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 66,
+          "seasons": {
+            "2024/25": 66
+          }
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 374,
+          "seasons": {
+            "alltime": 374
+          }
         }
       }
     },
@@ -3475,6 +4255,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3510,6 +4294,10 @@
             "2026/27": 174,
             "2025/26": 271
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3543,39 +4331,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 4,
-    "sltc": null
-  },
-  {
-    "name": "Georgina Miller",
-    "points": {
-      "total": 420,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
         },
-        "sltc": {
-          "total": 60,
-          "seasons": {
-            "2025/26": 60
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 360,
-          "seasons": {
-            "2025/26": 161,
-            "2024/25": 199
-          }
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3585,20 +4342,20 @@
     "sltc": null
   },
   {
-    "name": "Craig Dexter",
+    "name": "George French",
     "points": {
-      "total": 418,
+      "total": 428,
       "breakdown": {
         "peteroberts": {
-          "total": 358,
+          "total": 198,
           "seasons": {
-            "2025/26": 358
+            "2025/26": 198
           }
         },
         "sltc": {
-          "total": 60,
+          "total": 0,
           "seasons": {
-            "2026/27": 60
+            "2025/26": 0
           }
         },
         "generationcup": {
@@ -3612,19 +4369,58 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 230,
+          "seasons": {
+            "alltime": 230
+          }
         }
       }
     },
     "level": 4,
-    "sltc": {
-      "season": "2026/27",
-      "place": "3",
-      "name": "Craig Dexter",
-      "team": "Tin Men",
-      "eventsPlayed": "1",
-      "matchesPlayed": "3",
-      "points": "6"
-    }
+    "sltc": null
+  },
+  {
+    "name": "Ryan Baker",
+    "points": {
+      "total": 424,
+      "breakdown": {
+        "peteroberts": {
+          "total": 268,
+          "seasons": {
+            "2025/26": 68,
+            "2024/25": 200
+          }
+        },
+        "sltc": {
+          "total": 50,
+          "seasons": {
+            "2024/25": 50
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 106,
+          "seasons": {
+            "alltime": 106
+          }
+        }
+      }
+    },
+    "level": 4,
+    "sltc": null
   },
   {
     "name": "Mikael Nepaul",
@@ -3652,6 +4448,51 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 4,
+    "sltc": null
+  },
+  {
+    "name": "Owen Yeates",
+    "points": {
+      "total": 403,
+      "breakdown": {
+        "peteroberts": {
+          "total": 403,
+          "seasons": {
+            "2026/27": 66,
+            "2025/26": 139,
+            "2023/24": 44,
+            "2022/23": 154
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2025/26": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3689,125 +4530,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 4,
-    "sltc": null
-  },
-  {
-    "name": "Owen Yeates",
-    "points": {
-      "total": 391,
-      "breakdown": {
-        "peteroberts": {
-          "total": 391,
-          "seasons": {
-            "2026/27": 54,
-            "2025/26": 139,
-            "2023/24": 44,
-            "2022/23": 154
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2025/26": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 4,
-    "sltc": null
-  },
-  {
-    "name": "Rob Docker",
-    "points": {
-      "total": 387,
-      "breakdown": {
-        "peteroberts": {
-          "total": 63,
-          "seasons": {
-            "2026/27": 39,
-            "2025/26": 24
-          }
-        },
-        "sltc": {
-          "total": 160,
-          "seasons": {
-            "2026/27": 100,
-            "2025/26": 60
-          }
-        },
-        "generationcup": {
-          "total": 116,
-          "seasons": {
-            "2025/26": 116
-          }
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 48,
-          "seasons": {
-            "2026/27": 48
-          }
-        }
-      }
-    },
-    "level": 4,
-    "sltc": {
-      "season": "2026/27",
-      "place": "1",
-      "name": "Rob Docker",
-      "team": "Independants",
-      "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "7"
-    }
-  },
-  {
-    "name": "Jon Nation",
-    "points": {
-      "total": 382,
-      "breakdown": {
-        "peteroberts": {
-          "total": 302,
-          "seasons": {
-            "2026/27": 85,
-            "2025/26": 205,
-            "2024/25": 12
-          }
-        },
-        "sltc": {
-          "total": 80,
-          "seasons": {
-            "2025/26": 80
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3841,6 +4565,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3877,6 +4605,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3908,6 +4640,50 @@
           }
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 4,
+    "sltc": null
+  },
+  {
+    "name": "Jon Nation",
+    "points": {
+      "total": 377,
+      "breakdown": {
+        "peteroberts": {
+          "total": 297,
+          "seasons": {
+            "2026/27": 80,
+            "2025/26": 205,
+            "2024/25": 12
+          }
+        },
+        "sltc": {
+          "total": 80,
+          "seasons": {
+            "2025/26": 80
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -3943,6 +4719,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -3973,6 +4753,50 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 4,
+    "sltc": null
+  },
+  {
+    "name": "Oscar Littlefield",
+    "points": {
+      "total": 359,
+      "breakdown": {
+        "peteroberts": {
+          "total": 309,
+          "seasons": {
+            "2026/27": 7,
+            "2025/26": 248,
+            "2024/25": 54
+          }
+        },
+        "sltc": {
+          "total": 50,
+          "seasons": {
+            "2024/25": 50
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4008,6 +4832,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4049,6 +4877,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4084,6 +4916,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4091,21 +4927,22 @@
     "sltc": null
   },
   {
-    "name": "Oscar Littlefield",
+    "name": "Ted Ironside-Smith",
     "points": {
       "total": 352,
       "breakdown": {
         "peteroberts": {
-          "total": 302,
+          "total": 248,
           "seasons": {
-            "2025/26": 248,
-            "2024/25": 54
+            "2026/27": 12,
+            "2025/26": 236
           }
         },
         "sltc": {
-          "total": 50,
+          "total": 80,
           "seasons": {
-            "2024/25": 50
+            "2025/26": 0,
+            "2024/25": 80
           }
         },
         "generationcup": {
@@ -4117,6 +4954,12 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 24,
+          "seasons": {
+            "2026/27": 24
+          }
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4128,12 +4971,12 @@
   {
     "name": "Jack Fisk",
     "points": {
-      "total": 347,
+      "total": 349,
       "breakdown": {
         "peteroberts": {
-          "total": 347,
+          "total": 349,
           "seasons": {
-            "2026/27": 68,
+            "2026/27": 70,
             "2025/26": 45,
             "2024/25": 234
           }
@@ -4151,6 +4994,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4187,43 +5034,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 4,
-    "sltc": null
-  },
-  {
-    "name": "Ted Ironside-Smith",
-    "points": {
-      "total": 340,
-      "breakdown": {
-        "peteroberts": {
-          "total": 236,
-          "seasons": {
-            "2025/26": 236
-          }
         },
-        "sltc": {
-          "total": 80,
-          "seasons": {
-            "2025/26": 0,
-            "2024/25": 80
-          }
-        },
-        "generationcup": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 24,
-          "seasons": {
-            "2026/27": 24
-          }
         }
       }
     },
@@ -4255,6 +5069,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4291,36 +5109,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 4,
-    "sltc": null
-  },
-  {
-    "name": "Jason Maddox",
-    "points": {
-      "total": 330,
-      "breakdown": {
-        "peteroberts": {
-          "total": 330,
-          "seasons": {
-            "2023/24": 330
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4330,26 +5120,30 @@
     "sltc": null
   },
   {
-    "name": "Ryan Baker",
+    "name": "Alex Kershaw",
     "points": {
-      "total": 318,
+      "total": 321,
       "breakdown": {
         "peteroberts": {
-          "total": 268,
+          "total": 29,
           "seasons": {
-            "2025/26": 68,
-            "2024/25": 200
+            "2026/27": 7,
+            "2025/26": 22
           }
         },
         "sltc": {
-          "total": 50,
+          "total": 180,
           "seasons": {
-            "2024/25": 50
+            "2026/27": 80,
+            "2025/26": 100,
+            "2024/25": 0
           }
         },
         "generationcup": {
-          "total": 0,
-          "seasons": {}
+          "total": 30,
+          "seasons": {
+            "2024/25": 30
+          }
         },
         "juniorclubnight": {
           "total": 0,
@@ -4358,11 +5152,25 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 82,
+          "seasons": {
+            "alltime": 82
+          }
         }
       }
     },
     "level": 3,
-    "sltc": null
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Alex Kershaw",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "3",
+      "points": "6"
+    }
   },
   {
     "name": "Tom Richards",
@@ -4389,6 +5197,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4428,6 +5240,10 @@
             "2026/27": 33,
             "2025/26": 74
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4441,6 +5257,44 @@
       "matchesPlayed": "3",
       "points": "3"
     }
+  },
+  {
+    "name": "Luke Noyce",
+    "points": {
+      "total": 311,
+      "breakdown": {
+        "peteroberts": {
+          "total": 49,
+          "seasons": {
+            "2023/24": 49
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 262,
+          "seasons": {
+            "alltime": 262
+          }
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
   },
   {
     "name": "Pete Burton",
@@ -4469,6 +5323,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4508,6 +5366,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4541,6 +5403,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4582,6 +5448,90 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Keith Tyson",
+    "points": {
+      "total": 303,
+      "breakdown": {
+        "peteroberts": {
+          "total": 19,
+          "seasons": {
+            "2025/26": 2,
+            "2024/25": 17
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 284,
+          "seasons": {
+            "alltime": 284
+          }
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Simon Carr",
+    "points": {
+      "total": 302,
+      "breakdown": {
+        "peteroberts": {
+          "total": 238,
+          "seasons": {
+            "2026/27": 78,
+            "2025/26": 36,
+            "2024/25": 74,
+            "2023/24": 50
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 64,
+          "seasons": {
+            "alltime": 64
+          }
         }
       }
     },
@@ -4616,6 +5566,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4648,6 +5602,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4685,6 +5643,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4717,6 +5679,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4754,6 +5720,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4786,6 +5756,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4823,6 +5797,10 @@
             "2026/27": 250,
             "2025/26": 12
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4853,6 +5831,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4886,6 +5868,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -4922,6 +5908,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -4955,6 +5945,51 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Dave Robjohns",
+    "points": {
+      "total": 266,
+      "breakdown": {
+        "peteroberts": {
+          "total": 171,
+          "seasons": {
+            "2024/25": 86,
+            "2023/24": 85
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 95,
+          "seasons": {
+            "alltime": 95
+          }
         }
       }
     },
@@ -4986,6 +6021,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5020,6 +6059,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5052,6 +6095,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5092,6 +6139,89 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Keith Barron",
+    "points": {
+      "total": 264,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2025/26": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 264,
+          "seasons": {
+            "alltime": 264
+          }
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "George Aram",
+    "points": {
+      "total": 262,
+      "breakdown": {
+        "peteroberts": {
+          "total": 62,
+          "seasons": {
+            "2026/27": 34,
+            "2025/26": 28
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 54,
+          "seasons": {
+            "2026/27": 54
+          }
+        },
+        "boxleagues": {
+          "total": 146,
+          "seasons": {
+            "alltime": 146
+          }
         }
       }
     },
@@ -5126,6 +6256,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5156,6 +6290,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5190,6 +6328,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5222,6 +6364,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5252,6 +6398,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5287,6 +6437,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5318,6 +6472,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5352,6 +6510,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Glynn Spencer",
+    "points": {
+      "total": 250,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 250,
+          "seasons": {
+            "alltime": 250
+          }
         }
       }
     },
@@ -5386,6 +6584,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5418,6 +6620,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5456,6 +6662,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5489,39 +6699,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 3,
-    "sltc": null
-  },
-  {
-    "name": "Simon Carr",
-    "points": {
-      "total": 243,
-      "breakdown": {
-        "peteroberts": {
-          "total": 243,
-          "seasons": {
-            "2026/27": 83,
-            "2025/26": 36,
-            "2024/25": 74,
-            "2023/24": 50
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5531,30 +6710,23 @@
     "sltc": null
   },
   {
-    "name": "Alex Kershaw",
+    "name": "Kristian Kott",
     "points": {
       "total": 239,
       "breakdown": {
         "peteroberts": {
-          "total": 29,
+          "total": 49,
           "seasons": {
-            "2026/27": 7,
-            "2025/26": 22
+            "2024/25": 49
           }
         },
         "sltc": {
-          "total": 180,
-          "seasons": {
-            "2026/27": 80,
-            "2025/26": 100,
-            "2024/25": 0
-          }
+          "total": 0,
+          "seasons": {}
         },
         "generationcup": {
-          "total": 30,
-          "seasons": {
-            "2024/25": 30
-          }
+          "total": 0,
+          "seasons": {}
         },
         "juniorclubnight": {
           "total": 0,
@@ -5563,19 +6735,17 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 190,
+          "seasons": {
+            "alltime": 190
+          }
         }
       }
     },
     "level": 3,
-    "sltc": {
-      "season": "2026/27",
-      "place": "2",
-      "name": "Alex Kershaw",
-      "team": "Racket Rebels",
-      "eventsPlayed": "1",
-      "matchesPlayed": "3",
-      "points": "6"
-    }
+    "sltc": null
   },
   {
     "name": "Neal Thomas",
@@ -5604,6 +6774,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5638,6 +6812,93 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Harriet Delbridge",
+    "points": {
+      "total": 233,
+      "breakdown": {
+        "peteroberts": {
+          "total": 142,
+          "seasons": {
+            "2026/27": 2,
+            "2025/26": 80,
+            "2024/25": 48,
+            "2022/23": 12
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {
+            "2024/25": 0
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 91,
+          "seasons": {
+            "alltime": 91
+          }
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Sunjina Nepaul",
+    "points": {
+      "total": 233,
+      "breakdown": {
+        "peteroberts": {
+          "total": 120,
+          "seasons": {
+            "2025/26": 54,
+            "2024/25": 7,
+            "2023/24": 59
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 113,
+          "seasons": {
+            "alltime": 113
+          }
         }
       }
     },
@@ -5668,6 +6929,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5702,6 +6967,48 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 3,
+    "sltc": null
+  },
+  {
+    "name": "Marc Fleury",
+    "points": {
+      "total": 231,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 6,
+          "seasons": {
+            "2026/27": 6
+          }
+        },
+        "boxleagues": {
+          "total": 225,
+          "seasons": {
+            "alltime": 225
+          }
         }
       }
     },
@@ -5733,6 +7040,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5770,6 +7081,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5801,6 +7116,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5838,6 +7157,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5868,6 +7191,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5903,6 +7230,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -5933,6 +7264,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -5968,6 +7303,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6000,6 +7339,10 @@
           "seasons": {
             "2026/27": 200
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6030,6 +7373,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6064,38 +7411,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "George French",
-    "points": {
-      "total": 198,
-      "breakdown": {
-        "peteroberts": {
-          "total": 198,
-          "seasons": {
-            "2025/26": 198
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2025/26": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6129,6 +7446,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6165,6 +7486,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6197,6 +7522,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6227,6 +7556,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6262,41 +7595,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "Ewan Maclean",
-    "points": {
-      "total": 181,
-      "breakdown": {
-        "peteroberts": {
-          "total": 81,
-          "seasons": {
-            "2025/26": 7,
-            "2024/25": 2,
-            "2023/24": 31,
-            "2022/23": 41
-          }
         },
-        "sltc": {
-          "total": 100,
-          "seasons": {
-            "2025/26": 100
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6332,6 +7632,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 2,
+    "sltc": null
+  },
+  {
+    "name": "Dan Geen",
+    "points": {
+      "total": 178,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 178,
+          "seasons": {
+            "alltime": 178
+          }
         }
       }
     },
@@ -6364,39 +7704,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "Dave Robjohns",
-    "points": {
-      "total": 171,
-      "breakdown": {
-        "peteroberts": {
-          "total": 171,
-          "seasons": {
-            "2024/25": 86,
-            "2023/24": 85
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6431,6 +7740,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6463,6 +7776,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6493,6 +7810,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6530,6 +7851,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6560,6 +7885,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6597,6 +7926,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6627,6 +7960,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6661,6 +7998,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6691,6 +8032,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6725,6 +8070,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6757,6 +8106,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6787,6 +8140,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6822,72 +8179,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "John Collicutt",
-    "points": {
-      "total": 140,
-      "breakdown": {
-        "peteroberts": {
-          "total": 140,
-          "seasons": {
-            "2026/27": 140
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "Harriet Delbridge",
-    "points": {
-      "total": 140,
-      "breakdown": {
-        "peteroberts": {
-          "total": 140,
-          "seasons": {
-            "2025/26": 80,
-            "2024/25": 48,
-            "2022/23": 12
-          }
-        },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6922,6 +8215,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -6952,6 +8249,46 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 2,
+    "sltc": null
+  },
+  {
+    "name": "John Collicutt",
+    "points": {
+      "total": 137,
+      "breakdown": {
+        "peteroberts": {
+          "total": 137,
+          "seasons": {
+            "2026/27": 137
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -6989,41 +8326,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "Gary Shirley",
-    "points": {
-      "total": 133,
-      "breakdown": {
-        "peteroberts": {
-          "total": 58,
-          "seasons": {
-            "2026/27": 19,
-            "2025/26": 39
-          }
         },
-        "sltc": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 75,
-          "seasons": {
-            "2026/27": 75
-          }
         }
       }
     },
@@ -7055,6 +8361,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7089,6 +8399,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7119,6 +8433,49 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 2,
+    "sltc": null
+  },
+  {
+    "name": "Gary Shirley",
+    "points": {
+      "total": 128,
+      "breakdown": {
+        "peteroberts": {
+          "total": 53,
+          "seasons": {
+            "2026/27": 14,
+            "2025/26": 39
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 75,
+          "seasons": {
+            "2026/27": 75
+          }
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7153,6 +8510,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7183,6 +8544,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7218,6 +8583,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7249,6 +8618,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7284,38 +8657,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 2,
-    "sltc": null
-  },
-  {
-    "name": "Sunjina Nepaul",
-    "points": {
-      "total": 120,
-      "breakdown": {
-        "peteroberts": {
-          "total": 120,
-          "seasons": {
-            "2025/26": 54,
-            "2024/25": 7,
-            "2023/24": 59
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7350,6 +8693,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7357,16 +8704,13 @@
     "sltc": null
   },
   {
-    "name": "George Aram",
+    "name": "Ciaran Capuano",
     "points": {
-      "total": 116,
+      "total": 117,
       "breakdown": {
         "peteroberts": {
-          "total": 62,
-          "seasons": {
-            "2026/27": 34,
-            "2025/26": 28
-          }
+          "total": 0,
+          "seasons": {}
         },
         "sltc": {
           "total": 0,
@@ -7381,9 +8725,13 @@
           "seasons": {}
         },
         "racketballclubnight": {
-          "total": 54,
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 117,
           "seasons": {
-            "2026/27": 54
+            "alltime": 117
           }
         }
       }
@@ -7415,6 +8763,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7449,6 +8801,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7479,6 +8835,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7513,6 +8873,49 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 2,
+    "sltc": null
+  },
+  {
+    "name": "Jenson Man",
+    "points": {
+      "total": 108,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 45,
+          "seasons": {
+            "2025/26": 45
+          }
+        },
+        "juniorclubnight": {
+          "total": 63,
+          "seasons": {
+            "2026/27": 29,
+            "2025/26": 34
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7543,6 +8946,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7579,6 +8986,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7611,6 +9022,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7641,6 +9056,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7676,6 +9095,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7707,6 +9130,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7741,6 +9168,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7772,6 +9203,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7814,6 +9249,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7844,6 +9283,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7878,6 +9321,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7908,6 +9355,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -7942,6 +9393,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -7972,6 +9427,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8010,39 +9469,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Jenson Man",
-    "points": {
-      "total": 96,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 45,
-          "seasons": {
-            "2025/26": 45
-          }
-        },
-        "juniorclubnight": {
-          "total": 51,
-          "seasons": {
-            "2026/27": 17,
-            "2025/26": 34
-          }
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8078,6 +9506,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8108,6 +9540,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8144,6 +9580,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8174,6 +9614,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8210,6 +9654,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8240,6 +9688,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8275,11 +9727,61 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 1,
     "sltc": null
+  },
+  {
+    "name": "Josh White",
+    "points": {
+      "total": 92,
+      "breakdown": {
+        "peteroberts": {
+          "total": 12,
+          "seasons": {
+            "2026/27": 12
+          }
+        },
+        "sltc": {
+          "total": 80,
+          "seasons": {
+            "2026/27": 80
+          }
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": {
+      "season": "2026/27",
+      "place": "2",
+      "name": "Josh White",
+      "team": "Racket Rebels",
+      "eventsPlayed": "1",
+      "matchesPlayed": "4",
+      "points": "5"
+    }
   },
   {
     "name": "Max Fisher",
@@ -8305,6 +9807,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8339,6 +9845,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8369,6 +9879,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8403,6 +9917,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8435,51 +9953,15 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
     "level": 1,
     "sltc": null
-  },
-  {
-    "name": "Josh White",
-    "points": {
-      "total": 80,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
-        },
-        "sltc": {
-          "total": 80,
-          "seasons": {
-            "2026/27": 80
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": {
-      "season": "2026/27",
-      "place": "2",
-      "name": "Josh White",
-      "team": "Racket Rebels",
-      "eventsPlayed": "1",
-      "matchesPlayed": "4",
-      "points": "5"
-    }
   },
   {
     "name": "Jon Malynn",
@@ -8505,6 +9987,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8539,6 +10025,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8569,6 +10059,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8603,6 +10097,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8635,40 +10133,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Shaun Keal",
-    "points": {
-      "total": 78,
-      "breakdown": {
-        "peteroberts": {
-          "total": 12,
-          "seasons": {
-            "2022/23": 12
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2024/25": 0
-          }
-        },
-        "generationcup": {
-          "total": 66,
-          "seasons": {
-            "2024/25": 66
-          }
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8703,6 +10169,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8735,6 +10205,10 @@
           "seasons": {
             "2026/27": 78
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8769,6 +10243,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8800,6 +10278,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8836,6 +10318,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8867,6 +10353,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8901,6 +10391,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8933,6 +10427,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -8963,6 +10461,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -8998,6 +10500,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9028,6 +10534,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9065,6 +10575,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9099,6 +10613,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9131,36 +10649,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Nick Cade",
-    "points": {
-      "total": 72,
-      "breakdown": {
-        "peteroberts": {
-          "total": 72,
-          "seasons": {
-            "2024/25": 72
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9197,6 +10687,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9229,6 +10723,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9259,6 +10757,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9294,6 +10796,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9324,6 +10830,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9358,6 +10868,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Stanislav Vilyukha",
+    "points": {
+      "total": 68,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 68,
+          "seasons": {
+            "alltime": 68
+          }
         }
       }
     },
@@ -9389,6 +10939,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9423,6 +10977,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9453,6 +11011,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9487,6 +11049,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9517,6 +11083,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9551,6 +11121,48 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Seb Pilling",
+    "points": {
+      "total": 64,
+      "breakdown": {
+        "peteroberts": {
+          "total": 7,
+          "seasons": {
+            "2026/27": 7
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 57,
+          "seasons": {
+            "2024/25": 57
+          }
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9581,6 +11193,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9615,6 +11231,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9645,6 +11265,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9679,6 +11303,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9709,6 +11337,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9743,6 +11375,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9773,6 +11409,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9808,6 +11448,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9838,6 +11482,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9872,6 +11520,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9902,6 +11554,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -9936,6 +11592,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9968,6 +11628,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -9998,6 +11662,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10034,6 +11702,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10064,6 +11736,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10101,36 +11777,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Seb Pilling",
-    "points": {
-      "total": 57,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 57,
-          "seasons": {
-            "2024/25": 57
-          }
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10165,6 +11813,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10195,6 +11847,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10229,6 +11885,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10259,6 +11919,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10294,6 +11958,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10324,6 +11992,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10358,6 +12030,47 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Bernard Perry",
+    "points": {
+      "total": 53,
+      "breakdown": {
+        "peteroberts": {
+          "total": 53,
+          "seasons": {
+            "2026/27": 46,
+            "2024/25": 7
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10388,6 +12101,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10424,6 +12141,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10454,6 +12175,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10488,6 +12213,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10520,68 +12249,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Kristian Kott",
-    "points": {
-      "total": 49,
-      "breakdown": {
-        "peteroberts": {
-          "total": 49,
-          "seasons": {
-            "2024/25": 49
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Luke Noyce",
-    "points": {
-      "total": 49,
-      "breakdown": {
-        "peteroberts": {
-          "total": 49,
-          "seasons": {
-            "2023/24": 49
-          }
-        },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10616,6 +12285,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10646,6 +12319,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10680,6 +12357,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10712,37 +12393,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Bernard Perry",
-    "points": {
-      "total": 46,
-      "breakdown": {
-        "peteroberts": {
-          "total": 46,
-          "seasons": {
-            "2026/27": 39,
-            "2024/25": 7
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10777,6 +12429,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Stanislav Vilyuka",
+    "points": {
+      "total": 45,
+      "breakdown": {
+        "peteroberts": {
+          "total": 45,
+          "seasons": {
+            "2026/27": 45
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10807,6 +12499,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10841,6 +12537,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10871,6 +12571,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10907,6 +12611,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -10938,6 +12646,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -10973,6 +12685,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11003,6 +12719,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11037,6 +12757,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11067,6 +12791,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11101,6 +12829,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11131,6 +12863,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11165,6 +12901,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11172,7 +12912,7 @@
     "sltc": null
   },
   {
-    "name": "Stanislav Vilyuka",
+    "name": "Jonathan Thompso",
     "points": {
       "total": 38,
       "breakdown": {
@@ -11195,6 +12935,46 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Kieran Gedney",
+    "points": {
+      "total": 38,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 38,
+          "seasons": {
+            "2026/27": 38
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11229,6 +13009,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11259,6 +13043,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11293,6 +13081,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11323,6 +13115,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11357,6 +13153,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11387,6 +13187,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11421,6 +13225,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11451,6 +13259,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11485,6 +13297,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11515,6 +13331,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11550,6 +13370,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11581,6 +13405,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11615,6 +13443,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Jack Waterman",
+    "points": {
+      "total": 33,
+      "breakdown": {
+        "peteroberts": {
+          "total": 33,
+          "seasons": {
+            "2026/27": 33
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11645,6 +13513,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11679,6 +13551,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11709,6 +13585,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11743,6 +13623,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11773,6 +13657,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11807,6 +13695,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11837,6 +13729,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11871,6 +13767,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11901,6 +13801,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11935,6 +13839,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -11965,6 +13873,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -11999,36 +13911,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Jonathan Thompso",
-    "points": {
-      "total": 31,
-      "breakdown": {
-        "peteroberts": {
-          "total": 31,
-          "seasons": {
-            "2026/27": 31
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12063,6 +13947,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12093,6 +13981,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12128,6 +14020,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12158,6 +14054,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12192,6 +14092,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12222,6 +14126,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12256,6 +14164,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12288,36 +14200,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Kieran Gedney",
-    "points": {
-      "total": 28,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 28,
-          "seasons": {
-            "2026/27": 28
-          }
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12352,6 +14236,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12382,6 +14270,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12416,6 +14308,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12446,6 +14342,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12480,6 +14380,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12510,6 +14414,10 @@
           }
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12544,6 +14452,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12574,6 +14486,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12609,6 +14525,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12616,7 +14536,7 @@
     "sltc": null
   },
   {
-    "name": "Xander Ehrhardt",
+    "name": "Dave Cale",
     "points": {
       "total": 24,
       "breakdown": {
@@ -12641,37 +14561,8 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Isabelle",
-    "points": {
-      "total": 24,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 24,
-          "seasons": {
-            "2026/27": 12,
-            "2025/26": 12
-          }
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12706,6 +14597,46 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Xander Ehrhardt",
+    "points": {
+      "total": 21,
+      "breakdown": {
+        "peteroberts": {
+          "total": 21,
+          "seasons": {
+            "2026/27": 21
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12736,6 +14667,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12771,6 +14706,10 @@
             "2026/27": 12,
             "2025/26": 9
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12803,37 +14742,8 @@
           "seasons": {
             "2025/26": 21
           }
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
-  },
-  {
-    "name": "Keith Tyson",
-    "points": {
-      "total": 19,
-      "breakdown": {
-        "peteroberts": {
-          "total": 19,
-          "seasons": {
-            "2025/26": 2,
-            "2024/25": 17
-          }
         },
-        "sltc": {
-          "total": 0,
-          "seasons": {}
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12868,6 +14778,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12898,6 +14812,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12932,6 +14850,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -12962,6 +14884,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -12996,6 +14922,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13028,6 +14958,10 @@
           "seasons": {
             "2026/27": 18
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13058,6 +14992,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13092,6 +15030,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13122,6 +15064,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13156,6 +15102,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13186,6 +15136,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13220,6 +15174,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13250,6 +15208,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13284,6 +15246,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13316,6 +15282,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13323,7 +15293,7 @@
     "sltc": null
   },
   {
-    "name": "Jack Waterman",
+    "name": "Joel Browring",
     "points": {
       "total": 14,
       "breakdown": {
@@ -13346,6 +15316,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13380,6 +15354,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13410,6 +15388,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13445,6 +15427,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13475,6 +15461,46 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Luke Addington",
+    "points": {
+      "total": 12,
+      "breakdown": {
+        "peteroberts": {
+          "total": 12,
+          "seasons": {
+            "2026/27": 12
+          }
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13509,6 +15535,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13539,6 +15569,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13573,6 +15607,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13603,6 +15641,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13639,6 +15681,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13669,6 +15715,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13703,6 +15753,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13733,6 +15787,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13767,6 +15825,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13797,6 +15859,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13831,6 +15897,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13861,6 +15931,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13895,6 +15969,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13925,6 +16003,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -13959,6 +16041,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -13989,6 +16075,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14023,6 +16113,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14053,6 +16147,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14087,6 +16185,82 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Isabelle Fu",
+    "points": {
+      "total": 12,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 12,
+          "seasons": {
+            "2026/27": 12
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
+        }
+      }
+    },
+    "level": 1,
+    "sltc": null
+  },
+  {
+    "name": "Isabelle",
+    "points": {
+      "total": 12,
+      "breakdown": {
+        "peteroberts": {
+          "total": 0,
+          "seasons": {}
+        },
+        "sltc": {
+          "total": 0,
+          "seasons": {}
+        },
+        "generationcup": {
+          "total": 0,
+          "seasons": {}
+        },
+        "juniorclubnight": {
+          "total": 12,
+          "seasons": {
+            "2025/26": 12
+          }
+        },
+        "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14117,6 +16291,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14151,6 +16329,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14181,6 +16363,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14215,6 +16401,10 @@
           "seasons": {
             "2025/26": 9
           }
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14245,6 +16435,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14279,6 +16473,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14309,6 +16507,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14345,6 +16547,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14377,6 +16583,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14407,6 +16617,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14443,6 +16657,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14473,6 +16691,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14507,6 +16729,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14537,6 +16763,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14571,6 +16801,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14601,6 +16835,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14635,6 +16873,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14665,6 +16907,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14699,6 +16945,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14729,6 +16979,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14763,6 +17017,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14793,6 +17051,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14827,6 +17089,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14834,13 +17100,15 @@
     "sltc": null
   },
   {
-    "name": "Marc Fleury",
+    "name": "Ben Jenkins",
     "points": {
-      "total": 6,
+      "total": 2,
       "breakdown": {
         "peteroberts": {
-          "total": 0,
-          "seasons": {}
+          "total": 2,
+          "seasons": {
+            "2026/27": 2
+          }
         },
         "sltc": {
           "total": 0,
@@ -14855,10 +17123,12 @@
           "seasons": {}
         },
         "racketballclubnight": {
-          "total": 6,
-          "seasons": {
-            "2026/27": 6
-          }
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14889,6 +17159,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14923,6 +17197,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -14953,6 +17231,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -14987,6 +17269,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15017,6 +17303,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15051,6 +17341,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15081,6 +17375,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15115,6 +17413,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15145,6 +17447,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15179,6 +17485,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15209,6 +17519,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15243,6 +17557,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15273,6 +17591,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15307,6 +17629,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15337,6 +17663,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15371,6 +17701,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15401,6 +17735,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15435,6 +17773,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15465,6 +17807,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15500,6 +17846,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15513,38 +17863,6 @@
       "matchesPlayed": "2",
       "points": "2"
     }
-  },
-  {
-    "name": "Keith Barron",
-    "points": {
-      "total": 0,
-      "breakdown": {
-        "peteroberts": {
-          "total": 0,
-          "seasons": {}
-        },
-        "sltc": {
-          "total": 0,
-          "seasons": {
-            "2025/26": 0
-          }
-        },
-        "generationcup": {
-          "total": 0,
-          "seasons": {}
-        },
-        "juniorclubnight": {
-          "total": 0,
-          "seasons": {}
-        },
-        "racketballclubnight": {
-          "total": 0,
-          "seasons": {}
-        }
-      }
-    },
-    "level": 1,
-    "sltc": null
   },
   {
     "name": "Ross Goodwin",
@@ -15570,6 +17888,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15604,6 +17926,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15634,6 +17960,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15668,6 +17998,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15698,6 +18032,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15732,6 +18070,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15762,6 +18104,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }
@@ -15796,6 +18142,10 @@
         "racketballclubnight": {
           "total": 0,
           "seasons": {}
+        },
+        "boxleagues": {
+          "total": 0,
+          "seasons": {}
         }
       }
     },
@@ -15826,6 +18176,10 @@
           "seasons": {}
         },
         "racketballclubnight": {
+          "total": 0,
+          "seasons": {}
+        },
+        "boxleagues": {
           "total": 0,
           "seasons": {}
         }

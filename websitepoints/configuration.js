@@ -4,35 +4,21 @@
 // ========================================
 
 export const POINTS_CONFIGURATION = {
-
     levels: {
-
         startingLevel: 1,
-
         firstLevelUpPoints: 100,
-
         pointsIncreasePerLevel: 10
-
     },
-
-
     competitions: {
-
         peteroberts: {
-
             enabled: true,
-
             rules: {
-
                 gamesWon: 5,
                 weeklyWins: 10,
                 runnersUp: 20,
                 weeksPlayed: 2
-
             },
-
             seasonFinish: {
-
                 1: 250,
                 2: 100,
                 3: 75,
@@ -41,100 +27,67 @@ export const POINTS_CONFIGURATION = {
                 top10: 25,
                 top25: 10,
                 top50: 5
-
             }
-
         },
-
-
         sltc: {
-
             enabled: true,
-
             rules: {
-
                 pointsMultiplier: 3
-
-
             },
-
             seasonFinish: {
-
                 1: 100,
                 2: 80,
                 3: 60,
                 4: 50
-
             }
-
         },
-
-
         generationcup: {
-
             enabled: true,
-
             rules: {
-
                 pointsMultiplier: 3
-
             },
-
             seasonFinish: {
-
                 1: 100,
                 2: 80,
                 3: 60,
                 4: 50
-
             }
-
         },
-
-
         juniorclubnight: {
-
             enabled: true,
-
             rules: {
-
                 pointsMultiplier: 1
-
             },
-
             seasonFinish: {
-
                 1: 100,
                 2: 80,
                 3: 60,
                 4: 50
-
             }
-
         },
-
-
         racketballclubnight: {
-
             enabled: true,
-
             rules: {
-
                 pointsMultiplier: 3
-
             },
-
             seasonFinish: {
-
                 1: 100,
                 2: 80,
                 3: 60,
                 4: 50
-
             }
-
+        },
+        boxleagues: {
+            enabled: true,
+            rules: {
+                seasons: 3,
+                played: 1,
+                won: 3,
+                highBoxStart: 50,
+                highBoxDecrease: 5,
+                points: 5,
+                leagueChampions: 100
+            }
         }
-
     }
-
 };

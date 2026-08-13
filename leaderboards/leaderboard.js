@@ -8,9 +8,7 @@ const container = document.getElementById("leaderboard-container");
 fetch("/squash/data/leaderboard.json")
 .then(response => response.json())
 .then(players => {
-
     container.innerHTML = "";
-
     const table = document.createElement("table");
 
     table.innerHTML = `
@@ -28,9 +26,7 @@ fetch("/squash/data/leaderboard.json")
     const tbody = table.querySelector("tbody");
 
     players.forEach((player, index) => {
-
         const playerKey = player.name.toLowerCase();
-
         const row = document.createElement("tr");
 
         row.innerHTML = `
@@ -45,78 +41,62 @@ fetch("/squash/data/leaderboard.json")
         `;
 
         const detailsRow = document.createElement("tr");
-
         detailsRow.style.display = "none";
 
         detailsRow.innerHTML = `
         <td colspan="4">
-
             <div class="player-details">
-
                 <table class="breakdown-table">
-
                     <tr>
                         <td>Wednesday Handicap</td>
-                        <td>${player.points.breakdown.peteroberts}</td>
+                        <td>${player.points.breakdown.peteroberts.total}</td>
                     </tr>
-
                     <tr>
                         <td>SL Team Challenge</td>
-                        <td>${player.points.breakdown.sltc}</td>
+                        <td>${player.points.breakdown.sltc.total}</td>
                     </tr>
-
                     <tr>
                         <td>Generation Cup</td>
-                        <td>${player.points.breakdown.generationcup}</td>
+                        <td>${player.points.breakdown.generationcup.total}</td>
                     </tr>
-
                     <tr>
                         <td>Junior Clubnight</td>
-                        <td>${player.points.breakdown.juniorclubnight}</td>
+                        <td>${player.points.breakdown.juniorclubnight.total}</td>
                     </tr>
-
                     <tr>
                         <td>Racketball Clubnight</td>
-                        <td>${player.points.breakdown.racketballclubnight}</td>
+                        <td>${player.points.breakdown.racketballclubnight.total}</td>
                     </tr>
-
+                    <tr>
+                        <td>Squash Box Leagues</td>
+                        <td>${player.points.breakdown.boxleagues.total}</td>
+                    </tr>
                     <tr class="total-row">
                         <td>Total Points</td>
                         <td>${player.points.total}</td>
                     </tr>
-
                 </table>
-
                 <a href="/squash/profiles/index.html?player=${playerKey}">
                     View Player Profile
                 </a>
-
             </div>
-
         </td>
         `;
 
         row.querySelector(".player-button").onclick = function() {
-
             detailsRow.style.display =
                 detailsRow.style.display === "none"
                 ? "table-row"
                 : "none";
-
         };
 
         tbody.appendChild(row);
         tbody.appendChild(detailsRow);
-
     });
 
     container.appendChild(table);
-
 })
 .catch(error => {
-
     console.error("Leaderboard loading error:", error);
-
     container.innerHTML = "Unable to load leaderboard.";
-
 });

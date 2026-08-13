@@ -1,16 +1,15 @@
 // ========================================
+// FILE LOCATION: /squash/scripts/configuration.js
 // DATABASE BUILDER CONFIGURATION
 // Defines all competition sources and data structure
 // ========================================
 
 export const CONFIGURATION = {
-
     competitions: [
-
         {
             id: "peteroberts",
             spreadsheetId: "1hWIT4Zz98lv6yGhKJ6zAPbGvQmt1Ty_dXLpmAA7px3M",
-            startRow: 3,
+            startRow: 2,
             columns: {
                 place: "A",
                 name: "B",
@@ -36,7 +35,6 @@ export const CONFIGURATION = {
                 { season: "2014/15", gid: "879316616" }
             ]
         },
-
         {
             id: "juniorclubnight",
             spreadsheetId: "1JWFjiEYeyCIkVsyNfP3PKUyU7KxM_u2Ym1sr6hUw-Gg",
@@ -53,7 +51,6 @@ export const CONFIGURATION = {
                 { season: "2024/25", gid: "505669054" }
             ]
         },
-
         {
             id: "sltc",
             spreadsheetId: "1dWUO_n7Dx2qhQir7OgyC8jgzYuOAJAeTkwrCciFbEJc",
@@ -62,7 +59,9 @@ export const CONFIGURATION = {
                 place: "A",
                 name: "B",
                 team: "C",
-                score: "D"
+                eventsPlayed: "D",
+                matchesPlayed: "E",
+                points: "F"
             },
             seasons: [
                 { season: "2026/27", gid: "719618828" },
@@ -70,7 +69,6 @@ export const CONFIGURATION = {
                 { season: "2024/25", gid: "1265524802" }
             ]
         },
-
         {
             id: "generationcup",
             spreadsheetId: "1HTUu_Kj4_gHketMSmYO7mIpUcTqYjEelX_ZSEX0UqMc",
@@ -86,7 +84,6 @@ export const CONFIGURATION = {
                 { season: "2024/25", gid: "193457107" }
             ]
         },
-
         {
             id: "racketballclubnight",
             spreadsheetId: "1ytJzurKWV262BRsDF0pyhai049veXIxgHlzPkDME4AE",
@@ -100,8 +97,24 @@ export const CONFIGURATION = {
                 { season: "2026/27", gid: "0" },
                 { season: "2025/26", gid: "1530884915" }
             ]
+        },
+        {
+            id: "boxleagues",
+            spreadsheetId: "13ubZbRhNBy8lWyIqjynIdOv_wtcAL-frbVPlQxjShtE",
+            startRow: 2,
+            columns: {
+                place: "A",
+                name: "B",
+                seasons: "C",
+                played: "D",
+                won: "E",
+                highBox: "F",
+                points: "G",
+                leagueChampions: "H"
+            },
+            seasons: [
+                { season: "alltime", gid: "0" }
+            ]
         }
-
     ]
-
-};
+}

@@ -8,12 +8,12 @@
             "season": "2026/27",
             "place": "1",
             "name": "Martin Scheel",
-            "games": "33",
-            "wins": "18",
+            "games": "45",
+            "wins": "25",
             "weeklyWins": "",
             "runnersUp": "2",
-            "weeks": "8",
-            "score": "144"
+            "weeks": "11",
+            "score": "189"
           },
           {
             "season": "2025/26",
@@ -58,20 +58,178 @@
         ]
       }
     },
+    "sam porter": {
+      "name": "Sam Porter",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Sam Porter",
+            "games": "39",
+            "wins": "20",
+            "weeklyWins": "1",
+            "runnersUp": "2",
+            "weeks": "10",
+            "score": "183"
+          },
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Sam Porter",
+            "games": "158",
+            "wins": "93",
+            "weeklyWins": "3",
+            "runnersUp": "4",
+            "weeks": "40",
+            "score": "641"
+          },
+          {
+            "season": "2024/25",
+            "place": "32",
+            "name": "Sam Porter",
+            "games": "58",
+            "wins": "33",
+            "weeklyWins": "2",
+            "runnersUp": "0",
+            "weeks": "14",
+            "score": "194"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Sam Porter",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
+          },
+          {
+            "season": "2025/26",
+            "place": "6",
+            "name": "Sam Porter",
+            "team": "Dads and Lads",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "2",
+            "name": "Sam Porter",
+            "seasons": "8",
+            "played": "15",
+            "won": "10",
+            "highBox": "3",
+            "points": "65",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "baxter madden": {
+      "name": "Baxter Madden",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "3",
+            "name": "Baxter Madden",
+            "games": "35",
+            "wins": "24",
+            "weeklyWins": "4",
+            "runnersUp": "1",
+            "weeks": "10",
+            "score": "179"
+          },
+          {
+            "season": "2025/26",
+            "place": "35",
+            "name": "Baxter Madden",
+            "games": "52",
+            "wins": "28",
+            "weeklyWins": "2",
+            "runnersUp": "3",
+            "weeks": "15",
+            "score": "267"
+          }
+        ],
+        "juniorclubnight": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Baxter Madden",
+            "weeks": "10",
+            "score": "87"
+          },
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Baxter Madden",
+            "weeks": "36",
+            "score": "320"
+          },
+          {
+            "season": "2024/25",
+            "place": "4",
+            "name": "Baxter Madden",
+            "weeks": "11",
+            "score": "108"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Baxter Madden",
+            "team": "Independants",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "7"
+          },
+          {
+            "season": "2024/25",
+            "place": "7",
+            "name": "Baxter Madden",
+            "team": "Court Crusaders",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "29",
+            "name": "Baxter Madden",
+            "seasons": "1",
+            "played": "3",
+            "won": "3",
+            "highBox": "5",
+            "points": "16",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
     "will ramsey": {
       "name": "Will Ramsey",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "2",
+            "place": "4",
             "name": "Will Ramsey",
-            "games": "25",
-            "wins": "15",
-            "weeklyWins": "2",
+            "games": "31",
+            "wins": "19",
+            "weeklyWins": "3",
             "runnersUp": "1",
-            "weeks": "7",
-            "score": "126"
+            "weeks": "9",
+            "score": "166"
           },
           {
             "season": "2025/26",
@@ -97,6 +255,13 @@
           }
         ],
         "juniorclubnight": [
+          {
+            "season": "2026/27",
+            "place": "9",
+            "name": "Will Ramsey",
+            "weeks": "1",
+            "score": "11"
+          },
           {
             "season": "2025/26",
             "place": "5",
@@ -148,220 +313,20 @@
         ]
       }
     },
-    "george yeates": {
-      "name": "George Yeates",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "3",
-            "name": "George Yeates",
-            "games": "25",
-            "wins": "15",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "7",
-            "score": "118"
-          },
-          {
-            "season": "2025/26",
-            "place": "47",
-            "name": "George Yeates",
-            "games": "40",
-            "wins": "22",
-            "weeklyWins": "2",
-            "runnersUp": "0",
-            "weeks": "11",
-            "score": "201"
-          },
-          {
-            "season": "2023/24",
-            "place": "22",
-            "name": "George Yeates",
-            "games": "70",
-            "wins": "34",
-            "weeklyWins": "1",
-            "runnersUp": "2",
-            "weeks": "17",
-            "score": "150"
-          },
-          {
-            "season": "2022/23",
-            "place": "15",
-            "name": "George Yeates",
-            "games": "61",
-            "wins": "39",
-            "weeklyWins": "4",
-            "runnersUp": "2",
-            "weeks": "16",
-            "score": "222"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "5",
-            "name": "George Yeates",
-            "team": "Misshits",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "4"
-          },
-          {
-            "season": "2025/26",
-            "place": "6",
-            "name": "George Yeates",
-            "team": "Dads and Lads",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "11"
-          }
-        ]
-      }
-    },
-    "maeve burton": {
-      "name": "Maeve Burton",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "4",
-            "name": "Maeve Burton",
-            "games": "20",
-            "wins": "13",
-            "weeklyWins": "",
-            "runnersUp": "2",
-            "weeks": "5",
-            "score": "117"
-          },
-          {
-            "season": "2025/26",
-            "place": "40",
-            "name": "Maeve Burton",
-            "games": "59",
-            "wins": "27",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "15",
-            "score": "231"
-          },
-          {
-            "season": "2024/25",
-            "place": "12",
-            "name": "Maeve Burton",
-            "games": "74",
-            "wins": "38",
-            "weeklyWins": "0",
-            "runnersUp": "4",
-            "weeks": "20",
-            "score": "344"
-          },
-          {
-            "season": "2023/24",
-            "place": "31",
-            "name": "Maeve Burton",
-            "games": "42",
-            "wins": "21",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "10",
-            "score": "121"
-          }
-        ]
-      }
-    },
-    "sam porter": {
-      "name": "Sam Porter",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "5",
-            "name": "Sam Porter",
-            "games": "28",
-            "wins": "14",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "7",
-            "score": "112"
-          },
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Sam Porter",
-            "games": "158",
-            "wins": "93",
-            "weeklyWins": "3",
-            "runnersUp": "4",
-            "weeks": "40",
-            "score": "641"
-          },
-          {
-            "season": "2024/25",
-            "place": "32",
-            "name": "Sam Porter",
-            "games": "58",
-            "wins": "33",
-            "weeklyWins": "2",
-            "runnersUp": "0",
-            "weeks": "14",
-            "score": "194"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2026/27",
-            "place": "3",
-            "name": "Sam Porter",
-            "team": "Tin Men",
-            "eventsPlayed": "1",
-            "matchesPlayed": "4",
-            "points": "5"
-          },
-          {
-            "season": "2025/26",
-            "place": "6",
-            "name": "Sam Porter",
-            "team": "Dads and Lads",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "4"
-          }
-        ]
-      }
-    },
-    "john collicutt": {
-      "name": "John Collicutt",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "6",
-            "name": "John Collicutt",
-            "games": "19",
-            "wins": "15",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "5",
-            "score": "110"
-          }
-        ]
-      }
-    },
     "matt parkhouse": {
       "name": "Matt Parkhouse",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "7",
+            "place": "5",
             "name": "Matt Parkhouse",
-            "games": "28",
-            "wins": "12",
+            "games": "35",
+            "wins": "16",
             "weeklyWins": "",
             "runnersUp": "1",
-            "weeks": "7",
-            "score": "110"
+            "weeks": "9",
+            "score": "166"
           },
           {
             "season": "2025/26",
@@ -421,75 +386,76 @@
         ]
       }
     },
-    "leo sharp": {
-      "name": "Leo Sharp",
+    "jon ramsey": {
+      "name": "Jon Ramsey",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "8",
-            "name": "Leo Sharp",
-            "games": "17",
-            "wins": "15",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "4",
-            "score": "108"
+            "place": "6",
+            "name": "Jon Ramsey",
+            "games": "32",
+            "wins": "21",
+            "weeklyWins": "4",
+            "runnersUp": "",
+            "weeks": "9",
+            "score": "165"
           },
           {
             "season": "2025/26",
-            "place": "81",
-            "name": "Leo Sharp",
-            "games": "4",
-            "wins": "4",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "31"
-          }
-        ],
-        "juniorclubnight": [
-          {
-            "season": "2025/26",
-            "place": "16",
-            "name": "Leo Sharp",
-            "weeks": "2",
-            "score": "25"
+            "place": "15",
+            "name": "Jon Ramsey",
+            "games": "94",
+            "wins": "60",
+            "weeklyWins": "5",
+            "runnersUp": "2",
+            "weeks": "24",
+            "score": "421"
           },
           {
             "season": "2024/25",
-            "place": "16",
-            "name": "Leo Sharp",
-            "weeks": "1",
-            "score": "16"
+            "place": "102",
+            "name": "Jon Ramsey",
+            "games": "7",
+            "wins": "1",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "2",
+            "score": "18"
           }
         ],
         "sltc": [
           {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Leo Sharp",
-            "team": "Abshooters",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "9"
+            "season": "2026/27",
+            "place": "3",
+            "name": "Jon Ramsey",
+            "team": "Tin Men",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "4"
           },
           {
-            "season": "2024/25",
-            "place": "1",
-            "name": "Leo Sharp",
-            "team": "Abshooters",
+            "season": "2025/26",
+            "place": "6",
+            "name": "Jon Ramsey",
+            "team": "Dads and Lads",
             "eventsPlayed": "",
             "matchesPlayed": "",
-            "points": "87"
+            "points": "7"
           }
         ],
         "generationcup": [
           {
-            "season": "2024/25",
+            "season": "2025/26",
             "place": "3",
-            "name": "Leo Sharp",
-            "score": "31"
+            "name": "Jon Ramsey",
+            "score": "26"
+          },
+          {
+            "season": "2024/25",
+            "place": "12",
+            "name": "Jon Ramsey",
+            "score": "17"
           }
         ]
       }
@@ -500,14 +466,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "9",
+            "place": "7",
             "name": "Ben Smith",
-            "games": "26",
-            "wins": "13",
+            "games": "37",
+            "wins": "16",
             "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "7",
-            "score": "107"
+            "runnersUp": "1",
+            "weeks": "10",
+            "score": "164"
           },
           {
             "season": "2025/26",
@@ -545,20 +511,91 @@
         ]
       }
     },
+    "simon langdale": {
+      "name": "Simon Langdale",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "8",
+            "name": "Simon Langdale",
+            "games": "42",
+            "wins": "27",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "10",
+            "score": "153"
+          },
+          {
+            "season": "2025/26",
+            "place": "24",
+            "name": "Simon Langdale",
+            "games": "96",
+            "wins": "43",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "24",
+            "score": "349"
+          },
+          {
+            "season": "2024/25",
+            "place": "19",
+            "name": "Simon Langdale",
+            "games": "86",
+            "wins": "42",
+            "weeklyWins": "3",
+            "runnersUp": "2",
+            "weeks": "21",
+            "score": "280"
+          },
+          {
+            "season": "2023/24",
+            "place": "38",
+            "name": "Simon Langdale",
+            "games": "27",
+            "wins": "12",
+            "weeklyWins": "0",
+            "runnersUp": "1",
+            "weeks": "7",
+            "score": "98"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2026/27",
+            "place": "4",
+            "name": "Simon Langdale",
+            "team": "Squashy Balls",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "4"
+          },
+          {
+            "season": "2025/26",
+            "place": "8",
+            "name": "Simon Langdale",
+            "team": "Wednesday Bar Boozers",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
+          }
+        ]
+      }
+    },
     "dan ngo": {
       "name": "Dan Ngo",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "10",
+            "place": "9",
             "name": "Dan Ngo",
-            "games": "39",
-            "wins": "12",
+            "games": "46",
+            "wins": "16",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "10",
-            "score": "101"
+            "weeks": "12",
+            "score": "151"
           },
           {
             "season": "2025/26",
@@ -624,196 +661,20 @@
         ]
       }
     },
-    "zoe fellows": {
-      "name": "Zoe Fellows",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "11",
-            "name": "Zoe Fellows",
-            "games": "28",
-            "wins": "6",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "8",
-            "score": "100"
-          },
-          {
-            "season": "2025/26",
-            "place": "31",
-            "name": "Zoe Fellows",
-            "games": "80",
-            "wins": "35",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "22",
-            "score": "302"
-          },
-          {
-            "season": "2024/25",
-            "place": "17",
-            "name": "Zoe Fellows",
-            "games": "85",
-            "wins": "28",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "22",
-            "score": "303"
-          },
-          {
-            "season": "2023/24",
-            "place": "1",
-            "name": "Zoe Fellows",
-            "games": "179",
-            "wins": "78",
-            "weeklyWins": "3",
-            "runnersUp": "7",
-            "weeks": "45",
-            "score": "483"
-          },
-          {
-            "season": "2022/23",
-            "place": "5",
-            "name": "Zoe Fellows",
-            "games": "163",
-            "wins": "69",
-            "weeklyWins": "4",
-            "runnersUp": "1",
-            "weeks": "42",
-            "score": "371"
-          }
-        ]
-      }
-    },
-    "rory paterson": {
-      "name": "Rory Paterson",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "12",
-            "name": "Rory Paterson",
-            "games": "31",
-            "wins": "13",
-            "weeklyWins": "",
-            "runnersUp": "1",
-            "weeks": "8",
-            "score": "100"
-          },
-          {
-            "season": "2025/26",
-            "place": "21",
-            "name": "Rory Paterson",
-            "games": "76",
-            "wins": "42",
-            "weeklyWins": "2",
-            "runnersUp": "4",
-            "weeks": "20",
-            "score": "381"
-          },
-          {
-            "season": "2022/23",
-            "place": "36",
-            "name": "Rory Paterson",
-            "games": "25",
-            "wins": "18",
-            "weeklyWins": "3",
-            "runnersUp": "0",
-            "weeks": "6",
-            "score": "98"
-          }
-        ]
-      }
-    },
-    "jon ramsey": {
-      "name": "Jon Ramsey",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "13",
-            "name": "Jon Ramsey",
-            "games": "26",
-            "wins": "15",
-            "weeklyWins": "2",
-            "runnersUp": "",
-            "weeks": "7",
-            "score": "99"
-          },
-          {
-            "season": "2025/26",
-            "place": "15",
-            "name": "Jon Ramsey",
-            "games": "94",
-            "wins": "60",
-            "weeklyWins": "5",
-            "runnersUp": "2",
-            "weeks": "24",
-            "score": "421"
-          },
-          {
-            "season": "2024/25",
-            "place": "102",
-            "name": "Jon Ramsey",
-            "games": "7",
-            "wins": "1",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "2",
-            "score": "18"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2026/27",
-            "place": "3",
-            "name": "Jon Ramsey",
-            "team": "Tin Men",
-            "eventsPlayed": "1",
-            "matchesPlayed": "4",
-            "points": "4"
-          },
-          {
-            "season": "2025/26",
-            "place": "6",
-            "name": "Jon Ramsey",
-            "team": "Dads and Lads",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "7"
-          }
-        ],
-        "generationcup": [
-          {
-            "season": "2025/26",
-            "place": "3",
-            "name": "Jon Ramsey",
-            "score": "26"
-          },
-          {
-            "season": "2024/25",
-            "place": "12",
-            "name": "Jon Ramsey",
-            "score": "17"
-          }
-        ]
-      }
-    },
     "richard lowton": {
       "name": "Richard Lowton",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "14",
+            "place": "10",
             "name": "Richard Lowton",
-            "games": "28",
-            "wins": "12",
+            "games": "40",
+            "wins": "18",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "7",
-            "score": "98"
+            "weeks": "10",
+            "score": "145"
           },
           {
             "season": "2025/26",
@@ -871,20 +732,144 @@
         ]
       }
     },
+    "rory paterson": {
+      "name": "Rory Paterson",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "11",
+            "name": "Rory Paterson",
+            "games": "38",
+            "wins": "17",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "10",
+            "score": "142"
+          },
+          {
+            "season": "2025/26",
+            "place": "21",
+            "name": "Rory Paterson",
+            "games": "76",
+            "wins": "42",
+            "weeklyWins": "2",
+            "runnersUp": "4",
+            "weeks": "20",
+            "score": "381"
+          },
+          {
+            "season": "2022/23",
+            "place": "36",
+            "name": "Rory Paterson",
+            "games": "25",
+            "wins": "18",
+            "weeklyWins": "3",
+            "runnersUp": "0",
+            "weeks": "6",
+            "score": "98"
+          }
+        ]
+      }
+    },
+    "george yeates": {
+      "name": "George Yeates",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "12",
+            "name": "George Yeates",
+            "games": "28",
+            "wins": "17",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "8",
+            "score": "137"
+          },
+          {
+            "season": "2025/26",
+            "place": "47",
+            "name": "George Yeates",
+            "games": "40",
+            "wins": "22",
+            "weeklyWins": "2",
+            "runnersUp": "0",
+            "weeks": "11",
+            "score": "201"
+          },
+          {
+            "season": "2023/24",
+            "place": "22",
+            "name": "George Yeates",
+            "games": "70",
+            "wins": "34",
+            "weeklyWins": "1",
+            "runnersUp": "2",
+            "weeks": "17",
+            "score": "150"
+          },
+          {
+            "season": "2022/23",
+            "place": "15",
+            "name": "George Yeates",
+            "games": "61",
+            "wins": "39",
+            "weeklyWins": "4",
+            "runnersUp": "2",
+            "weeks": "16",
+            "score": "222"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "5",
+            "name": "George Yeates",
+            "team": "Misshits",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
+          },
+          {
+            "season": "2025/26",
+            "place": "6",
+            "name": "George Yeates",
+            "team": "Dads and Lads",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "11"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "24",
+            "name": "George Yeates",
+            "seasons": "3",
+            "played": "5",
+            "won": "4",
+            "highBox": "1",
+            "points": "25",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
     "mark homeyard": {
       "name": "Mark Homeyard",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "15",
+            "place": "13",
             "name": "Mark Homeyard",
-            "games": "20",
-            "wins": "11",
+            "games": "30",
+            "wins": "14",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "5",
-            "score": "97"
+            "weeks": "8",
+            "score": "134"
           },
           {
             "season": "2025/26",
@@ -951,415 +936,20 @@
         ]
       }
     },
-    "baxter madden": {
-      "name": "Baxter Madden",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "16",
-            "name": "Baxter Madden",
-            "games": "23",
-            "wins": "14",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "7",
-            "score": "96"
-          },
-          {
-            "season": "2025/26",
-            "place": "35",
-            "name": "Baxter Madden",
-            "games": "52",
-            "wins": "28",
-            "weeklyWins": "2",
-            "runnersUp": "3",
-            "weeks": "15",
-            "score": "267"
-          }
-        ],
-        "juniorclubnight": [
-          {
-            "season": "2026/27",
-            "place": "3",
-            "name": "Baxter Madden",
-            "weeks": "7",
-            "score": "59"
-          },
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Baxter Madden",
-            "weeks": "36",
-            "score": "320"
-          },
-          {
-            "season": "2024/25",
-            "place": "4",
-            "name": "Baxter Madden",
-            "weeks": "11",
-            "score": "108"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2026/27",
-            "place": "1",
-            "name": "Baxter Madden",
-            "team": "Independants",
-            "eventsPlayed": "1",
-            "matchesPlayed": "4",
-            "points": "7"
-          },
-          {
-            "season": "2024/25",
-            "place": "7",
-            "name": "Baxter Madden",
-            "team": "Court Crusaders",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "21"
-          }
-        ]
-      }
-    },
-    "michael evans": {
-      "name": "Michael Evans",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "17",
-            "name": "Michael Evans",
-            "games": "20",
-            "wins": "9",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "5",
-            "score": "89"
-          },
-          {
-            "season": "2025/26",
-            "place": "8",
-            "name": "Michael Evans",
-            "games": "115",
-            "wins": "58",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "29",
-            "score": "472"
-          },
-          {
-            "season": "2024/25",
-            "place": "4",
-            "name": "Michael Evans",
-            "games": "116",
-            "wins": "56",
-            "weeklyWins": "2",
-            "runnersUp": "3",
-            "weeks": "29",
-            "score": "448"
-          },
-          {
-            "season": "2023/24",
-            "place": "5",
-            "name": "Michael Evans",
-            "games": "112",
-            "wins": "63",
-            "weeklyWins": "1",
-            "runnersUp": "6",
-            "weeks": "30",
-            "score": "336"
-          },
-          {
-            "season": "2022/23",
-            "place": "34",
-            "name": "Michael Evans",
-            "games": "33",
-            "wins": "18",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "8",
-            "score": "110"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "4",
-            "name": "Michael Evans",
-            "team": "Squashy Balls",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "3"
-          },
-          {
-            "season": "2024/25",
-            "place": "6",
-            "name": "Michael Evans",
-            "team": "Across The Generations",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "38"
-          }
-        ],
-        "racketballclubnight": [
-          {
-            "season": "2026/27",
-            "place": "15",
-            "name": "Michael Evans",
-            "score": "4"
-          }
-        ]
-      }
-    },
-    "simon langdale": {
-      "name": "Simon Langdale",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "18",
-            "name": "Simon Langdale",
-            "games": "30",
-            "wins": "19",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "7",
-            "score": "88"
-          },
-          {
-            "season": "2025/26",
-            "place": "24",
-            "name": "Simon Langdale",
-            "games": "96",
-            "wins": "43",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "24",
-            "score": "349"
-          },
-          {
-            "season": "2024/25",
-            "place": "19",
-            "name": "Simon Langdale",
-            "games": "86",
-            "wins": "42",
-            "weeklyWins": "3",
-            "runnersUp": "2",
-            "weeks": "21",
-            "score": "280"
-          },
-          {
-            "season": "2023/24",
-            "place": "38",
-            "name": "Simon Langdale",
-            "games": "27",
-            "wins": "12",
-            "weeklyWins": "0",
-            "runnersUp": "1",
-            "weeks": "7",
-            "score": "98"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2026/27",
-            "place": "4",
-            "name": "Simon Langdale",
-            "team": "Squashy Balls",
-            "eventsPlayed": "1",
-            "matchesPlayed": "4",
-            "points": "4"
-          },
-          {
-            "season": "2025/26",
-            "place": "8",
-            "name": "Simon Langdale",
-            "team": "Wednesday Bar Boozers",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "0"
-          }
-        ]
-      }
-    },
-    "jack fisk": {
-      "name": "Jack Fisk",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "19",
-            "name": "Jack Fisk",
-            "games": "13",
-            "wins": "8",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "4",
-            "score": "85"
-          },
-          {
-            "season": "2025/26",
-            "place": "68",
-            "name": "Jack Fisk",
-            "games": "17",
-            "wins": "7",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "5",
-            "score": "70"
-          },
-          {
-            "season": "2024/25",
-            "place": "22",
-            "name": "Jack Fisk",
-            "games": "64",
-            "wins": "32",
-            "weeklyWins": "3",
-            "runnersUp": "0",
-            "weeks": "17",
-            "score": "269"
-          }
-        ]
-      }
-    },
-    "jon nation": {
-      "name": "Jon Nation",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "20",
-            "name": "Jon Nation",
-            "games": "20",
-            "wins": "9",
-            "weeklyWins": "0",
-            "runnersUp": "1",
-            "weeks": "5",
-            "score": "83"
-          },
-          {
-            "season": "2025/26",
-            "place": "26",
-            "name": "Jon Nation",
-            "games": "77",
-            "wins": "32",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "20",
-            "score": "340"
-          },
-          {
-            "season": "2024/25",
-            "place": "107",
-            "name": "Jon Nation",
-            "games": "5",
-            "wins": "2",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "9"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Jon Nation",
-            "team": "Abshooters",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "4"
-          }
-        ]
-      }
-    },
-    "will pallister": {
-      "name": "Will Pallister",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "21",
-            "name": "Will Pallister",
-            "games": "20",
-            "wins": "11",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "5",
-            "score": "83"
-          },
-          {
-            "season": "2025/26",
-            "place": "44",
-            "name": "Will Pallister",
-            "games": "64",
-            "wins": "22",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "16",
-            "score": "221"
-          },
-          {
-            "season": "2023/24",
-            "place": "45",
-            "name": "Will Pallister",
-            "games": "22",
-            "wins": "17",
-            "weeklyWins": "2",
-            "runnersUp": "0",
-            "weeks": "5",
-            "score": "76"
-          },
-          {
-            "season": "2022/23",
-            "place": "9",
-            "name": "Will Pallister",
-            "games": "108",
-            "wins": "55",
-            "weeklyWins": "2",
-            "runnersUp": "2",
-            "weeks": "27",
-            "score": "285"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "4",
-            "name": "Will Pallister",
-            "team": "Squashy Balls",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "5"
-          },
-          {
-            "season": "2025/26",
-            "place": "7",
-            "name": "Will Pallister",
-            "team": "Dobbinators",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "6"
-          }
-        ]
-      }
-    },
     "josh man": {
       "name": "Josh Man",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "22",
+            "place": "14",
             "name": "Josh Man",
-            "games": "21",
-            "wins": "11",
-            "weeklyWins": "1",
+            "games": "28",
+            "wins": "16",
+            "weeklyWins": "2",
             "runnersUp": "",
-            "weeks": "6",
-            "score": "81"
+            "weeks": "8",
+            "score": "131"
           },
           {
             "season": "2025/26",
@@ -1439,14 +1029,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "23",
+            "place": "15",
             "name": "Sheldon Docker",
-            "games": "17",
-            "wins": "11",
+            "games": "25",
+            "wins": "16",
             "weeklyWins": "",
             "runnersUp": "1",
-            "weeks": "4",
-            "score": "77"
+            "weeks": "6",
+            "score": "127"
           },
           {
             "season": "2025/26",
@@ -1463,10 +1053,10 @@
         "juniorclubnight": [
           {
             "season": "2026/27",
-            "place": "2",
+            "place": "3",
             "name": "Sheldon Docker",
-            "weeks": "10",
-            "score": "68"
+            "weeks": "12",
+            "score": "79"
           },
           {
             "season": "2025/26",
@@ -1503,56 +1093,449 @@
             "name": "Sheldon Docker",
             "score": "22"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "19",
+            "name": "Sheldon Docker",
+            "seasons": "2",
+            "played": "6",
+            "won": "6",
+            "highBox": "4",
+            "points": "31",
+            "leagueChampions": ""
+          }
         ]
       }
     },
-    "simon carr": {
-      "name": "Simon Carr",
+    "michael evans": {
+      "name": "Michael Evans",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "24",
-            "name": "Simon Carr",
-            "games": "14",
-            "wins": "9",
-            "weeklyWins": "",
-            "runnersUp": "1",
-            "weeks": "4",
-            "score": "72"
+            "place": "16",
+            "name": "Michael Evans",
+            "games": "27",
+            "wins": "12",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "7",
+            "score": "125"
           },
           {
             "season": "2025/26",
-            "place": "71",
-            "name": "Simon Carr",
-            "games": "10",
-            "wins": "6",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "3",
-            "score": "52"
+            "place": "8",
+            "name": "Michael Evans",
+            "games": "115",
+            "wins": "58",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "29",
+            "score": "472"
           },
           {
             "season": "2024/25",
-            "place": "48",
-            "name": "Simon Carr",
-            "games": "26",
-            "wins": "11",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "7",
-            "score": "104"
+            "place": "4",
+            "name": "Michael Evans",
+            "games": "116",
+            "wins": "56",
+            "weeklyWins": "2",
+            "runnersUp": "3",
+            "weeks": "29",
+            "score": "448"
           },
           {
             "season": "2023/24",
-            "place": "48",
-            "name": "Simon Carr",
-            "games": "18",
+            "place": "5",
+            "name": "Michael Evans",
+            "games": "112",
+            "wins": "63",
+            "weeklyWins": "1",
+            "runnersUp": "6",
+            "weeks": "30",
+            "score": "336"
+          },
+          {
+            "season": "2022/23",
+            "place": "34",
+            "name": "Michael Evans",
+            "games": "33",
+            "wins": "18",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "8",
+            "score": "110"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "4",
+            "name": "Michael Evans",
+            "team": "Squashy Balls",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
+          },
+          {
+            "season": "2024/25",
+            "place": "6",
+            "name": "Michael Evans",
+            "team": "Across The Generations",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
+          }
+        ],
+        "racketballclubnight": [
+          {
+            "season": "2026/27",
+            "place": "15",
+            "name": "Michael Evans",
+            "score": "4"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "3",
+            "name": "Michael Evans",
+            "seasons": "8",
+            "played": "27",
+            "won": "5",
+            "highBox": "3",
+            "points": "63",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "john collicutt": {
+      "name": "John Collicutt",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "17",
+            "name": "John Collicutt",
+            "games": "23",
+            "wins": "17",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "6",
+            "score": "121"
+          }
+        ]
+      }
+    },
+    "zoe fellows": {
+      "name": "Zoe Fellows",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "18",
+            "name": "Zoe Fellows",
+            "games": "31",
+            "wins": "7",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "9",
+            "score": "119"
+          },
+          {
+            "season": "2025/26",
+            "place": "31",
+            "name": "Zoe Fellows",
+            "games": "80",
+            "wins": "35",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "22",
+            "score": "302"
+          },
+          {
+            "season": "2024/25",
+            "place": "17",
+            "name": "Zoe Fellows",
+            "games": "85",
+            "wins": "28",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "22",
+            "score": "303"
+          },
+          {
+            "season": "2023/24",
+            "place": "1",
+            "name": "Zoe Fellows",
+            "games": "179",
+            "wins": "78",
+            "weeklyWins": "3",
+            "runnersUp": "7",
+            "weeks": "45",
+            "score": "483"
+          },
+          {
+            "season": "2022/23",
+            "place": "5",
+            "name": "Zoe Fellows",
+            "games": "163",
+            "wins": "69",
+            "weeklyWins": "4",
+            "runnersUp": "1",
+            "weeks": "42",
+            "score": "371"
+          }
+        ]
+      }
+    },
+    "maeve burton": {
+      "name": "Maeve Burton",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "19",
+            "name": "Maeve Burton",
+            "games": "20",
+            "wins": "13",
+            "weeklyWins": "",
+            "runnersUp": "2",
+            "weeks": "5",
+            "score": "117"
+          },
+          {
+            "season": "2025/26",
+            "place": "40",
+            "name": "Maeve Burton",
+            "games": "59",
+            "wins": "27",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "15",
+            "score": "231"
+          },
+          {
+            "season": "2024/25",
+            "place": "12",
+            "name": "Maeve Burton",
+            "games": "74",
+            "wins": "38",
+            "weeklyWins": "0",
+            "runnersUp": "4",
+            "weeks": "20",
+            "score": "344"
+          },
+          {
+            "season": "2023/24",
+            "place": "31",
+            "name": "Maeve Burton",
+            "games": "42",
+            "wins": "21",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "10",
+            "score": "121"
+          }
+        ]
+      }
+    },
+    "will pallister": {
+      "name": "Will Pallister",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "20",
+            "name": "Will Pallister",
+            "games": "28",
+            "wins": "15",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "7",
+            "score": "115"
+          },
+          {
+            "season": "2025/26",
+            "place": "44",
+            "name": "Will Pallister",
+            "games": "64",
+            "wins": "22",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "16",
+            "score": "221"
+          },
+          {
+            "season": "2023/24",
+            "place": "45",
+            "name": "Will Pallister",
+            "games": "22",
+            "wins": "17",
+            "weeklyWins": "2",
+            "runnersUp": "0",
+            "weeks": "5",
+            "score": "76"
+          },
+          {
+            "season": "2022/23",
+            "place": "9",
+            "name": "Will Pallister",
+            "games": "108",
+            "wins": "55",
+            "weeklyWins": "2",
+            "runnersUp": "2",
+            "weeks": "27",
+            "score": "285"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "4",
+            "name": "Will Pallister",
+            "team": "Squashy Balls",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
+          },
+          {
+            "season": "2025/26",
+            "place": "7",
+            "name": "Will Pallister",
+            "team": "Dobbinators",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          }
+        ]
+      }
+    },
+    "leo sharp": {
+      "name": "Leo Sharp",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "21",
+            "name": "Leo Sharp",
+            "games": "17",
+            "wins": "15",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "4",
+            "score": "108"
+          },
+          {
+            "season": "2025/26",
+            "place": "81",
+            "name": "Leo Sharp",
+            "games": "4",
+            "wins": "4",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "31"
+          }
+        ],
+        "juniorclubnight": [
+          {
+            "season": "2025/26",
+            "place": "16",
+            "name": "Leo Sharp",
+            "weeks": "2",
+            "score": "25"
+          },
+          {
+            "season": "2024/25",
+            "place": "16",
+            "name": "Leo Sharp",
+            "weeks": "1",
+            "score": "16"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Leo Sharp",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "9"
+          },
+          {
+            "season": "2024/25",
+            "place": "1",
+            "name": "Leo Sharp",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
+          }
+        ],
+        "generationcup": [
+          {
+            "season": "2024/25",
+            "place": "3",
+            "name": "Leo Sharp",
+            "score": "31"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "41",
+            "name": "Leo Sharp",
+            "seasons": "1",
+            "played": "1",
+            "won": "1",
+            "highBox": "5",
+            "points": "6",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "jack fisk": {
+      "name": "Jack Fisk",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "22",
+            "name": "Jack Fisk",
+            "games": "16",
+            "wins": "8",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "5",
+            "score": "108"
+          },
+          {
+            "season": "2025/26",
+            "place": "68",
+            "name": "Jack Fisk",
+            "games": "17",
             "wins": "7",
             "weeklyWins": "0",
             "runnersUp": "0",
             "weeks": "5",
-            "score": "64"
+            "score": "70"
+          },
+          {
+            "season": "2024/25",
+            "place": "22",
+            "name": "Jack Fisk",
+            "games": "64",
+            "wins": "32",
+            "weeklyWins": "3",
+            "runnersUp": "0",
+            "weeks": "17",
+            "score": "269"
           }
         ]
       }
@@ -1563,14 +1546,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "25",
+            "place": "23",
             "name": "Paul Barnard",
-            "games": "23",
-            "wins": "8",
+            "games": "30",
+            "wins": "11",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "6",
-            "score": "69"
+            "weeks": "8",
+            "score": "101"
           },
           {
             "season": "2025/26",
@@ -1663,215 +1646,20 @@
         ]
       }
     },
-    "will miller": {
-      "name": "Will Miller",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "26",
-            "name": "Will Miller",
-            "games": "21",
-            "wins": "13",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "5",
-            "score": "67"
-          },
-          {
-            "season": "2025/26",
-            "place": "10",
-            "name": "Will Miller",
-            "games": "126",
-            "wins": "48",
-            "weeklyWins": "4",
-            "runnersUp": "3",
-            "weeks": "31",
-            "score": "467"
-          },
-          {
-            "season": "2024/25",
-            "place": "100",
-            "name": "Will Miller",
-            "games": "5",
-            "wins": "5",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "19"
-          }
-        ],
-        "juniorclubnight": [
-          {
-            "season": "2025/26",
-            "place": "8",
-            "name": "Will Miller",
-            "weeks": "11",
-            "score": "109"
-          },
-          {
-            "season": "2024/25",
-            "place": "1",
-            "name": "Will Miller",
-            "weeks": "13",
-            "score": "121"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "3",
-            "name": "Will Miller",
-            "team": "Racket Raiders",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "0"
-          },
-          {
-            "season": "2024/25",
-            "place": "7",
-            "name": "Will Miller",
-            "team": "Court Crusaders",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "21"
-          }
-        ]
-      }
-    },
-    "ruth haggerty": {
-      "name": "Ruth Haggerty",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "27",
-            "name": "Ruth Haggerty",
-            "games": "19",
-            "wins": "7",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "5",
-            "score": "61"
-          },
-          {
-            "season": "2025/26",
-            "place": "16",
-            "name": "Ruth Haggerty",
-            "games": "91",
-            "wins": "45",
-            "weeklyWins": "4",
-            "runnersUp": "3",
-            "weeks": "24",
-            "score": "420"
-          },
-          {
-            "season": "2024/25",
-            "place": "15",
-            "name": "Ruth Haggerty",
-            "games": "84",
-            "wins": "35",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "21",
-            "score": "324"
-          },
-          {
-            "season": "2023/24",
-            "place": "12",
-            "name": "Ruth Haggerty",
-            "games": "127",
-            "wins": "59",
-            "weeklyWins": "1",
-            "runnersUp": "4",
-            "weeks": "30",
-            "score": "272"
-          },
-          {
-            "season": "2022/23",
-            "place": "3",
-            "name": "Ruth Haggerty",
-            "games": "163",
-            "wins": "89",
-            "weeklyWins": "3",
-            "runnersUp": "4",
-            "weeks": "39",
-            "score": "396"
-          }
-        ]
-      }
-    },
-    "mark sharp": {
-      "name": "Mark Sharp",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "28",
-            "name": "Mark Sharp",
-            "games": "11",
-            "wins": "7",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "3",
-            "score": "61"
-          },
-          {
-            "season": "2025/26",
-            "place": "65",
-            "name": "Mark Sharp",
-            "games": "15",
-            "wins": "10",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "4",
-            "score": "74"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "2",
-            "name": "Mark Sharp",
-            "team": "Abshooters",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "17"
-          },
-          {
-            "season": "2024/25",
-            "place": "1",
-            "name": "Mark Sharp",
-            "team": "Abshooters",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "87"
-          }
-        ],
-        "generationcup": [
-          {
-            "season": "2024/25",
-            "place": "3",
-            "name": "Mark Sharp",
-            "score": "31"
-          }
-        ]
-      }
-    },
     "dan green": {
       "name": "Dan Green",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "29",
+            "place": "24",
             "name": "Dan Green",
-            "games": "18",
-            "wins": "8",
+            "games": "26",
+            "wins": "13",
             "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "5",
-            "score": "58"
+            "runnersUp": "1",
+            "weeks": "7",
+            "score": "94"
           },
           {
             "season": "2025/26",
@@ -1984,383 +1772,77 @@
         ]
       }
     },
-    "pete birch": {
-      "name": "Pete Birch",
+    "ruth haggerty": {
+      "name": "Ruth Haggerty",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "30",
-            "name": "Pete Birch",
-            "games": "8",
-            "wins": "8",
-            "weeklyWins": "2",
-            "runnersUp": "",
-            "weeks": "2",
-            "score": "54"
-          }
-        ]
-      }
-    },
-    "scott wiltshire": {
-      "name": "Scott Wiltshire",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "31",
-            "name": "Scott Wiltshire",
-            "games": "11",
-            "wins": "8",
+            "place": "25",
+            "name": "Ruth Haggerty",
+            "games": "25",
+            "wins": "9",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "3",
-            "score": "53"
-          },
-          {
-            "season": "2024/25",
-            "place": "79",
-            "name": "Scott Wiltshire",
-            "games": "7",
-            "wins": "6",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "2",
-            "score": "42"
-          }
-        ]
-      }
-    },
-    "matt handy": {
-      "name": "Matt Handy",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "32",
-            "name": "Matt Handy",
-            "games": "22",
-            "wins": "8",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "5",
-            "score": "50"
+            "weeks": "7",
+            "score": "93"
           },
           {
             "season": "2025/26",
-            "place": "19",
-            "name": "Matt Handy",
-            "games": "93",
-            "wins": "46",
-            "weeklyWins": "5",
-            "runnersUp": "1",
-            "weeks": "25",
-            "score": "397"
-          },
-          {
-            "season": "2024/25",
-            "place": "9",
-            "name": "Matt Handy",
-            "games": "108",
-            "wins": "51",
-            "weeklyWins": "3",
-            "runnersUp": "2",
-            "weeks": "27",
-            "score": "387"
-          },
-          {
-            "season": "2023/24",
-            "place": "2",
-            "name": "Matt Handy",
-            "games": "165",
-            "wins": "76",
-            "weeklyWins": "4",
-            "runnersUp": "7",
-            "weeks": "42",
-            "score": "454"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "7",
-            "name": "Matt Handy",
-            "team": "Dobbinators",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "5"
-          }
-        ]
-      }
-    },
-    "sam homeyard": {
-      "name": "Sam Homeyard",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "33",
-            "name": "Sam Homeyard",
-            "games": "12",
-            "wins": "5",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "3",
-            "score": "43"
-          },
-          {
-            "season": "2025/26",
-            "place": "9",
-            "name": "Sam Homeyard",
-            "games": "110",
-            "wins": "52",
-            "weeklyWins": "3",
-            "runnersUp": "3",
-            "weeks": "28",
-            "score": "467"
-          },
-          {
-            "season": "2024/25",
-            "place": "1",
-            "name": "Sam Homeyard",
-            "games": "114",
-            "wins": "76",
-            "weeklyWins": "9",
-            "runnersUp": "3",
-            "weeks": "29",
-            "score": "555"
-          },
-          {
-            "season": "2023/24",
-            "place": "49",
-            "name": "Sam Homeyard",
-            "games": "13",
-            "wins": "8",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "3",
-            "score": "64"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "5",
-            "name": "Sam Homeyard",
-            "team": "Misshits",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "5"
-          },
-          {
-            "season": "2024/25",
-            "place": "2",
-            "name": "Sam Homeyard",
-            "team": "Misshits",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "74"
-          }
-        ]
-      }
-    },
-    "jonathan thompso": {
-      "name": "Jonathan Thompso",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "34",
-            "name": "Jonathan Thompso",
-            "games": "12",
-            "wins": "4",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "3",
-            "score": "42"
-          }
-        ]
-      }
-    },
-    "robbie hicks": {
-      "name": "Robbie Hicks",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "35",
-            "name": "Robbie Hicks",
-            "games": "12",
-            "wins": "4",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "4",
-            "score": "42"
-          },
-          {
-            "season": "2025/26",
-            "place": "38",
-            "name": "Robbie Hicks",
-            "games": "48",
-            "wins": "30",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "13",
-            "score": "234"
-          },
-          {
-            "season": "2024/25",
-            "place": "10",
-            "name": "Robbie Hicks",
-            "games": "95",
+            "place": "16",
+            "name": "Ruth Haggerty",
+            "games": "91",
             "wins": "45",
             "weeklyWins": "4",
-            "runnersUp": "0",
+            "runnersUp": "3",
             "weeks": "24",
-            "score": "367"
+            "score": "420"
+          },
+          {
+            "season": "2024/25",
+            "place": "15",
+            "name": "Ruth Haggerty",
+            "games": "84",
+            "wins": "35",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "21",
+            "score": "324"
           },
           {
             "season": "2023/24",
-            "place": "10",
-            "name": "Robbie Hicks",
-            "games": "90",
-            "wins": "50",
+            "place": "12",
+            "name": "Ruth Haggerty",
+            "games": "127",
+            "wins": "59",
+            "weeklyWins": "1",
+            "runnersUp": "4",
+            "weeks": "30",
+            "score": "272"
+          },
+          {
+            "season": "2022/23",
+            "place": "3",
+            "name": "Ruth Haggerty",
+            "games": "163",
+            "wins": "89",
             "weeklyWins": "3",
             "runnersUp": "4",
-            "weeks": "22",
-            "score": "279"
+            "weeks": "39",
+            "score": "396"
           }
         ],
-        "sltc": [
+        "boxleagues": [
           {
-            "season": "2024/25",
-            "place": "9",
-            "name": "Robbie Hicks",
-            "team": "Royal Navy",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "17"
-          }
-        ],
-        "racketballclubnight": [
-          {
-            "season": "2025/26",
-            "place": "13",
-            "name": "Robbie Hicks",
-            "score": "0"
-          }
-        ]
-      }
-    },
-    "bernard perry": {
-      "name": "Bernard Perry",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "36",
-            "name": "Bernard Perry",
-            "games": "6",
-            "wins": "4",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "2",
-            "score": "41"
-          },
-          {
-            "season": "2024/25",
-            "place": "111",
-            "name": "Bernard Perry",
-            "games": "4",
-            "wins": "1",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "7"
-          }
-        ]
-      }
-    },
-    "george aram": {
-      "name": "George Aram",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "37",
-            "name": "George Aram",
-            "games": "6",
-            "wins": "3",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "2",
-            "score": "38"
-          },
-          {
-            "season": "2025/26",
-            "place": "78",
-            "name": "George Aram",
-            "games": "16",
-            "wins": "4",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "4",
-            "score": "35"
-          }
-        ],
-        "racketballclubnight": [
-          {
-            "season": "2026/27",
-            "place": "8",
-            "name": "George Aram",
-            "score": "18"
-          }
-        ]
-      }
-    },
-    "paul holdway": {
-      "name": "Paul Holdway",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "38",
-            "name": "Paul Holdway",
-            "games": "6",
-            "wins": "5",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "2",
-            "score": "38"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "5",
-            "name": "Paul Holdway",
-            "team": "Misshits",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "4"
-          }
-        ]
-      }
-    },
-    "stanislav vilyuka": {
-      "name": "Stanislav Vilyuka",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "39",
-            "name": "Stanislav Vilyuka",
-            "games": "17",
-            "wins": "5",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "4",
-            "score": "37"
+            "season": "alltime",
+            "place": "12",
+            "name": "Ruth Haggerty",
+            "seasons": "6",
+            "played": "16",
+            "won": "3",
+            "highBox": "5",
+            "points": "40",
+            "leagueChampions": ""
           }
         ]
       }
@@ -2371,14 +1853,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "40",
+            "place": "26",
             "name": "Lai Man",
-            "games": "8",
-            "wins": "6",
-            "weeklyWins": "1",
+            "games": "14",
+            "wins": "9",
+            "weeklyWins": "2",
             "runnersUp": "",
-            "weeks": "2",
-            "score": "36"
+            "weeks": "4",
+            "score": "90"
           },
           {
             "season": "2025/26",
@@ -2457,80 +1939,306 @@
             "name": "Lai Man",
             "score": "0"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "32",
+            "name": "Lai Man",
+            "seasons": "2",
+            "played": "4",
+            "won": "2",
+            "highBox": "5",
+            "points": "14",
+            "leagueChampions": ""
+          }
         ]
       }
     },
-    "tess burton": {
-      "name": "Tess Burton",
+    "will miller": {
+      "name": "Will Miller",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "41",
-            "name": "Tess Burton",
-            "games": "9",
-            "wins": "4",
-            "weeklyWins": "",
+            "place": "27",
+            "name": "Will Miller",
+            "games": "25",
+            "wins": "14",
+            "weeklyWins": "1",
             "runnersUp": "",
-            "weeks": "3",
-            "score": "36"
+            "weeks": "6",
+            "score": "86"
           },
           {
             "season": "2025/26",
-            "place": "50",
-            "name": "Tess Burton",
-            "games": "44",
-            "wins": "17",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "12",
-            "score": "195"
+            "place": "10",
+            "name": "Will Miller",
+            "games": "126",
+            "wins": "48",
+            "weeklyWins": "4",
+            "runnersUp": "3",
+            "weeks": "31",
+            "score": "467"
           },
           {
             "season": "2024/25",
-            "place": "16",
-            "name": "Tess Burton",
-            "games": "80",
-            "wins": "41",
-            "weeklyWins": "2",
-            "runnersUp": "2",
-            "weeks": "21",
-            "score": "323"
-          },
-          {
-            "season": "2023/24",
-            "place": "16",
-            "name": "Tess Burton",
-            "games": "65",
-            "wins": "39",
-            "weeklyWins": "2",
-            "runnersUp": "2",
-            "weeks": "16",
-            "score": "204"
+            "place": "100",
+            "name": "Will Miller",
+            "games": "5",
+            "wins": "5",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "19"
           }
         ],
         "juniorclubnight": [
           {
             "season": "2025/26",
-            "place": "18",
-            "name": "Tess Burton",
-            "weeks": "2",
-            "score": "20"
+            "place": "8",
+            "name": "Will Miller",
+            "weeks": "11",
+            "score": "109"
           },
           {
             "season": "2024/25",
-            "place": "12",
-            "name": "Tess Burton",
-            "weeks": "4",
-            "score": "35"
+            "place": "1",
+            "name": "Will Miller",
+            "weeks": "13",
+            "score": "121"
           }
         ],
-        "generationcup": [
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "3",
+            "name": "Will Miller",
+            "team": "Racket Raiders",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "0"
+          },
+          {
+            "season": "2024/25",
+            "place": "7",
+            "name": "Will Miller",
+            "team": "Court Crusaders",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "38",
+            "name": "Will Miller",
+            "seasons": "1",
+            "played": "2",
+            "won": "1",
+            "highBox": "4",
+            "points": "7",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "jon nation": {
+      "name": "Jon Nation",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "28",
+            "name": "Jon Nation",
+            "games": "20",
+            "wins": "9",
+            "weeklyWins": "0",
+            "runnersUp": "1",
+            "weeks": "5",
+            "score": "83"
+          },
+          {
+            "season": "2025/26",
+            "place": "26",
+            "name": "Jon Nation",
+            "games": "77",
+            "wins": "32",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "20",
+            "score": "340"
+          },
+          {
+            "season": "2024/25",
+            "place": "107",
+            "name": "Jon Nation",
+            "games": "5",
+            "wins": "2",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "9"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Jon Nation",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
+          }
+        ]
+      }
+    },
+    "sam homeyard": {
+      "name": "Sam Homeyard",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "29",
+            "name": "Sam Homeyard",
+            "games": "24",
+            "wins": "10",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "6",
+            "score": "76"
+          },
+          {
+            "season": "2025/26",
+            "place": "9",
+            "name": "Sam Homeyard",
+            "games": "110",
+            "wins": "52",
+            "weeklyWins": "3",
+            "runnersUp": "3",
+            "weeks": "28",
+            "score": "467"
+          },
+          {
+            "season": "2024/25",
+            "place": "1",
+            "name": "Sam Homeyard",
+            "games": "114",
+            "wins": "76",
+            "weeklyWins": "9",
+            "runnersUp": "3",
+            "weeks": "29",
+            "score": "555"
+          },
+          {
+            "season": "2023/24",
+            "place": "49",
+            "name": "Sam Homeyard",
+            "games": "13",
+            "wins": "8",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "3",
+            "score": "64"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "5",
+            "name": "Sam Homeyard",
+            "team": "Misshits",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
+          },
           {
             "season": "2024/25",
             "place": "2",
-            "name": "Tess Burton",
-            "score": "35"
+            "name": "Sam Homeyard",
+            "team": "Misshits",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "35",
+            "name": "Sam Homeyard",
+            "seasons": "3",
+            "played": "4",
+            "won": "1",
+            "highBox": "4",
+            "points": "11",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "simon carr": {
+      "name": "Simon Carr",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "30",
+            "name": "Simon Carr",
+            "games": "14",
+            "wins": "9",
+            "weeklyWins": "",
+            "runnersUp": "1",
+            "weeks": "4",
+            "score": "72"
+          },
+          {
+            "season": "2025/26",
+            "place": "71",
+            "name": "Simon Carr",
+            "games": "10",
+            "wins": "6",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "3",
+            "score": "52"
+          },
+          {
+            "season": "2024/25",
+            "place": "48",
+            "name": "Simon Carr",
+            "games": "26",
+            "wins": "11",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "7",
+            "score": "104"
+          },
+          {
+            "season": "2023/24",
+            "place": "48",
+            "name": "Simon Carr",
+            "games": "18",
+            "wins": "7",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "5",
+            "score": "64"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "43",
+            "name": "Simon Carr",
+            "seasons": "1",
+            "played": "1",
+            "won": "0",
+            "highBox": "2",
+            "points": "3",
+            "leagueChampions": ""
           }
         ]
       }
@@ -2541,14 +2249,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "42",
+            "place": "31",
             "name": "Owen Yeates",
-            "games": "8",
-            "wins": "5",
+            "games": "11",
+            "wins": "7",
             "weeklyWins": "",
             "runnersUp": "1",
-            "weeks": "2",
-            "score": "36"
+            "weeks": "3",
+            "score": "63"
           },
           {
             "season": "2025/26",
@@ -2597,20 +2305,95 @@
         ]
       }
     },
+    "mark sharp": {
+      "name": "Mark Sharp",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "32",
+            "name": "Mark Sharp",
+            "games": "11",
+            "wins": "7",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "3",
+            "score": "61"
+          },
+          {
+            "season": "2025/26",
+            "place": "65",
+            "name": "Mark Sharp",
+            "games": "15",
+            "wins": "10",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "4",
+            "score": "74"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "2",
+            "name": "Mark Sharp",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
+          },
+          {
+            "season": "2024/25",
+            "place": "1",
+            "name": "Mark Sharp",
+            "team": "Abshooters",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "87"
+          }
+        ],
+        "generationcup": [
+          {
+            "season": "2024/25",
+            "place": "3",
+            "name": "Mark Sharp",
+            "score": "31"
+          }
+        ]
+      }
+    },
+    "pete birch": {
+      "name": "Pete Birch",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "33",
+            "name": "Pete Birch",
+            "games": "8",
+            "wins": "8",
+            "weeklyWins": "2",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "54"
+          }
+        ]
+      }
+    },
     "ewan wykeham-martin": {
       "name": "Ewan Wykeham-Martin",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "43",
+            "place": "34",
             "name": "Ewan Wykeham-Martin",
-            "games": "13",
-            "wins": "6",
+            "games": "21",
+            "wins": "8",
             "weeklyWins": "",
             "runnersUp": "1",
-            "weeks": "3",
-            "score": "34"
+            "weeks": "5",
+            "score": "54"
           },
           {
             "season": "2025/26",
@@ -2663,121 +2446,47 @@
             "matchesPlayed": "",
             "points": "4"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "5",
+            "name": "Ewan Wykeham-Martin",
+            "seasons": "6",
+            "played": "15",
+            "won": "9",
+            "highBox": "2",
+            "points": "58",
+            "leagueChampions": ""
+          }
         ]
       }
     },
-    "phoebe dobbin": {
-      "name": "Phoebe Dobbin",
+    "scott wiltshire": {
+      "name": "Scott Wiltshire",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "44",
-            "name": "Phoebe Dobbin",
-            "games": "4",
-            "wins": "2",
+            "place": "35",
+            "name": "Scott Wiltshire",
+            "games": "11",
+            "wins": "8",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "1",
-            "score": "29"
+            "weeks": "3",
+            "score": "53"
           },
           {
-            "season": "2025/26",
-            "place": "76",
-            "name": "Phoebe Dobbin",
-            "games": "6",
+            "season": "2024/25",
+            "place": "79",
+            "name": "Scott Wiltshire",
+            "games": "7",
             "wins": "6",
             "weeklyWins": "1",
             "runnersUp": "0",
             "weeks": "2",
-            "score": "41"
-          },
-          {
-            "season": "2023/24",
-            "place": "34",
-            "name": "Phoebe Dobbin",
-            "games": "41",
-            "wins": "23",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "10",
-            "score": "112"
-          }
-        ],
-        "juniorclubnight": [
-          {
-            "season": "2024/25",
-            "place": "10",
-            "name": "Phoebe Dobbin",
-            "weeks": "6",
-            "score": "60"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "7",
-            "name": "Phoebe Dobbin",
-            "team": "Dobbinators",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "4"
-          },
-          {
-            "season": "2024/25",
-            "place": "3",
-            "name": "Phoebe Dobbin",
-            "team": "Dobbinators",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "50"
-          },
-          {
-            "season": "2024/25",
-            "place": "7",
-            "name": "Phoebe Dobbin",
-            "team": "Court Crusaders",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "21"
-          }
-        ],
-        "generationcup": [
-          {
-            "season": "2026/27",
-            "place": "1",
-            "name": "Phoebe Dobbin",
-            "score": "0"
-          },
-          {
-            "season": "2025/26",
-            "place": "5",
-            "name": "Phoebe Dobbin",
-            "score": "21"
-          },
-          {
-            "season": "2024/25",
-            "place": "4",
-            "name": "Phoebe Dobbin",
-            "score": "30"
-          }
-        ]
-      }
-    },
-    "sunjina nepal": {
-      "name": "Sunjina Nepal",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "45",
-            "name": "Sunjina Nepal",
-            "games": "4",
-            "wins": "4",
-            "weeklyWins": "1",
-            "runnersUp": "",
-            "weeks": "1",
-            "score": "28"
+            "score": "42"
           }
         ]
       }
@@ -2788,14 +2497,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "46",
+            "place": "36",
             "name": "Rob Docker",
-            "games": "7",
-            "wins": "4",
+            "games": "10",
+            "wins": "6",
             "weeklyWins": "1",
             "runnersUp": "",
-            "weeks": "2",
-            "score": "26"
+            "weeks": "3",
+            "score": "53"
           },
           {
             "season": "2025/26",
@@ -2844,42 +2553,293 @@
             "name": "Rob Docker",
             "score": "16"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "27",
+            "name": "Rob Docker",
+            "seasons": "2",
+            "played": "6",
+            "won": "2",
+            "highBox": "4",
+            "points": "19",
+            "leagueChampions": ""
+          }
         ]
       }
     },
-    "gary shirley": {
-      "name": "Gary Shirley",
+    "matt handy": {
+      "name": "Matt Handy",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "47",
-            "name": "Gary Shirley",
-            "games": "8",
-            "wins": "2",
+            "place": "37",
+            "name": "Matt Handy",
+            "games": "22",
+            "wins": "8",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "2",
-            "score": "24"
+            "weeks": "5",
+            "score": "50"
           },
           {
             "season": "2025/26",
-            "place": "75",
-            "name": "Gary Shirley",
-            "games": "7",
+            "place": "19",
+            "name": "Matt Handy",
+            "games": "93",
+            "wins": "46",
+            "weeklyWins": "5",
+            "runnersUp": "1",
+            "weeks": "25",
+            "score": "397"
+          },
+          {
+            "season": "2024/25",
+            "place": "9",
+            "name": "Matt Handy",
+            "games": "108",
+            "wins": "51",
+            "weeklyWins": "3",
+            "runnersUp": "2",
+            "weeks": "27",
+            "score": "387"
+          },
+          {
+            "season": "2023/24",
+            "place": "2",
+            "name": "Matt Handy",
+            "games": "165",
+            "wins": "76",
+            "weeklyWins": "4",
+            "runnersUp": "7",
+            "weeks": "42",
+            "score": "454"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "7",
+            "name": "Matt Handy",
+            "team": "Dobbinators",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "5"
+          }
+        ]
+      }
+    },
+    "jonathan thompso": {
+      "name": "Jonathan Thompso",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "38",
+            "name": "Jonathan Thompso",
+            "games": "16",
+            "wins": "5",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "4",
+            "score": "47"
+          }
+        ]
+      }
+    },
+    "bernard perry": {
+      "name": "Bernard Perry",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "39",
+            "name": "Bernard Perry",
+            "games": "8",
             "wins": "5",
             "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "3",
+            "score": "46"
+          },
+          {
+            "season": "2024/25",
+            "place": "111",
+            "name": "Bernard Perry",
+            "games": "4",
+            "wins": "1",
+            "weeklyWins": "0",
             "runnersUp": "0",
-            "weeks": "2",
+            "weeks": "1",
+            "score": "7"
+          }
+        ]
+      }
+    },
+    "jack waterman": {
+      "name": "Jack Waterman",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "40",
+            "name": "Jack Waterman",
+            "games": "16",
+            "wins": "4",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "4",
+            "score": "44"
+          }
+        ]
+      }
+    },
+    "robbie hicks": {
+      "name": "Robbie Hicks",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "41",
+            "name": "Robbie Hicks",
+            "games": "12",
+            "wins": "4",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "4",
             "score": "42"
+          },
+          {
+            "season": "2025/26",
+            "place": "38",
+            "name": "Robbie Hicks",
+            "games": "48",
+            "wins": "30",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "13",
+            "score": "234"
+          },
+          {
+            "season": "2024/25",
+            "place": "10",
+            "name": "Robbie Hicks",
+            "games": "95",
+            "wins": "45",
+            "weeklyWins": "4",
+            "runnersUp": "0",
+            "weeks": "24",
+            "score": "367"
+          },
+          {
+            "season": "2023/24",
+            "place": "10",
+            "name": "Robbie Hicks",
+            "games": "90",
+            "wins": "50",
+            "weeklyWins": "3",
+            "runnersUp": "4",
+            "weeks": "22",
+            "score": "279"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2024/25",
+            "place": "9",
+            "name": "Robbie Hicks",
+            "team": "Royal Navy",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
           }
         ],
         "racketballclubnight": [
           {
+            "season": "2025/26",
+            "place": "13",
+            "name": "Robbie Hicks",
+            "score": "0"
+          }
+        ]
+      }
+    },
+    "ely donnachie": {
+      "name": "Ely Donnachie",
+      "competitions": {
+        "peteroberts": [
+          {
             "season": "2026/27",
-            "place": "7",
-            "name": "Gary Shirley",
-            "score": "25"
+            "place": "42",
+            "name": "Ely Donnachie",
+            "games": "8",
+            "wins": "6",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "41"
+          },
+          {
+            "season": "2025/26",
+            "place": "29",
+            "name": "Ely Donnachie",
+            "games": "74",
+            "wins": "40",
+            "weeklyWins": "4",
+            "runnersUp": "2",
+            "weeks": "18",
+            "score": "327"
+          },
+          {
+            "season": "2024/25",
+            "place": "50",
+            "name": "Ely Donnachie",
+            "games": "27",
+            "wins": "12",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "7",
+            "score": "99"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "9",
+            "name": "Ely Donnachie",
+            "team": "Glendales",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "3"
+          },
+          {
+            "season": "2024/25",
+            "place": "4",
+            "name": "Ely Donnachie",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
+          }
+        ]
+      }
+    },
+    "stanislav vilyuka": {
+      "name": "Stanislav Vilyuka",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "43",
+            "name": "Stanislav Vilyuka",
+            "games": "21",
+            "wins": "6",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "5",
+            "score": "40"
           }
         ]
       }
@@ -2890,14 +2850,14 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "48",
+            "place": "44",
             "name": "Jake Barnard",
-            "games": "6",
-            "wins": "2",
+            "games": "9",
+            "wins": "3",
             "weeklyWins": "",
             "runnersUp": "",
-            "weeks": "2",
-            "score": "24"
+            "weeks": "3",
+            "score": "39"
           },
           {
             "season": "2025/26",
@@ -3012,20 +2972,433 @@
         ]
       }
     },
+    "george aram": {
+      "name": "George Aram",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "45",
+            "name": "George Aram",
+            "games": "6",
+            "wins": "3",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "38"
+          },
+          {
+            "season": "2025/26",
+            "place": "78",
+            "name": "George Aram",
+            "games": "16",
+            "wins": "4",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "4",
+            "score": "35"
+          }
+        ],
+        "racketballclubnight": [
+          {
+            "season": "2026/27",
+            "place": "8",
+            "name": "George Aram",
+            "score": "18"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "28",
+            "name": "George Aram",
+            "seasons": "3",
+            "played": "6",
+            "won": "2",
+            "highBox": "2",
+            "points": "16",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "paul holdway": {
+      "name": "Paul Holdway",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "46",
+            "name": "Paul Holdway",
+            "games": "6",
+            "wins": "5",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "38"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "5",
+            "name": "Paul Holdway",
+            "team": "Misshits",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
+          }
+        ]
+      }
+    },
+    "tess burton": {
+      "name": "Tess Burton",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "47",
+            "name": "Tess Burton",
+            "games": "9",
+            "wins": "4",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "3",
+            "score": "36"
+          },
+          {
+            "season": "2025/26",
+            "place": "50",
+            "name": "Tess Burton",
+            "games": "44",
+            "wins": "17",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "12",
+            "score": "195"
+          },
+          {
+            "season": "2024/25",
+            "place": "16",
+            "name": "Tess Burton",
+            "games": "80",
+            "wins": "41",
+            "weeklyWins": "2",
+            "runnersUp": "2",
+            "weeks": "21",
+            "score": "323"
+          },
+          {
+            "season": "2023/24",
+            "place": "16",
+            "name": "Tess Burton",
+            "games": "65",
+            "wins": "39",
+            "weeklyWins": "2",
+            "runnersUp": "2",
+            "weeks": "16",
+            "score": "204"
+          }
+        ],
+        "juniorclubnight": [
+          {
+            "season": "2025/26",
+            "place": "18",
+            "name": "Tess Burton",
+            "weeks": "2",
+            "score": "20"
+          },
+          {
+            "season": "2024/25",
+            "place": "12",
+            "name": "Tess Burton",
+            "weeks": "4",
+            "score": "35"
+          }
+        ],
+        "generationcup": [
+          {
+            "season": "2024/25",
+            "place": "2",
+            "name": "Tess Burton",
+            "score": "35"
+          }
+        ]
+      }
+    },
+    "sunny creasey": {
+      "name": "Sunny Creasey",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "48",
+            "name": "Sunny Creasey",
+            "games": "6",
+            "wins": "3",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "34"
+          },
+          {
+            "season": "2025/26",
+            "place": "93",
+            "name": "Sunny Creasey",
+            "games": "4",
+            "wins": "2",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "17"
+          },
+          {
+            "season": "2024/25",
+            "place": "86",
+            "name": "Sunny Creasey",
+            "games": "4",
+            "wins": "4",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "32"
+          },
+          {
+            "season": "2023/24",
+            "place": "82",
+            "name": "Sunny Creasey",
+            "games": "7",
+            "wins": "4",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "2",
+            "score": "21"
+          },
+          {
+            "season": "2018/19",
+            "place": "31",
+            "name": "Sunny Creasey",
+            "games": "4",
+            "wins": "4",
+            "weeklyWins": "4",
+            "runnersUp": "0",
+            "weeks": "4",
+            "score": "16"
+          },
+          {
+            "season": "2017/18",
+            "place": "17",
+            "name": "Sunny Creasey",
+            "games": "23",
+            "wins": "13",
+            "weeklyWins": "5",
+            "runnersUp": "0",
+            "weeks": "8",
+            "score": "34"
+          },
+          {
+            "season": "2016/17",
+            "place": "15",
+            "name": "Sunny Creasey",
+            "games": "38",
+            "wins": "20",
+            "weeklyWins": "3",
+            "runnersUp": "3",
+            "weeks": "12",
+            "score": "42"
+          },
+          {
+            "season": "2015/16",
+            "place": "13",
+            "name": "Sunny Creasey",
+            "games": "69",
+            "wins": "48",
+            "weeklyWins": "8",
+            "runnersUp": "0",
+            "weeks": "16",
+            "score": "96"
+          },
+          {
+            "season": "2014/15",
+            "place": "11",
+            "name": "Sunny Creasey",
+            "games": "48",
+            "wins": "37",
+            "weeklyWins": "5",
+            "runnersUp": "2",
+            "weeks": "13",
+            "score": "80"
+          }
+        ]
+      }
+    },
+    "phoebe dobbin": {
+      "name": "Phoebe Dobbin",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "49",
+            "name": "Phoebe Dobbin",
+            "games": "4",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "29"
+          },
+          {
+            "season": "2025/26",
+            "place": "76",
+            "name": "Phoebe Dobbin",
+            "games": "6",
+            "wins": "6",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "2",
+            "score": "41"
+          },
+          {
+            "season": "2023/24",
+            "place": "34",
+            "name": "Phoebe Dobbin",
+            "games": "41",
+            "wins": "23",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "10",
+            "score": "112"
+          }
+        ],
+        "juniorclubnight": [
+          {
+            "season": "2024/25",
+            "place": "10",
+            "name": "Phoebe Dobbin",
+            "weeks": "6",
+            "score": "60"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "7",
+            "name": "Phoebe Dobbin",
+            "team": "Dobbinators",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "4"
+          },
+          {
+            "season": "2024/25",
+            "place": "3",
+            "name": "Phoebe Dobbin",
+            "team": "Dobbinators",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "50"
+          },
+          {
+            "season": "2024/25",
+            "place": "7",
+            "name": "Phoebe Dobbin",
+            "team": "Court Crusaders",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "21"
+          }
+        ],
+        "generationcup": [
+          {
+            "season": "2026/27",
+            "place": "1",
+            "name": "Phoebe Dobbin",
+            "score": "0"
+          },
+          {
+            "season": "2025/26",
+            "place": "5",
+            "name": "Phoebe Dobbin",
+            "score": "21"
+          },
+          {
+            "season": "2024/25",
+            "place": "4",
+            "name": "Phoebe Dobbin",
+            "score": "30"
+          }
+        ]
+      }
+    },
+    "sunjina nepal": {
+      "name": "Sunjina Nepal",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "50",
+            "name": "Sunjina Nepal",
+            "games": "4",
+            "wins": "4",
+            "weeklyWins": "1",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "28"
+          }
+        ]
+      }
+    },
     "xander ehrhardt": {
       "name": "Xander Ehrhardt",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "49",
+            "place": "51",
             "name": "Xander Ehrhardt",
-            "games": "7",
+            "games": "11",
             "wins": "3",
             "weeklyWins": "",
             "runnersUp": "",
+            "weeks": "3",
+            "score": "25"
+          }
+        ]
+      }
+    },
+    "gary shirley": {
+      "name": "Gary Shirley",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "52",
+            "name": "Gary Shirley",
+            "games": "8",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "",
             "weeks": "2",
-            "score": "22"
+            "score": "24"
+          },
+          {
+            "season": "2025/26",
+            "place": "75",
+            "name": "Gary Shirley",
+            "games": "7",
+            "wins": "5",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "2",
+            "score": "42"
+          }
+        ],
+        "racketballclubnight": [
+          {
+            "season": "2026/27",
+            "place": "7",
+            "name": "Gary Shirley",
+            "score": "25"
           }
         ]
       }
@@ -3036,7 +3409,7 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "50",
+            "place": "53",
             "name": "Ciaran O'Brien",
             "games": "4",
             "wins": "2",
@@ -3105,7 +3478,7 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "51",
+            "place": "54",
             "name": "Dominic Buckley",
             "games": "12",
             "wins": "4",
@@ -3170,31 +3543,13 @@
         ]
       }
     },
-    "jack waterman": {
-      "name": "Jack Waterman",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "52",
-            "name": "Jack Waterman",
-            "games": "8",
-            "wins": "2",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "2",
-            "score": "18"
-          }
-        ]
-      }
-    },
     "becca house": {
       "name": "Becca House",
       "competitions": {
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "53",
+            "place": "55",
             "name": "Becca House",
             "games": "4",
             "wins": "3",
@@ -3333,7 +3688,7 @@
         "peteroberts": [
           {
             "season": "2026/27",
-            "place": "54",
+            "place": "56",
             "name": "Didier Dejean",
             "games": "4",
             "wins": "1",
@@ -3363,172 +3718,6 @@
             "runnersUp": "0",
             "weeks": "2",
             "score": "36"
-          }
-        ]
-      }
-    },
-    "ely donnachie": {
-      "name": "Ely Donnachie",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "55",
-            "name": "Ely Donnachie",
-            "games": "4",
-            "wins": "2",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "1",
-            "score": "10"
-          },
-          {
-            "season": "2025/26",
-            "place": "29",
-            "name": "Ely Donnachie",
-            "games": "74",
-            "wins": "40",
-            "weeklyWins": "4",
-            "runnersUp": "2",
-            "weeks": "18",
-            "score": "327"
-          },
-          {
-            "season": "2024/25",
-            "place": "50",
-            "name": "Ely Donnachie",
-            "games": "27",
-            "wins": "12",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "7",
-            "score": "99"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "9",
-            "name": "Ely Donnachie",
-            "team": "Glendales",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "3"
-          },
-          {
-            "season": "2024/25",
-            "place": "4",
-            "name": "Ely Donnachie",
-            "team": "Racket Rebels",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "42"
-          }
-        ]
-      }
-    },
-    "sunny creasey": {
-      "name": "Sunny Creasey",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2026/27",
-            "place": "56",
-            "name": "Sunny Creasey",
-            "games": "3",
-            "wins": "1",
-            "weeklyWins": "",
-            "runnersUp": "",
-            "weeks": "1",
-            "score": "7"
-          },
-          {
-            "season": "2025/26",
-            "place": "93",
-            "name": "Sunny Creasey",
-            "games": "4",
-            "wins": "2",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "17"
-          },
-          {
-            "season": "2024/25",
-            "place": "86",
-            "name": "Sunny Creasey",
-            "games": "4",
-            "wins": "4",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "32"
-          },
-          {
-            "season": "2023/24",
-            "place": "82",
-            "name": "Sunny Creasey",
-            "games": "7",
-            "wins": "4",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "2",
-            "score": "21"
-          },
-          {
-            "season": "2018/19",
-            "place": "31",
-            "name": "Sunny Creasey",
-            "games": "4",
-            "wins": "4",
-            "weeklyWins": "4",
-            "runnersUp": "0",
-            "weeks": "4",
-            "score": "16"
-          },
-          {
-            "season": "2017/18",
-            "place": "17",
-            "name": "Sunny Creasey",
-            "games": "23",
-            "wins": "13",
-            "weeklyWins": "5",
-            "runnersUp": "0",
-            "weeks": "8",
-            "score": "34"
-          },
-          {
-            "season": "2016/17",
-            "place": "15",
-            "name": "Sunny Creasey",
-            "games": "38",
-            "wins": "20",
-            "weeklyWins": "3",
-            "runnersUp": "3",
-            "weeks": "12",
-            "score": "42"
-          },
-          {
-            "season": "2015/16",
-            "place": "13",
-            "name": "Sunny Creasey",
-            "games": "69",
-            "wins": "48",
-            "weeklyWins": "8",
-            "runnersUp": "0",
-            "weeks": "16",
-            "score": "96"
-          },
-          {
-            "season": "2014/15",
-            "place": "11",
-            "name": "Sunny Creasey",
-            "games": "48",
-            "wins": "37",
-            "weeklyWins": "5",
-            "runnersUp": "2",
-            "weeks": "13",
-            "score": "80"
           }
         ]
       }
@@ -3684,6 +3873,19 @@
             "name": "Geoff Balko",
             "score": "0"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "44",
+            "name": "Geoff Balko",
+            "seasons": "1",
+            "played": "2",
+            "won": "0",
+            "highBox": "5",
+            "points": "3",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -3749,6 +3951,19 @@
             "place": "17",
             "name": "Alex Kershaw",
             "score": "10"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "39",
+            "name": "Alex Kershaw",
+            "seasons": "1",
+            "played": "1",
+            "won": "1",
+            "highBox": "2",
+            "points": "6",
+            "leagueChampions": ""
           }
         ]
       }
@@ -3816,10 +4031,83 @@
         ]
       }
     },
+    "george downing": {
+      "name": "George Downing",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "61",
+            "name": "George Downing",
+            "games": "11",
+            "wins": "9",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "3",
+            "score": "73"
+          },
+          {
+            "season": "2017/18",
+            "place": "21",
+            "name": "George Downing",
+            "games": "19",
+            "wins": "15",
+            "weeklyWins": "3",
+            "runnersUp": "0",
+            "weeks": "5",
+            "score": "26"
+          },
+          {
+            "season": "2016/17",
+            "place": "9",
+            "name": "George Downing",
+            "games": "53",
+            "wins": "29",
+            "weeklyWins": "7",
+            "runnersUp": "4",
+            "weeks": "18",
+            "score": "68"
+          },
+          {
+            "season": "2015/16",
+            "place": "19",
+            "name": "George Downing",
+            "games": "79",
+            "wins": "42",
+            "weeklyWins": "1",
+            "runnersUp": "4",
+            "weeks": "19",
+            "score": "77"
+          },
+          {
+            "season": "2014/15",
+            "place": "31",
+            "name": "George Downing",
+            "games": "20",
+            "wins": "8",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "6",
+            "score": "27"
+          }
+        ]
+      }
+    },
     "ben gilbert": {
       "name": "Ben Gilbert",
       "competitions": {
         "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "62",
+            "name": "Ben Gilbert",
+            "games": "7",
+            "wins": "3",
+            "weeklyWins": "",
+            "runnersUp": "1",
+            "weeks": "2",
+            "score": "28"
+          },
           {
             "season": "2025/26",
             "place": "12",
@@ -3852,6 +4140,600 @@
             "eventsPlayed": "",
             "matchesPlayed": "",
             "points": "3"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "40",
+            "name": "Ben Gilbert",
+            "seasons": "1",
+            "played": "1",
+            "won": "1",
+            "highBox": "4",
+            "points": "6",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "ted ironside-smith": {
+      "name": "Ted Ironside-Smith",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "63",
+            "name": "Ted Ironside-Smith",
+            "games": "4",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "17"
+          },
+          {
+            "season": "2025/26",
+            "place": "28",
+            "name": "Ted Ironside-Smith",
+            "games": "77",
+            "wins": "31",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "18",
+            "score": "328"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "8",
+            "name": "Ted Ironside-Smith",
+            "team": "Wednesday Bar Boozers",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "6"
+          },
+          {
+            "season": "2024/25",
+            "place": "2",
+            "name": "Ted Ironside-Smith",
+            "team": "Misshits",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "74"
+          }
+        ],
+        "racketballclubnight": [
+          {
+            "season": "2026/27",
+            "place": "11",
+            "name": "Ted Ironside-Smith",
+            "score": "8"
+          }
+        ]
+      }
+    },
+    "dave cale": {
+      "name": "Dave Cale",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "64",
+            "name": "Dave Cale",
+            "games": "8",
+            "wins": "4",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "32"
+          }
+        ]
+      }
+    },
+    "oscar littlefield": {
+      "name": "Oscar Littlefield",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "65",
+            "name": "Oscar Littlefield",
+            "games": "3",
+            "wins": "1",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "11"
+          },
+          {
+            "season": "2025/26",
+            "place": "30",
+            "name": "Oscar Littlefield",
+            "games": "75",
+            "wins": "35",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "19",
+            "score": "320"
+          },
+          {
+            "season": "2024/25",
+            "place": "83",
+            "name": "Oscar Littlefield",
+            "games": "8",
+            "wins": "6",
+            "weeklyWins": "0",
+            "runnersUp": "1",
+            "weeks": "2",
+            "score": "35"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2024/25",
+            "place": "4",
+            "name": "Oscar Littlefield",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
+          }
+        ]
+      }
+    },
+    "seb pilling": {
+      "name": "Seb Pilling",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "66",
+            "name": "Seb Pilling",
+            "games": "4",
+            "wins": "1",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "5"
+          }
+        ],
+        "generationcup": [
+          {
+            "season": "2024/25",
+            "place": "10",
+            "name": "Seb Pilling",
+            "score": "19"
+          }
+        ]
+      }
+    },
+    "joel browring": {
+      "name": "Joel Browring",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "67",
+            "name": "Joel Browring",
+            "games": "6",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "42"
+          }
+        ]
+      }
+    },
+    "luke addington": {
+      "name": "Luke Addington",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "68",
+            "name": "Luke Addington",
+            "games": "3",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "27"
+          }
+        ]
+      }
+    },
+    "mike catterall": {
+      "name": "Mike Catterall",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "69",
+            "name": "Mike Catterall",
+            "games": "3",
+            "wins": "1",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "19"
+          },
+          {
+            "season": "2025/26",
+            "place": "33",
+            "name": "Mike Catterall",
+            "games": "72",
+            "wins": "38",
+            "weeklyWins": "3",
+            "runnersUp": "0",
+            "weeks": "17",
+            "score": "272"
+          },
+          {
+            "season": "2024/25",
+            "place": "23",
+            "name": "Mike Catterall",
+            "games": "60",
+            "wins": "33",
+            "weeklyWins": "2",
+            "runnersUp": "1",
+            "weeks": "16",
+            "score": "269"
+          },
+          {
+            "season": "2023/24",
+            "place": "9",
+            "name": "Mike Catterall",
+            "games": "97",
+            "wins": "54",
+            "weeklyWins": "3",
+            "runnersUp": "3",
+            "weeks": "25",
+            "score": "280"
+          },
+          {
+            "season": "2022/23",
+            "place": "17",
+            "name": "Mike Catterall",
+            "games": "80",
+            "wins": "41",
+            "weeklyWins": "3",
+            "runnersUp": "0",
+            "weeks": "16",
+            "score": "199"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "10",
+            "name": "Mike Catterall",
+            "team": "Teamless",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "8"
+          },
+          {
+            "season": "2024/25",
+            "place": "6",
+            "name": "Mike Catterall",
+            "team": "Across The Generations",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "38"
+          }
+        ],
+        "racketballclubnight": [
+          {
+            "season": "2025/26",
+            "place": "10",
+            "name": "Mike Catterall",
+            "score": "1"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "18",
+            "name": "Mike Catterall",
+            "seasons": "4",
+            "played": "7",
+            "won": "5",
+            "highBox": "3",
+            "points": "32",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "gregor house": {
+      "name": "Gregor House",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "70",
+            "name": "Gregor House",
+            "games": "7",
+            "wins": "4",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "2",
+            "score": "32"
+          },
+          {
+            "season": "2023/24",
+            "place": "94",
+            "name": "Gregor House",
+            "games": "9",
+            "wins": "3",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "2",
+            "score": "15"
+          },
+          {
+            "season": "2022/23",
+            "place": "39",
+            "name": "Gregor House",
+            "games": "18",
+            "wins": "11",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "5",
+            "score": "84"
+          },
+          {
+            "season": "2018/19",
+            "place": "11",
+            "name": "Gregor House",
+            "games": "31",
+            "wins": "24",
+            "weeklyWins": "2",
+            "runnersUp": "2",
+            "weeks": "7",
+            "score": "69"
+          },
+          {
+            "season": "2017/18",
+            "place": "26",
+            "name": "Gregor House",
+            "games": "8",
+            "wins": "6",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "2",
+            "score": "11"
+          },
+          {
+            "season": "2016/17",
+            "place": "29",
+            "name": "Gregor House",
+            "games": "9",
+            "wins": "8",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "2",
+            "score": "13"
+          },
+          {
+            "season": "2015/16",
+            "place": "1",
+            "name": "Gregor House",
+            "games": "152",
+            "wins": "86",
+            "weeklyWins": "7",
+            "runnersUp": "5",
+            "weeks": "36",
+            "score": "149"
+          },
+          {
+            "season": "2014/15",
+            "place": "6",
+            "name": "Gregor House",
+            "games": "96",
+            "wins": "55",
+            "weeklyWins": "6",
+            "runnersUp": "3",
+            "weeks": "27",
+            "score": "113"
+          }
+        ]
+      }
+    },
+    "ben jenkins": {
+      "name": "Ben Jenkins",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "71",
+            "name": "Ben Jenkins",
+            "games": "3",
+            "wins": "0",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "11"
+          }
+        ]
+      }
+    },
+    "harriet delbridge": {
+      "name": "Harriet Delbridge",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "72",
+            "name": "Harriet Delbridge",
+            "games": "4",
+            "wins": "0",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "3"
+          },
+          {
+            "season": "2025/26",
+            "place": "70",
+            "name": "Harriet Delbridge",
+            "games": "19",
+            "wins": "8",
+            "weeklyWins": "1",
+            "runnersUp": "1",
+            "weeks": "5",
+            "score": "59"
+          },
+          {
+            "season": "2024/25",
+            "place": "80",
+            "name": "Harriet Delbridge",
+            "games": "15",
+            "wins": "4",
+            "weeklyWins": "0",
+            "runnersUp": "1",
+            "weeks": "4",
+            "score": "40"
+          },
+          {
+            "season": "2022/23",
+            "place": "77",
+            "name": "Harriet Delbridge",
+            "games": "4",
+            "wins": "2",
+            "weeklyWins": "0",
+            "runnersUp": "0",
+            "weeks": "1",
+            "score": "14"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2024/25",
+            "place": "9",
+            "name": "Harriet Delbridge",
+            "team": "Royal Navy",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "17"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "36",
+            "name": "Harriet Delbridge",
+            "seasons": "1",
+            "played": "2",
+            "won": "2",
+            "highBox": "5",
+            "points": "10",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "luke page": {
+      "name": "Luke Page",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "73",
+            "name": "Luke Page",
+            "games": "4",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "1",
+            "weeks": "1",
+            "score": "25"
+          },
+          {
+            "season": "2025/26",
+            "place": "17",
+            "name": "Luke Page",
+            "games": "99",
+            "wins": "55",
+            "weeklyWins": "3",
+            "runnersUp": "3",
+            "weeks": "24",
+            "score": "418"
+          },
+          {
+            "season": "2024/25",
+            "place": "20",
+            "name": "Luke Page",
+            "games": "61",
+            "wins": "38",
+            "weeklyWins": "1",
+            "runnersUp": "0",
+            "weeks": "15",
+            "score": "276"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2025/26",
+            "place": "1",
+            "name": "Luke Page",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "18"
+          },
+          {
+            "season": "2024/25",
+            "place": "4",
+            "name": "Luke Page",
+            "team": "Racket Rebels",
+            "eventsPlayed": "",
+            "matchesPlayed": "",
+            "points": "42"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "8",
+            "name": "Luke Page",
+            "seasons": "4",
+            "played": "12",
+            "won": "8",
+            "highBox": "3",
+            "points": "56",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "josh white": {
+      "name": "Josh White",
+      "competitions": {
+        "peteroberts": [
+          {
+            "season": "2026/27",
+            "place": "74",
+            "name": "Josh White",
+            "games": "4",
+            "wins": "2",
+            "weeklyWins": "",
+            "runnersUp": "",
+            "weeks": "1",
+            "score": "9"
+          }
+        ],
+        "sltc": [
+          {
+            "season": "2026/27",
+            "place": "2",
+            "name": "Josh White",
+            "team": "Racket Rebels",
+            "eventsPlayed": "1",
+            "matchesPlayed": "4",
+            "points": "5"
           }
         ]
       }
@@ -3933,54 +4815,18 @@
             "matchesPlayed": "",
             "points": "17"
           }
-        ]
-      }
-    },
-    "luke page": {
-      "name": "Luke Page",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2025/26",
-            "place": "17",
-            "name": "Luke Page",
-            "games": "99",
-            "wins": "55",
-            "weeklyWins": "3",
-            "runnersUp": "3",
-            "weeks": "24",
-            "score": "418"
-          },
-          {
-            "season": "2024/25",
-            "place": "20",
-            "name": "Luke Page",
-            "games": "61",
-            "wins": "38",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "15",
-            "score": "276"
-          }
         ],
-        "sltc": [
+        "boxleagues": [
           {
-            "season": "2025/26",
-            "place": "1",
-            "name": "Luke Page",
-            "team": "Racket Rebels",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "18"
-          },
-          {
-            "season": "2024/25",
-            "place": "4",
-            "name": "Luke Page",
-            "team": "Racket Rebels",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "42"
+            "season": "alltime",
+            "place": "10",
+            "name": "Eric Van Onselen",
+            "seasons": "3",
+            "played": "8",
+            "won": "6",
+            "highBox": "3",
+            "points": "42",
+            "leagueChampions": ""
           }
         ]
       }
@@ -4010,6 +4856,19 @@
             "eventsPlayed": "1",
             "matchesPlayed": "3",
             "points": "6"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "9",
+            "name": "Craig Dexter",
+            "seasons": "5",
+            "played": "9",
+            "won": "8",
+            "highBox": "1",
+            "points": "45",
+            "leagueChampions": "1"
           }
         ]
       }
@@ -4094,92 +4953,6 @@
         ]
       }
     },
-    "ted ironside-smith": {
-      "name": "Ted Ironside-Smith",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2025/26",
-            "place": "28",
-            "name": "Ted Ironside-Smith",
-            "games": "77",
-            "wins": "31",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "18",
-            "score": "328"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "8",
-            "name": "Ted Ironside-Smith",
-            "team": "Wednesday Bar Boozers",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "6"
-          },
-          {
-            "season": "2024/25",
-            "place": "2",
-            "name": "Ted Ironside-Smith",
-            "team": "Misshits",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "74"
-          }
-        ],
-        "racketballclubnight": [
-          {
-            "season": "2026/27",
-            "place": "11",
-            "name": "Ted Ironside-Smith",
-            "score": "8"
-          }
-        ]
-      }
-    },
-    "oscar littlefield": {
-      "name": "Oscar Littlefield",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2025/26",
-            "place": "30",
-            "name": "Oscar Littlefield",
-            "games": "75",
-            "wins": "35",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "19",
-            "score": "320"
-          },
-          {
-            "season": "2024/25",
-            "place": "83",
-            "name": "Oscar Littlefield",
-            "games": "8",
-            "wins": "6",
-            "weeklyWins": "0",
-            "runnersUp": "1",
-            "weeks": "2",
-            "score": "35"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2024/25",
-            "place": "4",
-            "name": "Oscar Littlefield",
-            "team": "Racket Rebels",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "42"
-          }
-        ]
-      }
-    },
     "greg czura": {
       "name": "Greg Czura",
       "competitions": {
@@ -4245,85 +5018,6 @@
             "eventsPlayed": "",
             "matchesPlayed": "",
             "points": "42"
-          }
-        ]
-      }
-    },
-    "mike catterall": {
-      "name": "Mike Catterall",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2025/26",
-            "place": "33",
-            "name": "Mike Catterall",
-            "games": "72",
-            "wins": "38",
-            "weeklyWins": "3",
-            "runnersUp": "0",
-            "weeks": "17",
-            "score": "272"
-          },
-          {
-            "season": "2024/25",
-            "place": "23",
-            "name": "Mike Catterall",
-            "games": "60",
-            "wins": "33",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "16",
-            "score": "269"
-          },
-          {
-            "season": "2023/24",
-            "place": "9",
-            "name": "Mike Catterall",
-            "games": "97",
-            "wins": "54",
-            "weeklyWins": "3",
-            "runnersUp": "3",
-            "weeks": "25",
-            "score": "280"
-          },
-          {
-            "season": "2022/23",
-            "place": "17",
-            "name": "Mike Catterall",
-            "games": "80",
-            "wins": "41",
-            "weeklyWins": "3",
-            "runnersUp": "0",
-            "weeks": "16",
-            "score": "199"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2025/26",
-            "place": "10",
-            "name": "Mike Catterall",
-            "team": "Teamless",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "8"
-          },
-          {
-            "season": "2024/25",
-            "place": "6",
-            "name": "Mike Catterall",
-            "team": "Across The Generations",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "38"
-          }
-        ],
-        "racketballclubnight": [
-          {
-            "season": "2025/26",
-            "place": "10",
-            "name": "Mike Catterall",
-            "score": "1"
           }
         ]
       }
@@ -4451,6 +5145,19 @@
             "eventsPlayed": "",
             "matchesPlayed": "",
             "points": "6"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "21",
+            "name": "George French",
+            "seasons": "4",
+            "played": "8",
+            "won": "5",
+            "highBox": "2",
+            "points": "30",
+            "leagueChampions": ""
           }
         ]
       }
@@ -4850,6 +5557,19 @@
             "weeks": "21",
             "score": "260"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "20",
+            "name": "Doug Alexander",
+            "seasons": "4",
+            "played": "9",
+            "won": "4",
+            "highBox": "1",
+            "points": "30",
+            "leagueChampions": "2"
+          }
         ]
       }
     },
@@ -5086,6 +5806,19 @@
             "matchesPlayed": "",
             "points": "42"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "34",
+            "name": "Ryan Baker",
+            "seasons": "1",
+            "played": "2",
+            "won": "2",
+            "highBox": "4",
+            "points": "12",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -5160,57 +5893,6 @@
         ]
       }
     },
-    "harriet delbridge": {
-      "name": "Harriet Delbridge",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2025/26",
-            "place": "70",
-            "name": "Harriet Delbridge",
-            "games": "19",
-            "wins": "8",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "5",
-            "score": "59"
-          },
-          {
-            "season": "2024/25",
-            "place": "80",
-            "name": "Harriet Delbridge",
-            "games": "15",
-            "wins": "4",
-            "weeklyWins": "0",
-            "runnersUp": "1",
-            "weeks": "4",
-            "score": "40"
-          },
-          {
-            "season": "2022/23",
-            "place": "77",
-            "name": "Harriet Delbridge",
-            "games": "4",
-            "wins": "2",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "1",
-            "score": "14"
-          }
-        ],
-        "sltc": [
-          {
-            "season": "2024/25",
-            "place": "9",
-            "name": "Harriet Delbridge",
-            "team": "Royal Navy",
-            "eventsPlayed": "",
-            "matchesPlayed": "",
-            "points": "17"
-          }
-        ]
-      }
-    },
     "sunjina nepaul": {
       "name": "Sunjina Nepaul",
       "competitions": {
@@ -5247,6 +5929,19 @@
             "runnersUp": "1",
             "weeks": "2",
             "score": "47"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "31",
+            "name": "Sunjina Nepaul",
+            "seasons": "2",
+            "played": "4",
+            "won": "1",
+            "highBox": "6",
+            "points": "15",
+            "leagueChampions": ""
           }
         ]
       }
@@ -5855,6 +6550,19 @@
             "matchesPlayed": "",
             "points": "6"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "23",
+            "name": "Ewan Maclean",
+            "seasons": "6",
+            "played": "8",
+            "won": "7",
+            "highBox": "1",
+            "points": "28",
+            "leagueChampions": "1"
+          }
         ]
       }
     },
@@ -5883,6 +6591,19 @@
             "runnersUp": "0",
             "weeks": "1",
             "score": "22"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "13",
+            "name": "Keith Tyson",
+            "seasons": "6",
+            "played": "11",
+            "won": "5",
+            "highBox": "2",
+            "points": "39",
+            "leagueChampions": ""
           }
         ]
       }
@@ -6253,6 +6974,19 @@
             "weeks": "6",
             "score": "72"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "6",
+            "name": "Nick Cade",
+            "seasons": "8",
+            "played": "14",
+            "won": "9",
+            "highBox": "1",
+            "points": "56",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -6460,6 +7194,19 @@
             "matchesPlayed": "",
             "points": "40"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "37",
+            "name": "Dave Robjohns",
+            "seasons": "3",
+            "played": "3",
+            "won": "1",
+            "highBox": "4",
+            "points": "9",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -6578,6 +7325,19 @@
             "runnersUp": "0",
             "weeks": "2",
             "score": "43"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "26",
+            "name": "Kristian Kott",
+            "seasons": "4",
+            "played": "6",
+            "won": "4",
+            "highBox": "3",
+            "points": "24",
+            "leagueChampions": ""
           }
         ]
       }
@@ -7186,6 +7946,19 @@
             "name": "David Christian",
             "score": "19"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "11",
+            "name": "David Christian",
+            "seasons": "5",
+            "played": "13",
+            "won": "6",
+            "highBox": "1",
+            "points": "41",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -7358,6 +8131,19 @@
             "runnersUp": "2",
             "weeks": "15",
             "score": "185"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "33",
+            "name": "Jason Maddox",
+            "seasons": "2",
+            "played": "3",
+            "won": "2",
+            "highBox": "1",
+            "points": "13",
+            "leagueChampions": ""
           }
         ]
       }
@@ -7943,6 +8729,19 @@
             "weeks": "2",
             "score": "31"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "14",
+            "name": "Luke Noyce",
+            "seasons": "4",
+            "played": "7",
+            "won": "6",
+            "highBox": "2",
+            "points": "36",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -8184,90 +8983,6 @@
             "runnersUp": "1",
             "weeks": "8",
             "score": "104"
-          }
-        ]
-      }
-    },
-    "gregor house": {
-      "name": "Gregor House",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2023/24",
-            "place": "94",
-            "name": "Gregor House",
-            "games": "9",
-            "wins": "3",
-            "weeklyWins": "0",
-            "runnersUp": "0",
-            "weeks": "2",
-            "score": "15"
-          },
-          {
-            "season": "2022/23",
-            "place": "39",
-            "name": "Gregor House",
-            "games": "18",
-            "wins": "11",
-            "weeklyWins": "1",
-            "runnersUp": "0",
-            "weeks": "5",
-            "score": "84"
-          },
-          {
-            "season": "2018/19",
-            "place": "11",
-            "name": "Gregor House",
-            "games": "31",
-            "wins": "24",
-            "weeklyWins": "2",
-            "runnersUp": "2",
-            "weeks": "7",
-            "score": "69"
-          },
-          {
-            "season": "2017/18",
-            "place": "26",
-            "name": "Gregor House",
-            "games": "8",
-            "wins": "6",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "2",
-            "score": "11"
-          },
-          {
-            "season": "2016/17",
-            "place": "29",
-            "name": "Gregor House",
-            "games": "9",
-            "wins": "8",
-            "weeklyWins": "1",
-            "runnersUp": "1",
-            "weeks": "2",
-            "score": "13"
-          },
-          {
-            "season": "2015/16",
-            "place": "1",
-            "name": "Gregor House",
-            "games": "152",
-            "wins": "86",
-            "weeklyWins": "7",
-            "runnersUp": "5",
-            "weeks": "36",
-            "score": "149"
-          },
-          {
-            "season": "2014/15",
-            "place": "6",
-            "name": "Gregor House",
-            "games": "96",
-            "wins": "55",
-            "weeklyWins": "6",
-            "runnersUp": "3",
-            "weeks": "27",
-            "score": "113"
           }
         ]
       }
@@ -9148,6 +9863,19 @@
             "place": "8",
             "name": "Shaun Keal",
             "score": "22"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "7",
+            "name": "Shaun Keal",
+            "seasons": "5",
+            "played": "12",
+            "won": "9",
+            "highBox": "3",
+            "points": "56",
+            "leagueChampions": ""
           }
         ]
       }
@@ -11364,57 +12092,6 @@
         ]
       }
     },
-    "george downing": {
-      "name": "George Downing",
-      "competitions": {
-        "peteroberts": [
-          {
-            "season": "2017/18",
-            "place": "21",
-            "name": "George Downing",
-            "games": "19",
-            "wins": "15",
-            "weeklyWins": "3",
-            "runnersUp": "0",
-            "weeks": "5",
-            "score": "26"
-          },
-          {
-            "season": "2016/17",
-            "place": "9",
-            "name": "George Downing",
-            "games": "53",
-            "wins": "29",
-            "weeklyWins": "7",
-            "runnersUp": "4",
-            "weeks": "18",
-            "score": "68"
-          },
-          {
-            "season": "2015/16",
-            "place": "19",
-            "name": "George Downing",
-            "games": "79",
-            "wins": "42",
-            "weeklyWins": "1",
-            "runnersUp": "4",
-            "weeks": "19",
-            "score": "77"
-          },
-          {
-            "season": "2014/15",
-            "place": "31",
-            "name": "George Downing",
-            "games": "20",
-            "wins": "8",
-            "weeklyWins": "2",
-            "runnersUp": "1",
-            "weeks": "6",
-            "score": "27"
-          }
-        ]
-      }
-    },
     "ed": {
       "name": "Ed",
       "competitions": {
@@ -13137,10 +13814,10 @@
         "juniorclubnight": [
           {
             "season": "2026/27",
-            "place": "1",
+            "place": "2",
             "name": "Samuel Steele",
-            "weeks": "9",
-            "score": "74"
+            "weeks": "10",
+            "score": "83"
           },
           {
             "season": "2025/26",
@@ -13181,8 +13858,8 @@
             "season": "2026/27",
             "place": "4",
             "name": "Rupert Ford",
-            "weeks": "5",
-            "score": "51"
+            "weeks": "6",
+            "score": "58"
           },
           {
             "season": "2025/26",
@@ -13243,30 +13920,8 @@
             "season": "2026/27",
             "place": "5",
             "name": "Kieran Gedney",
-            "weeks": "3",
-            "score": "28"
-          }
-        ]
-      }
-    },
-    "brodie wheatley": {
-      "name": "Brodie Wheatley",
-      "competitions": {
-        "juniorclubnight": [
-          {
-            "season": "2026/27",
-            "place": "6",
-            "name": "Brodie Wheatley",
-            "weeks": "3",
-            "score": "25"
-          }
-        ],
-        "generationcup": [
-          {
-            "season": "2025/26",
-            "place": "11",
-            "name": "Brodie Wheatley",
-            "score": "9"
+            "weeks": "4",
+            "score": "38"
           }
         ]
       }
@@ -13277,10 +13932,10 @@
         "juniorclubnight": [
           {
             "season": "2026/27",
-            "place": "7",
+            "place": "6",
             "name": "Jenson Man",
-            "weeks": "3",
-            "score": "17"
+            "weeks": "5",
+            "score": "29"
           },
           {
             "season": "2025/26",
@@ -13300,21 +13955,36 @@
         ]
       }
     },
-    "isabelle": {
-      "name": "Isabelle",
+    "brodie wheatley": {
+      "name": "Brodie Wheatley",
+      "competitions": {
+        "juniorclubnight": [
+          {
+            "season": "2026/27",
+            "place": "7",
+            "name": "Brodie Wheatley",
+            "weeks": "3",
+            "score": "25"
+          }
+        ],
+        "generationcup": [
+          {
+            "season": "2025/26",
+            "place": "11",
+            "name": "Brodie Wheatley",
+            "score": "9"
+          }
+        ]
+      }
+    },
+    "isabelle fu": {
+      "name": "Isabelle Fu",
       "competitions": {
         "juniorclubnight": [
           {
             "season": "2026/27",
             "place": "8",
-            "name": "Isabelle",
-            "weeks": "1",
-            "score": "12"
-          },
-          {
-            "season": "2025/26",
-            "place": "20",
-            "name": "Isabelle",
+            "name": "Isabelle Fu",
             "weeks": "1",
             "score": "12"
           }
@@ -13371,6 +14041,19 @@
             "matchesPlayed": "",
             "points": "0"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "45",
+            "name": "Georgina Miller",
+            "seasons": "1",
+            "played": "2",
+            "won": "0",
+            "highBox": "5",
+            "points": "2",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -13425,6 +14108,19 @@
             "place": "1",
             "name": "Jessica Ellicott",
             "score": "50"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "16",
+            "name": "Jessica Ellicott",
+            "seasons": "3",
+            "played": "8",
+            "won": "5",
+            "highBox": "4",
+            "points": "35",
+            "leagueChampions": ""
           }
         ]
       }
@@ -13563,6 +14259,20 @@
         ]
       }
     },
+    "isabelle": {
+      "name": "Isabelle",
+      "competitions": {
+        "juniorclubnight": [
+          {
+            "season": "2025/26",
+            "place": "20",
+            "name": "Isabelle",
+            "weeks": "1",
+            "score": "12"
+          }
+        ]
+      }
+    },
     "james hamer": {
       "name": "James Hamer",
       "competitions": {
@@ -13658,22 +14368,6 @@
             "place": "4",
             "name": "Alwyn Lewis",
             "score": "8"
-          }
-        ]
-      }
-    },
-    "josh white": {
-      "name": "Josh White",
-      "competitions": {
-        "sltc": [
-          {
-            "season": "2026/27",
-            "place": "2",
-            "name": "Josh White",
-            "team": "Racket Rebels",
-            "eventsPlayed": "1",
-            "matchesPlayed": "4",
-            "points": "5"
           }
         ]
       }
@@ -13861,6 +14555,19 @@
             "eventsPlayed": "",
             "matchesPlayed": "",
             "points": "6"
+          }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "15",
+            "name": "Keith Barron",
+            "seasons": "6",
+            "played": "18",
+            "won": "1",
+            "highBox": "1",
+            "points": "35",
+            "leagueChampions": ""
           }
         ]
       }
@@ -14232,19 +14939,6 @@
         ]
       }
     },
-    "seb pilling": {
-      "name": "Seb Pilling",
-      "competitions": {
-        "generationcup": [
-          {
-            "season": "2024/25",
-            "place": "10",
-            "name": "Seb Pilling",
-            "score": "19"
-          }
-        ]
-      }
-    },
     "kayleigh westover": {
       "name": "Kayleigh Westover",
       "competitions": {
@@ -14494,6 +15188,19 @@
             "name": "Marc Fleury",
             "score": "2"
           }
+        ],
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "22",
+            "name": "Marc Fleury",
+            "seasons": "5",
+            "played": "8",
+            "won": "4",
+            "highBox": "1",
+            "points": "28",
+            "leagueChampions": ""
+          }
         ]
       }
     },
@@ -14519,6 +15226,114 @@
             "place": "7",
             "name": "Jon Coolahan",
             "score": "3"
+          }
+        ]
+      }
+    },
+    "victoria gorton": {
+      "name": "Victoria Gorton",
+      "competitions": {
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "1",
+            "name": "Victoria Gorton",
+            "seasons": "8",
+            "played": "28",
+            "won": "6",
+            "highBox": "4",
+            "points": "70",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "pete nisbet": {
+      "name": "Pete Nisbet",
+      "competitions": {
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "4",
+            "name": "Pete Nisbet",
+            "seasons": "6",
+            "played": "12",
+            "won": "10",
+            "highBox": "1",
+            "points": "61",
+            "leagueChampions": "3"
+          }
+        ]
+      }
+    },
+    "glynn spencer": {
+      "name": "Glynn Spencer",
+      "competitions": {
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "17",
+            "name": "Glynn Spencer",
+            "seasons": "5",
+            "played": "10",
+            "won": "5",
+            "highBox": "1",
+            "points": "32",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "dan geen": {
+      "name": "Dan Geen",
+      "competitions": {
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "25",
+            "name": "Dan Geen",
+            "seasons": "2",
+            "played": "5",
+            "won": "4",
+            "highBox": "5",
+            "points": "25",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "ciaran capuano": {
+      "name": "Ciaran Capuano",
+      "competitions": {
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "30",
+            "name": "Ciaran Capuano",
+            "seasons": "2",
+            "played": "8",
+            "won": "1",
+            "highBox": "6",
+            "points": "15",
+            "leagueChampions": ""
+          }
+        ]
+      }
+    },
+    "stanislav vilyukha": {
+      "name": "Stanislav Vilyukha",
+      "competitions": {
+        "boxleagues": [
+          {
+            "season": "alltime",
+            "place": "42",
+            "name": "Stanislav Vilyukha",
+            "seasons": "1",
+            "played": "2",
+            "won": "1",
+            "highBox": "4",
+            "points": "5",
+            "leagueChampions": ""
           }
         ]
       }

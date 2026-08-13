@@ -16,6 +16,36 @@
         <h1>Wednesday Handicap</h1>
         <p>Use the tabs at the bottom of the sheet below to view standings and data from previous years.</p>
 
+<script>
+  window.addEventListener('message', function(event) {
+    // Check if the message is a link click from your iframe
+    if (event.data && typeof event.data === 'string' && event.data.includes('leesquash.github.io')) {
+      // Force the parent browser tab to load the profile URL
+      window.location.href = event.data;
+    }
+  });
+
+  // Intercept the frame navigation directly
+  const iframe = document.querySelector('iframe');
+  if (iframe) {
+    iframe.addEventListener('load', function() {
+      try {
+        const iframeWindow = iframe.contentWindow;
+        iframeWindow.addEventListener('click', function(e) {
+          const target = e.target.closest('a');
+          if (target && target.href.includes('leesquash.github.io')) {
+            e.preventDefault(); // Stop it from opening a new tab
+            window.top.location.href = target.href; // Open in the same tab
+          }
+        }, true);
+      } catch (err) {
+        // Log error if Google security blocks direct frame access
+        console.log("Cross-origin restrictions apply, trying message listener.");
+      }
+    });
+  }
+</script>
+
         <div class="sheet-container">
             <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSDAwLftQNz6Pz2DqcvPg8AfcXrkZWtJbQTlt7GNNSeZQxkbCiRS4sPdzHjxfcoaNX2sowT98YV1ARq/pubhtml?widget=true&amp;headers=false"></iframe>
         </div>
