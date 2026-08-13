@@ -3,44 +3,36 @@
 // Displays player achievements
 // ========================================
 
-export function renderAchievementCard(player) {
+import { renderAchievementBadge } from "./achievementbadge.js";
 
-    const achievements = player.achievements || [];
+export function renderAchievementCard(player) {
+    const achievementData = player.achievements || {};
+    const achievements = achievementData.achievements || [];
+    const totalPoints = achievementData.totalPoints || 0;
 
     return `
     <section class="achievement-card">
-
-        <h2>Achievements</h2>
-
+        <div class="achievement-header">
+            <h2>Achievements</h2>
+            <span class="achievement-points">${totalPoints} Points</span>
+        </div>
         ${
             achievements.length > 0
-            ? renderAchievements(achievements)
+            ? `<div class="achievement-list">${renderAchievements(achievements)}</div>`
             : `<p>No achievements yet.</p>`
         }
-
     </section>
     `;
-
 }
 
 function renderAchievements(achievements) {
-
     let html = "";
-
     achievements.forEach(achievement => {
-
         html += `
         <div class="achievement-item">
-
-            <strong>${achievement.title}</strong>
-
-            <p>${achievement.description || ""}</p>
-
+            ${renderAchievementBadge(achievement)}
         </div>
         `;
-
     });
-
     return html;
-
 }

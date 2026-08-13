@@ -4,8 +4,8 @@
    ======================================== */
 
 body {
-    font-family: sans-serif;
-    background: #f9f9f9;
+    font-family:sans-serif;
+    background:#f9f9f9;
 }
 
 .profile-header,
@@ -19,7 +19,6 @@ body {
     margin-bottom:18px;
     box-shadow:0 3px 8px rgba(0,0,0,0.08);
 }
-
 
 /* ========================================
    PROFILE HEADER
@@ -90,7 +89,6 @@ body {
     text-align:center;
 }
 
-
 /* ========================================
    TROPHIES AND ACHIEVEMENTS
    ======================================== */
@@ -102,8 +100,7 @@ body {
     color:#333;
 }
 
-.trophy-item,
-.achievement-item {
+.trophy-item {
     padding:8px;
     border-bottom:1px solid #eee;
 }
@@ -113,6 +110,53 @@ body {
     color:#666;
 }
 
+/* ========================================
+   ACHIEVEMENT BADGES
+   ======================================== */
+
+.achievement-card {
+    overflow:visible;
+}
+
+.achievement-card .achievement-list {
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    align-items:flex-start;
+}
+
+.achievement-item {
+    width:225px;
+    flex:0 0 225px;
+    padding:0;
+    border:0;
+    text-align:center;
+    position:relative;
+    z-index:1;
+}
+
+.achievement-item svg {
+    width:225px;
+    height:225px;
+    display:block;
+    margin:0 auto;
+    transition:transform 0.25s ease;
+    transform-origin:center center;
+}
+
+.achievement-item:hover {
+    z-index:10;
+}
+
+.achievement-item:hover svg {
+    transform:scale(2) translateY(-10px);
+    filter:drop-shadow(0 10px 15px rgba(0,0,0,0.25));
+}
+
+.achievement-item strong {
+    display:block;
+    margin-top:6px;
+}
 
 /* ========================================
    COMPETITION CARDS
@@ -168,7 +212,6 @@ body {
     color:#0044cc;
 }
 
-
 /* ========================================
    SEASON CARDS
    ======================================== */
@@ -212,13 +255,11 @@ body {
     padding:6px 0;
 }
 
-
 /* ========================================
    MOBILE
    ======================================== */
 
 @media (max-width:700px) {
-
     .profile-header-main {
         flex-direction:column;
         align-items:flex-start;
@@ -235,4 +276,21 @@ body {
         width:100%;
     }
 
+    .achievement-card .achievement-list {
+        justify-content:center;
+    }
+
+    .achievement-item {
+        width:150px;
+        flex-basis:150px;
+    }
+
+    .achievement-item svg {
+        width:150px;
+        height:150px;
+    }
+
+    .achievement-item:hover svg {
+        transform:scale(2) translateY(-10px);
+    }
 }

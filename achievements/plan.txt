@@ -1,0 +1,146 @@
+Achievement system — agreed design
+Achievements are a separate system in /squash/achievements/, not part of the profiles folder.
+Achievements are calculated from the data already in database.json rather than being manually stored against each player.
+The system should be configuration-driven.
+Adding a new achievement should mainly mean adding it to the achievement configuration.
+We should not have to modify lots of different files.
+Each achievement is one achievement with five tiers:
+Easy
+Medium
+Hard
+Epic
+Legendary
+A player only displays their highest earned tier.
+127 weeks → one Handicap Attendance achievement at Hard.
+They don't get separate Easy + Medium + Hard badges.
+Each tier has its own achievement-point value.
+Achievement points are separate from the existing website/competition points.
+We will initially use highest-tier points only, rather than adding all previous tiers together.
+The achievement display should be graphics only.
+No blocks of text underneath the achievements.
+The graphic itself contains the achievement name, tier, current progress and progress towards the next tier.
+Achievement graphics will be SVG-based, allowing us to precisely control the design and progress bar without the CSS positioning problems we've had previously.
+The progress bar is part of the achievement graphic, not a separate HTML/CSS progress bar.
+Hovering over an achievement can provide additional information such as description, current progress, next tier and points.
+Legendary is deliberately mysterious.
+Its actual target won't be displayed.
+The badge can show ???.
+We don't need to decide the Legendary target yet.
+Legendary targets should be individually chosen to be genuinely exceptional, based partly on the actual statistics we have.
+The first achievement will be Handicap Attendance, based on total Wednesday Handicap weeks across all seasons.
+Initial Handicap Attendance thresholds:
+Easy: 10 weeks
+Medium: 25 weeks
+Hard: 100 weeks
+Epic: 1,000 weeks
+Legendary: undecided
+Road map
+1. Build the achievement foundation
+
+Create:
+
+/squash/achievements/
+    configuration.js
+    calculateachievements.js
+
+The calculator should take a player's existing database data and determine what they've earned.
+
+2. Build the configuration system
+
+Put the achievement definitions in configuration.js.
+
+The calculator should understand the general concept of:
+
+achievement → measurement → five tiers → highest tier achieved
+
+rather than containing lots of achievement-specific code.
+
+3. Build Handicap Attendance
+
+Use the existing Pete Roberts data:
+
+player.competitions.peteroberts
+
+and add up:
+
+weeks
+
+across all seasons.
+
+This becomes our first test of the entire system.
+
+4. Add achievement results to the existing profile-building process
+
+When buildprofiles.js creates a player's profile, it will also get their achievement information.
+
+Something conceptually like:
+
+Player
+ ├── summary
+ ├── competitions
+ ├── trophies
+ └── achievements
+
+We're already prepared for this because your profile structure already has an achievements section.
+
+5. Build the achievement graphic system
+
+Create the SVG-based achievement renderer.
+
+This is where we establish the one consistent visual design that all future achievements use.
+
+Don't get distracted by making dozens of pretty graphics at this stage.
+
+One excellent placeholder achievement graphic is enough.
+
+6. Put the achievement into the existing profile
+
+Your existing:
+
+profiles/components/achievementcard.js
+
+becomes the display component.
+
+It receives the calculated achievements and displays the SVG badges.
+
+The profile itself shouldn't need to know how an achievement was calculated.
+
+7. Test with real players
+
+Check players with different amounts of attendance:
+
+Under 10
+10+
+25+
+100+
+Someone approaching Epic
+
+Make sure the correct tier and progress are being displayed.
+
+8. Only then start adding achievements
+
+Once the engine works, adding future achievements should become mostly:
+
+Add definition to configuration → rebuild profiles → done.
+
+And that's the bit I think we should be particularly disciplined about.
+
+We shouldn't let adding the second or third achievement turn into editing five different JavaScript files. If it does, we stop and improve the architecture before adding more.
+
+The big picture
+
+The original idea is still the important bit:
+
+Your 11+ years of squash data becomes a game-like record of a player's history.
+
+Competition results → Website Points
+
+Long-term accomplishments → Achievements
+
+Achievements have → Tiers
+
+Tiers have → Achievement Points
+
+And the player's profile becomes the place where all of that comes together.
+
+We should keep that goal in sight while we deal with the inevitable little bits of JavaScript along the way.

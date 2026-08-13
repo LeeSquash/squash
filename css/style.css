@@ -1,370 +1,296 @@
 /* 1. Global Reset & Fonts */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f9; 
-    color: #1e293b;
-    display: flex;
-    transition: all 0.3s ease; /* Adds a smooth sliding animation when collapsing */
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background-color:#f4f6f9;
+    color:#1e293b;
+    display:flex;
+    transition:all 0.3s ease;
 }
-
 /* 2. Professional Sidebar Navigation */
 .sidebar {
-    width: 280px;
-    height: 100vh;
-    background-color: #0f172a; 
-    padding: 30px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-y: auto;
-    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease; /* Smooth slide for the menu itself */
-    z-index: 1000;
+    width:280px;
+    height:100vh;
+    background-color:#0f172a;
+    padding:30px 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    overflow-y:auto;
+    box-shadow:4px 0 10px rgba(0,0,0,0.05);
+    transition:all 0.3s ease;
+    z-index:1000;
 }
-
 /* Sidebar Links */
 .sidebar a {
-    display: block;
-    color: #94a3b8; /* Muted text color */
-    text-decoration: none;
-    padding: 12px 16px;
-    margin-bottom: 8px;
-    border-radius: 6px;
-    font-weight: 500;
-    transition: all 0.2s ease;
+    display:block;
+    color:#94a3b8;
+    text-decoration:none;
+    padding:12px 16px;
+    margin-bottom:8px;
+    border-radius:6px;
+    font-weight:500;
+    transition:all 0.2s ease;
 }
-
-/* Hover effects for links */
 .sidebar a:hover {
-    background-color: #1e293b;
-    color: #ffffff;
-    padding-left: 22px; /* Smooth slide effect */
+    background-color:#1e293b;
+    color:#ffffff;
+    padding-left:22px;
 }
-
-/* This highlights whichever link has the active class applied */
 .sidebar a.active {
-    background-color: #3b82f6; /* Modern sports blue */
-    color: #ffffff;
+    background-color:#3b82f6;
+    color:#ffffff;
 }
-
-
-
 /* 3. Main Content Container Layout & Home Page Styling */
 .content {
-    margin-left: 280px;      
-    padding: 50px 40px;      
-    width: calc(100% - 280px);
-    max-width: 1050px;       
-    transition: all 0.3s ease; /* Smoothly widens your content/iframes */
+    margin-left:280px;
+    padding:50px 40px;
+    width:calc(100% - 280px);
+    max-width:1100px;
+    transition:all 0.3s ease;
 }
-
 /* Home Page Specific Container Constraints */
 .intro-body,
 .intro-guide,
 .intro-footer {
-    max-width: 720px;        /* Limits the welcome text width to a comfortable reading size */
-    margin-bottom: 50px;     /* Forces deep, intentional gaps between sections */
+    max-width:720px;
+    margin-bottom:50px;
 }
-
-/* Standalone block for your header to center the text */
 .intro-header {
-    max-width: 720px;
-    margin-bottom: 50px;
-    text-align: center;      /* This centers the main title and the subtitle */
+    max-width:720px;
+    margin-bottom:50px;
+    text-align:center;
 }
-
 .intro-footer {
-    margin-bottom: 0;        /* Reset last item margin */
+    margin-bottom:0;
 }
-
-/* Spacing fix for paragraphs inside the intro-body container */
 .intro-body p {
-    margin-bottom: 24px;     /* Adds a clean, wide gap between the two welcome paragraphs */
+    margin-bottom:24px;
 }
-
 .intro-body p:last-child {
-    margin-bottom: 0;        /* Prevents extra unnecessary spacing at the end of the section */
+    margin-bottom:0;
 }
-
-/* Headings & Visual Pop */
 .content h1 {
-    font-size: 2.6rem;
-    color: #0f172a;          /* Matches your deep charcoal brand colour */
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size:2.6rem;
+    color:#0f172a;
+    font-weight:700;
+    margin-bottom:20px;
 }
-
 .content h2 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #0f172a;
-    margin-bottom: 20px;
-    position: relative;
-    padding-bottom: 6px;
+    font-size:1.4rem;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:20px;
+    position:relative;
+    padding-bottom:6px;
 }
-
-/* Subtle accent line under the "How to find your stats" heading */
 .content h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 45px;
-    height: 3px;
-    background-color: #3b82f6; /* Matches your active sidebar sports blue */
-    border-radius: 2px;
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:45px;
+    height:3px;
+    background-color:#3b82f6;
+    border-radius:2px;
 }
-
-/* Text & Subtitle Paragraphs */
 .content p {
-    color: #64748b;          /* Professional slate grey */
-    font-size: 1.05rem;
-    line-height: 1.7;        /* Adds breathing room between lines of text */
+    color:#64748b;
+    font-size:1.05rem;
+    line-height:1.7;
 }
-
-/* Fixed rule: Premium dark slate blue subtitle color */
 .content .subtitle {
-    font-size: 1.25rem;
-    font-style: italic;      
-    color: #1e3a8a;          /* Elegant dark navy that complements the layout without copying the active blue */
+    font-size:1.25rem;
+    font-style:italic;
+    color:#1e3a8a;
 }
-
-/* List Styling & Key Terms Highlighting */
 .intro-guide ul {
-    list-style-type: none;   /* Removes generic, boring bullets */
-    padding-left: 0;
-    margin-top: 15px;
+    list-style-type:none;
+    padding-left:0;
+    margin-top:15px;
 }
-
 .intro-guide li {
-    color: #64748b;
-    font-size: 1.05rem;
-    line-height: 1.7;
-    position: relative;
-    padding-left: 24px;      /* Leaves room for custom bullet icons */
-    margin-bottom: 18px;     /* Spacious gaps between list items */
+    color:#64748b;
+    font-size:1.05rem;
+    line-height:1.7;
+    position:relative;
+    padding-left:24px;
+    margin-bottom:18px;
 }
-
-/* Custom sleek dot indicator for lists */
 .intro-guide li::before {
-    content: "•";
-    color: #3b82f6;          /* Matches your active sidebar sports blue */
-    font-size: 1.5rem;
-    position: absolute;
-    left: 4px;
-    top: -3px;
+    content:"•";
+    color:#3b82f6;
+    font-size:1.5rem;
+    position:absolute;
+    left:4px;
+    top:-3px;
 }
-
-/* Highlights the critical navigation anchors in the text */
 .intro-guide li strong {
-    color: #1d4ed8;          /* Deepens key terms for rapid scanning */
-    font-weight: 600;
-    background-color: #eff6ff; /* Soft pastel blue highlight background */
-    padding: 2px 6px;
-    border-radius: 4px;      /* Rounded highlight sticker effect */
+    color:#1d4ed8;
+    font-weight:600;
+    background-color:#eff6ff;
+    padding:2px 6px;
+    border-radius:4px;
 }
-
-/* Friendly Closing Note */
 .intro-footer p {
-    font-style: italic;
-    border-left: 3px solid #e2e8f0; /* Simple left border separator */
-    padding-left: 15px;
+    font-style:italic;
+    border-left:3px solid #e2e8f0;
+    padding-left:15px;
 }
-
-
-
-
 /* 4. Google Sheets Container Frame */
 .sheet-container {
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-    overflow: hidden; /* Clips the inner spreadsheet corners to match the border radius */
-    padding: 12px;
+    background:#ffffff;
+    border:1px solid #e2e8f0;
+    border-radius:12px;
+    box-shadow:0 10px 15px -3px rgba(0,0,0,0.05);
+    overflow:hidden;
+    padding:12px;
 }
-
 .sheet-container iframe {
-    width: 100%;
-    height: 750px; /* Tall height so your 10+ tabs are instantly accessible */
-    border: none;
-    display: block;
+    width:100%;
+    height:750px;
+    border:none;
+    display:block;
 }
-
-
-
 /* --- Collapsible Sidebar States --- */
-
-/* Style for the toggle button at the top of the menu */
 #toggle-sidebar-btn {
-    background: none;
-    border: none;
-    color: #94a3b8;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 20px;
-    padding: 5px 10px;
-    display: block;
-    transition: color 0.2s ease;
+    background:none;
+    border:none;
+    color:#94a3b8;
+    font-size:1.5rem;
+    cursor:pointer;
+    margin-bottom:20px;
+    padding:5px 10px;
+    display:block;
+    transition:color 0.2s ease;
 }
-
 #toggle-sidebar-btn:hover {
-    color: #ffffff;
+    color:#ffffff;
 }
-
-/* FIX: Shrink the sidebar down to 60px wide when collapsed class is active */
 .sidebar-collapsed .sidebar {
-    width: 60px !important;      /* !important guarantees this width overrides the default 280px */
-    padding: 20px 10px;
+    width:60px !important;
+    padding:20px 10px;
 }
-
-/* Hide link text and only show the first letters when collapsed */
 .sidebar-collapsed .sidebar a {
-    text-align: center;
-    padding: 12px 0;
-    font-size: 0; 
+    text-align:center;
+    padding:12px 0;
+    font-size:0;
 }
-
-/* Re-reveal the first letter of each competition link clearly */
 .sidebar-collapsed .sidebar a::first-letter {
-    font-size: 1.1rem;
+    font-size:1.1rem;
 }
-
-/* FIX: Align the content section beautifully alongside the 60px narrow sidebar */
 .sidebar-collapsed .content {
-    margin-left: 60px !important; /* Forces the text out from behind the narrow menu */
-    width: calc(100% - 60px);
-    max-width: 100%; 
+    margin-left:60px !important;
+    width:calc(100% - 60px);
+    max-width:100%;
 }
 /* ========================================
    LEADERBOARD STYLING
    ======================================== */
-
 #leaderboard-container table {
-    width: auto;
-    min-width: 650px;
-    border-collapse: collapse;
-    margin-top: 30px;
-    background: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+    width:auto;
+    min-width:650px;
+    border-collapse:collapse;
+    margin-top:30px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 15px -3px rgba(0,0,0,0.05);
 }
-
 #leaderboard-container th {
-    background-color: #0f172a;
-    color: white;
-    padding: 14px 15px;
-    text-align: center;
+    background-color:#0f172a;
+    color:white;
+    padding:14px 15px;
+    text-align:center;
 }
-
 #leaderboard-container td {
-    padding: 10px 15px;
-    text-align: center;
-    border-bottom: 1px solid #e2e8f0;
+    padding:10px 15px;
+    text-align:center;
+    border-bottom:1px solid #e2e8f0;
 }
-
 #leaderboard-container th:nth-child(1),
 #leaderboard-container td:nth-child(1) {
-    width: 60px;
+    width:60px;
 }
-
 #leaderboard-container th:nth-child(2),
 #leaderboard-container td:nth-child(2) {
-    width: 180px;
+    width:180px;
 }
-
 #leaderboard-container th:nth-child(3),
 #leaderboard-container td:nth-child(3) {
-    width: 100px;
+    width:100px;
 }
-
 #leaderboard-container th:nth-child(4),
 #leaderboard-container td:nth-child(4) {
-    width: 120px;
+    width:120px;
 }
-
 #leaderboard-container tr:hover {
-    background-color: #f8fafc;
+    background-color:#f8fafc;
 }
-
 .player-button {
-    background-color: #eff6ff;
-    border: 1px solid #bfdbfe;
-    color: #1d4ed8;
-    padding: 7px 12px;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
+    background-color:#eff6ff;
+    border:1px solid #bfdbfe;
+    color:#1d4ed8;
+    padding:7px 12px;
+    border-radius:8px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
 }
-
 .player-button:hover {
-    background-color: #dbeafe;
-    color: #1e40af;
+    background-color:#dbeafe;
+    color:#1e40af;
 }
-
 .player-details {
-    padding: 0;
-    background-color: #f8fafc;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-    margin: 0;
+    padding:0;
+    background-color:#f8fafc;
+    border-radius:8px;
+    width:100%;
+    text-align:center;
+    margin:0;
 }
-
 .breakdown-table {
-    width: 370px !important;
-    margin: 0 auto !important;
-    table-layout: fixed !important;
-    border-collapse: collapse !important;
+    width:370px !important;
+    margin:0 auto !important;
+    table-layout:fixed !important;
+    border-collapse:collapse !important;
 }
-
 .breakdown-table tr {
-    height: 24px;
+    height:24px;
 }
-
 .breakdown-table td {
-    padding: 2px 0 !important;
-    border: none !important;
+    padding:2px 0 !important;
+    border:none !important;
 }
-
 .breakdown-table td:first-child {
-    width: 280px !important;
-    text-align: left !important;
-    font-weight: 700;
+    width:280px !important;
+    text-align:left !important;
+    font-weight:700;
 }
-
 .breakdown-table td:last-child {
-    width: 90px !important;
-    text-align: left !important;
-    font-weight: 600;
+    width:90px !important;
+    text-align:left !important;
+    font-weight:600;
 }
-
 .total-row {
-    border-top: 2px solid #0f172a !important;
+    border-top:2px solid #0f172a !important;
 }
-
 .total-row td {
-    padding-top: 6px !important;
-    font-weight: 700;
+    padding-top:6px !important;
+    font-weight:700;
 }
-
 .player-details a {
-    display: block;
-    margin-top: 6px;
-    text-align: center;
-    color: #2563eb;
-    font-weight: 600;
-    text-decoration: none;
+    display:block;
+    margin-top:6px;
+    text-align:center;
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
 }
-
 .player-details a:hover {
-    text-decoration: underline;
+    text-decoration:underline;
 }

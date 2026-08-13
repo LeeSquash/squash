@@ -4,6 +4,7 @@
 // ========================================
 
 import fs from "fs";
+import { calculateAchievements } from "../achievements/calculator.js";
 
 const database = JSON.parse(fs.readFileSync("./data/database.json", "utf8"));
 const leaderboard = JSON.parse(fs.readFileSync("./data/leaderboard.json", "utf8"));
@@ -22,6 +23,7 @@ Object.keys(database.players).forEach(playerKey => {
     const player = database.players[playerKey];
     const leaderboardEntry = leaderboard.find(item => item.name === player.name);
     const competitions = {};
+    const achievements = calculateAchievements(player);
 
     Object.keys(player.competitions).forEach(competition => {
         const pointsData = leaderboardEntry?.points?.breakdown?.[competition] || {
@@ -45,7 +47,7 @@ Object.keys(database.players).forEach(playerKey => {
             rank: leaderboardEntry?.rank || null
         },
         trophies: [],
-        achievements: [],
+        achievements: achievements,
         competitions: competitions
     };
 });
