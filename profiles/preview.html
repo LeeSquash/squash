@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement Preview</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 30px;
+            background: #0d1020;
+            color: #f4f2ed;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin: 0 0 10px;
+            text-align: center;
+            font-size: 32px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #aaa;
+            margin-bottom: 35px;
+        }
+        .achievement-list {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+        }
+        .achievement-item {
+            background: #151827;
+            border-radius: 12px;
+            padding: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+        }
+        .message {
+            text-align: center;
+            color: #aaa;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Achievement Preview</h1>
+    <div class="subtitle">Live trophy artwork from achievementbadge.js</div>
+
+    <div id="achievements" class="achievement-list"></div>
+
+    <div id="message" class="message"></div>
+
+    <script type="module">
+        import { renderAchievementBadge } from "../achievements/achievementbadge.js";
+
+        const playerName = new URLSearchParams(window.location.search).get("player");
+        const container = document.getElementById("achievements");
+        const message = document.getElementById("message");
+
+        async function loadPreview() {
+            try {
+                const response = await fetch("../data/profiles.json");
+
+                if (!response.ok) {
+                    throw new Error("Could not load profiles.json");
+                }
+
+                const profiles = await response.json();
+
+                const key = playerName
+                    ? playerName.toLowerCase()
+                    : Object.keys(profiles)[0];
+
+                const profile = profiles[key];
+
+                if (!profile) {
+                    message.textContent = `Player not found: ${playerName}`;
+                    return;
+                }
+
+                document.querySelector("h1").textContent =
+                    `${profile.name} — Achievement Preview`;
+
+                const achievements =
+                    profile.achievements?.achievements || [];
+
+                if (achievements.length === 0) {
+                    message.textContent = "This player has no achievements.";
+                    return;
+                }
+
+                container.innerHTML = achievements.map(achievement => `
+                    <div class="achievement-item">
+                        ${renderAchievementBadge(achievement)}
+                    </div>
+                `).join("");
+
+            } catch (error) {
+                console.error(error);
+                message.textContent = "Unable to load achievement data.";
+            }
+        }
+
+        loadPreview();
+    </script>
+
+</body>
+</html>
