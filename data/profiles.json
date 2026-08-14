@@ -217,7 +217,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 8,
           "tier": "medium",
           "points": 25,
@@ -2050,7 +2050,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 3,
           "tier": "easy",
           "points": 10,
@@ -2633,7 +2633,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
@@ -2878,7 +2878,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 8,
           "tier": "medium",
           "points": 25,
@@ -4338,7 +4338,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 6,
           "tier": "medium",
           "points": 25,
@@ -4552,7 +4552,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
@@ -5161,7 +5161,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 3,
           "tier": "easy",
           "points": 10,
@@ -5809,7 +5809,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 6,
           "tier": "medium",
           "points": 25,
@@ -6034,7 +6034,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
@@ -7098,7 +7098,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 3,
           "tier": "easy",
           "points": 10,
@@ -10008,7 +10008,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 4,
           "tier": "easy",
           "points": 10,
@@ -10640,7 +10640,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 4,
           "tier": "easy",
           "points": 10,
@@ -10911,7 +10911,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 3,
           "tier": "easy",
           "points": 10,
@@ -11130,7 +11130,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 5,
           "tier": "medium",
           "points": 25,
@@ -11999,7 +11999,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 4,
           "tier": "easy",
           "points": 10,
@@ -13141,7 +13141,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 4,
           "tier": "easy",
           "points": 10,
@@ -14031,7 +14031,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
@@ -15328,7 +15328,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 6,
           "tier": "medium",
           "points": 25,
@@ -15497,7 +15497,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 6,
           "tier": "medium",
           "points": 25,
@@ -16590,7 +16590,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 8,
           "tier": "medium",
           "points": 25,
@@ -17159,7 +17159,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 3,
           "tier": "easy",
           "points": 10,
@@ -17448,7 +17448,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 4,
           "tier": "easy",
           "points": 10,
@@ -18593,7 +18593,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 5,
           "tier": "medium",
           "points": 25,
@@ -19183,7 +19183,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
@@ -20560,7 +20560,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 4,
           "tier": "easy",
           "points": 10,
@@ -23045,7 +23045,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 5,
           "tier": "medium",
           "points": 25,
@@ -32949,7 +32949,7 @@
         },
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 3,
           "tier": "easy",
           "points": 10,
@@ -33927,7 +33927,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 6,
           "tier": "medium",
           "points": 25,
@@ -35308,7 +35308,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 5,
           "tier": "medium",
           "points": 25,
@@ -35459,7 +35459,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 8,
           "tier": "medium",
           "points": 25,
@@ -35535,7 +35535,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 6,
           "tier": "medium",
           "points": 25,
@@ -35611,7 +35611,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 5,
           "tier": "medium",
           "points": 25,
@@ -35687,7 +35687,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
@@ -35763,7 +35763,7 @@
       "achievements": [
         {
           "id": "box_league_seasons",
-          "name": "Box Seasons",
+          "name": "League Seasons",
           "value": 2,
           "tier": "easy",
           "points": 10,
