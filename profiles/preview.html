@@ -39,10 +39,21 @@
             box-shadow: 0 8px 25px rgba(0,0,0,0.35);
         }
         .message {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
             text-align: center;
             color: #aaa;
-            margin-top: 50px;
             font-size: 18px;
+            line-height: 1.5;
+        }
+        .error {
+            color: #ff8f8f;
+            background: #2a1518;
+            border: 1px solid #8f3030;
+            border-radius: 8px;
+            text-align: left;
+            white-space: pre-wrap;
         }
     </style>
 </head>
@@ -52,25 +63,35 @@
     <div class="subtitle">Live trophy artwork from achievementbadge.js</div>
 
     <div id="achievements" class="achievement-list"></div>
-
-    <div id="message" class="message"></div>
+    <div id="message" class="message">Loading...</div>
 
     <script type="module">
-        import { renderAchievementBadge } from "../achievements/achievementbadge.js";
+        import { renderAchievementBadge } from "./components/achievementbadge.js";
 
         const playerName = new URLSearchParams(window.location.search).get("player");
         const container = document.getElementById("achievements");
         const message = document.getElementById("message");
 
+        function showError(text) {
+            message.className = "message error";
+            message.textContent = text;
+        }
+
         async function loadPreview() {
             try {
+                message.textContent = "Loading profiles.json...";
+
                 const response = await fetch("../data/profiles.json");
 
                 if (!response.ok) {
-                    throw new Error("Could not load profiles.json");
+                    throw new Error(
+                        `profiles.json returned HTTP ${response.status}`
+                    );
                 }
 
                 const profiles = await response.json();
+
+                message.textContent = "Finding player...";
 
                 const key = playerName
                     ? playerName.toLowerCase()
@@ -79,7 +100,11 @@
                 const profile = profiles[key];
 
                 if (!profile) {
-                    message.textContent = `Player not found: ${playerName}`;
+                    showError(
+                        `Player not found.\n\n` +
+                        `Requested: ${playerName}\n` +
+                        `Key used: ${key}`
+                    );
                     return;
                 }
 
@@ -90,9 +115,13 @@
                     profile.achievements?.achievements || [];
 
                 if (achievements.length === 0) {
-                    message.textContent = "This player has no achievements.";
+                    message.textContent =
+                        `${profile.name} has no achievements.`;
                     return;
                 }
+
+                message.textContent =
+                    `Found ${achievements.length} achievements. Rendering trophies...`;
 
                 container.innerHTML = achievements.map(achievement => `
                     <div class="achievement-item">
@@ -100,9 +129,17 @@
                     </div>
                 `).join("");
 
+                message.textContent =
+                    `${achievements.length} trophies rendered successfully.`;
+
             } catch (error) {
-                console.error(error);
-                message.textContent = "Unable to load achievement data.";
+                console.error("Achievement preview error:", error);
+
+                showError(
+                    `PREVIEW ERROR\n\n` +
+                    `${error.message}\n\n` +
+                    `Check the browser console (F12) for more details.`
+                );
             }
         }
 
