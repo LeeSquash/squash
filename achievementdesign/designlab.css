@@ -16,7 +16,7 @@ body {
 }
 
 .design-lab {
-    max-width: 1400px;
+    max-width: 1450px;
     margin: 0 auto;
 }
 
@@ -33,37 +33,37 @@ h2 {
 }
 
 h3 {
-    margin: 0 0 8px;
+    margin: 0 0 10px;
     font-size: 16px;
 }
 
 .lab-intro {
     margin: 0 0 35px;
-    max-width: 800px;
+    max-width: 900px;
     color: #8992aa;
     line-height: 1.6;
 }
 
 .lab-section {
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .badge-builder {
     display: grid;
-    grid-template-columns: minmax(250px, 360px) minmax(400px, 1fr);
-    gap: 35px;
+    grid-template-columns: 330px minmax(450px, 1fr);
+    gap: 30px;
     align-items: start;
 }
 
 .builder-controls {
-    padding: 24px;
+    padding: 22px;
     background: #101522;
     border: 1px solid #252d42;
     border-radius: 16px;
 }
 
 .control-group {
-    margin-bottom: 24px;
+    margin-bottom: 22px;
 }
 
 .control-group:last-child {
@@ -74,7 +74,7 @@ h3 {
     display: block;
     margin-bottom: 9px;
     color: #8e97ae;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -87,8 +87,8 @@ h3 {
 }
 
 .option {
-    min-height: 48px;
-    padding: 8px 10px;
+    min-height: 47px;
+    padding: 8px 9px;
     border: 1px solid #293249;
     border-radius: 8px;
     background: #151b2b;
@@ -148,24 +148,24 @@ h3 {
 }
 
 .badge-stage {
-    min-height: 700px;
+    min-height: 720px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 35px;
     background:
         radial-gradient(
             circle at center,
             #182039 0%,
-            #0d1220 45%,
-            #080b14 75%
+            #0d1220 48%,
+            #080b14 78%
         );
     border: 1px solid #252d42;
     border-radius: 16px;
 }
 
 .badge-stage svg {
-    width: min(100%, 600px);
+    width: min(100%, 650px);
     height: auto;
     display: block;
 }
@@ -187,7 +187,7 @@ h3 {
 
 .reset-button {
     width: 100%;
-    margin-top: 24px;
+    margin-top: 22px;
     padding: 11px;
     border: 1px solid #39435c;
     border-radius: 8px;
@@ -203,10 +203,52 @@ h3 {
     background: #20283c;
 }
 
+.design-report {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #252d42;
+    border-radius: 12px;
+    background: #0d1220;
+}
+
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.report-grid > div {
+    padding: 12px;
+    background: #101522;
+    border-radius: 8px;
+}
+
+.report-grid span {
+    display: block;
+    margin-bottom: 5px;
+    color: #68728a;
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.report-grid strong {
+    display: block;
+    color: #e5e8ef;
+    font-size: 12px;
+}
+
+.report-grid p {
+    margin: 7px 0 0;
+    color: #737d94;
+    font-size: 9px;
+    line-height: 1.45;
+}
+
 .module-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 16px;
 }
 
 .module-card {
@@ -214,14 +256,13 @@ h3 {
     border: 1px solid #252d42;
     border-radius: 12px;
     background: #101522;
-    text-align: center;
 }
 
 .module-preview {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 180px;
+    min-height: 220px;
     margin-bottom: 12px;
     padding: 8px;
     border-radius: 8px;
@@ -235,25 +276,69 @@ h3 {
 
 .module-preview svg {
     width: 100%;
-    max-width: 180px;
+    max-width: 210px;
     height: auto;
     display: block;
 }
 
-.module-card strong {
-    display: block;
+.module-name {
     color: #e5e8ef;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .module-description {
-    display: block;
-    min-height: 24px;
+    min-height: 28px;
     margin-top: 5px;
-    color: #626c83;
+    color: #69738a;
     font-size: 9px;
-    line-height: 1.35;
-    text-align: center;
+    line-height: 1.4;
+}
+
+.module-visual {
+    min-height: 70px;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #0b0f1a;
+    color: #7c869d;
+    font-size: 9px;
+    line-height: 1.45;
+}
+
+.module-visual strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #9da6ba;
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.svg-inspection {
+    margin-top: 10px;
+    border-top: 1px solid #252d42;
+    padding-top: 9px;
+}
+
+.svg-inspection summary {
+    color: #69738a;
+    cursor: pointer;
+    font-size: 9px;
+}
+
+.svg-inspection pre {
+    max-height: 220px;
+    overflow: auto;
+    margin: 9px 0 0;
+    padding: 9px;
+    background: #080b14;
+    color: #8994aa;
+    font-family: Consolas, monospace;
+    font-size: 7px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 .lab-note {
@@ -263,21 +348,32 @@ h3 {
     line-height: 1.5;
 }
 
-@media (max-width: 900px) {
-    body {
-        padding: 20px;
-    }
-
+@media (max-width: 1050px) {
     .badge-builder {
         grid-template-columns: 1fr;
     }
 
-    .badge-stage {
-        min-height: 500px;
+    .report-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
+    body {
+        padding: 20px;
+    }
+
+    .badge-stage {
+        min-height: 550px;
+        padding: 15px;
+    }
+
+    .module-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
     body {
         padding: 12px;
     }
@@ -286,11 +382,11 @@ h3 {
         grid-template-columns: 1fr;
     }
 
-    .module-gallery {
-        grid-template-columns: repeat(2, 1fr);
+    .report-grid {
+        grid-template-columns: 1fr;
     }
 
-    .badge-stage {
-        padding: 10px;
+    .module-gallery {
+        grid-template-columns: 1fr;
     }
 }
