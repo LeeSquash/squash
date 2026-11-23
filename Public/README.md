@@ -8,17 +8,18 @@ A small, dependency-free website structure for The Squash Community. The page is
 - `styles.css` — shared colours, layout, and responsive styling.
 - `app.js` — connects the elements and handles section and page navigation.
 - `config.js` — the on/off switches and the section and page names.
-- `elements/title/` — the website name.
+- `elements/title/` — the website name. The live title uses the blue-and-lime Club design; its four alternate Club colour/layout concepts remain in the admin design tests.
 - `elements/section/` — the Squash, Racketball, and Juniors tabs.
 - `elements/tabs/` — the tabs for pages within the selected section.
 - `elements/login/` — a link to the member-area sign-in.
 - `elements/signup/` — a link to member account creation.
-- `pages/` — the content shown for the selected page.
+- `assets/brand/` — the [Karakal Tec Pro Elite product photo](https://www.directsportseshop.co.uk/karakal-tec-pro-elite-squash-racket-8B17), approved for sponsorship promotion and used in the Admin title concepts. The transparent PNG is used on the site; the source JPEG is retained here.
+- `pages/` — the content shown for the selected page. Each Squash tab has its own file in `pages/squash/`; `pages/page-content.js` connects the selected tab to that file.
 - `enabledElements` in `config.js` — on/off switches for all of the above.
 
-## Change what appears
+## Add or edit page content
 
-Open `config.js`. Set an element's value in `enabledElements` to `true` to show it or `false` to hide it. Edit section and page labels in the `sections` list. The individual page areas are intentionally blank and ready for content.
+Open `config.js` to change the section and page labels or switch elements on and off. Edit the matching file in `pages/squash/` to change a Squash tab's content. The other section pages remain blank until their content is ready.
 
 ## View the website
 

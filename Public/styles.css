@@ -122,6 +122,37 @@ input:focus-visible {
   line-height: 1;
 }
 
+.brand-wordmark {
+  gap: 0;
+}
+
+.brand-copy .brand-wordmark .club-the {
+  margin-bottom: 5px;
+  color: var(--green);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+}
+
+.brand-copy .brand-wordmark strong {
+  color: var(--lime);
+  font-size: clamp(36px, 4.6vw, 52px);
+  line-height: 0.95;
+}
+
+.brand-copy .brand-wordmark .club-title-the {
+  color: var(--lime);
+}
+
+.brand-copy .brand-wordmark .club-community {
+  margin-top: 0.45em;
+  color: var(--green);
+  font-family: Manrope, sans-serif;
+  font-size: clamp(17px, 2.2vw, 20px);
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
 .brand-kicker {
   color: var(--green);
   font-size: 9px;
@@ -145,6 +176,26 @@ input:focus-visible {
 .brand-name strong {
   color: var(--green);
   font-weight: 800;
+}
+
+.racket-q-slot {
+  position: relative;
+  display: inline-block;
+  width: 0.75em;
+  height: 1.12em;
+  margin-left: -0.08em;
+  vertical-align: -0.27em;
+}
+
+.racket-q {
+  position: absolute;
+  top: 0.36em;
+  left: 0.1em;
+  display: block;
+  width: 1.12em;
+  height: 1.12em;
+  overflow: visible;
+  object-fit: contain;
 }
 
 .section-tabs {
@@ -369,6 +420,324 @@ input:focus-visible {
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.22);
 }
 
+.page-canvas-content {
+  min-height: 0;
+  padding: clamp(28px, 5vw, 64px);
+}
+
+.public-page {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 980px);
+  margin: 0 auto;
+}
+
+.public-page-heading {
+  max-width: 720px;
+}
+
+.public-eyebrow {
+  margin: 0 0 13px;
+  color: var(--lime);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.public-page h1 {
+  margin: 0;
+  color: var(--ink);
+  font-family: Manrope, sans-serif;
+  font-size: clamp(34px, 5vw, 58px);
+  font-weight: 700;
+  letter-spacing: -0.055em;
+  line-height: 1.05;
+}
+
+.public-lede {
+  max-width: 640px;
+  margin: 17px 0 0;
+  color: #b7c5d7;
+  font-size: clamp(14px, 1.7vw, 17px);
+  line-height: 1.75;
+}
+
+.training-session {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr 1fr;
+  margin-top: clamp(28px, 5vw, 50px);
+  border: 1px solid rgba(145, 162, 186, 0.2);
+  border-radius: 14px;
+  background: rgba(8, 15, 24, 0.58);
+}
+
+.training-session > div {
+  display: grid;
+  align-content: start;
+  gap: 7px;
+  min-height: 130px;
+  padding: 22px 25px;
+}
+
+.training-session > div + div {
+  border-left: 1px solid rgba(145, 162, 186, 0.17);
+}
+
+.training-label {
+  margin-bottom: 5px;
+  color: #90a4bc;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.training-session strong {
+  color: var(--ink);
+  font-family: Manrope, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.training-time {
+  color: #d3deeb;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.training-session-price strong {
+  color: var(--lime);
+  font-size: 28px;
+  letter-spacing: -0.04em;
+}
+
+.training-session-price strong .training-price-qualifier {
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.title-concept-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.title-concept {
+  position: relative;
+  display: grid;
+  min-height: 180px;
+  align-content: space-between;
+  gap: 16px;
+  overflow: hidden;
+  padding: 17px;
+  border: 1px solid rgba(145, 162, 186, 0.18);
+  border-radius: 12px;
+  background: #101923;
+}
+
+.title-concept-number,
+.title-concept-label {
+  color: #8fa2b8;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title-concept-label {
+  position: absolute;
+  top: 17px;
+  left: 44px;
+  color: #c1ccda;
+}
+
+.title-concept-preview {
+  display: flex;
+  min-height: 105px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #f0f4fa;
+}
+
+.title-club-variant {
+  gap: 12px;
+  padding: 14px;
+}
+
+.title-club-variant .brand-mark {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 11px 10px;
+  border-radius: 17px 17px 17px 5px;
+}
+
+.title-club-variant .brand-mark span {
+  width: 5px;
+}
+
+.title-club-variant .brand-mark span:nth-child(1) {
+  height: 15px;
+}
+
+.title-club-variant .brand-mark span:nth-child(2) {
+  height: 24px;
+}
+
+.title-club-variant .brand-mark span:nth-child(3) {
+  height: 19px;
+}
+
+.title-previous-live .previous-wordmark {
+  display: grid;
+  line-height: 1;
+  font-family: Manrope, sans-serif;
+}
+
+.title-previous-live .previous-wordmark > span {
+  margin-bottom: 4px;
+  color: #39a9ff;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.title-previous-live .previous-wordmark strong {
+  color: #f0f4fa;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.075em;
+}
+
+.title-previous-live .previous-wordmark b {
+  margin-top: 0.45em;
+  color: #39a9ff;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.club-wordmark {
+  display: grid;
+  line-height: 1;
+  font-family: Georgia, serif;
+}
+
+.club-the {
+  margin-bottom: 2px;
+  color: #39a9ff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.club-wordmark strong {
+  color: #f1f0dc;
+  font-size: clamp(28px, 3.4vw, 36px);
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: -0.07em;
+  white-space: nowrap;
+}
+
+.club-community {
+  margin-top: 0.7em;
+  color: #39a9ff;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.title-club-blue .club-the {
+  color: #d5ff3f;
+}
+
+.title-club-blue .club-wordmark strong {
+  color: #39a9ff;
+}
+
+.title-club-blue .club-community {
+  color: #f1f0dc;
+}
+
+.title-club-lime .club-the {
+  color: #39a9ff;
+  font-size: 7px;
+  letter-spacing: 0.16em;
+}
+
+.title-club-lime .club-wordmark strong {
+  color: #d5ff3f;
+}
+
+.title-club-lime .club-community {
+  color: #39a9ff;
+}
+
+.title-club-framed {
+  border: 1px solid rgba(57, 169, 255, 0.32);
+  border-radius: 16px;
+  background:
+    linear-gradient(115deg, rgba(57, 169, 255, 0.1), transparent 70%),
+    #101923;
+}
+
+.title-club-framed .brand-mark {
+  border-color: rgba(213, 255, 63, 0.38);
+}
+
+.training-price-note,
+.training-coach-note {
+  color: #96a9bf;
+  font-size: 12px;
+}
+
+.training-approach {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.75fr) minmax(0, 1.25fr);
+  gap: 32px;
+  align-items: start;
+  margin-top: 40px;
+  padding-top: 27px;
+  border-top: 1px solid rgba(145, 162, 186, 0.18);
+}
+
+.training-approach .public-eyebrow {
+  margin-bottom: 9px;
+}
+
+.training-approach h2 {
+  margin: 0;
+  color: var(--ink);
+  font-family: Manrope, sans-serif;
+  font-size: clamp(19px, 2.5vw, 24px);
+  font-weight: 650;
+  letter-spacing: -0.035em;
+}
+
+.training-approach > p {
+  max-width: 590px;
+  margin: 0;
+  color: #b7c5d7;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.public-placeholder-page {
+  min-height: 220px;
+  padding-top: 8px;
+}
+
+.public-placeholder-page .public-lede {
+  color: #9eafc3;
+}
+
 .page-canvas::before,
 .page-canvas::after {
   position: absolute;
@@ -493,6 +862,33 @@ input:focus-visible {
 
   .page-canvas {
     min-height: min(42vh, 400px);
+  }
+
+  .page-canvas-content {
+    min-height: 0;
+    padding: 27px 22px;
+  }
+
+  .training-session {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .training-session-coach {
+    grid-column: 1 / -1;
+    min-height: 0 !important;
+    border-top: 1px solid rgba(145, 162, 186, 0.17);
+    border-left: 0 !important;
+  }
+
+  .training-approach {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 29px;
+    padding-top: 22px;
+  }
+
+  .title-concept-grid {
+    grid-template-columns: 1fr;
   }
 }
 
