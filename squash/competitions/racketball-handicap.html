@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Racketball Handicap</title>
+    <link rel="stylesheet" href="/squash/css/style.css">
+</head>
+
+<body>
+
+    <div class="sidebar"> </div>
+
+    <div class="content">
+        
+        <h1>Racketball Clubnight</h1>
+        <p>Use the tabs at the bottom of the sheet below to view standings and data for the Racketball Handicap.</p>
+
+        <div class="sheet-container">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSYMGl8QqMXQZkIxK20N2cqi3N2Lc1U9xTXb0m3hG006rtl5truQMjvN2RzWw2NvV8dcssxn7auq2vq/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+        </div>
+
+<!-- Clean, simple sidebar fetcher -->
+    <script>
+        // FIX: Changed '/components/sidebar.html' to '/squash/components/sidebar.html'
+        fetch('/squash/components/sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.innerHTML = data;
+                
+                const scripts = sidebar.getElementsByTagName('script');
+                for (let i = 0; i < scripts.length; i++) {
+                    eval(scripts[i].innerText);
+                }
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!-- ========================================
+FILE LOCATION: /squash/components/sidebar.html
+CENTRAL SIDEBAR NAVIGATION
+======================================== -->
+
+<!-- The Toggle Button -->
+<button id="toggle-sidebar-btn" aria-label="Toggle Navigation">☰</button>
+
+<!-- Competition Links -->
+<a href="/squash/competitions/home.html">Home</a>
+<a href="/squash/competitions/wednesday-handicap.html">Wednesday Handicap</a>
+<a href="/squash/competitions/squash-levels-team-challenge.html">Squash Levels Team Challenge</a>
+<a href="/squash/competitions/junior-handicap.html">Junior Handicap</a>
+<a href="/squash/competitions/generation-cup.html">Generation Cup</a>
+<a href="/squash/competitions/racketball-handicap.html">Racketball Handicap</a>
+<a href="/squash/competitions/junior-squash-camps.html">Junior Squash Camps</a>
+<a href="/squash/competitions/box-leagues.html">Squash Box Leagues</a>
+
+<!-- Leaderboard Links -->
+<a href="/squash/leaderboards/index.html">Leaderboard</a>
+
+<!-- CENTRAL SIDEBAR LOGIC (Driven from this file only) -->
+<script>
+    (function() {
+        const pageName = window.location.pathname.split('/').pop();
+        if (pageName) {
+            const currentLink = document.querySelector(`.sidebar a[href*="${pageName}"]`);
+            if (currentLink) currentLink.classList.add('active');
+        }
+        const toggleBtn = document.getElementById('toggle-sidebar-btn');
+        if (toggleBtn) {
+            toggleBtn.onclick = function() {
+                document.body.classList.toggle('sidebar-collapsed');
+            };
+        }
+    })();
+</script>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Member pages and competition statistics for The Squash Community."
+    />
+    <meta name="theme-color" content="#0a0f18" />
+    <title>Members | The Squash Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Public/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="header-main">
+          <div class="brand-area">
+            <div id="site-title"></div>
+            <nav id="section-navigation" aria-label="Choose a site section"></nav>
+          </div>
+          <div id="account-area" class="account-area"></div>
+        </div>
+        <nav id="page-navigation" class="page-navigation" aria-label="Choose a page"></nav>
+      </header>
+
+      <main id="page-content" class="page-content" tabindex="-1">
+        <p class="member-loading" role="status">Checking your member account…</p>
+      </main>
+
+      <footer class="site-footer">
+        <span>The Squash Community</span>
+        <span class="footer-note">Squash <span class="footer-dot">•</span> Racketball <span class="footer-dot">•</span> Juniors <span class="footer-dot">•</span> Members <span class="footer-dot">•</span> Stats</span>
+      </footer>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="/squash/css/style.css">
+</head>
+
+<body>
+
+    <div class="sidebar"></div>
+
+    <main class="content">
+
+        <h1>Leaderboard</h1>
+
+        <div id="leaderboard-container">
+            Loading leaderboard...
+        </div>
+
+    </main>
+
+
+    <script>
+        fetch('/squash/components/sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.innerHTML = data;
+
+                const scripts = sidebar.getElementsByTagName('script');
+
+                for (let i = 0; i < scripts.length; i++) {
+                    eval(scripts[i].innerText);
+                }
+
+            });
+    </script>
+
+
+    <script type="module" src="leaderboard.js"></script>
+
+</body>
+</html>

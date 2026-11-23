@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Junior Handicap</title>
+    <link rel="stylesheet" href="/squash/css/style.css">
+</head>
+
+<body>
+
+    <!-- Empty container where your shared sidebar will load -->
+     <div class="sidebar"></div>
+
+    <div class="content">
+        <!-- Changed headings to reflect the Junior Handicap -->
+        <h1>Junior Handicap</h1>
+        <p>Use the tabs at the bottom of the sheet below to view standings and data for the Junior Handicap tournament.</p>
+
+        <div class="sheet-container">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjiDiRzdRVMDBRGsNWeH84w7Jc6KBfN1-O8y_2Yoepm0gTU3LN6g6tTWXklvIqZ76IHj7RJwD9Ln0H/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+    </div>
+<!-- Script that pulls in the sidebar and handles the active page highlight -->
+   <!-- Clean, simple sidebar fetcher -->
+    <script>
+        // FIX: Changed '/components/sidebar.html' to '/squash/components/sidebar.html'
+        fetch('/squash/components/sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.innerHTML = data;
+                
+                const scripts = sidebar.getElementsByTagName('script');
+                for (let i = 0; i < scripts.length; i++) {
+                    eval(scripts[i].innerText);
+                }
+            });
+    </script>
+</body>
+</html>

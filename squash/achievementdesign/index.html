@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement Design Lab</title>
+    <link rel="stylesheet" href="designlab.css">
+</head>
+<body>
+    <header class="lab-header">
+        <div>
+            <div class="eyebrow">SQUASH ACHIEVEMENTS</div>
+            <h1>Achievement Design Lab</h1>
+            <p>Build and test the visual language for achievement badges.</p>
+        </div>
+        <div class="lab-status">
+            <span></span> DESIGN MODE
+        </div>
+    </header>
+
+    <main class="lab">
+        <section class="workspace">
+            <div class="preview-panel">
+                <div class="panel-heading">
+                    <div>
+                        <span class="section-label">LIVE COMPOSITION</span>
+                        <h2>Badge Preview</h2>
+                    </div>
+                    <button id="resetButton">Reset</button>
+                </div>
+
+                <div class="badge-stage" id="badgeStage"></div>
+
+                <div class="selection-summary">
+                    <div><span>BASE</span><strong id="selectedBase">Shield</strong></div>
+                    <div><span>FRAME</span><strong id="selectedFrame">Classic</strong></div>
+                    <div><span>ICON</span><strong id="selectedIcon">Trophy</strong></div>
+                    <div><span>DECORATION</span><strong id="selectedDecoration">Stars</strong></div>
+                    <div><span>TIER</span><strong id="selectedTier">Legendary</strong></div>
+                </div>
+            </div>
+
+            <aside class="controls-panel">
+                <div class="control-section">
+                    <div class="section-label">01 / STRUCTURE</div>
+                    <h3>Base</h3>
+                    <div class="option-grid" id="baseOptions"></div>
+                </div>
+
+                <div class="control-section">
+                    <div class="section-label">02 / STRUCTURE</div>
+                    <h3>Frame</h3>
+                    <div class="option-grid" id="frameOptions"></div>
+                </div>
+
+                <div class="control-section">
+                    <div class="section-label">03 / SYMBOL</div>
+                    <h3>Icon</h3>
+                    <div class="option-grid" id="iconOptions"></div>
+                </div>
+
+                <div class="control-section">
+                    <div class="section-label">04 / DETAIL</div>
+                    <h3>Decoration</h3>
+                    <div class="option-grid" id="decorationOptions"></div>
+                </div>
+
+                <div class="control-section">
+                    <div class="section-label">05 / RARITY</div>
+                    <h3>Tier</h3>
+                    <div class="tier-grid" id="tierOptions"></div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="module-gallery">
+            <div class="gallery-heading">
+                <div>
+                    <span class="section-label">COMPONENT LIBRARY</span>
+                    <h2>Individual Modules</h2>
+                </div>
+                <p>Each component is rendered independently so we can judge the designs before combining them.</p>
+            </div>
+
+            <div class="gallery-section">
+                <h3>Bases</h3>
+                <div class="module-grid" id="baseGallery"></div>
+            </div>
+
+            <div class="gallery-section">
+                <h3>Frames</h3>
+                <div class="module-grid" id="frameGallery"></div>
+            </div>
+
+            <div class="gallery-section">
+                <h3>Icons</h3>
+                <div class="module-grid" id="iconGallery"></div>
+            </div>
+
+            <div class="gallery-section">
+                <h3>Decorations</h3>
+                <div class="module-grid" id="decorationGallery"></div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="designlab.js"></script>
+</body>
+</html>

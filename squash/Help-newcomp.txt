@@ -1,0 +1,513 @@
+ADDING A NEW COMPETITION TO THE LEE SQUASH WEBSITE
+==================================================
+
+IMPORTANT
+----------
+The website is built so that competition data flows through:
+
+Google Sheet
+    ↓
+scripts/configuration.js
+    ↓
+scripts/builddatabase.js
+    ↓
+data/database.json
+    ↓
+websitepoints/[competition].js
+    ↓
+websitepoints/calculatepoints.js
+    ↓
+websitepoints/leaderboard.js
+    ↓
+data/leaderboard.json
+    ↓
+profiles/buildprofiles.js
+    ↓
+data/profiles.json
+    ↓
+Player profiles / Leaderboard
+
+
+STEP 1 - PREPARE THE GOOGLE SHEET
+---------------------------------
+Make sure the spreadsheet is shared so that anyone with the link can view it.
+
+Get:
+- Spreadsheet ID
+- GID for each sheet/season
+- Column letters
+- First row containing the headers
+- First row containing actual player data
+
+IMPORTANT:
+If row 1 is the header and the first player is on row 2, use:
+
+startRow: 2
+
+Do NOT use 3. We have previously had a bug where the first player was missed.
+
+
+STEP 2 - ADD THE COMPETITION TO THE DATABASE CONFIGURATION
+------------------------------------------------------------
+File:
+
+/squash/scripts/configuration.js
+
+Add a new competition inside:
+
+competitions: [ ... ]
+
+Use a simple ID in lower case, for example:
+
+id: "boxleagues"
+
+Add:
+
+- spreadsheetId
+- startRow
+- columns
+- seasons
+
+Example:
+
+{
+    id: "boxleagues",
+    spreadsheetId: "YOUR SPREADSHEET ID",
+    startRow: 2,
+    columns: {
+        place: "A",
+        name: "B",
+        seasons: "C",
+        played: "D"
+    },
+    seasons: [
+        { season: "2026/27", gid: "123456789" }
+    ]
+}
+
+If the competition is an all-time table, it is still fine to use the same structure. If more sheets/seasons are added later, they can be added to the seasons array.
+
+
+STEP 3 - RUN THE DATABASE BUILDER
+---------------------------------
+Open the VS Code terminal.
+
+The normal working directory is:
+
+C:\Users\Paul\Desktop\leesquash\squash
+
+Run:
+
+node .\scripts\builddatabase.js
+
+Then check:
+
+/squash/data/database.json
+
+Search for the new competition ID and make sure the player data is there.
+
+IMPORTANT:
+Check the FIRST player in the spreadsheet. Make sure their data has not been skipped.
+
+
+STEP 4 - CREATE THE COMPETITION POINT CALCULATOR
+------------------------------------------------
+File:
+
+/squash/websitepoints/
+
+Create:
+
+[competition].js
+
+For example:
+
+boxleaguepoints.js
+
+The calculator should return:
+
+{
+    total: 0,
+    seasons: {}
+}
+
+and calculate the points according to the competition's rules.
+
+Do not put the competition's points directly into calculatepoints.js.
+
+
+STEP 5 - ADD THE POINTS RULES TO CONFIGURATION
+-----------------------------------------------
+File:
+
+/squash/websitepoints/configuration.js
+
+Add the competition and its rules.
+
+Example:
+
+boxleagues: {
+    enabled: true,
+    rules: {
+        seasons: 3,
+        played: 1
+    }
+}
+
+Keep the rules here where possible so they can be changed easily later.
+
+
+STEP 6 - ADD THE CALCULATOR TO THE MAIN POINTS CALCULATOR
+----------------------------------------------------------
+File:
+
+/squash/websitepoints/calculatepoints.js
+
+Import the new calculator.
+
+Example:
+
+import { calculateBoxLeaguePoints } from "./boxleaguepoints.js";
+
+Then add it to the breakdown:
+
+boxleagues: calculateBoxLeaguePoints(
+    player.competitions.boxleagues || []
+)
+
+The file is called calculatepoints.js.
+Do not rename it to points.js.
+
+
+STEP 7 - REBUILD THE LEADERBOARD
+--------------------------------
+File:
+
+/squash/websitepoints/leaderboard.js
+
+This normally does not need changing if the competition has been correctly added to calculatepoints.js.
+
+Run it from:
+
+C:\Users\Paul\Desktop\leesquash\squash
+
+with:
+
+node .\websitepoints\leaderboard.js
+
+Then check:
+
+/squash/data/leaderboard.json
+
+Search for:
+
+"boxleagues"
+
+Check that:
+- Box League points exist
+- Total points have increased correctly
+- The competition appears in the breakdown
+
+
+STEP 8 - UPDATE THE LEADERBOARD DISPLAY
+---------------------------------------
+File:
+
+/squash/leaderboards/leaderboard.js
+
+Add the new competition to the breakdown display.
+
+For example:
+
+<tr>
+    <td>Squash Box Leagues</td>
+    <td>${player.points.breakdown.boxleagues.total}</td>
+</tr>
+
+IMPORTANT:
+The breakdown contains an OBJECT, not a number.
+
+Use:
+
+player.points.breakdown.boxleagues.total
+
+NOT:
+
+player.points.breakdown.boxleagues
+
+Using the object directly causes:
+
+[object Object]
+
+
+STEP 9 - UPDATE THE PROFILE BUILDER
+-----------------------------------
+File:
+
+/squash/profiles/buildprofiles.js
+
+Add the competition name to competitionNames.
+
+Example:
+
+boxleagues: "Squash Box Leagues"
+
+The profile builder takes the competition data from the database and points from the leaderboard.
+
+After changing it, rebuild the profiles:
+
+node .\profiles\buildprofiles.js
+
+Then check:
+
+/squash/data/profiles.json
+
+Search for:
+
+"boxleagues"
+
+Make sure the competition data and points are present.
+
+
+STEP 10 - UPDATE THE PROFILE COMPETITION ORDER
+----------------------------------------------
+File:
+
+/squash/profiles/index.js
+
+Add the competition ID to:
+
+COMPETITION_ORDER
+
+Example:
+
+const COMPETITION_ORDER = [
+    "peteroberts",
+    "sltc",
+    "generationcup",
+    "juniorclubnight",
+    "racketballclubnight",
+    "boxleagues"
+];
+
+The ID must exactly match the ID used in configuration.js.
+
+
+STEP 11 - CHECK THE PROFILE COMPONENT
+-------------------------------------
+File:
+
+/squash/profiles/components/competitioncard.js
+
+Normally the existing competition card can display a new competition automatically.
+
+Only change this file if the new competition has a different type of statistics that needs a different display.
+
+Do not change it unnecessarily.
+
+
+STEP 12 - CREATE THE PUBLIC COMPETITION PAGE
+--------------------------------------------
+Create:
+
+/squash/competitions/[competition-name].html
+
+Use an existing competition page as the template.
+
+Keep:
+- Sidebar
+- Sheet iframe
+- Google Sheet link/navigation behaviour
+- Existing CSS
+
+The spreadsheet should use the published Google Sheets HTML URL.
+
+Example:
+
+<iframe src="GOOGLE PUBLISHED SHEET URL"></iframe>
+
+
+STEP 13 - ADD THE COMPETITION TO THE SIDEBAR
+--------------------------------------------
+File:
+
+/squash/components/sidebar.html
+
+Add:
+
+<a href="/squash/competitions/[competition-name].html">Competition Name</a>
+
+Keep the existing sidebar structure.
+
+
+STEP 14 - ADD PLAYER PROFILE HYPERLINKS TO THE SHEET
+-----------------------------------------------------
+Names in the Google Sheet can link directly to profiles.
+
+Use:
+
+=HYPERLINK("https://" & "leesquash.github.io/squash/profiles/index.html?player=" & ENCODEURL("player name"), "Player Name")
+
+IMPORTANT:
+The player name inside ENCODEURL must be LOWER CASE because the website player keys are lower case.
+
+The displayed name can be capitalised normally.
+
+Example:
+
+=HYPERLINK("https://" & "leesquash.github.io/squash/profiles/index.html?player=" & ENCODEURL("martin scheel"), "Martin Scheel")
+
+
+FINAL CHECKS
+------------
+Before uploading to GitHub:
+
+1. Database contains the new competition.
+2. First player in the spreadsheet appears in database.json.
+3. Leaderboard contains the new competition.
+4. Leaderboard displays the competition points correctly.
+5. profiles.json contains the new competition.
+6. Player profile displays the competition.
+7. Competition page loads.
+8. Competition appears in the sidebar.
+9. Spreadsheet player names link to profiles.
+10. Check a few player profiles manually.
+
+
+BUILD ORDER - QUICK VERSION
+----------------------------
+When adding a new competition, normally do things in this order:
+
+1. Google Sheet
+2. scripts/configuration.js
+3. Run builddatabase.js
+4. Check database.json
+5. Create websitepoints/[competition].js
+6. websitepoints/configuration.js
+7. websitepoints/calculatepoints.js
+8. Run websitepoints/leaderboard.js
+9. Check leaderboard.json
+10. Update leaderboards/leaderboard.js
+11. Update profiles/buildprofiles.js
+12. Run profiles/buildprofiles.js
+13. Check profiles.json
+14. Update profiles/index.js if necessary
+15. Create competitions/[competition].html
+16. Update components/sidebar.html
+17. Add spreadsheet profile hyperlinks
+18. Test locally
+19. Copy the entire /squash folder to GitHub
+20. If the live site appears unchanged, try CTRL+F5
+
+
+IMPORTANT FILE LOCATIONS
+------------------------
+Database source configuration:
+/squash/scripts/configuration.js
+
+Database builder:
+/squash/scripts/builddatabase.js
+
+Database:
+/squash/data/database.json
+
+Points configuration:
+/squash/websitepoints/configuration.js
+
+Individual competition points:
+/squash/websitepoints/[competition].js
+
+Main points calculator:
+/squash/websitepoints/calculatepoints.js
+
+Leaderboard builder:
+/squash/websitepoints/leaderboard.js
+
+Leaderboard data:
+/squash/data/leaderboard.json
+
+Leaderboard display:
+/squash/leaderboards/leaderboard.js
+
+Profile builder:
+/squash/profiles/buildprofiles.js
+
+Profile data:
+/squash/data/profiles.json
+
+Profile renderer:
+/squash/profiles/index.js
+
+Competition display:
+/squash/profiles/components/competitioncard.js
+
+Competition pages:
+/squash/competitions/
+
+Sidebar:
+/squash/components/sidebar.html
+
+
+RUN COMMANDS
+------------
+From:
+
+C:\Users\Paul\Desktop\leesquash\squash
+
+Build database:
+
+node .\scripts\builddatabase.js
+
+Build leaderboard:
+
+node .\websitepoints\leaderboard.js
+
+Build profiles:
+
+node .\profiles\buildprofiles.js
+
+
+COMMON PROBLEMS
+---------------
+First player missing:
+Check startRow in scripts/configuration.js.
+If headers are row 1 and data starts row 2, use startRow: 2.
+
+[object Object] on leaderboard:
+The renderer is displaying the whole points object.
+Use .total.
+
+Competition missing from profile:
+Check:
+- database.json
+- profiles/buildprofiles.js
+- profiles.json
+- profiles/index.js
+
+Competition missing from sidebar:
+Check components/sidebar.html.
+If it is correct but the live site still shows the old sidebar, try CTRL+F5.
+
+Player says "not found":
+The player URL uses a lower-case player key.
+The displayed name can still be capitalised.
+
+Changes work locally but not on live site:
+Make sure the complete /squash folder has been copied to GitHub.
+Then try CTRL+F5.
+
+
+GENERAL RULE
+------------
+If something is already working, don't rewrite it unnecessarily.
+
+The system is designed so that:
+- configuration defines where data comes from
+- builddatabase.js fetches the data
+- individual points calculators calculate competition points
+- calculatepoints.js combines all competition points
+- leaderboard.js builds the leaderboard data
+- buildprofiles.js builds profile data
+- renderers display the data
+
+Keep those jobs separate.

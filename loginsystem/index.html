@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0f18" />
+    <meta
+      name="description"
+      content="Sign in to The Squash Community members area."
+    />
+    <title>Member sign in | The Squash Community</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="The Squash Community">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>The Squash <strong>Community</strong></span>
+        </a>
+        <a class="back-link" href="../Public/index.html">Public site <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <section id="auth-screen" class="auth-layout" aria-labelledby="welcome-title">
+        <div class="intro">
+          <p class="eyebrow"><span></span> MEMBERS AREA</p>
+          <h1 id="welcome-title">Your game.<br /><strong>Your progress.</strong></h1>
+          <p class="intro-copy">
+            Sign in to explore competition stats, follow the leaderboards and
+            keep track of your points.
+          </p>
+          <div class="feature-list" aria-label="Member features">
+            <p><span>01</span> Competition results and leaderboards</p>
+            <p><span>02</span> Player levels and points</p>
+            <p><span>03</span> Your personal competition profile</p>
+          </div>
+        </div>
+
+        <section class="auth-card" aria-label="Member account">
+          <div class="card-topline"><span class="status-dot"></span> MEMBER ACCESS</div>
+
+          <div id="auth-message" class="notice" role="status" aria-live="polite" hidden></div>
+
+          <form id="login-form" class="auth-form">
+            <h2>Welcome back</h2>
+            <p class="form-intro">Sign in to continue. Your account does not need to be linked to a player profile.</p>
+            <label for="login-email">Email address</label>
+            <input id="login-email" name="email" type="email" autocomplete="email" required />
+            <label for="login-password">Password</label>
+            <input id="login-password" name="password" type="password" autocomplete="current-password" required />
+            <button class="primary-button" type="submit">Log in <span aria-hidden="true">→</span></button>
+            <button class="text-button" type="button" data-show="reset-form">Forgot your password?</button>
+            <p class="form-switch">New here? <button class="inline-button" type="button" data-show="signup-form">Create an account</button></p>
+          </form>
+
+          <form id="signup-form" class="auth-form" hidden>
+            <h2>Create your account</h2>
+            <p class="form-intro">Verify your email to join the members area.</p>
+            <label for="signup-name">Your name</label>
+            <input id="signup-name" name="display_name" type="text" autocomplete="name" maxlength="100" required />
+            <label for="signup-email">Email address</label>
+            <input id="signup-email" name="email" type="email" autocomplete="email" required />
+            <label for="signup-password">Create a password</label>
+            <input id="signup-password" name="password" type="password" autocomplete="new-password" minlength="8" required />
+            <label class="sharing-choice">
+              <input name="hide_competition_name" type="checkbox" />
+              <span>
+                Hide my name in competition stats shown to other members. I can
+                change this later.
+              </span>
+            </label>
+            <button class="primary-button" type="submit">Sign up <span aria-hidden="true">→</span></button>
+            <p class="form-switch">Already a member? <button class="inline-button" type="button" data-show="login-form">Log in</button></p>
+          </form>
+
+          <form id="reset-form" class="auth-form" hidden>
+            <h2>Reset your password</h2>
+            <p class="form-intro">We’ll email you a secure link to choose a new password.</p>
+            <label for="reset-email">Email address</label>
+            <input id="reset-email" name="email" type="email" autocomplete="email" required />
+            <button class="primary-button" type="submit">Send reset link <span aria-hidden="true">→</span></button>
+            <p class="form-switch"><button class="inline-button" type="button" data-show="login-form">Back to log in</button></p>
+          </form>
+
+          <form id="new-password-form" class="auth-form" hidden>
+            <h2>Choose a new password</h2>
+            <p class="form-intro">Choose a password with at least 8 characters.</p>
+            <label for="new-password">New password</label>
+            <input id="new-password" name="password" type="password" autocomplete="new-password" minlength="8" required />
+            <button class="primary-button" type="submit">Save password <span aria-hidden="true">→</span></button>
+          </form>
+
+          <p class="security-note"><span aria-hidden="true">▰</span> Secure member sign-in</p>
+        </section>
+      </section>
+
+      <footer class="site-footer">
+        <span>The Squash Community</span>
+        <span>Member accounts are used for competition stats access.</span>
+      </footer>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

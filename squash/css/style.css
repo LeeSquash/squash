@@ -1,0 +1,296 @@
+/* 1. Global Reset & Fonts */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background-color:#f4f6f9;
+    color:#1e293b;
+    display:flex;
+    transition:all 0.3s ease;
+}
+/* 2. Professional Sidebar Navigation */
+.sidebar {
+    width:280px;
+    height:100vh;
+    background-color:#0f172a;
+    padding:30px 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    overflow-y:auto;
+    box-shadow:4px 0 10px rgba(0,0,0,0.05);
+    transition:all 0.3s ease;
+    z-index:1000;
+}
+/* Sidebar Links */
+.sidebar a {
+    display:block;
+    color:#94a3b8;
+    text-decoration:none;
+    padding:12px 16px;
+    margin-bottom:8px;
+    border-radius:6px;
+    font-weight:500;
+    transition:all 0.2s ease;
+}
+.sidebar a:hover {
+    background-color:#1e293b;
+    color:#ffffff;
+    padding-left:22px;
+}
+.sidebar a.active {
+    background-color:#3b82f6;
+    color:#ffffff;
+}
+/* 3. Main Content Container Layout & Home Page Styling */
+.content {
+    margin-left:280px;
+    padding:50px 40px;
+    width:calc(100% - 280px);
+    max-width:1100px;
+    transition:all 0.3s ease;
+}
+/* Home Page Specific Container Constraints */
+.intro-body,
+.intro-guide,
+.intro-footer {
+    max-width:720px;
+    margin-bottom:50px;
+}
+.intro-header {
+    max-width:720px;
+    margin-bottom:50px;
+    text-align:center;
+}
+.intro-footer {
+    margin-bottom:0;
+}
+.intro-body p {
+    margin-bottom:24px;
+}
+.intro-body p:last-child {
+    margin-bottom:0;
+}
+.content h1 {
+    font-size:2.6rem;
+    color:#0f172a;
+    font-weight:700;
+    margin-bottom:20px;
+}
+.content h2 {
+    font-size:1.4rem;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:20px;
+    position:relative;
+    padding-bottom:6px;
+}
+.content h2::after {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:45px;
+    height:3px;
+    background-color:#3b82f6;
+    border-radius:2px;
+}
+.content p {
+    color:#64748b;
+    font-size:1.05rem;
+    line-height:1.7;
+}
+.content .subtitle {
+    font-size:1.25rem;
+    font-style:italic;
+    color:#1e3a8a;
+}
+.intro-guide ul {
+    list-style-type:none;
+    padding-left:0;
+    margin-top:15px;
+}
+.intro-guide li {
+    color:#64748b;
+    font-size:1.05rem;
+    line-height:1.7;
+    position:relative;
+    padding-left:24px;
+    margin-bottom:18px;
+}
+.intro-guide li::before {
+    content:"•";
+    color:#3b82f6;
+    font-size:1.5rem;
+    position:absolute;
+    left:4px;
+    top:-3px;
+}
+.intro-guide li strong {
+    color:#1d4ed8;
+    font-weight:600;
+    background-color:#eff6ff;
+    padding:2px 6px;
+    border-radius:4px;
+}
+.intro-footer p {
+    font-style:italic;
+    border-left:3px solid #e2e8f0;
+    padding-left:15px;
+}
+/* 4. Google Sheets Container Frame */
+.sheet-container {
+    background:#ffffff;
+    border:1px solid #e2e8f0;
+    border-radius:12px;
+    box-shadow:0 10px 15px -3px rgba(0,0,0,0.05);
+    overflow:hidden;
+    padding:12px;
+}
+.sheet-container iframe {
+    width:100%;
+    height:750px;
+    border:none;
+    display:block;
+}
+/* --- Collapsible Sidebar States --- */
+#toggle-sidebar-btn {
+    background:none;
+    border:none;
+    color:#94a3b8;
+    font-size:1.5rem;
+    cursor:pointer;
+    margin-bottom:20px;
+    padding:5px 10px;
+    display:block;
+    transition:color 0.2s ease;
+}
+#toggle-sidebar-btn:hover {
+    color:#ffffff;
+}
+.sidebar-collapsed .sidebar {
+    width:60px !important;
+    padding:20px 10px;
+}
+.sidebar-collapsed .sidebar a {
+    text-align:center;
+    padding:12px 0;
+    font-size:0;
+}
+.sidebar-collapsed .sidebar a::first-letter {
+    font-size:1.1rem;
+}
+.sidebar-collapsed .content {
+    margin-left:60px !important;
+    width:calc(100% - 60px);
+    max-width:100%;
+}
+/* ========================================
+   LEADERBOARD STYLING
+   ======================================== */
+#leaderboard-container table {
+    width:auto;
+    min-width:650px;
+    border-collapse:collapse;
+    margin-top:30px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 15px -3px rgba(0,0,0,0.05);
+}
+#leaderboard-container th {
+    background-color:#0f172a;
+    color:white;
+    padding:14px 15px;
+    text-align:center;
+}
+#leaderboard-container td {
+    padding:10px 15px;
+    text-align:center;
+    border-bottom:1px solid #e2e8f0;
+}
+#leaderboard-container th:nth-child(1),
+#leaderboard-container td:nth-child(1) {
+    width:60px;
+}
+#leaderboard-container th:nth-child(2),
+#leaderboard-container td:nth-child(2) {
+    width:180px;
+}
+#leaderboard-container th:nth-child(3),
+#leaderboard-container td:nth-child(3) {
+    width:100px;
+}
+#leaderboard-container th:nth-child(4),
+#leaderboard-container td:nth-child(4) {
+    width:120px;
+}
+#leaderboard-container tr:hover {
+    background-color:#f8fafc;
+}
+.player-button {
+    background-color:#eff6ff;
+    border:1px solid #bfdbfe;
+    color:#1d4ed8;
+    padding:7px 12px;
+    border-radius:8px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+}
+.player-button:hover {
+    background-color:#dbeafe;
+    color:#1e40af;
+}
+.player-details {
+    padding:0;
+    background-color:#f8fafc;
+    border-radius:8px;
+    width:100%;
+    text-align:center;
+    margin:0;
+}
+.breakdown-table {
+    width:370px !important;
+    margin:0 auto !important;
+    table-layout:fixed !important;
+    border-collapse:collapse !important;
+}
+.breakdown-table tr {
+    height:24px;
+}
+.breakdown-table td {
+    padding:2px 0 !important;
+    border:none !important;
+}
+.breakdown-table td:first-child {
+    width:280px !important;
+    text-align:left !important;
+    font-weight:700;
+}
+.breakdown-table td:last-child {
+    width:90px !important;
+    text-align:left !important;
+    font-weight:600;
+}
+.total-row {
+    border-top:2px solid #0f172a !important;
+}
+.total-row td {
+    padding-top:6px !important;
+    font-weight:700;
+}
+.player-details a {
+    display:block;
+    margin-top:6px;
+    text-align:center;
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
+}
+.player-details a:hover {
+    text-decoration:underline;
+}

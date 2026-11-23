@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Squash Results - Home</title>
+    <link rel="stylesheet" href="/squash/css/style.css">
+</head>
+
+<body>
+
+<div id="global-banner-placeholder"></div>
+
+<div class="sidebar"></div>
+
+<div class="content">
+
+    <header class="intro-header">
+        <h1>Welcome to Lee Squash! 🏸</h1>
+        <p class="subtitle">
+            Your central hub for competition stats, standings, and player progress.
+        </p>
+    </header>
+
+    <section class="intro-body">
+        <p>
+            Whether you are checking your current standing in the leagues,
+            scouting your next opponent, or just keeping an eye on the club's
+            top performers, you are in the right place.
+        </p>
+        <p>
+            This site is built to keep our competition tracking completely
+            transparent and up to date, drawing live data straight from our
+            league sheets.
+        </p>
+    </section>
+
+    <section class="intro-guide">
+
+        <h2>Player Profiles</h2>
+
+        <p>
+            Explore your personal squash history with your player profile.
+            View your results, season performances, standings, and progress
+            across previous competitions.
+        </p>
+
+        <p>
+            Enter your name below to view your profile:
+        </p>
+
+        <form id="player-search-form" style="margin-top: 20px;">
+
+            <input
+                type="text"
+                id="player-name-input"
+                placeholder="Enter your name"
+                required
+                style="
+                    padding: 10px;
+                    font-size: 16px;
+                    width: 250px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                "
+            >
+
+            <button
+                type="submit"
+                style="
+                    padding: 10px 18px;
+                    margin-left: 8px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    border: none;
+                "
+            >
+                View Profile
+            </button>
+
+        </form>
+
+    </section>
+
+    <section class="intro-guide">
+
+        <h2>How to find your stats:</h2>
+
+        <ul>
+
+            <li>
+                <strong>Explore Competitions:</strong>
+                Use the left-hand menu to jump into any of our active or past tournaments.
+            </li>
+
+            <li>
+                <strong>Track Your Progress:</strong>
+                Inside each competition page, you will find live leaderboards,
+                recent match results, and player form guides.
+            </li>
+
+            <li>
+                <strong>Stay Updated:</strong>
+                The data refreshes automatically, so make sure to bookmark this
+                page and check back after every match night!
+            </li>
+
+        </ul>
+
+    </section>
+
+    <footer class="intro-footer">
+
+        <p>
+            Good luck with your matches, play hard, and let's see who tops the ladder this season!
+        </p>
+
+    </footer>
+
+</div>
+
+<script>
+
+document
+    .getElementById("player-search-form")
+    .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const playerName =
+            document
+            .getElementById("player-name-input")
+            .value
+            .trim()
+            .toLowerCase();
+
+        if (playerName) {
+
+            window.location.href =
+                "/squash/profiles/index.html?player=" +
+                encodeURIComponent(playerName);
+
+        }
+
+    });
+
+</script>
+
+<script>
+
+fetch('/squash/components/sidebar.html')
+
+    .then(response => response.text())
+
+    .then(data => {
+
+        const sidebar = document.querySelector('.sidebar');
+
+        sidebar.innerHTML = data;
+
+        const scripts =
+            sidebar.getElementsByTagName('script');
+
+        for (let i = 0; i < scripts.length; i++) {
+            eval(scripts[i].innerText);
+        }
+
+    });
+
+</script>
+
+<script>
+
+async function loadBanner() {
+
+    try {
+
+        const response = await fetch('../components/banner.html');
+
+        if (!response.ok) throw new Error('Failed to load banner file.');
+
+        const html = await response.text();
+
+        document.getElementById('global-banner-placeholder').innerHTML = html;
+
+        const googleDocUrl = 'https://docs.google.com/document/d/e/2PACX-1vRQCpu9dUkvOKZiXmf2dkNEY1BXV-cVecdRJyK17EC9Td0FAaMxqhPgd2y7_fWoRSZNYIsEyr1Cn8X1/pub';
+
+        const proxyUrl =
+            'https://corsproxy.io/?' +
+            encodeURIComponent(googleDocUrl + '?t=' + Date.now());
+
+        const docResponse = await fetch(proxyUrl);
+
+        if (!docResponse.ok) throw new Error('Failed to reach Google Doc via proxy.');
+
+        const htmlText = await docResponse.text();
+
+        const parser = new DOMParser();
+
+        const doc =
+            parser.parseFromString(htmlText, 'text/html');
+
+        let plainText = "";
+
+        const content = doc.querySelector('.doc-content');
+
+        if (content) {
+            plainText = content.innerText.trim();
+        } else {
+            plainText = doc.body.innerText.trim();
+        }
+
+        const bannerText =
+            document.getElementById('banner-text');
+
+        if (bannerText && plainText.length > 0) {
+            bannerText.textContent = plainText;
+        } else if (bannerText) {
+            bannerText.textContent = "No announcements available.";
+        }
+
+    } catch (error) {
+
+        console.error('Error embedding banner:', error);
+
+        const bannerText =
+            document.getElementById('banner-text');
+
+        if (bannerText) {
+            bannerText.textContent = "Check back soon for updates!";
+        }
+
+    }
+
+}
+
+window.addEventListener('DOMContentLoaded', loadBanner);
+
+</script>
+
+</body>
+</html>
