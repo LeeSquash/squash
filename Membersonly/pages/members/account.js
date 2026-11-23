@@ -1,3 +1,5 @@
+import { renderTitleConcepts } from "../../../Public/elements/title/title.js";
+
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (character) => {
     const entities = {
@@ -226,6 +228,13 @@ export async function renderAdminPage(supabase, profile) {
           </button>
           <p id="import-stats-status" class="member-note" role="status" aria-live="polite"></p>
         </div>
+      </section>
+
+      <section class="member-panel admin-panel design-tests-panel" aria-labelledby="design-tests-title">
+        <div class="member-kicker">BRAND EXPLORATION</div>
+        <h2 id="design-tests-title">Design tests</h2>
+        <p class="member-copy">Four Club wordmark variations plus the previous title design at position 3. The live title is the lime-accent Club design.</p>
+        ${renderTitleConcepts()}
       </section>
     </section>
   `;
