@@ -4,7 +4,7 @@ import { supabaseConfig } from "./config.js";
 const authScreen = document.querySelector("#auth-screen");
 const authMessage = document.querySelector("#auth-message");
 const authForms = [...document.querySelectorAll(".auth-form")];
-const memberSitePath = "../membersonly/index.html";
+const memberSitePath = "../Membersonly/index.html";
 const recoveryHash = new URLSearchParams(window.location.hash.slice(1));
 let recoveringPassword = recoveryHash.get("type") === "recovery";
 let supabase;
